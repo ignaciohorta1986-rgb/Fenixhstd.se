@@ -1231,3 +1231,61 @@ a:focus-visible, button:focus-visible {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ── Nyheter ── */
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.news-card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: border-color 0.3s, transform 0.3s;
+}
+
+.news-card:hover {
+  border-color: var(--fire);
+  transform: translateY(-4px);
+}
+
+.news-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.news-tag {
+  background: var(--fire);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.news-date {
+  font-size: 0.8rem;
+  opacity: 0.5;
+}
+
+.news-card h3 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 0.6rem;
+  color: #fff;
+  line-height: 1.4;
+}
+
+.news-card p {
+  font-size: 0.9rem;
+  line-height: 1.65;
+  opacity: 0.78;
+}
