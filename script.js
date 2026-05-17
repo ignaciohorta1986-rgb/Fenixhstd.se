@@ -137,3 +137,23 @@ const sectionObserver = new IntersectionObserver(entries => {
 }, { threshold: 0.4 });
 
 sections.forEach(s => sectionObserver.observe(s));
+
+// ── Nyheter — hämta från news.json ──
+fetch('news.json')
+  .then(r => r.json())
+  .then(data => {
+    const grid = document.getElementById('news-grid');
+    if (!grid || !data.news) return;
+    grid.innerHTML = data.news.map(item => `
+      <article class="news-card reveal">
+        <div class="news-meta">
+          <span class="news-tag">${item.tag}</span>
+          <time class="news-date">${item.date}</time>
+        </div>
+        <h3>${item.title}</h3>
+        <p>${item.text}</p>
+      </article>
+    `).join('');
+    grid.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+  })
+  .catch(() => {});
