@@ -12,26 +12,19 @@ window.addEventListener('scroll', () => {
 const burger = document.getElementById('burger');
 const navLinks = document.getElementById('nav-links');
 
-function closeMenu() {
-  navLinks.classList.remove('open');
-  document.body.classList.remove('menu-open');
-  burger.querySelectorAll('span').forEach(s => {
-    s.style.transform = '';
-    s.style.opacity = '';
-  });
-}
-
 burger.addEventListener('click', () => {
   navLinks.classList.toggle('open');
   const isOpen = navLinks.classList.contains('open');
-  document.body.classList.toggle('menu-open', isOpen);
   burger.querySelectorAll('span')[0].style.transform = isOpen ? 'rotate(45deg) translate(5px, 5px)' : '';
   burger.querySelectorAll('span')[1].style.opacity = isOpen ? '0' : '';
   burger.querySelectorAll('span')[2].style.transform = isOpen ? 'rotate(-45deg) translate(5px, -5px)' : '';
 });
 
 navLinks.querySelectorAll('a').forEach(a => {
-  a.addEventListener('click', closeMenu);
+  a.addEventListener('click', () => {
+    navLinks.classList.remove('open');
+    burger.querySelectorAll('span').forEach(s => { s.style.transform = ''; s.style.opacity = ''; });
+  });
 });
 
 // ── Scroll reveal ──
@@ -113,7 +106,7 @@ class Particle {
   }
 }
 
-const PARTICLE_COUNT = window.innerWidth < 768 ? 55 : 130;
+const PARTICLE_COUNT = 130;
 const particles = Array.from({ length: PARTICLE_COUNT }, () => new Particle());
 
 function animate() {
