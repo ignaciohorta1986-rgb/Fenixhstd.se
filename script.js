@@ -23,10 +23,7 @@ burger.addEventListener('click', () => {
 navLinks.querySelectorAll('a').forEach(a => {
   a.addEventListener('click', () => {
     navLinks.classList.remove('open');
-    burger.querySelectorAll('span').forEach(s => {
-      s.style.transform = '';
-      s.style.opacity = '';
-    });
+    burger.querySelectorAll('span').forEach(s => { s.style.transform = ''; s.style.opacity = ''; });
   });
 });
 
@@ -119,6 +116,30 @@ function animate() {
 }
 animate();
 
+// ── Senaste nytt — ladda från news.json ──
+fetch('news.json')
+  .then(r => r.json())
+  .then(data => {
+    const grid = document.getElementById('news-grid');
+    const items = data.news || [];
+    if (items.length === 0) {
+      grid.innerHTML = '<p class="news-empty">Inga nyheter just nu — följ oss på sociala medier!</p>';
+      return;
+    }
+    grid.innerHTML = items.map(n => `
+      <div class="news-card reveal">
+        ${n.tag ? `<span class="news-tag">${n.tag}</span>` : ''}
+        <span class="news-date">${n.date}</span>
+        <h3>${n.title}</h3>
+        <p>${n.text}</p>
+      </div>`).join('');
+    grid.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+  })
+  .catch(() => {
+    document.getElementById('news-grid').innerHTML =
+      '<p class="news-empty">Nyheter laddas snart.</p>';
+  });
+
 // ── Smooth active nav link highlighting ──
 const sections = document.querySelectorAll('section[id]');
 const navAnchors = document.querySelectorAll('.nav-links a[href^="#"]');
@@ -137,23 +158,3 @@ const sectionObserver = new IntersectionObserver(entries => {
 }, { threshold: 0.4 });
 
 sections.forEach(s => sectionObserver.observe(s));
-
-// ── Nyheter — hämta från news.json ──
-fetch('news.json')
-  .then(r => r.json())
-  .then(data => {
-    const grid = document.getElementById('news-grid');
-    if (!grid || !data.news) return;
-    grid.innerHTML = data.news.map(item => `
-      <article class="news-card reveal">
-        <div class="news-meta">
-          <span class="news-tag">${item.tag}</span>
-          <time class="news-date">${item.date}</time>
-        </div>
-        <h3>${item.title}</h3>
-        <p>${item.text}</p>
-      </article>
-    `).join('');
-    grid.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
-  })
-  .catch(() => {});
