@@ -129,13 +129,12 @@ fetch('news.json')
       return;
     }
     grid.innerHTML = items.map(n => `
-      <div class="news-card reveal">
+      <div class="news-card reveal visible">
         ${n.tag ? `<span class="news-tag">${n.tag}</span>` : ''}
         <span class="news-date">${n.date}</span>
         <h3>${n.title}</h3>
         <p>${n.text}</p>
       </div>`).join('');
-    grid.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
   })
   .catch(() => {
     document.getElementById('news-grid').innerHTML =
