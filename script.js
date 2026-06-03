@@ -121,7 +121,9 @@ fetch('news.json')
   .then(r => r.json())
   .then(data => {
     const grid = document.getElementById('news-grid');
-    const items = data.news || [];
+    const items = (data.news || [])
+      .sort((a, b) => new Date(b.date) - new Date(a.date))
+      .slice(0, 3);
     if (items.length === 0) {
       grid.innerHTML = '<p class="news-empty">Inga nyheter just nu — följ oss på sociala medier!</p>';
       return;
