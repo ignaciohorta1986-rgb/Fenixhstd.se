@@ -179,6 +179,30 @@ body::after {
 }
 .btn-nav:hover { opacity: 0.85; transform: translateY(-1px); }
 
+.btn-nav-trainer {
+  background: linear-gradient(135deg, #0055ff, #44aaff) !important;
+  color: #fff !important;
+}
+
+.trainer-link {
+  display: inline-block;
+  margin-top: 1.2rem;
+  padding: 0.55rem 1.1rem;
+  background: linear-gradient(135deg, rgba(0, 85, 255, 0.18), rgba(68, 170, 255, 0.12));
+  border: 1px solid rgba(68, 170, 255, 0.35);
+  border-radius: 50px;
+  color: var(--blue-light);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s, transform 0.15s;
+}
+.trainer-link:hover {
+  background: linear-gradient(135deg, rgba(0, 85, 255, 0.3), rgba(68, 170, 255, 0.2));
+  border-color: var(--blue-light);
+  transform: translateY(-2px);
+}
+
 .burger {
   display: none;
   flex-direction: column;

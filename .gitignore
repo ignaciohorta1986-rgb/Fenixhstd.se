@@ -1,0 +1,23 @@
+﻿# Node.js
+node_modules/
+npm-debug.log*
+
+# Tränar-appen (deployad separat via Railway)
+game/
+
+# Lokala mappar som inte tillhör webbsidan
+Redigering/
+Stream/
+trading/
+vardag/
+Webb/
+images/organisation/
+images/sociala-medier/
+images/webb/
+skills/
+STATUS.md
+"Fenix Halmstad Idrottsklubb/"
+
+# Editor
+.vscode/
+*.tmp
