@@ -179,11 +179,6 @@ body::after {
 }
 .btn-nav:hover { opacity: 0.85; transform: translateY(-1px); }
 
-.btn-nav-trainer {
-  background: linear-gradient(135deg, #0055ff, #44aaff) !important;
-  color: #fff !important;
-}
-
 .trainer-link {
   display: inline-block;
   margin-top: 1.2rem;
