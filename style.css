@@ -67,7 +67,7 @@ body::after {
   content: '';
   position: fixed;
   inset: 0;
-  background: url('Gemini_Generated_Image_8iz6ez8iz6ez8iz6.png') center / cover no-repeat;
+  background: url('images/site/hero-bakgrund.png') center / cover no-repeat;
   opacity: 0.07;
   pointer-events: none;
   z-index: -1;
