@@ -822,6 +822,84 @@
         "Thailand och Japan hör till de främsta utmanarna."
       ],
       "source": { "label": "Wikipedia — Iran national futsal team", "url": "https://en.wikipedia.org/wiki/Iran_national_futsal_team" }
+    },
+    {
+      "id": "sfl",
+      "type": "svensk",
+      "name": "Svenska Futsalligan (SFL)",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · Högsta nivån",
+      "country": "Sverige",
+      "tagline": "Sveriges högsta futsalliga — rikstäckande elit med SM-slutspel.",
+      "stats": [
+        { "label": "Nivå", "value": "1 (högsta)" },
+        { "label": "Antal lag", "value": "~12" }
+      ],
+      "facts": [
+        "Sveriges högsta futsalserie, rikstäckande sedan säsongen 2019/2020 med 12 lag.",
+        "De åtta bästa lagen går vidare till SM-slutspel som avgör svenska mästaren.",
+        "Drivs av Svenska Fotbollförbundet (SvFF).",
+        "Spelas för både herrar och damer."
+      ],
+      "source": { "label": "Wikipedia — Svenska Futsalligan", "url": "https://sv.wikipedia.org/wiki/Svenska_Futsalligan" }
+    },
+    {
+      "id": "division-1-se",
+      "type": "svensk",
+      "name": "Division 1 (futsal)",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · Näst högsta nivån",
+      "country": "Sverige",
+      "tagline": "Näst högsta nivån — nationell, sex serier.",
+      "stats": [
+        { "label": "Nivå", "value": "2" },
+        { "label": "Struktur", "value": "6 serier × 6 lag" }
+      ],
+      "facts": [
+        "Nationell nivå direkt under SFL.",
+        "Består av sex serier med sex lag i varje.",
+        "Serievinnarna kan kvala upp till SFL."
+      ],
+      "source": { "label": "Svensk fotboll — Futsal serier", "url": "https://www.svenskfotboll.se/futsal/serier/" }
+    },
+    {
+      "id": "division-2-se",
+      "type": "svensk",
+      "name": "Division 2 och lägre",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · Regional nivå (distrikten)",
+      "country": "Sverige",
+      "tagline": "Regionala serier som drivs av de ~24 distriktsförbunden.",
+      "stats": [
+        { "label": "Nivå", "value": "3 och nedåt" },
+        { "label": "Arrangeras av", "value": "Distriktsförbunden" }
+      ],
+      "facts": [
+        "Division 2 och lägre spelas regionalt, arrangerat av respektive distriktsförbund.",
+        "Minst ett lag från division 2 kan kvala upp till division 1 via playoff.",
+        "Exempel på distrikt: Hallands FF, Skåne FF, Stockholms FF."
+      ],
+      "source": { "label": "Svensk fotboll — Futsal serier", "url": "https://www.svenskfotboll.se/futsal/serier/" }
+    },
+    {
+      "id": "halland-futsal",
+      "type": "svensk",
+      "name": "Hallands FF — futsal",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · Distrikt Halland (Fenix hemmadistrikt)",
+      "country": "Sverige Halland Halmstad",
+      "tagline": "Fenix eget distriktsförbund — regionala futsalserier i Halland.",
+      "stats": [
+        { "label": "Distrikt", "value": "Halland" },
+        { "label": "Ungdomsserier", "value": "U13–U19" }
+      ],
+      "facts": [
+        "Halland fick egna futsalserier från 2024.",
+        "Ungdomsserier i klasserna U13–U19, med spelperiod ungefär november–februari.",
+        "Seniorserier arrangeras utifrån antalet anmälda lag.",
+        "Fenix_hstd hör hemma i detta distrikt — Halmstad."
+      ],
+      "source": { "label": "Hallands FF — Futsal", "url": "https://halland.svenskfotboll.se/tavling/futsal/" }
     }
   ]
 }

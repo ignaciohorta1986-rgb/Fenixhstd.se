@@ -195,6 +195,7 @@
     .type-klubb     { color: #d060ff;           background: rgba(200,80,255,0.12);  border: 1px solid rgba(200,80,255,0.25); }
     .type-landslag  { color: var(--blue-light); background: rgba(68,170,255,0.12);  border: 1px solid rgba(68,170,255,0.25); }
     .type-turnering { color: #30d0b0;           background: rgba(48,208,176,0.12);  border: 1px solid rgba(48,208,176,0.25); }
+    .type-svensk    { color: var(--fire);       background: rgba(255,69,0,0.12);    border: 1px solid rgba(255,69,0,0.25); }
     .f-tagline {
       font-size: 0.86rem;
       color: var(--text-muted);
@@ -370,15 +371,15 @@
     <p class="futsal-pre">Fenix_hstd · Futsal-databas</p>
     <h1 class="futsal-title">Futsalvärlden</h1>
     <p class="futsal-sub">
-      Utforska hur futsalen ser ut i världen. Sök bland de största
-      spelarna, klubblagen och landslagen — all statistik är källbelagd.
+      Utforska hur futsalen ser ut — från världseliten till svensk futsal.
+      Sök bland spelare, klubblag, landslag, turneringar och det svenska ligasystemet. All statistik är källbelagd.
     </p>
 
     <div class="search-wrap">
       <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
         <circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
       </svg>
-      <input id="search" class="search-input" type="text" placeholder="Sök spelare, lag eller land… (t.ex. Brasilien, Ricardinho, Barça)" autocomplete="off" />
+      <input id="search" class="search-input" type="text" placeholder="Sök spelare, lag, land eller serie… (t.ex. Brasilien, Ricardinho, SFL, Halland)" autocomplete="off" />
     </div>
 
     <div class="filters" id="filters">
@@ -387,6 +388,7 @@
       <button class="filter-btn" data-type="klubb">🏆 Klubblag</button>
       <button class="filter-btn" data-type="landslag">🌍 Landslag</button>
       <button class="filter-btn" data-type="turnering">🏅 Turneringar</button>
+      <button class="filter-btn" data-type="svensk">🇸🇪 Svensk futsal</button>
     </div>
     <p class="result-count" id="result-count"></p>
   </header>
@@ -486,7 +488,7 @@
   (function animate() { ctx.clearRect(0, 0, W, H); particles.forEach(p => { p.update(); p.draw(); }); requestAnimationFrame(animate); })();
 
   /* ── Sökmotor ── */
-  const TYPE_LABEL = { spelare: 'Spelare', klubb: 'Klubblag', landslag: 'Landslag', turnering: 'Turnering' };
+  const TYPE_LABEL = { spelare: 'Spelare', klubb: 'Klubblag', landslag: 'Landslag', turnering: 'Turnering', svensk: 'Svensk futsal' };
   let DATA = [];
   let activeType = 'alla';
   let query = '';
@@ -529,7 +531,7 @@
     const n = t => DATA.filter(d => d.type === t).length;
     countEl.textContent = (query || activeType !== 'alla')
       ? `${list.length} träff${list.length === 1 ? '' : 'ar'}`
-      : `${DATA.length} i databasen · ${n('spelare')} spelare · ${n('klubb')} klubblag · ${n('landslag')} landslag · ${n('turnering')} turneringar`;
+      : `${DATA.length} i databasen · ${n('spelare')} spelare · ${n('klubb')} klubblag · ${n('landslag')} landslag · ${n('turnering')} turneringar · ${n('svensk')} svensk futsal`;
     resultsEl.querySelectorAll('.f-card').forEach(c =>
       c.addEventListener('click', () => openModal(c.dataset.id)));
   }
