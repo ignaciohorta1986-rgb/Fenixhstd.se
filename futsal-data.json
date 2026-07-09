@@ -900,6 +900,312 @@
         "Fenix_hstd hör hemma i detta distrikt — Halmstad."
       ],
       "source": { "label": "Hallands FF — Futsal", "url": "https://halland.svenskfotboll.se/tavling/futsal/" }
+    },
+    {
+      "id": "orebro-futsal-club",
+      "type": "svensk",
+      "name": "Örebro Futsal Club",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · SFL (herr) 2025/26",
+      "country": "Sverige Örebro",
+      "tagline": "Örebroklubb i Sveriges högsta futsalliga.",
+      "stats": [
+        { "label": "Liga", "value": "SFL (nivå 1)" },
+        { "label": "Säsong", "value": "2025/26" }
+      ],
+      "facts": [
+        "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26.",
+        "Från Örebro."
+      ],
+      "source": { "label": "Svenska Futsalligan — inför premiären", "url": "https://svenskafutsalligan.se/infor-premiaromgangen/" }
+    },
+    {
+      "id": "orebro-sk",
+      "type": "svensk",
+      "name": "Örebro SK Futsal",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · SFL (herr) 2025/26",
+      "country": "Sverige Örebro",
+      "tagline": "Örebro SK:s futsalsatsning i högsta serien.",
+      "stats": [
+        { "label": "Liga", "value": "SFL (nivå 1)" },
+        { "label": "Säsong", "value": "2025/26" }
+      ],
+      "facts": [
+        "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26.",
+        "Från Örebro."
+      ],
+      "source": { "label": "Svenska Futsalligan — inför premiären", "url": "https://svenskafutsalligan.se/infor-premiaromgangen/" }
+    },
+    {
+      "id": "uddevalla-futsal-club",
+      "type": "svensk",
+      "name": "Uddevalla Futsal Club",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · SFL (herr) 2025/26",
+      "country": "Sverige Uddevalla",
+      "tagline": "Tidigare svenska mästare i futsal.",
+      "stats": [
+        { "label": "Liga", "value": "SFL (nivå 1)" },
+        { "label": "Merit", "value": "Tidigare SM-guld" }
+      ],
+      "facts": [
+        "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26.",
+        "Har vunnit SM-guld i futsal.",
+        "Från Uddevalla."
+      ],
+      "source": { "label": "Svenska Futsalligan — inför premiären", "url": "https://svenskafutsalligan.se/infor-premiaromgangen/" }
+    },
+    {
+      "id": "soder-futsal",
+      "type": "svensk",
+      "name": "Söder Futsal",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · SFL (herr) 2025/26",
+      "country": "Sverige Stockholm",
+      "tagline": "Stockholmslag i Svenska Futsalligan.",
+      "stats": [
+        { "label": "Liga", "value": "SFL (nivå 1)" },
+        { "label": "Säsong", "value": "2025/26" }
+      ],
+      "facts": [
+        "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26.",
+        "Representerar Stockholm; återvände till högsta serien 2024/25."
+      ],
+      "source": { "label": "Svenska Futsalligan — inför premiären", "url": "https://svenskafutsalligan.se/infor-premiaromgangen/" }
+    },
+    {
+      "id": "fc-kalmar",
+      "type": "svensk",
+      "name": "FC Kalmar",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · SFL (herr) 2025/26",
+      "country": "Sverige Kalmar",
+      "tagline": "Kalmarklubb i högsta futsalserien.",
+      "stats": [
+        { "label": "Liga", "value": "SFL (nivå 1)" },
+        { "label": "Säsong", "value": "2025/26" }
+      ],
+      "facts": [
+        "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26.",
+        "Från Kalmar."
+      ],
+      "source": { "label": "Svenska Futsalligan — inför premiären", "url": "https://svenskafutsalligan.se/infor-premiaromgangen/" }
+    },
+    {
+      "id": "kalmar-united",
+      "type": "svensk",
+      "name": "Kalmar United",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · SFL (herr) 2025/26",
+      "country": "Sverige Kalmar",
+      "tagline": "Andra Kalmarlaget i SFL.",
+      "stats": [
+        { "label": "Liga", "value": "SFL (nivå 1)" },
+        { "label": "Säsong", "value": "2025/26" }
+      ],
+      "facts": [
+        "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26.",
+        "Från Kalmar."
+      ],
+      "source": { "label": "Svenska Futsalligan — inför premiären", "url": "https://svenskafutsalligan.se/infor-premiaromgangen/" }
+    },
+    {
+      "id": "boras-aik",
+      "type": "svensk",
+      "name": "Borås AIK",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · SFL (herr) 2025/26",
+      "country": "Sverige Borås",
+      "tagline": "Boråsklubb i Svenska Futsalligan.",
+      "stats": [
+        { "label": "Liga", "value": "SFL (nivå 1)" },
+        { "label": "Säsong", "value": "2025/26" }
+      ],
+      "facts": [
+        "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26.",
+        "Från Borås."
+      ],
+      "source": { "label": "Svenska Futsalligan — inför premiären", "url": "https://svenskafutsalligan.se/infor-premiaromgangen/" }
+    },
+    {
+      "id": "norrkoping-fk",
+      "type": "svensk",
+      "name": "Norrköping FK",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · SFL (herr) 2025/26",
+      "country": "Sverige Norrköping",
+      "tagline": "Norrköpingsklubb i högsta futsalserien.",
+      "stats": [
+        { "label": "Liga", "value": "SFL (nivå 1)" },
+        { "label": "Säsong", "value": "2025/26" }
+      ],
+      "facts": [
+        "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26.",
+        "Från Norrköping."
+      ],
+      "source": { "label": "Svenska Futsalligan — inför premiären", "url": "https://svenskafutsalligan.se/infor-premiaromgangen/" }
+    },
+    {
+      "id": "skoftebyns-if",
+      "type": "svensk",
+      "name": "Skoftebyns IF",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · SFL (herr) 2025/26",
+      "country": "Sverige",
+      "tagline": "SFL-klubb i högsta futsalserien.",
+      "stats": [
+        { "label": "Liga", "value": "SFL (nivå 1)" },
+        { "label": "Säsong", "value": "2025/26" }
+      ],
+      "facts": [
+        "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26."
+      ],
+      "source": { "label": "Svenska Futsalligan — inför premiären", "url": "https://svenskafutsalligan.se/infor-premiaromgangen/" }
+    },
+    {
+      "id": "fc-ljiljan-goteborg",
+      "type": "svensk",
+      "name": "FC Ljiljan Göteborg",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · SFL (herr) 2025/26",
+      "country": "Sverige Göteborg",
+      "tagline": "Göteborgsklubb, nykomling i SFL.",
+      "stats": [
+        { "label": "Liga", "value": "SFL (nivå 1)" },
+        { "label": "Status", "value": "Nykomling" }
+      ],
+      "facts": [
+        "Nykomling i Svenska Futsalligan (SFL) säsongen 2025/26.",
+        "Från Göteborg."
+      ],
+      "source": { "label": "Svenska Futsalligan — inför premiären", "url": "https://svenskafutsalligan.se/infor-premiaromgangen/" }
+    },
+    {
+      "id": "ektorp-fk",
+      "type": "svensk",
+      "name": "Ektorp FK",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · SFL (herr) 2025/26",
+      "country": "Sverige",
+      "tagline": "Nykomling i SFL, uppflyttad från division 1.",
+      "stats": [
+        { "label": "Liga", "value": "SFL (nivå 1)" },
+        { "label": "Status", "value": "Nykomling" }
+      ],
+      "facts": [
+        "Nykomling i Svenska Futsalligan (SFL) säsongen 2025/26 efter att överlägset ha vunnit sin division 1-serie."
+      ],
+      "source": { "label": "Svenska Futsalligan — inför premiären", "url": "https://svenskafutsalligan.se/infor-premiaromgangen/" }
+    },
+    {
+      "id": "fc-real-internacional",
+      "type": "svensk",
+      "name": "FC Real Internacional",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · SFL (herr) 2025/26",
+      "country": "Sverige",
+      "tagline": "SFL-klubb i högsta futsalserien.",
+      "stats": [
+        { "label": "Liga", "value": "SFL (nivå 1)" },
+        { "label": "Säsong", "value": "2025/26" }
+      ],
+      "facts": [
+        "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26.",
+        "Behöll SFL-platsen när Hammarby lade ner sin futsalverksamhet."
+      ],
+      "source": { "label": "Svenska Futsalligan — inför premiären", "url": "https://svenskafutsalligan.se/infor-premiaromgangen/" }
+    },
+    {
+      "id": "kungsbacka-if",
+      "type": "svensk",
+      "name": "Kungsbacka IF",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · Halland seniorserie · Kungsbacka",
+      "country": "Sverige Halland Kungsbacka",
+      "tagline": "Vann Hallands första herrserie i futsal (2024/25).",
+      "stats": [
+        { "label": "Serie", "value": "Halland herr" },
+        { "label": "Merit", "value": "Seriemästare 2024/25" }
+      ],
+      "facts": [
+        "Vann den första upplagan av Hallands herrserie i futsal 2024/25 (nio segrar på tio matcher).",
+        "Bred åldersspann i truppen, 16–45 år.",
+        "Från Kungsbacka."
+      ],
+      "source": { "label": "Hallands FF — KIF vann 2025", "url": "https://halland.svenskfotboll.se/nyheter/2025/02/kif-futsal-vann-2025/" }
+    },
+    {
+      "id": "ullareds-ik",
+      "type": "svensk",
+      "name": "Ullareds IK",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · Halland seniorserie · Ullared",
+      "country": "Sverige Halland Ullared",
+      "tagline": "Ungt Hallandslag i distriktets herrserie.",
+      "stats": [
+        { "label": "Serie", "value": "Halland herr" },
+        { "label": "Säsong", "value": "2024/25" }
+      ],
+      "facts": [
+        "Deltog i Hallands herrserie i futsal 2024/25.",
+        "Ungt lag med en kärna född omkring 2003.",
+        "Från Ullared."
+      ],
+      "source": { "label": "Hallands FF — Futsal", "url": "https://halland.svenskfotboll.se/nyheter/2024/10/futsal-lagen-i-serier-2024/" }
+    },
+    {
+      "id": "varo-united",
+      "type": "svensk",
+      "name": "Värö United",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · Halland seniorserie",
+      "country": "Sverige Halland Värö Varberg",
+      "tagline": "Samarbetslag i Hallands herrserie.",
+      "stats": [
+        { "label": "Serie", "value": "Halland herr" },
+        { "label": "Säsong", "value": "2024/25" }
+      ],
+      "facts": [
+        "Deltog i Hallands herrserie i futsal 2024/25.",
+        "Samarbetslag med spelare från Bua IF, IF Norvalla och Väröbacka GoIF."
+      ],
+      "source": { "label": "Hallands FF — Futsal", "url": "https://halland.svenskfotboll.se/nyheter/2024/10/futsal-lagen-i-serier-2024/" }
+    },
+    {
+      "id": "tronninge-bk",
+      "type": "svensk",
+      "name": "Trönninge BK",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · Halland seniorserie",
+      "country": "Sverige Halland Trönninge",
+      "tagline": "Hallandslag i distriktets herrserie.",
+      "stats": [
+        { "label": "Serie", "value": "Halland herr" },
+        { "label": "Säsong", "value": "2024/25" }
+      ],
+      "facts": [
+        "Deltog i Hallands herrserie i futsal 2024/25 (anmälde två lag)."
+      ],
+      "source": { "label": "Hallands FF — Futsal", "url": "https://halland.svenskfotboll.se/nyheter/2024/10/futsal-lagen-i-serier-2024/" }
+    },
+    {
+      "id": "tvaakers-if",
+      "type": "svensk",
+      "name": "Tvååkers IF",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · Halland seniorserie · Tvååker",
+      "country": "Sverige Halland Tvååker Varberg",
+      "tagline": "Hallandslag i distriktets herrserie.",
+      "stats": [
+        { "label": "Serie", "value": "Halland herr" },
+        { "label": "Säsong", "value": "2024/25" }
+      ],
+      "facts": [
+        "Deltog i Hallands herrserie i futsal 2024/25.",
+        "Från Tvååker."
+      ],
+      "source": { "label": "Hallands FF — Futsal", "url": "https://halland.svenskfotboll.se/nyheter/2024/10/futsal-lagen-i-serier-2024/" }
     }
   ]
 }
