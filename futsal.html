@@ -191,9 +191,10 @@
       border-radius: 20px;
       margin-bottom: 0.9rem;
     }
-    .type-spelare  { color: var(--gold);       background: rgba(255,214,10,0.12);  border: 1px solid rgba(255,214,10,0.25); }
-    .type-klubb    { color: #d060ff;           background: rgba(200,80,255,0.12);  border: 1px solid rgba(200,80,255,0.25); }
-    .type-landslag { color: var(--blue-light); background: rgba(68,170,255,0.12);  border: 1px solid rgba(68,170,255,0.25); }
+    .type-spelare   { color: var(--gold);       background: rgba(255,214,10,0.12);  border: 1px solid rgba(255,214,10,0.25); }
+    .type-klubb     { color: #d060ff;           background: rgba(200,80,255,0.12);  border: 1px solid rgba(200,80,255,0.25); }
+    .type-landslag  { color: var(--blue-light); background: rgba(68,170,255,0.12);  border: 1px solid rgba(68,170,255,0.25); }
+    .type-turnering { color: #30d0b0;           background: rgba(48,208,176,0.12);  border: 1px solid rgba(48,208,176,0.25); }
     .f-tagline {
       font-size: 0.86rem;
       color: var(--text-muted);
@@ -385,6 +386,7 @@
       <button class="filter-btn" data-type="spelare">⭐ Spelare</button>
       <button class="filter-btn" data-type="klubb">🏆 Klubblag</button>
       <button class="filter-btn" data-type="landslag">🌍 Landslag</button>
+      <button class="filter-btn" data-type="turnering">🏅 Turneringar</button>
     </div>
     <p class="result-count" id="result-count"></p>
   </header>
@@ -484,7 +486,7 @@
   (function animate() { ctx.clearRect(0, 0, W, H); particles.forEach(p => { p.update(); p.draw(); }); requestAnimationFrame(animate); })();
 
   /* ── Sökmotor ── */
-  const TYPE_LABEL = { spelare: 'Spelare', klubb: 'Klubblag', landslag: 'Landslag' };
+  const TYPE_LABEL = { spelare: 'Spelare', klubb: 'Klubblag', landslag: 'Landslag', turnering: 'Turnering' };
   let DATA = [];
   let activeType = 'alla';
   let query = '';
@@ -524,12 +526,10 @@
       return;
     }
     resultsEl.innerHTML = list.map(cardHTML).join('');
-    const spelare = DATA.filter(d => d.type === 'spelare').length;
-    const klubb = DATA.filter(d => d.type === 'klubb').length;
-    const landslag = DATA.filter(d => d.type === 'landslag').length;
+    const n = t => DATA.filter(d => d.type === t).length;
     countEl.textContent = (query || activeType !== 'alla')
       ? `${list.length} träff${list.length === 1 ? '' : 'ar'}`
-      : `${DATA.length} i databasen · ${spelare} spelare · ${klubb} klubblag · ${landslag} landslag`;
+      : `${DATA.length} i databasen · ${n('spelare')} spelare · ${n('klubb')} klubblag · ${n('landslag')} landslag · ${n('turnering')} turneringar`;
     resultsEl.querySelectorAll('.f-card').forEach(c =>
       c.addEventListener('click', () => openModal(c.dataset.id)));
   }

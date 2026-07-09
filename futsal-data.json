@@ -71,6 +71,319 @@
       "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
     },
     {
+      "id": "manoel-tobias",
+      "type": "spelare",
+      "name": "Manoel Tobias",
+      "flag": "🇧🇷",
+      "sub": "Brasilien · Utespelare",
+      "country": "Brasilien",
+      "tagline": "Brasiliansk pionjär och en av futsalens första superstjärnor.",
+      "stats": [
+        { "label": "Årets spelare i världen", "value": "3 ggr (2000–2002)" }
+      ],
+      "facts": [
+        "Utsedd till världens bästa spelare tre år i rad, 2000–2002 (FutsalPlanet).",
+        "En av de mest ikoniska namnen i brasiliansk futsalhistoria, känd som en enastående målskytt."
+      ],
+      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+    },
+    {
+      "id": "adriano-foglia",
+      "type": "spelare",
+      "name": "Adriano Foglia",
+      "flag": "🇮🇹",
+      "sub": "Italien · Utespelare",
+      "country": "Italien",
+      "tagline": "Italiensk mästare — världens bästa spelare 2003.",
+      "stats": [
+        { "label": "Årets spelare i världen", "value": "2003" }
+      ],
+      "facts": [
+        "Utsedd till världens bästa spelare 2003 (FutsalPlanet)."
+      ],
+      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+    },
+    {
+      "id": "javi-rodriguez",
+      "type": "spelare",
+      "name": "Javi Rodríguez",
+      "flag": "🇪🇸",
+      "sub": "Spanien · Utespelare",
+      "country": "Spanien",
+      "tagline": "Spansk legend från landslagets guldera.",
+      "stats": [
+        { "label": "Årets spelare i världen", "value": "2005" }
+      ],
+      "facts": [
+        "Utsedd till världens bästa spelare 2005 (FutsalPlanet)."
+      ],
+      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+    },
+    {
+      "id": "shayakhmetov",
+      "type": "spelare",
+      "name": "Vladislav Shayakhmetov",
+      "flag": "🇷🇺",
+      "sub": "Ryssland · Utespelare",
+      "country": "Ryssland",
+      "tagline": "Rysk stjärna — världens bästa spelare 2007.",
+      "stats": [
+        { "label": "Årets spelare i världen", "value": "2007" }
+      ],
+      "facts": [
+        "Utsedd till världens bästa spelare 2007 (FutsalPlanet)."
+      ],
+      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+    },
+    {
+      "id": "schumacher",
+      "type": "spelare",
+      "name": "Schumacher",
+      "flag": "🇧🇷",
+      "sub": "Brasilien · Utespelare",
+      "country": "Brasilien",
+      "tagline": "Brasiliansk teknikmästare — världens bästa spelare 2008.",
+      "stats": [
+        { "label": "Årets spelare i världen", "value": "2008" }
+      ],
+      "facts": [
+        "Utsedd till världens bästa spelare 2008 (FutsalPlanet)."
+      ],
+      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+    },
+    {
+      "id": "kike",
+      "type": "spelare",
+      "name": "Kike",
+      "flag": "🇪🇸",
+      "sub": "Spanien · Utespelare",
+      "country": "Spanien",
+      "tagline": "Spansk stjärna — världens bästa spelare 2009.",
+      "stats": [
+        { "label": "Årets spelare i världen", "value": "2009" }
+      ],
+      "facts": [
+        "Utsedd till världens bästa spelare 2009 (FutsalPlanet)."
+      ],
+      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+    },
+    {
+      "id": "pany-varela",
+      "type": "spelare",
+      "name": "Pany Varela",
+      "flag": "🇵🇹",
+      "sub": "Portugal · Utespelare",
+      "country": "Portugal",
+      "tagline": "Portugisisk stjärna — världens bästa spelare 2022.",
+      "stats": [
+        { "label": "Årets spelare i världen", "value": "2022" }
+      ],
+      "facts": [
+        "Utsedd till världens bästa spelare 2022 (FutsalPlanet).",
+        "Del av Portugals framgångsrika landslagsgeneration."
+      ],
+      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+    },
+    {
+      "id": "pito",
+      "type": "spelare",
+      "name": "Pito",
+      "flag": "🇧🇷",
+      "sub": "Brasilien · Utespelare",
+      "country": "Brasilien",
+      "tagline": "Brasiliansk stjärna — världens bästa spelare 2023.",
+      "stats": [
+        { "label": "Årets spelare i världen", "value": "2023" }
+      ],
+      "facts": [
+        "Utsedd till världens bästa spelare 2023 (FutsalPlanet)."
+      ],
+      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+    },
+    {
+      "id": "dyego-zuffo",
+      "type": "spelare",
+      "name": "Dyego Zuffo",
+      "flag": "🇧🇷",
+      "sub": "Brasilien · Utespelare",
+      "country": "Brasilien",
+      "tagline": "Brasiliansk stjärna — världens bästa spelare 2024.",
+      "stats": [
+        { "label": "Årets spelare i världen", "value": "2024" }
+      ],
+      "facts": [
+        "Utsedd till världens bästa spelare 2024 (FutsalPlanet)."
+      ],
+      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+    },
+    {
+      "id": "fabinho",
+      "type": "spelare",
+      "name": "Fabinho",
+      "flag": "🇧🇷",
+      "sub": "Brasilien · Utespelare",
+      "country": "Brasilien",
+      "tagline": "Den mest aktuella världsettan — bästa spelare 2025.",
+      "stats": [
+        { "label": "Årets spelare i världen", "value": "2025" }
+      ],
+      "facts": [
+        "Utsedd till världens bästa spelare 2025 (FutsalPlanet) — den senaste i raden av storstjärnor."
+      ],
+      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+    },
+    {
+      "id": "luis-amado",
+      "type": "spelare",
+      "name": "Luis Amado",
+      "flag": "🇪🇸",
+      "sub": "Spanien · Målvakt",
+      "country": "Spanien",
+      "tagline": "Spansk mästarmålvakt i början av 2000-talet.",
+      "stats": [
+        { "label": "Bästa målvakt i världen", "value": "2003 & 2004" }
+      ],
+      "facts": [
+        "Utsedd till världens bästa målvakt 2003 och 2004 (FutsalPlanet)."
+      ],
+      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+    },
+    {
+      "id": "tiago",
+      "type": "spelare",
+      "name": "Tiago",
+      "flag": "🇧🇷",
+      "sub": "Brasilien · Målvakt",
+      "country": "Brasilien",
+      "tagline": "Brasiliansk landslagsmålvakt — bäst i världen 2007.",
+      "stats": [
+        { "label": "Bästa målvakt i världen", "value": "2007" }
+      ],
+      "facts": [
+        "Utsedd till världens bästa målvakt 2007 (FutsalPlanet)."
+      ],
+      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+    },
+    {
+      "id": "sergey-zuev",
+      "type": "spelare",
+      "name": "Sergey Zuev",
+      "flag": "🇷🇺",
+      "sub": "Ryssland · Målvakt",
+      "country": "Ryssland",
+      "tagline": "Rysk målvakt — bäst i världen 2008.",
+      "stats": [
+        { "label": "Bästa målvakt i världen", "value": "2008" }
+      ],
+      "facts": [
+        "Utsedd till världens bästa målvakt 2008 (FutsalPlanet)."
+      ],
+      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+    },
+    {
+      "id": "mostafa-nazari",
+      "type": "spelare",
+      "name": "Mostafa Nazari",
+      "flag": "🇮🇷",
+      "sub": "Iran · Målvakt",
+      "country": "Iran",
+      "tagline": "Iransk landslagsmålvakt — bäst i världen 2010.",
+      "stats": [
+        { "label": "Bästa målvakt i världen", "value": "2010" }
+      ],
+      "facts": [
+        "Utsedd till världens bästa målvakt 2010 (FutsalPlanet)."
+      ],
+      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+    },
+    {
+      "id": "mammarella",
+      "type": "spelare",
+      "name": "Stefano Mammarella",
+      "flag": "🇮🇹",
+      "sub": "Italien · Målvakt",
+      "country": "Italien",
+      "tagline": "Italiensk EM-hjälte och trefaldig världens bästa målvakt.",
+      "stats": [
+        { "label": "Bästa målvakt i världen", "value": "2011, 2012 & 2014" }
+      ],
+      "facts": [
+        "Utsedd till världens bästa målvakt 2011, 2012 och 2014 (FutsalPlanet)."
+      ],
+      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+    },
+    {
+      "id": "leo-higuita",
+      "type": "spelare",
+      "name": "Leo Higuita",
+      "flag": "🇰🇿",
+      "sub": "Kazakstan · Målvakt (brasilienfödd)",
+      "country": "Kazakstan",
+      "tagline": "Brasilienfödd trollkarl mellan stolparna — femfaldig världens bästa målvakt.",
+      "stats": [
+        { "label": "Bästa målvakt i världen", "value": "5 ggr (2015–2020)" }
+      ],
+      "facts": [
+        "Utsedd till världens bästa målvakt fem gånger: 2015, 2016, 2018, 2019 och 2020 (FutsalPlanet).",
+        "Brasilienfödd, men naturaliserad och landslagsmålvakt för Kazakstan.",
+        "Känd för sitt djärva, offensiva målvaktsspel."
+      ],
+      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+    },
+    {
+      "id": "guitta",
+      "type": "spelare",
+      "name": "Guitta",
+      "flag": "🇧🇷",
+      "sub": "Brasilien · Målvakt",
+      "country": "Brasilien",
+      "tagline": "Brasiliens landslagsmålvakt — bäst i världen 2021.",
+      "stats": [
+        { "label": "Bästa målvakt i världen", "value": "2021" }
+      ],
+      "facts": [
+        "Utsedd till världens bästa målvakt 2021 (FutsalPlanet).",
+        "Brasiliens förstemålvakt."
+      ],
+      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+    },
+    {
+      "id": "luan-muller",
+      "type": "spelare",
+      "name": "Luan Muller",
+      "flag": "🇦🇲",
+      "sub": "Armenien · Målvakt (brasilienfödd, Palma Futsal)",
+      "country": "Armenien Brasilien",
+      "tagline": "Brasilienfödd världsmålvakt som representerar Armenien.",
+      "stats": [
+        { "label": "Bästa målvakt i världen", "value": "2024" }
+      ],
+      "facts": [
+        "Utsedd till världens bästa målvakt 2024 (FutsalPlanet).",
+        "Brasilienfödd men representerar Armeniens landslag.",
+        "Spelar för Palma Futsal och utsågs till bästa spelare i Champions League-finalerna 2023."
+      ],
+      "source": { "label": "Wikipedia — Luan Muller", "url": "https://en.wikipedia.org/wiki/Luan_Muller" }
+    },
+    {
+      "id": "mathias-fernandez",
+      "type": "spelare",
+      "name": "Mathías Fernández",
+      "flag": "🇺🇾",
+      "sub": "Uruguay · Målvakt",
+      "country": "Uruguay",
+      "tagline": "Uruguays historiska målvakt — bäst i världen 2025.",
+      "stats": [
+        { "label": "Bästa målvakt i världen", "value": "2025" }
+      ],
+      "facts": [
+        "Utsedd till världens bästa målvakt 2025 (FutsalPlanet).",
+        "Vann sju raka uruguayanska ligatitlar med Peñarol samt Copa Libertadores 2025.",
+        "Värvades därefter till Family Cash Alzira i Spanien."
+      ],
+      "source": { "label": "ESPN — Mathías Fernández", "url": "https://espndeportes.espn.com/futbol/uruguay/nota/_/id/16221348" }
+    },
+    {
       "id": "brasilien",
       "type": "landslag",
       "name": "Brasilien",
@@ -369,6 +682,146 @@
         "En av tre ryska klubbar som tagit Europatiteln."
       ],
       "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+    },
+    {
+      "id": "viz-sinara",
+      "type": "klubb",
+      "name": "Viz-Sinara Jekaterinburg",
+      "flag": "🇷🇺",
+      "sub": "Klubblag · Jekaterinburg, Ryssland",
+      "country": "Ryssland",
+      "tagline": "Rysk Europamästare 2008.",
+      "stats": [
+        { "label": "UEFA-titlar", "value": "1 (2008)" }
+      ],
+      "facts": [
+        "Vann UEFA Futsal Cup 2008."
+      ],
+      "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+    },
+    {
+      "id": "gazprom-ugra",
+      "type": "klubb",
+      "name": "Gazprom-Ugra Jugorsk",
+      "flag": "🇷🇺",
+      "sub": "Klubblag · Jugorsk, Ryssland",
+      "country": "Ryssland",
+      "tagline": "Rysk Europamästare 2016.",
+      "stats": [
+        { "label": "UEFA-titlar", "value": "1 (2016)" }
+      ],
+      "facts": [
+        "Vann UEFA Futsal Champions League 2016."
+      ],
+      "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+    },
+    {
+      "id": "charleroi",
+      "type": "klubb",
+      "name": "Action 21 Charleroi",
+      "flag": "🇧🇪",
+      "sub": "Klubblag · Charleroi, Belgien",
+      "country": "Belgien",
+      "tagline": "Belgisk Europamästare 2005 — en sällsynt titel utanför storlanden.",
+      "stats": [
+        { "label": "UEFA-titlar", "value": "1 (2005)" }
+      ],
+      "facts": [
+        "Vann UEFA Futsal Cup 2005 — Belgiens enda Europatitel i futsal."
+      ],
+      "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+    },
+    {
+      "id": "montesilvano",
+      "type": "klubb",
+      "name": "Montesilvano",
+      "flag": "🇮🇹",
+      "sub": "Klubblag · Montesilvano, Italien",
+      "country": "Italien",
+      "tagline": "Italiensk Europamästare 2011.",
+      "stats": [
+        { "label": "UEFA-titlar", "value": "1 (2011)" }
+      ],
+      "facts": [
+        "Vann UEFA Futsal Cup 2011."
+      ],
+      "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+    },
+    {
+      "id": "vm",
+      "type": "turnering",
+      "name": "Futsal-VM (FIFA)",
+      "flag": "🏆",
+      "sub": "Turnering · Världsmästerskap (FIFA)",
+      "country": "Världen internationellt",
+      "tagline": "Futsalens VM — arrangeras vart fjärde år sedan 1989.",
+      "stats": [
+        { "label": "Flest guld", "value": "Brasilien (6)" },
+        { "label": "Regerande mästare", "value": "Brasilien (2024)" }
+      ],
+      "facts": [
+        "Spelas vart fjärde år sedan premiären 1989 i Nederländerna.",
+        "Mästare genom tiderna: Brasilien 6, Spanien 2, Argentina 1, Portugal 1.",
+        "Senaste upplagan: Uzbekistan 2024 — Brasilien vann finalen 2–1 mot Argentina."
+      ],
+      "source": { "label": "Wikipedia — FIFA Futsal World Cup", "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup" }
+    },
+    {
+      "id": "em",
+      "type": "turnering",
+      "name": "Futsal-EM (UEFA EURO)",
+      "flag": "🇪🇺",
+      "sub": "Turnering · Europamästerskap (UEFA)",
+      "country": "Europa internationellt",
+      "tagline": "Europas landslagsmästerskap — sedan 1996.",
+      "stats": [
+        { "label": "Flest guld", "value": "Spanien (8)" },
+        { "label": "Regerande mästare", "value": "Spanien (2026)" }
+      ],
+      "facts": [
+        "Spelas sedan premiären 1996.",
+        "Mästare: Spanien 8, Portugal 2, Italien 2, Ryssland 1.",
+        "Senaste final: Spanien 5–3 Portugal (2026 i Ljubljana)."
+      ],
+      "source": { "label": "UEFA — Futsal EURO", "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/" }
+    },
+    {
+      "id": "ucl",
+      "type": "turnering",
+      "name": "UEFA Futsal Champions League",
+      "flag": "🏆",
+      "sub": "Turnering · Klubblags-Europa (UEFA)",
+      "country": "Europa klubblag",
+      "tagline": "Europas finaste klubbturnering — sedan 2001.",
+      "stats": [
+        { "label": "Flest titlar", "value": "Inter FS (5)" },
+        { "label": "Regerande mästare", "value": "Sporting CP (2026)" }
+      ],
+      "facts": [
+        "Grundad 2001 som UEFA Futsal Cup, omdöpt till UEFA Futsal Champions League 2018.",
+        "Flest titlar: Inter FS 5, Barça 4, Sporting 3, Palma 3.",
+        "Regerande mästare: Sporting CP (2026)."
+      ],
+      "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+    },
+    {
+      "id": "afc",
+      "type": "turnering",
+      "name": "AFC Futsal Asian Cup",
+      "flag": "🌏",
+      "sub": "Turnering · Asiatiskt mästerskap (AFC)",
+      "country": "Asien internationellt",
+      "tagline": "Asiens landslagsmästerskap — totalt dominerat av Iran.",
+      "stats": [
+        { "label": "Flest guld", "value": "Iran (14)" },
+        { "label": "Regerande mästare", "value": "Iran (2026)" }
+      ],
+      "facts": [
+        "Iran är rekordmästare med 14 titlar.",
+        "Senaste upplagan 2026 vann Iran mot Indonesien på straffar.",
+        "Thailand och Japan hör till de främsta utmanarna."
+      ],
+      "source": { "label": "Wikipedia — Iran national futsal team", "url": "https://en.wikipedia.org/wiki/Iran_national_futsal_team" }
     }
   ]
 }
