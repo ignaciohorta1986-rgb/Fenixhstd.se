@@ -1,0 +1,374 @@
+{
+  "updated": "Juli 2026",
+  "note": "Kurerad, källbelagd databas över futsalvärldens största namn. Rankingar och säsongsstatistik ändras löpande.",
+  "entries": [
+    {
+      "id": "falcao",
+      "type": "spelare",
+      "name": "Falcão",
+      "flag": "🇧🇷",
+      "sub": "Brasilien · Ala / Pivot · född 1977",
+      "country": "Brasilien",
+      "tagline": "Räknas av många som tidernas bästa futsalspelare — \"futsalens Pelé\".",
+      "stats": [
+        { "label": "Landskamper", "value": "258" },
+        { "label": "Landslagsmål", "value": "401" },
+        { "label": "VM-guld", "value": "2 (2008, 2012)" },
+        { "label": "Årets spelare i världen", "value": "4 ggr" }
+      ],
+      "facts": [
+        "Världens meste målskytt genom tiderna i herrfutsalens landslagsmatcher (401 mål).",
+        "Meste målskytt i futsal-VM:s historia med 48 mål.",
+        "Utsedd till Årets spelare i världen 2004, 2006, 2011 och 2012.",
+        "Vann VM:s Golden Ball (bästa spelare) 2004 och 2008.",
+        "Avslutade landslagskarriären 2016."
+      ],
+      "source": { "label": "Wikipedia — Falcão (futsal)", "url": "https://en.wikipedia.org/wiki/Falc%C3%A3o_(futsal_player)" }
+    },
+    {
+      "id": "ricardinho",
+      "type": "spelare",
+      "name": "Ricardinho",
+      "flag": "🇵🇹",
+      "sub": "Portugal · Universal / Ala · född 1985",
+      "country": "Portugal",
+      "tagline": "\"O Mágico\" — trollkarlen som förde Portugal till dess första VM-guld.",
+      "stats": [
+        { "label": "Landskamper", "value": "188" },
+        { "label": "Landslagsmål", "value": "142" },
+        { "label": "Årets spelare i världen", "value": "6 ggr (rekord)" },
+        { "label": "VM-guld", "value": "1 (2021)" }
+      ],
+      "facts": [
+        "Utsedd till Årets spelare i världen sex gånger (rekord), varav fem i rad 2014–2018.",
+        "Kapten när Portugal tog sitt allra första VM-guld 2021 i Litauen — och vann turneringens Golden Ball.",
+        "EM-guld 2018, då han också blev skyttekung och turneringens bästa spelare.",
+        "All-time skyttekung i både Futsal EURO och UEFA:s klubbturneringar.",
+        "Vann UEFA:s klubbtitel med Benfica (2010) och Inter FS (2017, 2018)."
+      ],
+      "source": { "label": "Wikipedia — Ricardinho", "url": "https://en.wikipedia.org/wiki/Ricardinho_(futsal_player,_born_1985)" }
+    },
+    {
+      "id": "ferrao",
+      "type": "spelare",
+      "name": "Ferrão",
+      "flag": "🇧🇷",
+      "sub": "Brasilien · Pivot · född 1990",
+      "country": "Brasilien",
+      "tagline": "Målmaskinen som ärvde tronen efter Ricardinho och Falcão.",
+      "stats": [
+        { "label": "Årets spelare i världen", "value": "3 ggr (2019–2021)" },
+        { "label": "UEFA-titlar", "value": "2 (Barça, 2020 & 2022)" },
+        { "label": "VM-guld", "value": "1 (2024)" },
+        { "label": "Skyttekung VM 2021", "value": "9 mål (Golden Boot)" }
+      ],
+      "facts": [
+        "Årets spelare i världen tre år i rad, 2019, 2020 och 2021.",
+        "Vann UEFA Futsal Champions League med FC Barcelona 2020 och 2022.",
+        "Skyttekung (Golden Boot) i sitt första VM 2021 med 9 mål.",
+        "Del av Brasiliens VM-guldlag 2024 i Uzbekistan."
+      ],
+      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+    },
+    {
+      "id": "brasilien",
+      "type": "landslag",
+      "name": "Brasilien",
+      "flag": "🇧🇷",
+      "sub": "Landslag · Sydamerika (CONMEBOL)",
+      "country": "Brasilien",
+      "tagline": "Världens mest framgångsrika futsalnation — och regerande världsmästare.",
+      "stats": [
+        { "label": "VM-guld", "value": "6" },
+        { "label": "FIFA-ranking", "value": "#1" },
+        { "label": "Senaste VM-guld", "value": "2024" }
+      ],
+      "facts": [
+        "Sex VM-guld: 1989, 1992, 1996, 2008, 2012 och 2024 — fler än någon annan nation.",
+        "Regerande världsmästare efter 2–1 mot Argentina i finalen 2024 (Uzbekistan).",
+        "Etta i FIFA:s officiella futsalranking (per 8 maj 2026).",
+        "Fostrat ikoner som Falcão och Ferrão."
+      ],
+      "source": { "label": "Wikipedia — FIFA Futsal World Cup", "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup" }
+    },
+    {
+      "id": "portugal",
+      "type": "landslag",
+      "name": "Portugal",
+      "flag": "🇵🇹",
+      "sub": "Landslag · Europa (UEFA)",
+      "country": "Portugal",
+      "tagline": "Från utmanare till världsmästare — Europas heta futsalnation.",
+      "stats": [
+        { "label": "VM-guld", "value": "1 (2021)" },
+        { "label": "EM-guld", "value": "2 (2018, 2022)" },
+        { "label": "FIFA-ranking", "value": "#2" }
+      ],
+      "facts": [
+        "Tog sitt första VM-guld 2021 i Litauen (2–1 mot Argentina).",
+        "Europamästare 2018 och 2022.",
+        "Tvåa i FIFA:s officiella futsalranking (per 8 maj 2026).",
+        "Förlorade EM-finalen 2026 mot Spanien med 3–5."
+      ],
+      "source": { "label": "UEFA — Futsal EURO", "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/" }
+    },
+    {
+      "id": "spanien",
+      "type": "landslag",
+      "name": "Spanien",
+      "flag": "🇪🇸",
+      "sub": "Landslag · Europa (UEFA)",
+      "country": "Spanien",
+      "tagline": "Europas kung — åtta EM-titlar, fler än alla andra tillsammans.",
+      "stats": [
+        { "label": "EM-guld", "value": "8 (rekord)" },
+        { "label": "VM-guld", "value": "2 (2000, 2004)" },
+        { "label": "FIFA-ranking", "value": "#3" }
+      ],
+      "facts": [
+        "Åtta EM-guld — ingen annan nation har vunnit fler än två.",
+        "Senaste EM-guldet 2026 (5–3 mot Portugal i Ljubljana).",
+        "Två VM-guld: 2000 och 2004.",
+        "Trea i FIFA:s officiella futsalranking (per 8 maj 2026)."
+      ],
+      "source": { "label": "UEFA — Futsal EURO", "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/" }
+    },
+    {
+      "id": "argentina",
+      "type": "landslag",
+      "name": "Argentina",
+      "flag": "🇦🇷",
+      "sub": "Landslag · Sydamerika (CONMEBOL)",
+      "country": "Argentina",
+      "tagline": "Världsmästare 2016 och ständig medaljkandidat.",
+      "stats": [
+        { "label": "VM-guld", "value": "1 (2016)" },
+        { "label": "VM-silver", "value": "2 (2021, 2024)" },
+        { "label": "FIFA-ranking", "value": "#4" }
+      ],
+      "facts": [
+        "VM-guld 2016 i Colombia (5–4 mot Ryssland).",
+        "VM-silver både 2021 och 2024 — förlorade båda finalerna knappt.",
+        "Fyra i FIFA:s officiella futsalranking (per 8 maj 2026)."
+      ],
+      "source": { "label": "Wikipedia — FIFA Futsal World Cup", "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup" }
+    },
+    {
+      "id": "iran",
+      "type": "landslag",
+      "name": "Iran",
+      "flag": "🇮🇷",
+      "sub": "Landslag · Asien (AFC)",
+      "country": "Iran",
+      "tagline": "Asiens obestridda mästare — och en global utmanare.",
+      "stats": [
+        { "label": "AFC-titlar", "value": "14 (rekord)" },
+        { "label": "FIFA-ranking", "value": "#5" }
+      ],
+      "facts": [
+        "Överlägset bäst i Asien med 14 AFC Futsal Asian Cup-titlar, senast 2026.",
+        "Femma i FIFA:s officiella futsalranking (per 8 maj 2026) — bästa nation utanför Europa/Sydamerika.",
+        "Chockade Brasilien i åttondelen av VM 2016."
+      ],
+      "source": { "label": "Wikipedia — Iran national futsal team", "url": "https://en.wikipedia.org/wiki/Iran_national_futsal_team" }
+    },
+    {
+      "id": "italien",
+      "type": "landslag",
+      "name": "Italien",
+      "flag": "🇮🇹",
+      "sub": "Landslag · Europa (UEFA)",
+      "country": "Italien",
+      "tagline": "Tvåfaldiga Europamästare med VM-final i meritlistan.",
+      "stats": [
+        { "label": "EM-guld", "value": "2 (2003, 2014)" },
+        { "label": "VM-silver", "value": "1 (2004)" }
+      ],
+      "facts": [
+        "Europamästare 2003 (mot Ukraina) och 2014 (mot Ryssland).",
+        "VM-silver 2004 efter final mot Spanien.",
+        "En av Europas historiska storheter i futsal."
+      ],
+      "source": { "label": "UEFA — Futsal EURO", "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/" }
+    },
+    {
+      "id": "ryssland",
+      "type": "landslag",
+      "name": "Ryssland",
+      "flag": "🇷🇺",
+      "sub": "Landslag · Europa (UEFA)",
+      "country": "Ryssland",
+      "tagline": "VM-finalist och EM-mästare — men just nu avstängt.",
+      "stats": [
+        { "label": "EM-guld", "value": "1 (1999)" },
+        { "label": "VM-silver", "value": "1 (2016)" }
+      ],
+      "facts": [
+        "Europamästare 1999.",
+        "VM-silver 2016 efter dramatisk final mot Argentina (4–5).",
+        "⚠️ För närvarande avstängt från FIFA:s och UEFA:s tävlingar."
+      ],
+      "source": { "label": "UEFA — Futsal EURO", "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/" }
+    },
+    {
+      "id": "sverige",
+      "type": "landslag",
+      "name": "Sverige",
+      "flag": "🇸🇪",
+      "sub": "Landslag · Europa (UEFA)",
+      "country": "Sverige",
+      "tagline": "En växande futsalnation — och hemmaplan för Fenix vision.",
+      "stats": [
+        { "label": "Världsranking", "value": "~#57" },
+        { "label": "Högsta serie", "value": "Svenska Futsalligan (SFL)" }
+      ],
+      "facts": [
+        "Växande futsalnation som deltar i UEFA:s kvalspel mot VM och EM.",
+        "Svenska Futsalligan (SFL) är landets högsta serie.",
+        "⚠️ Placeringen ~57 kommer från den oberoende sajten futsalworldranking.com, inte FIFA:s officiella ranking — exakt FIFA-placering gick inte att verifiera.",
+        "Fenix_hstd vill bidra till svensk futsals framväxt med Halmstad som bas."
+      ],
+      "source": { "label": "Futsal World Ranking (oberoende)", "url": "https://www.futsalworldranking.com/rank.htm" }
+    },
+    {
+      "id": "inter-fs",
+      "type": "klubb",
+      "name": "Inter FS",
+      "flag": "🇪🇸",
+      "sub": "Klubblag · Madrid, Spanien",
+      "country": "Spanien",
+      "tagline": "Europas mest meriterade klubb genom tiderna.",
+      "stats": [
+        { "label": "UEFA-titlar", "value": "5 (rekord)" }
+      ],
+      "facts": [
+        "Rekordmånga fem UEFA-titlar (2004, 2006, 2009, 2017, 2018).",
+        "Ricardinho vann sina Champions League-titlar här 2017 och 2018.",
+        "Har historiskt gått under namnet Movistar Inter."
+      ],
+      "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+    },
+    {
+      "id": "barcelona",
+      "type": "klubb",
+      "name": "FC Barcelona",
+      "flag": "🇪🇸",
+      "sub": "Klubblag · Barcelona, Spanien",
+      "country": "Spanien",
+      "tagline": "Barça Futsal — storklubben med fyra Europatitlar.",
+      "stats": [
+        { "label": "UEFA-titlar", "value": "4" }
+      ],
+      "facts": [
+        "Fyra UEFA-titlar: 2012, 2014, 2020 och 2022.",
+        "Ferrão vann Champions League med Barça 2020 och 2022.",
+        "En av världens mest kända futsalklubbar."
+      ],
+      "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+    },
+    {
+      "id": "sporting",
+      "type": "klubb",
+      "name": "Sporting CP",
+      "flag": "🇵🇹",
+      "sub": "Klubblag · Lissabon, Portugal",
+      "country": "Portugal",
+      "tagline": "Regerande Europamästare 2026.",
+      "stats": [
+        { "label": "UEFA-titlar", "value": "3" }
+      ],
+      "facts": [
+        "Tre UEFA-titlar: 2019, 2021 och 2026.",
+        "Regerande Europamästare efter finalseger över Palma 2026.",
+        "Portugals ledande futsalklubb på Europanivå."
+      ],
+      "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+    },
+    {
+      "id": "palma",
+      "type": "klubb",
+      "name": "Palma Futsal",
+      "flag": "🇪🇸",
+      "sub": "Klubblag · Mallorca, Spanien",
+      "country": "Spanien",
+      "tagline": "Tre raka Europatitlar 2023–2025.",
+      "stats": [
+        { "label": "UEFA-titlar", "value": "3" }
+      ],
+      "facts": [
+        "Vann UEFA Futsal Champions League tre år i rad: 2023, 2024 och 2025.",
+        "Går även under namnet Illes Balears Palma.",
+        "Förlorade EM-finalen 2026 mot Sporting."
+      ],
+      "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+    },
+    {
+      "id": "kairat",
+      "type": "klubb",
+      "name": "Kairat Almaty",
+      "flag": "🇰🇿",
+      "sub": "Klubblag · Almaty, Kazakstan",
+      "country": "Kazakstan",
+      "tagline": "Centralasiens stolthet med två Europatitlar.",
+      "stats": [
+        { "label": "UEFA-titlar", "value": "2" }
+      ],
+      "facts": [
+        "Vann UEFA Futsal Champions League 2013 och 2015.",
+        "Bevis på att futsaltoppen inte bara finns i Spanien och Portugal."
+      ],
+      "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+    },
+    {
+      "id": "benfica",
+      "type": "klubb",
+      "name": "Benfica",
+      "flag": "🇵🇹",
+      "sub": "Klubblag · Lissabon, Portugal",
+      "country": "Portugal",
+      "tagline": "Portugisisk storklubb och Europamästare 2010.",
+      "stats": [
+        { "label": "UEFA-titlar", "value": "1 (2010)" }
+      ],
+      "facts": [
+        "Vann UEFA Futsal Cup 2010 — Portugals första Europatitel i futsal.",
+        "Ricardinho tog sin första Europatitel här."
+      ],
+      "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+    },
+    {
+      "id": "playas",
+      "type": "klubb",
+      "name": "Playas de Castellón",
+      "flag": "🇪🇸",
+      "sub": "Klubblag · Castellón, Spanien",
+      "country": "Spanien",
+      "tagline": "Pionjären som vann de allra första Europatitlarna.",
+      "stats": [
+        { "label": "UEFA-titlar", "value": "2" }
+      ],
+      "facts": [
+        "Vann de två första upplagorna av UEFA Futsal Cup: 2002 och 2003.",
+        "En del av futsalens tidiga europeiska historia."
+      ],
+      "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+    },
+    {
+      "id": "dinamo",
+      "type": "klubb",
+      "name": "Dinamo Moskva",
+      "flag": "🇷🇺",
+      "sub": "Klubblag · Moskva, Ryssland",
+      "country": "Ryssland",
+      "tagline": "Rysk Europamästare från futsalens guldera.",
+      "stats": [
+        { "label": "UEFA-titlar", "value": "1 (2007)" }
+      ],
+      "facts": [
+        "Vann UEFA Futsal Cup 2007.",
+        "En av tre ryska klubbar som tagit Europatiteln."
+      ],
+      "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+    }
+  ]
+}
