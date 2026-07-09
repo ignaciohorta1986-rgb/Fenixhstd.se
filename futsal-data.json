@@ -850,17 +850,71 @@
       "flag": "🇸🇪",
       "sub": "Svensk futsal · Näst högsta nivån",
       "country": "Sverige",
-      "tagline": "Näst högsta nivån — nationell, sex serier.",
+      "tagline": "Näst högsta nivån — nationell, tre regionala serier.",
       "stats": [
         { "label": "Nivå", "value": "2" },
-        { "label": "Struktur", "value": "6 serier × 6 lag" }
+        { "label": "Serier", "value": "3 (regionala)" }
       ],
       "facts": [
         "Nationell nivå direkt under SFL.",
-        "Består av sex serier med sex lag i varje.",
+        "Består av tre serier: Östra Svealand, Mellersta Götaland och Västra Götaland.",
         "Serievinnarna kan kvala upp till SFL."
       ],
-      "source": { "label": "Svensk fotboll — Futsal serier", "url": "https://www.svenskfotboll.se/futsal/serier/" }
+      "source": { "label": "Svensk fotboll — Futsal Division 1", "url": "https://www.svenskfotboll.se/futsal/serier/div.-1/" }
+    },
+    {
+      "id": "d1-ostra-svealand",
+      "type": "svensk",
+      "name": "Division 1 Östra Svealand",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · Division 1-serie",
+      "country": "Sverige Svealand Stockholm Uppsala",
+      "tagline": "En av tre nationella Division 1-serier i futsal.",
+      "stats": [
+        { "label": "Nivå", "value": "2 (Division 1)" },
+        { "label": "Region", "value": "Östra Svealand" }
+      ],
+      "facts": [
+        "En av de tre Division 1-serierna i futsal (nivån under SFL).",
+        "Serievinnaren kan kvala upp till Svenska Futsalligan."
+      ],
+      "source": { "label": "Svensk fotboll — Futsal Division 1", "url": "https://www.svenskfotboll.se/futsal/serier/div.-1/" }
+    },
+    {
+      "id": "d1-mellersta-gotaland",
+      "type": "svensk",
+      "name": "Division 1 Mellersta Götaland",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · Division 1-serie",
+      "country": "Sverige Götaland",
+      "tagline": "En av tre nationella Division 1-serier i futsal.",
+      "stats": [
+        { "label": "Nivå", "value": "2 (Division 1)" },
+        { "label": "Region", "value": "Mellersta Götaland" }
+      ],
+      "facts": [
+        "En av de tre Division 1-serierna i futsal (nivån under SFL).",
+        "Serievinnaren kan kvala upp till Svenska Futsalligan."
+      ],
+      "source": { "label": "Svensk fotboll — Futsal Division 1", "url": "https://www.svenskfotboll.se/futsal/serier/div.-1/" }
+    },
+    {
+      "id": "d1-vastra-gotaland",
+      "type": "svensk",
+      "name": "Division 1 Västra Götaland",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · Division 1-serie",
+      "country": "Sverige Götaland Göteborg",
+      "tagline": "En av tre nationella Division 1-serier i futsal.",
+      "stats": [
+        { "label": "Nivå", "value": "2 (Division 1)" },
+        { "label": "Region", "value": "Västra Götaland" }
+      ],
+      "facts": [
+        "En av de tre Division 1-serierna i futsal (nivån under SFL).",
+        "Serievinnaren kan kvala upp till Svenska Futsalligan."
+      ],
+      "source": { "label": "Svensk fotboll — Futsal Division 1", "url": "https://www.svenskfotboll.se/futsal/serier/div.-1/" }
     },
     {
       "id": "division-2-se",
