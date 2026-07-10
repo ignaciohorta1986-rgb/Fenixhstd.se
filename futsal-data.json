@@ -544,6 +544,100 @@
       "source": { "label": "Futsal World Ranking (oberoende)", "url": "https://www.futsalworldranking.com/rank.htm" }
     },
     {
+      "id": "japan",
+      "type": "landslag",
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "sub": "Landslag · Asien (AFC)",
+      "country": "Japan",
+      "tagline": "Asiens näst starkaste — fyrfaldiga kontinentmästare.",
+      "stats": [
+        { "label": "AFC-titlar", "value": "4" },
+        { "label": "Senaste AFC-guld", "value": "2022" }
+      ],
+      "facts": [
+        "Fyra AFC Futsal Asian Cup-titlar: 2006, 2012, 2014 och 2022.",
+        "Irans främsta utmanare i Asien.",
+        "Regelbunden VM-deltagare."
+      ],
+      "source": { "label": "Wikipedia — AFC Futsal Asian Cup", "url": "https://en.wikipedia.org/wiki/AFC_Futsal_Asian_Cup" }
+    },
+    {
+      "id": "uzbekistan",
+      "type": "landslag",
+      "name": "Uzbekistan",
+      "flag": "🇺🇿",
+      "sub": "Landslag · Asien (AFC)",
+      "country": "Uzbekistan",
+      "tagline": "Centralasiens futsalnation — arrangerade VM 2024.",
+      "stats": [
+        { "label": "VM-värd", "value": "2024" },
+        { "label": "AFC-finaler", "value": "Flera" }
+      ],
+      "facts": [
+        "Arrangerade futsal-VM 2024 — Uzbekistans allra första FIFA-turnering.",
+        "Flerfaldig finalist i AFC Futsal Asian Cup (bl.a. 2001, 2006, 2010 och 2016).",
+        "En av Asiens främsta futsalnationer."
+      ],
+      "source": { "label": "Wikipedia — Uzbekistan national futsal team", "url": "https://en.wikipedia.org/wiki/Uzbekistan_national_futsal_team" }
+    },
+    {
+      "id": "kazakstan",
+      "type": "landslag",
+      "name": "Kazakstan",
+      "flag": "🇰🇿",
+      "sub": "Landslag · Europa (UEFA)",
+      "country": "Kazakstan",
+      "tagline": "Överraskningen som tog EM-brons i debuten 2016.",
+      "stats": [
+        { "label": "EM-brons", "value": "2016" },
+        { "label": "VM bästa", "value": "4:a (2021)" }
+      ],
+      "facts": [
+        "Tog EM-brons 2016 i sin allra första EM-slutspel — första debutant någonsin att ta medalj i Futsal EURO.",
+        "Slog regerande mästaren Italien i kvartsfinalen 2016.",
+        "Fjärdeplats i VM 2021.",
+        "Klubblaget Kairat Almaty har vunnit Champions League två gånger."
+      ],
+      "source": { "label": "Wikipedia — Kazakhstan national futsal team", "url": "https://en.wikipedia.org/wiki/Kazakhstan_national_futsal_team" }
+    },
+    {
+      "id": "marocko",
+      "type": "landslag",
+      "name": "Marocko",
+      "flag": "🇲🇦",
+      "sub": "Landslag · Afrika (CAF)",
+      "country": "Marocko",
+      "tagline": "Afrikas kung — trefaldiga kontinentmästare.",
+      "stats": [
+        { "label": "Afrika-titlar", "value": "3" },
+        { "label": "VM bästa", "value": "Kvartsfinal" }
+      ],
+      "facts": [
+        "Tre titlar i Futsal Africa Cup of Nations: 2016, 2020 och 2024 — regerande afrikanska mästare.",
+        "Nådde VM-kvartsfinal både 2021 och 2024.",
+        "VM-deltagare sedan 2012 — Afrikas starkaste futsalnation."
+      ],
+      "source": { "label": "Wikipedia — Morocco national futsal team", "url": "https://en.wikipedia.org/wiki/Morocco_national_futsal_team" }
+    },
+    {
+      "id": "ukraina",
+      "type": "landslag",
+      "name": "Ukraina",
+      "flag": "🇺🇦",
+      "sub": "Landslag · Europa (UEFA)",
+      "country": "Ukraina",
+      "tagline": "Tvåfaldig EM-finalist från futsalens tidiga år.",
+      "stats": [
+        { "label": "EM-silver", "value": "2 (2001, 2003)" }
+      ],
+      "facts": [
+        "EM-silver 2001 (förlust mot Spanien) och 2003 (förlust mot Italien).",
+        "En av Europas etablerade futsalnationer."
+      ],
+      "source": { "label": "UEFA — Futsal EURO", "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/" }
+    },
+    {
       "id": "inter-fs",
       "type": "klubb",
       "name": "Inter FS",
@@ -896,6 +990,42 @@
         { "year": "2026", "champ": "🇮🇷 Iran", "result": "5–5, straffar mot Indonesien" }
       ],
       "source": { "label": "Wikipedia — AFC Futsal Asian Cup", "url": "https://en.wikipedia.org/wiki/AFC_Futsal_Asian_Cup" }
+    },
+    {
+      "id": "copa-america",
+      "type": "turnering",
+      "name": "Copa América de Futsal (CONMEBOL)",
+      "flag": "🌎",
+      "sub": "Turnering · Sydamerikanskt mästerskap (CONMEBOL)",
+      "country": "Sydamerika internationellt",
+      "tagline": "Sydamerikas landslagsmästerskap — Brasiliens jaktmark.",
+      "stats": [
+        { "label": "Flest guld", "value": "Brasilien (12)" },
+        { "label": "Regerande mästare", "value": "Brasilien (2026)" }
+      ],
+      "facts": [
+        "Sydamerikas mästerskap för landslag, spelat sedan 1992.",
+        "Mästare: Brasilien 12, Argentina 3 — ingen annan nation har vunnit.",
+        "Brasilien vann senaste finalen 2026 mot Argentina."
+      ],
+      "history": [
+        { "year": "1992", "champ": "🇧🇷 Brasilien", "result": "mot Argentina" },
+        { "year": "1995", "champ": "🇧🇷 Brasilien", "result": "mot Argentina" },
+        { "year": "1996", "champ": "🇧🇷 Brasilien", "result": "mot Uruguay" },
+        { "year": "1997", "champ": "🇧🇷 Brasilien", "result": "mot Argentina" },
+        { "year": "1998", "champ": "🇧🇷 Brasilien", "result": "mot Paraguay" },
+        { "year": "1999", "champ": "🇧🇷 Brasilien", "result": "mot Paraguay" },
+        { "year": "2000", "champ": "🇧🇷 Brasilien", "result": "mot Argentina" },
+        { "year": "2003", "champ": "🇦🇷 Argentina", "result": "mot Brasilien" },
+        { "year": "2008", "champ": "🇧🇷 Brasilien", "result": "mot Uruguay" },
+        { "year": "2011", "champ": "🇧🇷 Brasilien", "result": "mot Argentina" },
+        { "year": "2015", "champ": "🇦🇷 Argentina", "result": "mot Paraguay" },
+        { "year": "2017", "champ": "🇧🇷 Brasilien", "result": "mot Argentina" },
+        { "year": "2022", "champ": "🇦🇷 Argentina", "result": "mot Paraguay" },
+        { "year": "2024", "champ": "🇧🇷 Brasilien", "result": "mot Argentina" },
+        { "year": "2026", "champ": "🇧🇷 Brasilien", "result": "mot Argentina" }
+      ],
+      "source": { "label": "Wikipedia — Copa América de Futsal", "url": "https://en.wikipedia.org/wiki/Copa_Am%C3%A9rica_de_Futsal" }
     },
     {
       "id": "sfl",
