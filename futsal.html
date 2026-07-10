@@ -394,6 +394,45 @@
     .prof-row { display: flex; flex-direction: column; gap: 0.15rem; }
     .prof-k { font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); }
     .prof-v { font-size: 0.9rem; color: var(--text); font-weight: 500; }
+    .modal-roster {
+      border-top: 1px solid var(--glass-border);
+      padding-top: 1rem;
+      margin-bottom: 1.3rem;
+    }
+    .modal-roster h4 {
+      font-family: var(--font-head);
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.75rem;
+    }
+    .roster-list { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .roster-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-family: var(--font-body);
+      font-size: 0.8rem;
+      color: var(--text);
+      background: rgba(255,255,255,0.05);
+      border: 1px solid var(--glass-border);
+      border-radius: 50px;
+      padding: 0.35rem 0.5rem 0.35rem 0.85rem;
+      cursor: pointer;
+      transition: border-color 0.18s, background 0.18s, transform 0.15s;
+    }
+    .roster-item:hover { border-color: var(--gold); background: rgba(255,214,10,0.1); transform: translateY(-2px); }
+    .ros-pos {
+      font-size: 0.6rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--bg);
+      background: linear-gradient(135deg, var(--fire), var(--gold));
+      padding: 0.14rem 0.5rem;
+      border-radius: 50px;
+      font-weight: 700;
+    }
     .modal-source {
       font-size: 0.78rem;
       color: var(--text-muted);
@@ -618,6 +657,34 @@
       .slice(0, 18);
   }
 
+  /* ── Trupp: hitta spelare i databasen kopplade till ett lag/landslag ── */
+  const CLUB_ALIASES = {
+    'barcelona': ['FC Barcelona', 'Barça', 'Barcelona'],
+    'sporting': ['Sporting CP', 'Sporting'],
+    'inter-fs': ['Inter FS', 'Movistar Inter'],
+    'palma': ['Palma Futsal', 'Palma'],
+    'benfica': ['Benfica'],
+    'kairat': ['Kairat Almaty', 'Kairat']
+  };
+  function positionOf(p) {
+    const parts = (p.sub || '').split('·');
+    return parts.length > 1 ? parts[1].trim().replace(/\s*\(.*?\)\s*/g, '').trim() : '';
+  }
+  function rosterOf(e) {
+    const players = DATA.filter(d => d.type === 'spelare');
+    if (e.type === 'landslag') {
+      return players.filter(p => (p.country || '').indexOf(e.name) !== -1);
+    }
+    if (e.type === 'klubb') {
+      const aliases = CLUB_ALIASES[e.id] || [e.name];
+      return players.filter(p => {
+        const hay = [(p.profile && p.profile.club) || '', p.tagline || ''].concat(p.facts || []).join(' ');
+        return aliases.some(a => hay.indexOf(a) !== -1);
+      });
+    }
+    return [];
+  }
+
   /* ── Inline-länkar: gör namn i texten klickbara ── */
   let LINK_MAP = {}, LINK_RE = null;
   function buildLinkIndex() {
@@ -731,6 +798,11 @@
       if (p.club) rows.push(['Nuvarande klubb', linkify(p.club, e.id)]);
       if (rows.length) profileHTML = `<div class="modal-profile">${rows.map(r => `<div class="prof-row"><span class="prof-k">${r[0]}</span><span class="prof-v">${r[1]}</span></div>`).join('')}</div>`;
     }
+    let rosterHTML = '';
+    const roster = rosterOf(e);
+    if (roster.length) {
+      rosterHTML = `<div class="modal-roster"><h4>Spelare i databasen (${roster.length})</h4><div class="roster-list">${roster.map(p => `<button class="roster-item" data-goto="${p.id}"><span>${p.flag}</span><span class="ros-name">${p.name}</span><span class="ros-pos">${positionOf(p)}</span></button>`).join('')}</div></div>`;
+    }
     modal.innerHTML = `
       <button class="modal-close" id="modal-close" aria-label="Stäng">✕</button>
       <div class="modal-head">
@@ -743,12 +815,13 @@
       <div class="modal-stats">${stats}</div>
       <ul class="modal-facts">${facts}</ul>
       ${e.history ? `<div class="modal-history"><h4>Historik — alla mästare</h4>${history}</div>` : ''}
+      ${rosterHTML}
       ${relHTML}
       <p class="modal-source">📚 Källa: <a href="${e.source.url}" target="_blank" rel="noopener">${e.source.label}</a></p>`;
     overlay.classList.add('open');
     document.body.style.overflow = 'hidden';
     document.getElementById('modal-close').addEventListener('click', closeModal);
-    modal.querySelectorAll('.rel-chip, .inline-link').forEach(c => c.addEventListener('click', () => openModal(c.dataset.goto)));
+    modal.querySelectorAll('.rel-chip, .inline-link, .roster-item').forEach(c => c.addEventListener('click', () => openModal(c.dataset.goto)));
     modal.scrollTop = 0;
   }
   function closeModal() { overlay.classList.remove('open'); document.body.style.overflow = ''; }
