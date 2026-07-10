@@ -505,6 +505,146 @@
       "source": { "label": "ESPN — Mathías Fernández", "url": "https://espndeportes.espn.com/futbol/uruguay/nota/_/id/16221348" }
     },
     {
+      "id": "sergio-lozano",
+      "type": "spelare",
+      "name": "Sergio Lozano",
+      "flag": "🇪🇸",
+      "sub": "Spanien · Ala · född 1988",
+      "country": "Spanien",
+      "tagline": "Barças legendariske kapten och klubbens meste målskytt.",
+      "profile": {
+        "born": "1988-11-09",
+        "club": "FC Barcelona"
+      },
+      "stats": [
+        { "label": "EM-guld", "value": "2012" },
+        { "label": "Barça-mål (rekord)", "value": "334" }
+      ],
+      "facts": [
+        "Europamästare med Spanien 2012.",
+        "FC Barcelonas meste målskytt genom tiderna med 334 mål på 14 säsonger.",
+        "Flerfaldig Champions League-mästare med Barcelona.",
+        "En förebild efter att ha kämpat sig tillbaka från svåra knäskador."
+      ],
+      "source": { "label": "Wikipedia — Sergio Lozano", "url": "https://en.wikipedia.org/wiki/Sergio_Lozano_Mart%C3%ADnez" }
+    },
+    {
+      "id": "didac-plana",
+      "type": "spelare",
+      "name": "Dídac Plana",
+      "flag": "🇪🇸",
+      "sub": "Spanien · Målvakt · född 1990",
+      "country": "Spanien",
+      "tagline": "Spaniens och Barças pålitliga sista utpost.",
+      "profile": {
+        "born": "1990-05-22",
+        "birthplace": "Arenys de Mar, Spanien",
+        "club": "FC Barcelona"
+      },
+      "stats": [
+        { "label": "Landslag", "value": "Spanien" },
+        { "label": "Klubb", "value": "FC Barcelona" }
+      ],
+      "facts": [
+        "Landslagsmålvakt för Spanien.",
+        "Förstemålvakt i FC Barcelonas futsallag."
+      ],
+      "source": { "label": "Wikipedia — Dídac Plana", "url": "https://en.wikipedia.org/wiki/D%C3%ADdac_Plana" }
+    },
+    {
+      "id": "zicky-te",
+      "type": "spelare",
+      "name": "Zicky Té",
+      "flag": "🇵🇹",
+      "sub": "Portugal · Pivot · född 2001",
+      "country": "Portugal",
+      "tagline": "Ett av futsalens ljusaste unga stjärnskott.",
+      "profile": {
+        "born": "2001-09-01",
+        "birthplace": "Guinea-Bissau",
+        "club": "Sporting CP"
+      },
+      "stats": [
+        { "label": "Position", "value": "Pivot" },
+        { "label": "Klubb", "value": "Sporting CP" }
+      ],
+      "facts": [
+        "Guineansk-född portugisisk pivot med genombrott som tonåring i Sporting.",
+        "Räknas som en av de mest lovande unga spelarna i världsfutsalen.",
+        "Spelar för Sporting CP och Portugals landslag."
+      ],
+      "source": { "label": "Wikipedia — Zicky Té", "url": "https://en.wikipedia.org/wiki/Zicky_T%C3%A9" }
+    },
+    {
+      "id": "leandro-lino",
+      "type": "spelare",
+      "name": "Leandro Lino",
+      "flag": "🇧🇷",
+      "sub": "Brasilien · Ala · född 1995",
+      "country": "Brasilien",
+      "tagline": "Brasiliansk ytter och stjärna i Magnus Futsal.",
+      "profile": {
+        "born": "1995-07-25",
+        "birthplace": "Franco da Rocha, Brasilien",
+        "club": "Magnus Futsal"
+      },
+      "stats": [
+        { "label": "Landslag", "value": "Brasilien" },
+        { "label": "Klubb", "value": "Magnus Futsal" }
+      ],
+      "facts": [
+        "Ytter i Brasiliens landslag.",
+        "Stjärnspelare i Magnus Futsal, en av Brasiliens främsta klubbar."
+      ],
+      "source": { "label": "Wikipedia — Leandro Lino", "url": "https://en.wikipedia.org/wiki/Leandro_Lino" }
+    },
+    {
+      "id": "rafa-usin",
+      "type": "spelare",
+      "name": "Rafa Usín",
+      "flag": "🇪🇸",
+      "sub": "Spanien · Ala · född 1987",
+      "country": "Spanien",
+      "tagline": "Spansk målfarlig ytter med lång landslagskarriär.",
+      "profile": {
+        "born": "1987-05-22",
+        "birthplace": "Madrid, Spanien",
+        "club": "Levante UD FS"
+      },
+      "stats": [
+        { "label": "Position", "value": "Ala" },
+        { "label": "Landslag", "value": "Spanien" }
+      ],
+      "facts": [
+        "Målfarlig ytter i det spanska landslaget.",
+        "Har spelat för bl.a. FC Barcelona och Levante UD."
+      ],
+      "source": { "label": "Wikipedia — Rafa Usín", "url": "https://en.wikipedia.org/wiki/Rafa_Us%C3%ADn" }
+    },
+    {
+      "id": "catela",
+      "type": "spelare",
+      "name": "Catela",
+      "flag": "🇪🇸",
+      "sub": "Spanien · Ala · född 1995",
+      "country": "Spanien",
+      "tagline": "Spansk landslagsspelare i FC Barcelona.",
+      "profile": {
+        "born": "1995-04-14",
+        "birthplace": "Cádiz, Spanien",
+        "club": "FC Barcelona"
+      },
+      "stats": [
+        { "label": "Landslag", "value": "Spanien" },
+        { "label": "Klubb", "value": "FC Barcelona" }
+      ],
+      "facts": [
+        "Ytter för Spaniens landslag och FC Barcelona.",
+        "En av Spaniens tongivande spelare i den nya generationen."
+      ],
+      "source": { "label": "UEFA — Catela", "url": "https://www.uefa.com/futsalworldcup/teams/players/250154838--catela/" }
+    },
+    {
       "id": "brasilien",
       "type": "landslag",
       "name": "Brasilien",
