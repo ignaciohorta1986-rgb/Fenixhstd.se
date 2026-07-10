@@ -318,6 +318,32 @@
       margin-bottom: 0.6rem;
     }
     .modal-facts li::before { content: '▸'; position: absolute; left: 0; color: var(--fire); }
+    .modal-history {
+      border-top: 1px solid var(--glass-border);
+      padding-top: 1rem;
+      margin-bottom: 1.4rem;
+    }
+    .modal-history h4 {
+      font-family: var(--font-head);
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.75rem;
+    }
+    .hist-row {
+      display: grid;
+      grid-template-columns: 48px 1fr auto;
+      gap: 0.75rem;
+      align-items: center;
+      padding: 0.45rem 0;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      font-size: 0.82rem;
+    }
+    .hist-row:last-child { border-bottom: none; }
+    .hist-year { font-family: var(--font-head); font-weight: 700; color: var(--blue-light); }
+    .hist-champ { color: var(--text); font-weight: 600; }
+    .hist-res { color: var(--text-muted); font-size: 0.74rem; text-align: right; }
     .modal-source {
       font-size: 0.78rem;
       color: var(--text-muted);
@@ -545,6 +571,7 @@
     if (!e) return;
     const stats = (e.stats || []).map(s => `<div class="modal-stat"><div class="v">${s.value}</div><div class="l">${s.label}</div></div>`).join('');
     const facts = (e.facts || []).map(f => `<li>${f}</li>`).join('');
+    const history = (e.history || []).map(h => `<div class="hist-row"><span class="hist-year">${h.year}</span><span class="hist-champ">${h.champ}</span><span class="hist-res">${h.result}</span></div>`).join('');
     modal.innerHTML = `
       <button class="modal-close" id="modal-close" aria-label="Stäng">✕</button>
       <div class="modal-head">
@@ -555,6 +582,7 @@
       <p class="modal-tagline">${e.tagline}</p>
       <div class="modal-stats">${stats}</div>
       <ul class="modal-facts">${facts}</ul>
+      ${e.history ? `<div class="modal-history"><h4>Historik — alla mästare</h4>${history}</div>` : ''}
       <p class="modal-source">📚 Källa: <a href="${e.source.url}" target="_blank" rel="noopener">${e.source.label}</a></p>`;
     overlay.classList.add('open');
     document.body.style.overflow = 'hidden';

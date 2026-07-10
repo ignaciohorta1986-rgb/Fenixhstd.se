@@ -764,6 +764,18 @@
         "Mästare genom tiderna: Brasilien 6, Spanien 2, Argentina 1, Portugal 1.",
         "Senaste upplagan: Uzbekistan 2024 — Brasilien vann finalen 2–1 mot Argentina."
       ],
+      "history": [
+        { "year": "1989", "champ": "🇧🇷 Brasilien", "result": "2–1 mot Nederländerna" },
+        { "year": "1992", "champ": "🇧🇷 Brasilien", "result": "4–1 mot USA" },
+        { "year": "1996", "champ": "🇧🇷 Brasilien", "result": "6–4 mot Spanien" },
+        { "year": "2000", "champ": "🇪🇸 Spanien", "result": "4–3 mot Brasilien" },
+        { "year": "2004", "champ": "🇪🇸 Spanien", "result": "2–1 mot Italien" },
+        { "year": "2008", "champ": "🇧🇷 Brasilien", "result": "2–2, 4–3 på straffar mot Spanien" },
+        { "year": "2012", "champ": "🇧🇷 Brasilien", "result": "3–2 efter förl. mot Spanien" },
+        { "year": "2016", "champ": "🇦🇷 Argentina", "result": "5–4 mot Ryssland" },
+        { "year": "2021", "champ": "🇵🇹 Portugal", "result": "2–1 mot Argentina" },
+        { "year": "2024", "champ": "🇧🇷 Brasilien", "result": "2–1 mot Argentina" }
+      ],
       "source": { "label": "Wikipedia — FIFA Futsal World Cup", "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup" }
     },
     {
@@ -782,6 +794,21 @@
         "Spelas sedan premiären 1996.",
         "Mästare: Spanien 8, Portugal 2, Italien 2, Ryssland 1.",
         "Senaste final: Spanien 5–3 Portugal (2026 i Ljubljana)."
+      ],
+      "history": [
+        { "year": "1996", "champ": "🇪🇸 Spanien", "result": "5–3 mot Ryssland" },
+        { "year": "1999", "champ": "🇷🇺 Ryssland", "result": "3–3, på straffar mot Spanien" },
+        { "year": "2001", "champ": "🇪🇸 Spanien", "result": "2–1 mot Ukraina" },
+        { "year": "2003", "champ": "🇮🇹 Italien", "result": "1–0 mot Ukraina" },
+        { "year": "2005", "champ": "🇪🇸 Spanien", "result": "2–1 mot Ryssland" },
+        { "year": "2007", "champ": "🇪🇸 Spanien", "result": "3–1 mot Italien" },
+        { "year": "2010", "champ": "🇪🇸 Spanien", "result": "4–2 mot Portugal" },
+        { "year": "2012", "champ": "🇪🇸 Spanien", "result": "3–1 mot Ryssland" },
+        { "year": "2014", "champ": "🇮🇹 Italien", "result": "3–1 mot Ryssland" },
+        { "year": "2016", "champ": "🇪🇸 Spanien", "result": "7–3 mot Ryssland" },
+        { "year": "2018", "champ": "🇵🇹 Portugal", "result": "3–2 mot Spanien" },
+        { "year": "2022", "champ": "🇵🇹 Portugal", "result": "4–2 mot Ryssland" },
+        { "year": "2026", "champ": "🇪🇸 Spanien", "result": "5–3 mot Portugal" }
       ],
       "source": { "label": "UEFA — Futsal EURO", "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/" }
     },
