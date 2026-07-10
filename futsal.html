@@ -423,6 +423,8 @@
       transition: border-color 0.18s, background 0.18s, transform 0.15s;
     }
     .roster-item:hover { border-color: var(--gold); background: rgba(255,214,10,0.1); transform: translateY(-2px); }
+    .roster-static { cursor: default; }
+    .roster-static:hover { border-color: var(--glass-border); background: rgba(255,255,255,0.05); transform: none; }
     .ros-pos {
       font-size: 0.6rem;
       text-transform: uppercase;
@@ -799,9 +801,18 @@
       if (rows.length) profileHTML = `<div class="modal-profile">${rows.map(r => `<div class="prof-row"><span class="prof-k">${r[0]}</span><span class="prof-v">${r[1]}</span></div>`).join('')}</div>`;
     }
     let rosterHTML = '';
-    const roster = rosterOf(e);
-    if (roster.length) {
-      rosterHTML = `<div class="modal-roster"><h4>Spelare i databasen (${roster.length})</h4><div class="roster-list">${roster.map(p => `<button class="roster-item" data-goto="${p.id}"><span>${p.flag}</span><span class="ros-name">${p.name}</span><span class="ros-pos">${positionOf(p)}</span></button>`).join('')}</div></div>`;
+    if (e.squad && e.squad.length) {
+      const items = e.squad.map(m => {
+        const db = DATA.find(d => d.type === 'spelare' && d.name === m.name);
+        if (db) return `<button class="roster-item" data-goto="${db.id}"><span>${db.flag}</span><span class="ros-name">${m.name}</span><span class="ros-pos">${m.pos}</span></button>`;
+        return `<span class="roster-item roster-static"><span class="ros-name">${m.name}</span><span class="ros-pos">${m.pos}</span></span>`;
+      }).join('');
+      rosterHTML = `<div class="modal-roster"><h4>Trupp (${e.squad.length})${e.squadNote ? ' — ' + e.squadNote : ''}</h4><div class="roster-list">${items}</div></div>`;
+    } else {
+      const roster = rosterOf(e);
+      if (roster.length) {
+        rosterHTML = `<div class="modal-roster"><h4>Spelare i databasen (${roster.length})</h4><div class="roster-list">${roster.map(p => `<button class="roster-item" data-goto="${p.id}"><span>${p.flag}</span><span class="ros-name">${p.name}</span><span class="ros-pos">${positionOf(p)}</span></button>`).join('')}</div></div>`;
+      }
     }
     modal.innerHTML = `
       <button class="modal-close" id="modal-close" aria-label="Stäng">✕</button>
@@ -821,7 +832,7 @@
     overlay.classList.add('open');
     document.body.style.overflow = 'hidden';
     document.getElementById('modal-close').addEventListener('click', closeModal);
-    modal.querySelectorAll('.rel-chip, .inline-link, .roster-item').forEach(c => c.addEventListener('click', () => openModal(c.dataset.goto)));
+    modal.querySelectorAll('.rel-chip, .inline-link, .roster-item[data-goto]').forEach(c => c.addEventListener('click', () => openModal(c.dataset.goto)));
     modal.scrollTop = 0;
   }
   function closeModal() { overlay.classList.remove('open'); document.body.style.overflow = ''; }

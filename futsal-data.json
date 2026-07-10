@@ -663,6 +663,23 @@
         "Etta i FIFA:s officiella futsalranking (per 8 maj 2026).",
         "Fostrat ikoner som Falcão och Ferrão."
       ],
+      "squadNote": "VM-trupp 2024",
+      "squad": [
+        { "name": "Guitta", "pos": "Målvakt" },
+        { "name": "Diego Roncáglio", "pos": "Målvakt" },
+        { "name": "Willian Dorn", "pos": "Målvakt" },
+        { "name": "Marlon Araújo", "pos": "Fixo" },
+        { "name": "Neguinho", "pos": "Fixo" },
+        { "name": "Marcel Marques", "pos": "Universal" },
+        { "name": "Dyego Zuffo", "pos": "Universal" },
+        { "name": "Marcênio", "pos": "Universal" },
+        { "name": "Leandro Lino", "pos": "Universal" },
+        { "name": "Arthur Guilherme", "pos": "Universal" },
+        { "name": "Felipe Valério", "pos": "Universal" },
+        { "name": "Pito", "pos": "Pivot" },
+        { "name": "Ferrão", "pos": "Pivot" },
+        { "name": "Rafa Santos", "pos": "Pivot" }
+      ],
       "source": { "label": "Wikipedia — FIFA Futsal World Cup", "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup" }
     },
     {
@@ -683,6 +700,23 @@
         "Europamästare 2018 och 2022.",
         "Tvåa i FIFA:s officiella futsalranking (per 8 maj 2026).",
         "Förlorade EM-finalen 2026 mot Spanien med 3–5."
+      ],
+      "squadNote": "landskamper sep 2025",
+      "squad": [
+        { "name": "Edu Sousa", "pos": "Målvakt" },
+        { "name": "André Correia", "pos": "Målvakt" },
+        { "name": "André Coelho", "pos": "Fixo" },
+        { "name": "Tomás Paçó", "pos": "Fixo" },
+        { "name": "Afonso Jesus", "pos": "Fixo" },
+        { "name": "Bruno Maior", "pos": "Fixo" },
+        { "name": "Silvestre Ferreira", "pos": "Universal" },
+        { "name": "Diogo Santos", "pos": "Universal" },
+        { "name": "Pauleta", "pos": "Universal" },
+        { "name": "Bruno Pinto", "pos": "Universal" },
+        { "name": "Tiago Brito", "pos": "Universal" },
+        { "name": "Edmilson Kutchy", "pos": "Universal" },
+        { "name": "Pedro Santos", "pos": "Pivot" },
+        { "name": "Rúben Góis", "pos": "Pivot" }
       ],
       "source": { "label": "UEFA — Futsal EURO", "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/" }
     },
@@ -705,6 +739,23 @@
         "Två VM-guld: 2000 och 2004.",
         "Trea i FIFA:s officiella futsalranking (per 8 maj 2026)."
       ],
+      "squadNote": "VM-kval 2023",
+      "squad": [
+        { "name": "Jesús Herrero", "pos": "Målvakt" },
+        { "name": "Dídac Plana", "pos": "Målvakt" },
+        { "name": "Antonio Pérez", "pos": "Fixo" },
+        { "name": "Francisco Tomaz", "pos": "Fixo" },
+        { "name": "Boyis", "pos": "Fixo" },
+        { "name": "Miguel Mellado", "pos": "Fixo" },
+        { "name": "Catela", "pos": "Ala" },
+        { "name": "Raúl Gómez", "pos": "Ala" },
+        { "name": "Pablo Ramírez", "pos": "Ala" },
+        { "name": "Adolfo Fernández", "pos": "Ala" },
+        { "name": "Eric Pérez", "pos": "Ala" },
+        { "name": "Javier Mínguez", "pos": "Ala" },
+        { "name": "Chino", "pos": "Ala" },
+        { "name": "Raúl Campos", "pos": "Ala" }
+      ],
       "source": { "label": "UEFA — Futsal EURO", "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/" }
     },
     {
@@ -724,6 +775,23 @@
         "VM-guld 2016 i Colombia (5–4 mot Ryssland).",
         "VM-silver både 2021 och 2024 — förlorade båda finalerna knappt.",
         "Fyra i FIFA:s officiella futsalranking (per 8 maj 2026)."
+      ],
+      "squadNote": "Finalissima 2022",
+      "squad": [
+        { "name": "Nicolás Sarmiento", "pos": "Målvakt" },
+        { "name": "Matías Starna", "pos": "Målvakt" },
+        { "name": "Lucas Tripodi", "pos": "Fixo" },
+        { "name": "Maximiliano Rescia", "pos": "Fixo" },
+        { "name": "Sebastián Corso", "pos": "Fixo" },
+        { "name": "Ángel Claudino", "pos": "Universal" },
+        { "name": "Lucas Bolo", "pos": "Universal" },
+        { "name": "Gerardo Menzeguez", "pos": "Universal" },
+        { "name": "Santiago Basile", "pos": "Universal" },
+        { "name": "Constantino Vaporaki", "pos": "Universal" },
+        { "name": "Pablo Taborda", "pos": "Universal" },
+        { "name": "Matías Edelstein", "pos": "Universal" },
+        { "name": "Cristian Borruto", "pos": "Pivot" },
+        { "name": "Alan Brandi", "pos": "Pivot" }
       ],
       "source": { "label": "Wikipedia — FIFA Futsal World Cup", "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup" }
     },
