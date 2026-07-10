@@ -631,7 +631,11 @@
     Object.keys(alias).forEach(k => { if (DATA.some(d => d.id === alias[k])) LINK_MAP[k] = alias[k]; });
     const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     const terms = Object.keys(LINK_MAP).filter(t => t.length >= 4).sort((a, b) => b.length - a.length);
-    LINK_RE = new RegExp('(?<![\\p{L}\\p{N}])(' + terms.map(esc).join('|') + ')(?![\\p{L}\\p{N}])', 'gu');
+    try {
+      LINK_RE = new RegExp('(?<![\\p{L}\\p{N}])(' + terms.map(esc).join('|') + ')(?![\\p{L}\\p{N}])', 'gu');
+    } catch (err) {
+      LINK_RE = null;
+    }
   }
   function linkify(text, selfId) {
     if (!LINK_RE || !text) return text || '';
@@ -765,7 +769,7 @@
   /* ── Ladda data ── */
   fetch('futsal-data.json')
     .then(r => r.json())
-    .then(d => { DATA = d.entries || []; buildLinkIndex(); render(); })
+    .then(d => { DATA = d.entries || []; try { buildLinkIndex(); } catch (e) {} render(); })
     .catch(() => { resultsEl.innerHTML = '<div class="no-results"><span>⚠️</span>Kunde inte ladda databasen just nu. Försök igen senare.</div>'; });
   </script>
 </body>

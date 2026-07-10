@@ -126,6 +126,10 @@
       "sub": "Italien · Utespelare",
       "country": "Italien",
       "tagline": "Italiensk mästare — världens bästa spelare 2003.",
+      "profile": {
+        "born": "1981-04-25",
+        "birthplace": "São Paulo, Brasilien"
+      },
       "stats": [
         { "label": "Årets spelare i världen", "value": "2003" }
       ],
@@ -142,6 +146,10 @@
       "sub": "Spanien · Utespelare",
       "country": "Spanien",
       "tagline": "Spansk legend från landslagets guldera.",
+      "profile": {
+        "born": "1974-03-26",
+        "birthplace": "Santa Coloma de Gramenet, Spanien"
+      },
       "stats": [
         { "label": "Årets spelare i världen", "value": "2005" }
       ],
@@ -158,6 +166,10 @@
       "sub": "Ryssland · Utespelare",
       "country": "Ryssland",
       "tagline": "Rysk stjärna — världens bästa spelare 2007.",
+      "profile": {
+        "born": "1981-08-25",
+        "birthplace": "Revda, Ryssland"
+      },
       "stats": [
         { "label": "Årets spelare i världen", "value": "2007" }
       ],
@@ -174,6 +186,10 @@
       "sub": "Brasilien · Utespelare",
       "country": "Brasilien",
       "tagline": "Brasiliansk teknikmästare — världens bästa spelare 2008.",
+      "profile": {
+        "born": "1975-08-31",
+        "birthplace": "São Paulo, Brasilien"
+      },
       "stats": [
         { "label": "Årets spelare i världen", "value": "2008" }
       ],
@@ -190,6 +206,10 @@
       "sub": "Spanien · Utespelare",
       "country": "Spanien",
       "tagline": "Spansk stjärna — världens bästa spelare 2009.",
+      "profile": {
+        "born": "1978-05-04",
+        "birthplace": "Valencia, Spanien"
+      },
       "stats": [
         { "label": "Årets spelare i världen", "value": "2009" }
       ],
@@ -236,6 +256,11 @@
       "sub": "Brasilien · Utespelare",
       "country": "Brasilien",
       "tagline": "Brasiliansk stjärna — världens bästa spelare 2023.",
+      "profile": {
+        "born": "1991-11-06",
+        "birthplace": "Chapecó, Brasilien",
+        "club": "FC Barcelona"
+      },
       "stats": [
         { "label": "Årets spelare i världen", "value": "2023" }
       ],
@@ -252,6 +277,10 @@
       "sub": "Brasilien · Utespelare",
       "country": "Brasilien",
       "tagline": "Brasiliansk stjärna — världens bästa spelare 2024.",
+      "profile": {
+        "birthplace": "Palmitos, Brasilien",
+        "club": "FC Barcelona"
+      },
       "stats": [
         { "label": "Årets spelare i världen", "value": "2024" }
       ],
@@ -284,6 +313,10 @@
       "sub": "Spanien · Målvakt",
       "country": "Spanien",
       "tagline": "Spansk mästarmålvakt i början av 2000-talet.",
+      "profile": {
+        "born": "1976-05-04",
+        "birthplace": "Arganda del Rey, Spanien"
+      },
       "stats": [
         { "label": "Bästa målvakt i världen", "value": "2003 & 2004" }
       ],
@@ -300,6 +333,10 @@
       "sub": "Brasilien · Målvakt",
       "country": "Brasilien",
       "tagline": "Brasiliansk landslagsmålvakt — bäst i världen 2007.",
+      "profile": {
+        "born": "1981-03-09",
+        "birthplace": "Brasilien"
+      },
       "stats": [
         { "label": "Bästa målvakt i världen", "value": "2007" }
       ],
@@ -316,6 +353,10 @@
       "sub": "Ryssland · Målvakt",
       "country": "Ryssland",
       "tagline": "Rysk målvakt — bäst i världen 2008.",
+      "profile": {
+        "born": "1980-02-20",
+        "birthplace": "Severouralsk, Ryssland"
+      },
       "stats": [
         { "label": "Bästa målvakt i världen", "value": "2008" }
       ],
@@ -332,6 +373,10 @@
       "sub": "Iran · Målvakt",
       "country": "Iran",
       "tagline": "Iransk landslagsmålvakt — bäst i världen 2010.",
+      "profile": {
+        "born": "1982-12-11",
+        "birthplace": "Iran"
+      },
       "stats": [
         { "label": "Bästa målvakt i världen", "value": "2010" }
       ],
@@ -348,6 +393,10 @@
       "sub": "Italien · Målvakt",
       "country": "Italien",
       "tagline": "Italiensk EM-hjälte och trefaldig världens bästa målvakt.",
+      "profile": {
+        "born": "1984-02-02",
+        "birthplace": "Chieti, Italien"
+      },
       "stats": [
         { "label": "Bästa målvakt i världen", "value": "2011, 2012 & 2014" }
       ],
@@ -418,6 +467,11 @@
       "sub": "Armenien · Målvakt (brasilienfödd, Palma Futsal)",
       "country": "Armenien Brasilien",
       "tagline": "Brasilienfödd världsmålvakt som representerar Armenien.",
+      "profile": {
+        "born": "1993-03-17",
+        "birthplace": "Brasilien",
+        "club": "Palma Futsal"
+      },
       "stats": [
         { "label": "Bästa målvakt i världen", "value": "2024" }
       ],
@@ -436,6 +490,10 @@
       "sub": "Uruguay · Målvakt",
       "country": "Uruguay",
       "tagline": "Uruguays historiska målvakt — bäst i världen 2025.",
+      "profile": {
+        "birthplace": "Uruguay",
+        "club": "Family Cash Alzira"
+      },
       "stats": [
         { "label": "Bästa målvakt i världen", "value": "2025" }
       ],
