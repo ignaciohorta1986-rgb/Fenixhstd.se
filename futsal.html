@@ -374,6 +374,13 @@
     }
     .rel-chip:hover { border-color: var(--fire); background: rgba(255,69,0,0.12); transform: translateY(-2px); }
     .rel-type { font-style: normal; font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); }
+    .inline-link {
+      color: var(--blue-light);
+      cursor: pointer;
+      border-bottom: 1px dotted var(--blue-light);
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .inline-link:hover { color: var(--fire); border-bottom-color: var(--fire); }
     .modal-source {
       font-size: 0.78rem;
       color: var(--text-muted);
@@ -597,6 +604,32 @@
       .sort((a, b) => (order[a.type] - order[b.type]))
       .slice(0, 18);
   }
+
+  /* ── Inline-länkar: gör namn i texten klickbara ── */
+  let LINK_MAP = {}, LINK_RE = null;
+  function buildLinkIndex() {
+    LINK_MAP = {};
+    DATA.forEach(e => { LINK_MAP[e.name] = e.id; });
+    const alias = {
+      'Barça': 'barcelona', 'Barcelona': 'barcelona', 'Sporting': 'sporting',
+      'Palma': 'palma', 'Kairat': 'kairat', 'Champions League': 'ucl',
+      'UEFA Futsal Champions League': 'ucl', 'Copa América': 'copa-america'
+    };
+    Object.keys(alias).forEach(k => { if (DATA.some(d => d.id === alias[k])) LINK_MAP[k] = alias[k]; });
+    const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const terms = Object.keys(LINK_MAP).filter(t => t.length >= 4).sort((a, b) => b.length - a.length);
+    LINK_RE = new RegExp('(?<![\\p{L}\\p{N}])(' + terms.map(esc).join('|') + ')(?![\\p{L}\\p{N}])', 'gu');
+  }
+  function linkify(text, selfId) {
+    if (!LINK_RE || !text) return text || '';
+    const seen = new Set();
+    return text.replace(LINK_RE, (m) => {
+      const id = LINK_MAP[m];
+      if (!id || id === selfId || seen.has(id)) return m;
+      seen.add(id);
+      return `<span class="inline-link" data-goto="${id}">${m}</span>`;
+    });
+  }
   let DATA = [];
   let activeType = 'alla';
   let query = '';
@@ -652,8 +685,8 @@
     const e = DATA.find(d => d.id === id);
     if (!e) return;
     const stats = (e.stats || []).map(s => `<div class="modal-stat"><div class="v">${s.value}</div><div class="l">${s.label}</div></div>`).join('');
-    const facts = (e.facts || []).map(f => `<li>${f}</li>`).join('');
-    const history = (e.history || []).map(h => `<div class="hist-row"><span class="hist-year">${h.year}</span><span class="hist-champ">${h.champ}</span><span class="hist-res">${h.result}</span></div>`).join('');
+    const facts = (e.facts || []).map(f => `<li>${linkify(f, e.id)}</li>`).join('');
+    const history = (e.history || []).map(h => `<div class="hist-row"><span class="hist-year">${h.year}</span><span class="hist-champ">${linkify(h.champ, e.id)}</span><span class="hist-res">${h.result}</span></div>`).join('');
     const related = getRelated(e);
     const relHTML = related.length
       ? `<div class="modal-related"><h4>Utforska vidare</h4><div class="rel-chips">${related.map(r => `<button class="rel-chip" data-goto="${r.id}"><span>${r.flag}</span> ${r.name} <em class="rel-type">${TYPE_LABEL[r.type]}</em></button>`).join('')}</div></div>`
@@ -665,7 +698,7 @@
         <div><h2>${e.name}</h2></div>
       </div>
       <p class="modal-sub"><span class="type-badge type-${e.type}">${TYPE_LABEL[e.type]}</span> ${e.sub}</p>
-      <p class="modal-tagline">${e.tagline}</p>
+      <p class="modal-tagline">${linkify(e.tagline, e.id)}</p>
       <div class="modal-stats">${stats}</div>
       <ul class="modal-facts">${facts}</ul>
       ${e.history ? `<div class="modal-history"><h4>Historik — alla mästare</h4>${history}</div>` : ''}
@@ -674,7 +707,7 @@
     overlay.classList.add('open');
     document.body.style.overflow = 'hidden';
     document.getElementById('modal-close').addEventListener('click', closeModal);
-    modal.querySelectorAll('.rel-chip').forEach(c => c.addEventListener('click', () => openModal(c.dataset.goto)));
+    modal.querySelectorAll('.rel-chip, .inline-link').forEach(c => c.addEventListener('click', () => openModal(c.dataset.goto)));
     modal.scrollTop = 0;
   }
   function closeModal() { overlay.classList.remove('open'); document.body.style.overflow = ''; }
@@ -695,7 +728,7 @@
   /* ── Ladda data ── */
   fetch('futsal-data.json')
     .then(r => r.json())
-    .then(d => { DATA = d.entries || []; render(); })
+    .then(d => { DATA = d.entries || []; buildLinkIndex(); render(); })
     .catch(() => { resultsEl.innerHTML = '<div class="no-results"><span>⚠️</span>Kunde inte ladda databasen just nu. Försök igen senare.</div>'; });
   </script>
 </body>

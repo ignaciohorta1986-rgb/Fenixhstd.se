@@ -77,17 +77,24 @@
       "type": "spelare",
       "name": "Manoel Tobias",
       "flag": "🇧🇷",
-      "sub": "Brasilien · Utespelare",
+      "sub": "Brasilien · Fixo (försvarare) · född 1971",
       "country": "Brasilien",
-      "tagline": "Brasiliansk pionjär och en av futsalens första superstjärnor.",
+      "tagline": "Brasiliansk pionjär och futsalens första stora superstjärna.",
       "stats": [
+        { "label": "Landskamper", "value": "302" },
+        { "label": "Landslagsmål", "value": "278" },
+        { "label": "VM-guld", "value": "3 (1989, 1992, 1996)" },
+        { "label": "VM-mål", "value": "43" },
         { "label": "Årets spelare i världen", "value": "3 ggr (2000–2002)" }
       ],
       "facts": [
         "Utsedd till världens bästa spelare tre år i rad, 2000–2002 (FutsalPlanet).",
-        "En av de mest ikoniska namnen i brasiliansk futsalhistoria, känd som en enastående målskytt."
+        "302 landskamper och 278 mål för Brasilien 1992–2004 — anmärkningsvärt för en försvarare (fixo).",
+        "43 VM-mål på 31 matcher, bl.a. 19 mål i en enda turnering (2000) och skyttekung 1996.",
+        "Vann VM:s Golden Ball (bästa spelare) 1996 och 2000.",
+        "Tre VM-guld: 1989, 1992 och 1996."
       ],
-      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+      "source": { "label": "Wikipedia — Manoel Tobias", "url": "https://en.wikipedia.org/wiki/Manoel_Tobias" }
     },
     {
       "id": "adriano-foglia",
@@ -174,17 +181,24 @@
       "type": "spelare",
       "name": "Pany Varela",
       "flag": "🇵🇹",
-      "sub": "Portugal · Utespelare",
+      "sub": "Portugal · Ala · född på Kap Verde",
       "country": "Portugal",
-      "tagline": "Portugisisk stjärna — världens bästa spelare 2022.",
+      "tagline": "Portugisisk stjärna — hjälten i VM-finalen 2021.",
       "stats": [
+        { "label": "Landskamper", "value": "124" },
+        { "label": "Landslagsmål", "value": "47" },
+        { "label": "VM-guld", "value": "1 (2021)" },
+        { "label": "Champions League", "value": "3" },
         { "label": "Årets spelare i världen", "value": "2022" }
       ],
       "facts": [
         "Utsedd till världens bästa spelare 2022 (FutsalPlanet).",
-        "Del av Portugals framgångsrika landslagsgeneration."
+        "Gjorde båda Portugals mål i VM-finalen 2021 (2–1 mot Argentina) — och avgjorde guldet.",
+        "Samma år (2021) gjorde han även mål i Champions League-finalen.",
+        "Tre Champions League-titlar (två med Sporting, en med Benfica) och EM-guld 2018.",
+        "124 landskamper och 47 mål för Portugal."
       ],
-      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+      "source": { "label": "Wikipedia — Pany Varela", "url": "https://en.wikipedia.org/wiki/Pany_Varela" }
     },
     {
       "id": "pito",
@@ -319,35 +333,42 @@
       "type": "spelare",
       "name": "Leo Higuita",
       "flag": "🇰🇿",
-      "sub": "Kazakstan · Målvakt (brasilienfödd)",
+      "sub": "Kazakstan · Målvakt (brasilienfödd) · född 1986",
       "country": "Kazakstan",
       "tagline": "Brasilienfödd trollkarl mellan stolparna — femfaldig världens bästa målvakt.",
       "stats": [
-        { "label": "Bästa målvakt i världen", "value": "5 ggr (2015–2020)" }
+        { "label": "Landskamper (Kazakstan)", "value": "100" },
+        { "label": "Bästa målvakt i världen", "value": "5 ggr (2015–2020)" },
+        { "label": "EM-brons", "value": "2016" }
       ],
       "facts": [
         "Utsedd till världens bästa målvakt fem gånger: 2015, 2016, 2018, 2019 och 2020 (FutsalPlanet).",
-        "Brasilienfödd, men naturaliserad och landslagsmålvakt för Kazakstan.",
-        "Känd för sitt djärva, offensiva målvaktsspel."
+        "100 landskamper för Kazakstan; brasilienfödd och naturaliserad 2013.",
+        "Vann två UEFA-titlar med Kairat Almaty (13 år i klubben) och EM-brons med Kazakstan 2016.",
+        "Kapten för Kazakstan i VM 2024; nådde VM-semifinal (4:a) 2021.",
+        "En 'målvakt som gör mål' — hans offensiva spel gav honom smeknamnet Higuita."
       ],
-      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+      "source": { "label": "Wikipedia — Leo Higuita", "url": "https://en.wikipedia.org/wiki/Leo_Higuita" }
     },
     {
       "id": "guitta",
       "type": "spelare",
       "name": "Guitta",
       "flag": "🇧🇷",
-      "sub": "Brasilien · Målvakt",
+      "sub": "Brasilien · Målvakt · född 1987",
       "country": "Brasilien",
-      "tagline": "Brasiliens landslagsmålvakt — bäst i världen 2021.",
+      "tagline": "Brasiliens världsmästarmålvakt — bäst i världen 2021.",
       "stats": [
+        { "label": "VM-guld", "value": "2 (2012, 2024)" },
         { "label": "Bästa målvakt i världen", "value": "2021" }
       ],
       "facts": [
         "Utsedd till världens bästa målvakt 2021 (FutsalPlanet).",
-        "Brasiliens förstemålvakt."
+        "Vann VM-guld med Brasilien 2012 (förstemålvakt, uttagen i turneringens All-Star-lag) och 2024.",
+        "Landslagsdebut i juli 2011 — en nyckelfigur under Brasiliens dominans.",
+        "Gjorde avgörande räddningar i VM-semifinalen 2024 mot Ukraina."
       ],
-      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+      "source": { "label": "Wikipedia — Guitta", "url": "https://en.wikipedia.org/wiki/Guitta" }
     },
     {
       "id": "luan-muller",
