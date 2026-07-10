@@ -829,6 +829,33 @@
         "Flest titlar: Inter FS 5, Barça 4, Sporting 3, Palma 3.",
         "Regerande mästare: Sporting CP (2026)."
       ],
+      "history": [
+        { "year": "2002", "champ": "🇪🇸 Playas de Castellón", "result": "Spanien" },
+        { "year": "2003", "champ": "🇪🇸 Playas de Castellón", "result": "Spanien" },
+        { "year": "2004", "champ": "🇪🇸 Inter FS", "result": "Spanien" },
+        { "year": "2005", "champ": "🇧🇪 Action 21 Charleroi", "result": "Belgien" },
+        { "year": "2006", "champ": "🇪🇸 Inter FS", "result": "Spanien" },
+        { "year": "2007", "champ": "🇷🇺 Dinamo Moskva", "result": "Ryssland" },
+        { "year": "2008", "champ": "🇷🇺 Viz-Sinara Jekaterinburg", "result": "Ryssland" },
+        { "year": "2009", "champ": "🇪🇸 Inter FS", "result": "Spanien" },
+        { "year": "2010", "champ": "🇵🇹 Benfica", "result": "Portugal" },
+        { "year": "2011", "champ": "🇮🇹 Montesilvano", "result": "Italien" },
+        { "year": "2012", "champ": "🇪🇸 Barcelona", "result": "Spanien" },
+        { "year": "2013", "champ": "🇰🇿 Kairat Almaty", "result": "Kazakstan" },
+        { "year": "2014", "champ": "🇪🇸 Barcelona", "result": "Spanien" },
+        { "year": "2015", "champ": "🇰🇿 Kairat Almaty", "result": "Kazakstan" },
+        { "year": "2016", "champ": "🇷🇺 Gazprom-Ugra Jugorsk", "result": "Ryssland" },
+        { "year": "2017", "champ": "🇪🇸 Inter FS", "result": "Spanien" },
+        { "year": "2018", "champ": "🇪🇸 Inter FS", "result": "Spanien" },
+        { "year": "2019", "champ": "🇵🇹 Sporting CP", "result": "Portugal" },
+        { "year": "2020", "champ": "🇪🇸 Barcelona", "result": "Spanien" },
+        { "year": "2021", "champ": "🇵🇹 Sporting CP", "result": "Portugal" },
+        { "year": "2022", "champ": "🇪🇸 Barcelona", "result": "Spanien" },
+        { "year": "2023", "champ": "🇪🇸 Palma Futsal", "result": "Spanien" },
+        { "year": "2024", "champ": "🇪🇸 Palma Futsal", "result": "Spanien" },
+        { "year": "2025", "champ": "🇪🇸 Palma Futsal", "result": "Spanien" },
+        { "year": "2026", "champ": "🇵🇹 Sporting CP", "result": "Portugal" }
+      ],
       "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
     },
     {
@@ -845,10 +872,30 @@
       ],
       "facts": [
         "Iran är rekordmästare med 14 titlar.",
-        "Senaste upplagan 2026 vann Iran mot Indonesien på straffar.",
-        "Thailand och Japan hör till de främsta utmanarna."
+        "Japan är näst bäst med fyra titlar (2006, 2012, 2014, 2022).",
+        "Senaste upplagan 2026 vann Iran mot Indonesien på straffar. Turneringen 2020 ställdes in p.g.a. covid-19."
       ],
-      "source": { "label": "Wikipedia — Iran national futsal team", "url": "https://en.wikipedia.org/wiki/Iran_national_futsal_team" }
+      "history": [
+        { "year": "1999", "champ": "🇮🇷 Iran", "result": "9–1 mot Sydkorea" },
+        { "year": "2000", "champ": "🇮🇷 Iran", "result": "4–1 mot Kazakstan" },
+        { "year": "2001", "champ": "🇮🇷 Iran", "result": "9–0 mot Uzbekistan" },
+        { "year": "2002", "champ": "🇮🇷 Iran", "result": "6–0 mot Japan" },
+        { "year": "2003", "champ": "🇮🇷 Iran", "result": "6–4 mot Japan" },
+        { "year": "2004", "champ": "🇮🇷 Iran", "result": "5–3 mot Japan" },
+        { "year": "2005", "champ": "🇮🇷 Iran", "result": "2–0 mot Japan" },
+        { "year": "2006", "champ": "🇯🇵 Japan", "result": "5–1 mot Uzbekistan" },
+        { "year": "2007", "champ": "🇮🇷 Iran", "result": "4–1 mot Japan" },
+        { "year": "2008", "champ": "🇮🇷 Iran", "result": "4–0 mot Thailand" },
+        { "year": "2010", "champ": "🇮🇷 Iran", "result": "8–3 mot Uzbekistan" },
+        { "year": "2012", "champ": "🇯🇵 Japan", "result": "6–1 mot Thailand" },
+        { "year": "2014", "champ": "🇯🇵 Japan", "result": "2–2, straffar mot Iran" },
+        { "year": "2016", "champ": "🇮🇷 Iran", "result": "2–1 mot Uzbekistan" },
+        { "year": "2018", "champ": "🇮🇷 Iran", "result": "4–0 mot Japan" },
+        { "year": "2022", "champ": "🇯🇵 Japan", "result": "3–2 mot Iran" },
+        { "year": "2024", "champ": "🇮🇷 Iran", "result": "4–1 mot Thailand" },
+        { "year": "2026", "champ": "🇮🇷 Iran", "result": "5–5, straffar mot Indonesien" }
+      ],
+      "source": { "label": "Wikipedia — AFC Futsal Asian Cup", "url": "https://en.wikipedia.org/wiki/AFC_Futsal_Asian_Cup" }
     },
     {
       "id": "sfl",
