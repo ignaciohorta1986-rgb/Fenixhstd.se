@@ -10,6 +10,12 @@
       "sub": "Brasilien · Ala / Pivot · född 1977",
       "country": "Brasilien",
       "tagline": "Räknas av många som tidernas bästa futsalspelare — \"futsalens Pelé\".",
+      "profile": {
+        "born": "1977-06-08",
+        "birthplace": "Santa Cruz do Rio Pardo, Brasilien",
+        "height": "1,78 m",
+        "foot": "Vänster"
+      },
       "stats": [
         { "label": "Landskamper", "value": "258" },
         { "label": "Landslagsmål", "value": "401" },
@@ -34,6 +40,12 @@
       "sub": "Portugal · Universal / Ala · född 1985",
       "country": "Portugal",
       "tagline": "\"O Mágico\" — trollkarlen som förde Portugal till dess första VM-guld.",
+      "profile": {
+        "born": "1985-09-03",
+        "birthplace": "Valbom, Portugal",
+        "height": "1,67 m",
+        "club": "Riga Futsal Club"
+      },
       "stats": [
         { "label": "Landskamper", "value": "188" },
         { "label": "Landslagsmål", "value": "142" },
@@ -57,6 +69,12 @@
       "sub": "Brasilien · Pivot · född 1990",
       "country": "Brasilien",
       "tagline": "Målmaskinen som ärvde tronen efter Ricardinho och Falcão.",
+      "profile": {
+        "born": "1990-10-29",
+        "birthplace": "Chapecó, Brasilien",
+        "height": "1,80 m",
+        "club": "FC Semey"
+      },
       "stats": [
         { "label": "Årets spelare i världen", "value": "3 ggr (2019–2021)" },
         { "label": "UEFA-titlar", "value": "2 (Barça, 2020 & 2022)" },
@@ -80,6 +98,10 @@
       "sub": "Brasilien · Fixo (försvarare) · född 1971",
       "country": "Brasilien",
       "tagline": "Brasiliansk pionjär och futsalens första stora superstjärna.",
+      "profile": {
+        "born": "1971-04-07",
+        "birthplace": "Salgueiro, Brasilien"
+      },
       "stats": [
         { "label": "Landskamper", "value": "302" },
         { "label": "Landslagsmål", "value": "278" },
@@ -184,6 +206,12 @@
       "sub": "Portugal · Ala · född på Kap Verde",
       "country": "Portugal",
       "tagline": "Portugisisk stjärna — hjälten i VM-finalen 2021.",
+      "profile": {
+        "born": "1989-02-25",
+        "birthplace": "Tarrafal, Kap Verde",
+        "height": "1,72 m",
+        "club": "Sporting CP"
+      },
       "stats": [
         { "label": "Landskamper", "value": "124" },
         { "label": "Landslagsmål", "value": "47" },
@@ -336,6 +364,12 @@
       "sub": "Kazakstan · Målvakt (brasilienfödd) · född 1986",
       "country": "Kazakstan",
       "tagline": "Brasilienfödd trollkarl mellan stolparna — femfaldig världens bästa målvakt.",
+      "profile": {
+        "born": "1986-06-06",
+        "birthplace": "Rio de Janeiro, Brasilien",
+        "height": "1,80 m",
+        "club": "FC Semey"
+      },
       "stats": [
         { "label": "Landskamper (Kazakstan)", "value": "100" },
         { "label": "Bästa målvakt i världen", "value": "5 ggr (2015–2020)" },
@@ -358,6 +392,12 @@
       "sub": "Brasilien · Målvakt · född 1987",
       "country": "Brasilien",
       "tagline": "Brasiliens världsmästarmålvakt — bäst i världen 2021.",
+      "profile": {
+        "born": "1987-06-11",
+        "birthplace": "Ribeirão Pires, Brasilien",
+        "height": "1,77 m",
+        "club": "MFK Ukhta"
+      },
       "stats": [
         { "label": "VM-guld", "value": "2 (2012, 2024)" },
         { "label": "Bästa målvakt i världen", "value": "2021" }

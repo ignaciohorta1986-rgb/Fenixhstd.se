@@ -381,6 +381,19 @@
       transition: color 0.15s, border-color 0.15s;
     }
     .inline-link:hover { color: var(--fire); border-bottom-color: var(--fire); }
+    .modal-profile {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 0.6rem 1.2rem;
+      margin-bottom: 1.4rem;
+      padding: 0.95rem 1.1rem;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--glass-border);
+      border-radius: 12px;
+    }
+    .prof-row { display: flex; flex-direction: column; gap: 0.15rem; }
+    .prof-k { font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); }
+    .prof-v { font-size: 0.9rem; color: var(--text); font-weight: 500; }
     .modal-source {
       font-size: 0.78rem;
       color: var(--text-muted);
@@ -630,6 +643,18 @@
       return `<span class="inline-link" data-goto="${id}">${m}</span>`;
     });
   }
+
+  /* ── Formatera födelsedatum + räkna ut ålder ── */
+  const MONTHS_SV = ['januari','februari','mars','april','maj','juni','juli','augusti','september','oktober','november','december'];
+  function formatBorn(iso) {
+    const d = new Date(iso);
+    if (isNaN(d.getTime())) return iso;
+    const now = new Date();
+    let age = now.getFullYear() - d.getFullYear();
+    const md = now.getMonth() - d.getMonth();
+    if (md < 0 || (md === 0 && now.getDate() < d.getDate())) age--;
+    return d.getDate() + ' ' + MONTHS_SV[d.getMonth()] + ' ' + d.getFullYear() + ' (' + age + ' år)';
+  }
   let DATA = [];
   let activeType = 'alla';
   let query = '';
@@ -691,6 +716,17 @@
     const relHTML = related.length
       ? `<div class="modal-related"><h4>Utforska vidare</h4><div class="rel-chips">${related.map(r => `<button class="rel-chip" data-goto="${r.id}"><span>${r.flag}</span> ${r.name} <em class="rel-type">${TYPE_LABEL[r.type]}</em></button>`).join('')}</div></div>`
       : '';
+    let profileHTML = '';
+    if (e.profile) {
+      const p = e.profile;
+      const rows = [];
+      if (p.born) rows.push(['Född', formatBorn(p.born)]);
+      if (p.birthplace) rows.push(['Födelseort', p.birthplace]);
+      if (p.height) rows.push(['Längd', p.height]);
+      if (p.foot) rows.push(['Fot', p.foot]);
+      if (p.club) rows.push(['Nuvarande klubb', linkify(p.club, e.id)]);
+      if (rows.length) profileHTML = `<div class="modal-profile">${rows.map(r => `<div class="prof-row"><span class="prof-k">${r[0]}</span><span class="prof-v">${r[1]}</span></div>`).join('')}</div>`;
+    }
     modal.innerHTML = `
       <button class="modal-close" id="modal-close" aria-label="Stäng">✕</button>
       <div class="modal-head">
@@ -699,6 +735,7 @@
       </div>
       <p class="modal-sub"><span class="type-badge type-${e.type}">${TYPE_LABEL[e.type]}</span> ${e.sub}</p>
       <p class="modal-tagline">${linkify(e.tagline, e.id)}</p>
+      ${profileHTML}
       <div class="modal-stats">${stats}</div>
       <ul class="modal-facts">${facts}</ul>
       ${e.history ? `<div class="modal-history"><h4>Historik — alla mästare</h4>${history}</div>` : ''}
