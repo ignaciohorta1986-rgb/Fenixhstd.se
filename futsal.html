@@ -457,6 +457,115 @@
       z-index: 2;
     }
     .data-note strong { color: var(--text); }
+    /* ── Vylägen ── */
+    [hidden] { display: none !important; }
+    .view-toggle {
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      margin: 0 auto 1.5rem;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(100,160,255,0.14);
+      border-radius: 999px;
+      padding: 0.3rem;
+      width: fit-content;
+    }
+    .view-btn {
+      font-family: var(--font-head);
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      color: var(--text-muted);
+      background: none;
+      border: none;
+      padding: 0.6rem 1.4rem;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+    }
+    .view-btn:hover { color: var(--text); }
+    .view-btn.active {
+      background: linear-gradient(135deg, var(--fire), var(--ember));
+      color: #fff;
+      box-shadow: 0 4px 16px rgba(255,69,0,0.3);
+    }
+
+    /* ── Statistiktabeller ── */
+    #stats-view { max-width: 1100px; margin: 0 auto; padding: 0 24px 2rem; }
+    .stat-block { margin-bottom: 3.5rem; }
+    .stat-block h2 {
+      font-family: var(--font-head);
+      font-size: clamp(1.05rem, 2.4vw, 1.4rem);
+      font-weight: 800;
+      letter-spacing: 0.03em;
+      margin-bottom: 0.5rem;
+      color: var(--text);
+    }
+    .stat-note {
+      font-size: 0.86rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 1rem;
+      max-width: 70ch;
+    }
+    .table-wrap {
+      overflow-x: auto;
+      border: 1px solid rgba(100,160,255,0.14);
+      border-radius: var(--radius, 16px);
+      background: rgba(255,255,255,0.04);
+      backdrop-filter: blur(20px) saturate(180%);
+      -webkit-backdrop-filter: blur(20px) saturate(180%);
+    }
+    table.stat-table { width: 100%; border-collapse: collapse; font-size: 0.92rem; min-width: 420px; }
+    table.stat-table thead th {
+      position: sticky; top: 0;
+      background: rgba(12,16,34,0.96);
+      font-family: var(--font-head);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.09em;
+      text-transform: uppercase;
+      color: var(--blue-light);
+      text-align: left;
+      padding: 0.9rem 1rem;
+      border-bottom: 1px solid rgba(100,160,255,0.2);
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+    }
+    table.stat-table thead th:hover { color: var(--gold); }
+    table.stat-table thead th .arrow { opacity: 0.35; font-size: 0.7em; margin-left: 0.35em; }
+    table.stat-table thead th.sorted .arrow { opacity: 1; color: var(--fire); }
+    table.stat-table tbody td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid rgba(100,160,255,0.07);
+      color: var(--text-muted);
+    }
+    table.stat-table tbody tr:last-child td { border-bottom: none; }
+    table.stat-table tbody tr:hover td { background: rgba(255,107,43,0.06); color: var(--text); }
+    table.stat-table td.is-num { font-variant-numeric: tabular-nums; }
+    table.stat-table td.is-highlight { color: var(--gold); font-weight: 700; }
+    table.stat-table td.rank {
+      font-family: var(--font-head);
+      font-weight: 800;
+      color: var(--text);
+      font-variant-numeric: tabular-nums;
+    }
+    table.stat-table tbody tr:nth-child(1) td.rank { color: var(--gold); }
+    table.stat-table tbody tr:nth-child(2) td.rank,
+    table.stat-table tbody tr:nth-child(3) td.rank { color: var(--fire); }
+    .stat-source { font-size: 0.8rem; margin-top: 0.65rem; }
+    .stat-source a { color: var(--fire); text-decoration: none; }
+    .stat-source a:hover { color: var(--gold); }
+    .stats-intro {
+      max-width: 70ch; margin: 0 auto 2.5rem; text-align: center;
+      font-size: 0.92rem; color: var(--text-muted); line-height: 1.7;
+    }
+    .stats-intro strong { color: var(--text); }
+    @media (max-width: 640px) {
+      table.stat-table { font-size: 0.85rem; }
+      table.stat-table thead th, table.stat-table tbody td { padding: 0.65rem 0.7rem; }
+    }
   </style>
 </head>
 <body>
@@ -499,6 +608,11 @@
       <input id="search" class="search-input" type="text" placeholder="Sök spelare, lag, land eller serie… (t.ex. Brasilien, Ricardinho, SFL, Halland)" autocomplete="off" />
     </div>
 
+    <div class="view-toggle" id="view-toggle">
+      <button class="view-btn active" data-view="databas">🔎 Databas</button>
+      <button class="view-btn" data-view="statistik">📊 Statistik</button>
+    </div>
+
     <div class="filters" id="filters">
       <button class="filter-btn active" data-type="alla">Alla</button>
       <button class="filter-btn" data-type="spelare">⭐ Spelare</button>
@@ -513,10 +627,21 @@
   <!-- RESULTAT -->
   <main class="results" id="results"></main>
 
+  <!-- STATISTIK -->
+  <section id="stats-view" hidden>
+    <p class="stats-intro">
+      Tabeller över svensk futsal, hämtade från <strong>SvFF</strong>, <strong>Svenska Futsalligan</strong>
+      och <strong>Everysport</strong>. Klicka på en kolumnrubrik för att sortera.
+      Svensk futsal samlar inte in passnings-, skott- eller tacklingsstatistik — det som finns är
+      mål, matcher och delvis assist.
+    </p>
+    <div id="stats-body"></div>
+  </section>
+
   <p class="data-note">
     <strong>Om databasen:</strong> Detta är en kurerad samling över futsalvärldens största namn.
     Varje uppgift är hämtad från riktiga källor (FIFA, UEFA, Wikipedia m.fl.) — klicka på ett kort för källa.
-    Rankingar och säsongsstatistik ändras löpande; uppgifterna gäller <strong>per juli 2026</strong>.
+    Rankingar och säsongsstatistik ändras löpande; uppgifterna gäller <strong>per augusti 2026</strong>.
     Sakfel eller ett namn du saknar? Mejla <a href="mailto:fenixhstd@gmail.com" style="color: var(--fire);">fenixhstd@gmail.com</a>.
   </p>
 
@@ -850,10 +975,111 @@
     render();
   });
 
+  /* ── Statistikvy ── */
+  var TABLES = [];
+  var sortState = {};
+
+  function esc(v) {
+    return String(v == null ? '' : v)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+
+  function tableHTML(t) {
+    var st = sortState[t.id] || {};
+    var head = t.columns.map(function (c) {
+      var isSorted = st.key === c.key;
+      var arrow = isSorted ? (st.dir === 'asc' ? '▲' : '▼') : '↕';
+      var w = c.w ? ' style="width:' + c.w + '"' : '';
+      return '<th data-table="' + t.id + '" data-key="' + c.key + '" class="' + (isSorted ? 'sorted' : '') + '"' + w + '>' +
+        esc(c.label) + '<span class="arrow">' + arrow + '</span></th>';
+    }).join('');
+
+    var rows = t.rows.slice();
+    if (st.key) {
+      var col = t.columns.filter(function (c) { return c.key === st.key; })[0] || {};
+      rows.sort(function (a, b) {
+        var x = a[st.key], y = b[st.key];
+        var r = col.type === 'num' ? (Number(x) - Number(y)) : String(x).localeCompare(String(y), 'sv');
+        return st.dir === 'asc' ? r : -r;
+      });
+    }
+
+    var body = rows.map(function (r) {
+      return '<tr>' + t.columns.map(function (c) {
+        var cls = [];
+        if (c.key === 'pos' || c.key === 'ar') cls.push('rank');
+        else if (c.type === 'num') cls.push('is-num');
+        if (c.highlight) cls.push('is-highlight');
+        return '<td class="' + cls.join(' ') + '">' + esc(r[c.key]) + '</td>';
+      }).join('') + '</tr>';
+    }).join('');
+
+    var src = t.source
+      ? '<p class="stat-source">Källa: <a href="' + t.source.url + '" target="_blank" rel="noopener">' + esc(t.source.label) + ' →</a></p>'
+      : '';
+
+    return '<div class="stat-block">' +
+      '<h2>' + esc(t.title) + '</h2>' +
+      (t.note ? '<p class="stat-note">' + esc(t.note) + '</p>' : '') +
+      '<div class="table-wrap"><table class="stat-table"><thead><tr>' + head + '</tr></thead><tbody>' + body + '</tbody></table></div>' +
+      src + '</div>';
+  }
+
+  function renderStats() {
+    var el = document.getElementById('stats-body');
+    if (!el) return;
+    if (!TABLES.length) {
+      el.innerHTML = '<div class="no-results"><span>📊</span>Ingen statistik kunde laddas.</div>';
+      return;
+    }
+    el.innerHTML = TABLES.map(tableHTML).join('');
+    el.querySelectorAll('th[data-key]').forEach(function (th) {
+      th.addEventListener('click', function () {
+        var id = th.dataset.table, key = th.dataset.key;
+        var st = sortState[id] || {};
+        sortState[id] = { key: key, dir: (st.key === key && st.dir === 'asc') ? 'desc' : 'asc' };
+        renderStats();
+      });
+    });
+  }
+
+  function setView(view) {
+    var isStats = view === 'statistik';
+    document.getElementById('results').hidden = isStats;
+    document.getElementById('stats-view').hidden = !isStats;
+    document.getElementById('filters').style.display = isStats ? 'none' : '';
+    document.getElementById('result-count').style.display = isStats ? 'none' : '';
+    document.querySelector('.search-wrap').style.display = isStats ? 'none' : '';
+    document.querySelectorAll('.view-btn').forEach(function (b) {
+      b.classList.toggle('active', b.dataset.view === view);
+    });
+    if (isStats) renderStats();
+  }
+
+  document.getElementById('view-toggle').addEventListener('click', function (e) {
+    var btn = e.target.closest('.view-btn');
+    if (!btn) return;
+    setView(btn.dataset.view);
+    try {
+      var u = new URL(window.location);
+      if (btn.dataset.view === 'statistik') u.searchParams.set('vy', 'statistik');
+      else u.searchParams.delete('vy');
+      history.replaceState(null, '', u);
+    } catch (err) {}
+  });
+
   /* ── Ladda data ── */
   fetch('futsal-data.json')
     .then(r => r.json())
-    .then(d => { DATA = d.entries || []; try { buildLinkIndex(); } catch (e) {} render(); })
+    .then(d => {
+      DATA = d.entries || [];
+      TABLES = d.tables || [];
+      try { buildLinkIndex(); } catch (e) {}
+      render();
+      try {
+        if (new URLSearchParams(location.search).get('vy') === 'statistik') setView('statistik');
+      } catch (err) {}
+    })
     .catch(() => { resultsEl.innerHTML = '<div class="no-results"><span>⚠️</span>Kunde inte ladda databasen just nu. Försök igen senare.</div>'; });
   </script>
 </body>

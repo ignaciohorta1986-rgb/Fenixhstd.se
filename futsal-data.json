@@ -3151,7 +3151,549 @@
       "source": {
         "label": "SvFF — futsalhistorik",
         "url": "https://www.svenskfotboll.se/futsal/serier/historik/"
-      }
+      },
+      "history": [
+        {
+          "year": "2026",
+          "champ": "FC Kalmar",
+          "result": "Svenska mästare"
+        },
+        {
+          "year": "2025",
+          "champ": "Borås AIK",
+          "result": "Svenska mästare"
+        },
+        {
+          "year": "2024",
+          "champ": "Uddevalla FC",
+          "result": "Svenska mästare"
+        },
+        {
+          "year": "2023",
+          "champ": "Örebro SK",
+          "result": "Svenska mästare"
+        },
+        {
+          "year": "2022",
+          "champ": "Örebro SK",
+          "result": "Svenska mästare"
+        },
+        {
+          "year": "2021",
+          "champ": "Hammarby IF",
+          "result": "Svenska mästare"
+        },
+        {
+          "year": "2020",
+          "champ": "Hammarby IF",
+          "result": "Svenska mästare"
+        },
+        {
+          "year": "2019",
+          "champ": "IFK Uddevalla",
+          "result": "Svenska mästare"
+        },
+        {
+          "year": "2018",
+          "champ": "IFK Uddevalla",
+          "result": "Svenska mästare"
+        },
+        {
+          "year": "2017",
+          "champ": "IFK Uddevalla",
+          "result": "Svenska mästare"
+        },
+        {
+          "year": "2016",
+          "champ": "IFK Göteborg",
+          "result": "Svenska mästare"
+        },
+        {
+          "year": "2015",
+          "champ": "IFK Göteborg",
+          "result": "Svenska mästare"
+        },
+        {
+          "year": "2014",
+          "champ": "Malmö City",
+          "result": "Svenska mästare"
+        },
+        {
+          "year": "2013",
+          "champ": "Göteborg FC",
+          "result": "Svenska mästare"
+        },
+        {
+          "year": "2012",
+          "champ": "FC Ibra",
+          "result": "Svenska mästare"
+        },
+        {
+          "year": "2011",
+          "champ": "Falcao FC Stockholm",
+          "result": "Svenska mästare"
+        },
+        {
+          "year": "2010",
+          "champ": "Vimmerby IF",
+          "result": "Svenska mästare"
+        },
+        {
+          "year": "2009",
+          "champ": "Skövde AIK",
+          "result": "Svenska mästare"
+        },
+        {
+          "year": "2008",
+          "champ": "Skövde AIK",
+          "result": "Svenska mästare"
+        },
+        {
+          "year": "2007",
+          "champ": "Skövde AIK",
+          "result": "Svenska mästare"
+        },
+        {
+          "year": "2006",
+          "champ": "Skövde AIK",
+          "result": "Svenska mästare"
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "skytteligan",
+      "title": "Skytteligan — Svenska Futsalligan 2024/2025",
+      "note": "Everysports poängliga är identisk med skytteligan; assist redovisas inte i svensk futsal.",
+      "source": {
+        "label": "Everysport",
+        "url": "https://www.everysport.com/futsal-herr/2024-2025/serie/futsalligan/spelarstatistik/136508"
+      },
+      "columns": [
+        {
+          "key": "pos",
+          "label": "#",
+          "type": "num",
+          "w": "54px"
+        },
+        {
+          "key": "namn",
+          "label": "Spelare",
+          "type": "text"
+        },
+        {
+          "key": "klubb",
+          "label": "Klubb",
+          "type": "text"
+        },
+        {
+          "key": "mal",
+          "label": "Mål",
+          "type": "num",
+          "highlight": true
+        }
+      ],
+      "rows": [
+        {
+          "pos": 1,
+          "namn": "Flamur Tahiri",
+          "klubb": "Borås AIK",
+          "mal": 34
+        },
+        {
+          "pos": 2,
+          "namn": "Younes Raisi",
+          "klubb": "Borås AIK",
+          "mal": 33
+        },
+        {
+          "pos": 3,
+          "namn": "Henrik Lara Rodriguez",
+          "klubb": "FC Kalmar",
+          "mal": 32
+        },
+        {
+          "pos": 4,
+          "namn": "Fredrik Söderqvist",
+          "klubb": "Uddevalla FC",
+          "mal": 26
+        },
+        {
+          "pos": 5,
+          "namn": "Sandro Rickelb Souza Nascimento",
+          "klubb": "Örebro SK",
+          "mal": 26
+        },
+        {
+          "pos": 6,
+          "namn": "Maicon Tauan Dias Alves",
+          "klubb": "FC Kalmar",
+          "mal": 24
+        },
+        {
+          "pos": 7,
+          "namn": "Alagi Sosseh",
+          "klubb": "FC Kalmar",
+          "mal": 23
+        },
+        {
+          "pos": 8,
+          "namn": "Elias Ländin Sjöblom",
+          "klubb": "Söder Futsalklubb",
+          "mal": 23
+        },
+        {
+          "pos": 9,
+          "namn": "Petar Peric",
+          "klubb": "Söder Futsalklubb",
+          "mal": 23
+        },
+        {
+          "pos": 10,
+          "namn": "Noraldin Azizi",
+          "klubb": "Uddevalla FC",
+          "mal": 22
+        },
+        {
+          "pos": 11,
+          "namn": "Hampus Furublad",
+          "klubb": "Uddevalla FC",
+          "mal": 21
+        },
+        {
+          "pos": 12,
+          "namn": "Adem Öksüz",
+          "klubb": "FC Real Internacional",
+          "mal": 20
+        },
+        {
+          "pos": 13,
+          "namn": "Lavdim Azemi",
+          "klubb": "Skoftebyns IF",
+          "mal": 20
+        },
+        {
+          "pos": 14,
+          "namn": "Andrej Jekic",
+          "klubb": "Hammarby IF FF",
+          "mal": 18
+        },
+        {
+          "pos": 15,
+          "namn": "Adrijan Micevski",
+          "klubb": "Örebro SK",
+          "mal": 17
+        },
+        {
+          "pos": 16,
+          "namn": "Ignatius Malki",
+          "klubb": "Kalmar United FK",
+          "mal": 17
+        },
+        {
+          "pos": 17,
+          "namn": "Karvan Delashob",
+          "klubb": "Kalmar United FK",
+          "mal": 15
+        },
+        {
+          "pos": 18,
+          "namn": "Leonardo Mieli Zanata",
+          "klubb": "Örebro SK",
+          "mal": 15
+        },
+        {
+          "pos": 19,
+          "namn": "Mattin Atai Najafi",
+          "klubb": "Borås AIK",
+          "mal": 15
+        },
+        {
+          "pos": 20,
+          "namn": "Senad Berisha",
+          "klubb": "Örebro Futsal Club",
+          "mal": 15
+        }
+      ]
+    },
+    {
+      "id": "sm-herrar",
+      "title": "Svenska mästare i futsal — herrar",
+      "note": "Från 2006. Dessförinnan spelades “SM i 5-manna inomhus” 1994–2005.",
+      "source": {
+        "label": "SvFF — futsalhistorik",
+        "url": "https://www.svenskfotboll.se/futsal/serier/historik/"
+      },
+      "columns": [
+        {
+          "key": "ar",
+          "label": "År",
+          "type": "num",
+          "w": "84px"
+        },
+        {
+          "key": "mastare",
+          "label": "Svenska mästare",
+          "type": "text",
+          "highlight": true
+        }
+      ],
+      "rows": [
+        {
+          "ar": 2026,
+          "mastare": "FC Kalmar"
+        },
+        {
+          "ar": 2025,
+          "mastare": "Borås AIK"
+        },
+        {
+          "ar": 2024,
+          "mastare": "Uddevalla FC"
+        },
+        {
+          "ar": 2023,
+          "mastare": "Örebro SK"
+        },
+        {
+          "ar": 2022,
+          "mastare": "Örebro SK"
+        },
+        {
+          "ar": 2021,
+          "mastare": "Hammarby IF"
+        },
+        {
+          "ar": 2020,
+          "mastare": "Hammarby IF"
+        },
+        {
+          "ar": 2019,
+          "mastare": "IFK Uddevalla"
+        },
+        {
+          "ar": 2018,
+          "mastare": "IFK Uddevalla"
+        },
+        {
+          "ar": 2017,
+          "mastare": "IFK Uddevalla"
+        },
+        {
+          "ar": 2016,
+          "mastare": "IFK Göteborg"
+        },
+        {
+          "ar": 2015,
+          "mastare": "IFK Göteborg"
+        },
+        {
+          "ar": 2014,
+          "mastare": "Malmö City"
+        },
+        {
+          "ar": 2013,
+          "mastare": "Göteborg FC"
+        },
+        {
+          "ar": 2012,
+          "mastare": "FC Ibra"
+        },
+        {
+          "ar": 2011,
+          "mastare": "Falcao FC Stockholm"
+        },
+        {
+          "ar": 2010,
+          "mastare": "Vimmerby IF"
+        },
+        {
+          "ar": 2009,
+          "mastare": "Skövde AIK"
+        },
+        {
+          "ar": 2008,
+          "mastare": "Skövde AIK"
+        },
+        {
+          "ar": 2007,
+          "mastare": "Skövde AIK"
+        },
+        {
+          "ar": 2006,
+          "mastare": "Skövde AIK"
+        }
+      ]
+    },
+    {
+      "id": "sfl-lag",
+      "title": "Svenska Futsalligan 2025/2026 — de 12 lagen",
+      "note": "Hammarby IF FF fanns med i SvFF:s fastställda seriesammansättning men lade ner sin futsalverksamhet; FC Real Internacional behöll platsen.",
+      "source": {
+        "label": "Svenska Futsalligan",
+        "url": "https://svenskafutsalligan.se/"
+      },
+      "columns": [
+        {
+          "key": "klubb",
+          "label": "Klubb",
+          "type": "text"
+        },
+        {
+          "key": "distrikt",
+          "label": "Distrikt",
+          "type": "text"
+        },
+        {
+          "key": "sm",
+          "label": "SM-guld",
+          "type": "text",
+          "highlight": true
+        }
+      ],
+      "rows": [
+        {
+          "klubb": "Uddevalla Futsal Club",
+          "distrikt": "Bohuslän-Dal",
+          "sm": "1 (2024)"
+        },
+        {
+          "klubb": "FC Ljiljan Göteborg",
+          "distrikt": "Göteborg",
+          "sm": "—"
+        },
+        {
+          "klubb": "FC Kalmar",
+          "distrikt": "Småland",
+          "sm": "1 (2026)"
+        },
+        {
+          "klubb": "Kalmar United FK",
+          "distrikt": "Småland",
+          "sm": "—"
+        },
+        {
+          "klubb": "FC Real Internacional",
+          "distrikt": "Stockholm",
+          "sm": "—"
+        },
+        {
+          "klubb": "Söder Futsalklubb",
+          "distrikt": "Stockholm",
+          "sm": "—"
+        },
+        {
+          "klubb": "Skoftebyns IF",
+          "distrikt": "Västergötland",
+          "sm": "—"
+        },
+        {
+          "klubb": "Borås AIK",
+          "distrikt": "Västergötland",
+          "sm": "1 (2025)"
+        },
+        {
+          "klubb": "Ektorp FK",
+          "distrikt": "Östergötland",
+          "sm": "—"
+        },
+        {
+          "klubb": "Norrköping Futsal Klubb",
+          "distrikt": "Östergötland",
+          "sm": "—"
+        },
+        {
+          "klubb": "Örebro Futsal Club",
+          "distrikt": "Örebro",
+          "sm": "—"
+        },
+        {
+          "klubb": "Örebro SK Futsalklubb",
+          "distrikt": "Örebro",
+          "sm": "2 (2022, 2023)"
+        }
+      ]
+    },
+    {
+      "id": "landslaget",
+      "title": "Sveriges VM-kvaltrupp — april 2026",
+      "note": "Förbundskapten Matija Dulvat. Assisterande: Nima Kadivar. Landslagsansvarig: Nicklas Asp. Sverige vann gruppen.",
+      "source": {
+        "label": "SvFF — VM-kvaltruppen",
+        "url": "https://www.svenskfotboll.se/nyheter/landslag/2026/03/futsal-vm-kvaltrupp/"
+      },
+      "columns": [
+        {
+          "key": "namn",
+          "label": "Spelare",
+          "type": "text"
+        },
+        {
+          "key": "klubb",
+          "label": "Klubb",
+          "type": "text",
+          "highlight": true
+        }
+      ],
+      "rows": [
+        {
+          "namn": "Petrit Zhubi",
+          "klubb": "Uddevalla Futsal Club"
+        },
+        {
+          "namn": "Fredrik Söderqvist",
+          "klubb": "Uddevalla Futsal Club"
+        },
+        {
+          "namn": "Ismail Fazlija",
+          "klubb": "Uddevalla Futsal Club"
+        },
+        {
+          "namn": "Hampus Furublad",
+          "klubb": "Uddevalla Futsal Club"
+        },
+        {
+          "namn": "Albert Hiseni",
+          "klubb": "Uddevalla Futsal Club"
+        },
+        {
+          "namn": "Viktor Mossberg",
+          "klubb": "Uddevalla Futsal Club"
+        },
+        {
+          "namn": "Donat Gashi",
+          "klubb": "IFK Uddevalla"
+        },
+        {
+          "namn": "Fehim Smajlovic",
+          "klubb": "FC Ljiljan"
+        },
+        {
+          "namn": "Oscar Edh",
+          "klubb": "Skoftebyns IF"
+        },
+        {
+          "namn": "Bryan Johansson",
+          "klubb": "Skoftebyns IF"
+        },
+        {
+          "namn": "Abdoulie Bojang",
+          "klubb": "Borås AIK"
+        },
+        {
+          "namn": "Camil Altun",
+          "klubb": "Borås AIK"
+        },
+        {
+          "namn": "Gustav Rydberg",
+          "klubb": "FC Kalmar"
+        },
+        {
+          "namn": "Viktor Sääf",
+          "klubb": "BSF ABJ Bochnia (Polen)"
+        }
+      ]
     }
   ]
 }
