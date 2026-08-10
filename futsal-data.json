@@ -2446,7 +2446,24 @@
       "source": {
         "label": "Svenska Futsalligan",
         "url": "https://svenskafutsalligan.se/"
-      }
+      },
+      "members": [
+        "uddevalla-futsal-club",
+        "fc-ljiljan-goteborg",
+        "fc-kalmar",
+        "kalmar-united",
+        "fc-real-internacional",
+        "soder-futsal",
+        "skoftebyns-if",
+        "boras-aik",
+        "ektorp-fk",
+        "norrkoping-fk",
+        "orebro-futsal-club",
+        "orebro-sk"
+      ],
+      "membersNote": "De 12 lagen i SFL herrar 2025/2026 — klicka för klubbens sida",
+      "officialUrl": "https://svenskafutsalligan.se/",
+      "officialLabel": "Öppna Svenska Futsalligans egen sida"
     },
     {
       "id": "division-1-se",
@@ -2607,10 +2624,14 @@
         "Halland fick egna futsalserier från 2024.",
         "Ungdomsserier i klasserna U13–U19, med spelperiod ungefär november–februari.",
         "Seniorserier arrangeras utifrån antalet anmälda lag.",
-        "Fenix_hstd hör hemma i detta distrikt — Halmstad."
+        "Fenix_hstd hör hemma i detta distrikt — Halmstad.",
+        "Futsalserier finns för seniorer (damer och herrar) samt ungdom från 13 år och uppåt, inklusive U17.",
+        "Anmälan är bindande och görs i Fogis — senast den 31 augusti.",
+        "Domaravgift 650 kr per lag i de spelformer där Hallands FF tillsätter domare. Ungdomsfutsal 600 kr.",
+        "Tävlingskonsulent för futsal: Gert-Inge Svensson, 035-265 20 21, gert-inge.svensson@svenskfotboll.se. Kansliet: 035-265 20 20."
       ],
       "source": {
-        "label": "Hallands FF — Futsal",
+        "label": "Hallands FF — futsal",
         "url": "https://halland.svenskfotboll.se/tavling/futsal/"
       }
     },
@@ -2641,7 +2662,20 @@
       "source": {
         "label": "Örebro Futsal Club",
         "url": "https://www.orebrofutsal.se/"
-      }
+      },
+      "squad": [
+        {
+          "name": "Senad Berisha",
+          "pos": "15 mål 2024/25"
+        },
+        {
+          "name": "Coquinho (Lucas Bonifacio dos Santos)",
+          "pos": "Offensiv · 31 år · Rio de Janeiro"
+        }
+      ],
+      "squadNote": "Kända spelare",
+      "officialUrl": "https://www.orebrofutsal.se/",
+      "officialLabel": "Örebro Futsal Clubs egen sida"
     },
     {
       "id": "orebro-sk",
@@ -2675,7 +2709,28 @@
       "source": {
         "label": "Svenska Futsalligan — inför premiären",
         "url": "https://svenskafutsalligan.se/infor-premiaromgangen/"
-      }
+      },
+      "squad": [
+        {
+          "name": "Sandro Rickelb Souza Nascimento",
+          "pos": "26 mål 2024/25"
+        },
+        {
+          "name": "Adrijan Micevski",
+          "pos": "17 mål 2024/25"
+        },
+        {
+          "name": "Leonardo Mieli Zanata",
+          "pos": "15 mål 2024/25"
+        },
+        {
+          "name": "Henrik Lara Rodriguez",
+          "pos": "Återvänd — 72 mål på 59 matcher i FC Kalmar"
+        }
+      ],
+      "squadNote": "Kända spelare — skytteligan 2024/25",
+      "officialUrl": "https://oskfutsal.se/",
+      "officialLabel": "Örebro SK Futsals egen sida"
     },
     {
       "id": "uddevalla-futsal-club",
@@ -2720,7 +2775,40 @@
       "source": {
         "label": "Uddevalla Futsal",
         "url": "https://uddevallafutsal.se/"
-      }
+      },
+      "squad": [
+        {
+          "name": "Petrit Zhubi",
+          "pos": "Landslaget 2026"
+        },
+        {
+          "name": "Fredrik Söderqvist",
+          "pos": "26 mål · landslaget"
+        },
+        {
+          "name": "Ismail Fazlija",
+          "pos": "Landslaget 2026"
+        },
+        {
+          "name": "Hampus Furublad",
+          "pos": "21 mål · landslaget"
+        },
+        {
+          "name": "Albert Hiseni",
+          "pos": "Landslaget 2026"
+        },
+        {
+          "name": "Viktor Mossberg",
+          "pos": "Landslaget 2026"
+        },
+        {
+          "name": "Noraldin Azizi",
+          "pos": "22 mål 2024/25"
+        }
+      ],
+      "squadNote": "Kända spelare — landslaget 2026 och skytteligan",
+      "officialUrl": "https://uddevallafutsal.se/",
+      "officialLabel": "Uddevalla Futsals egen sida"
     },
     {
       "id": "soder-futsal",
@@ -2759,7 +2847,36 @@
       "source": {
         "label": "Söder Futsal — om klubben",
         "url": "https://www.laget.se/soderfutsalklubb/About"
-      }
+      },
+      "squad": [
+        {
+          "name": "Elias Ländin Sjöblom",
+          "pos": "23 mål 2024/25"
+        },
+        {
+          "name": "Petar Peric",
+          "pos": "23 mål 2024/25"
+        },
+        {
+          "name": "Emad Ade Ali Quasem",
+          "pos": "2 mål på 15 matcher 2025/26"
+        },
+        {
+          "name": "Alexander Browne",
+          "pos": "1 assist på 21 matcher 2025/26"
+        },
+        {
+          "name": "Aleksandar Mijajlovic",
+          "pos": "Målvakt — 21 matcher 2025/26"
+        },
+        {
+          "name": "Victor Jilvan Rassuli",
+          "pos": "Målvakt — 16 matcher 2025/26"
+        }
+      ],
+      "squadNote": "Kända spelare — skytteligan och klubbens egen statistik",
+      "officialUrl": "https://www.soderfutsal.se/",
+      "officialLabel": "Söder Futsals egen sida"
     },
     {
       "id": "fc-kalmar",
@@ -2799,7 +2916,28 @@
       "source": {
         "label": "Smålandsfotbollen",
         "url": "https://www.smalandsfotbollen.se/nyheter/2026/04/sm-guld-till-fc-kalmar-i-futsal/"
-      }
+      },
+      "squad": [
+        {
+          "name": "Maicon Tauan Dias Alves",
+          "pos": "24 mål 2024/25"
+        },
+        {
+          "name": "Alagi Sosseh",
+          "pos": "23 mål 2024/25"
+        },
+        {
+          "name": "Gustav Rydberg",
+          "pos": "Landslaget 2026"
+        },
+        {
+          "name": "Henrik Lara Rodriguez",
+          "pos": "32 mål 2024/25 — nu Örebro SK"
+        }
+      ],
+      "squadNote": "Kända spelare — skytteligan 2024/25 och landslaget",
+      "officialUrl": "https://www.fckalmar.se/",
+      "officialLabel": "FC Kalmars egen sida"
     },
     {
       "id": "kalmar-united",
@@ -2826,7 +2964,18 @@
       "source": {
         "label": "Svenska Futsalligan — inför premiären",
         "url": "https://svenskafutsalligan.se/infor-premiaromgangen/"
-      }
+      },
+      "squad": [
+        {
+          "name": "Ignatius Malki",
+          "pos": "17 mål 2024/25"
+        },
+        {
+          "name": "Karvan Delashob",
+          "pos": "15 mål 2024/25"
+        }
+      ],
+      "squadNote": "Kända spelare — skytteligan 2024/25"
     },
     {
       "id": "boras-aik",
@@ -2861,7 +3010,32 @@
       "source": {
         "label": "BAIK Futsal",
         "url": "https://baikfutsal.se/"
-      }
+      },
+      "squad": [
+        {
+          "name": "Flamur Tahiri",
+          "pos": "34 mål 2024/25 — skyttekung"
+        },
+        {
+          "name": "Younes Raisi",
+          "pos": "33 mål 2024/25"
+        },
+        {
+          "name": "Mattin Atai Najafi",
+          "pos": "15 mål 2024/25"
+        },
+        {
+          "name": "Abdoulie Bojang",
+          "pos": "Landslaget 2026"
+        },
+        {
+          "name": "Camil Altun",
+          "pos": "Landslaget 2026"
+        }
+      ],
+      "squadNote": "Kända spelare — skytteligan 2024/25 och landslaget",
+      "officialUrl": "https://baikfutsal.se/",
+      "officialLabel": "BAIK Futsals egen sida"
     },
     {
       "id": "norrkoping-fk",
@@ -2895,7 +3069,9 @@
       "source": {
         "label": "Norrköping Futsal Klubb",
         "url": "https://www.svenskalag.se/norrkopingfutsal"
-      }
+      },
+      "officialUrl": "https://www.svenskalag.se/norrkopingfutsal",
+      "officialLabel": "Norrköping Futsal Klubbs sida"
     },
     {
       "id": "skoftebyns-if",
@@ -2934,7 +3110,24 @@
       "source": {
         "label": "Skoftebyn Futsal",
         "url": "https://www.skoftebynfutsal.se/"
-      }
+      },
+      "squad": [
+        {
+          "name": "Lavdim Azemi",
+          "pos": "20 mål 2024/25 · U19-tränare"
+        },
+        {
+          "name": "Oscar Edh",
+          "pos": "Landslaget 2026"
+        },
+        {
+          "name": "Bryan Johansson",
+          "pos": "Landslaget 2026"
+        }
+      ],
+      "squadNote": "Kända spelare — skytteligan 2024/25 och landslaget",
+      "officialUrl": "https://www.skoftebynfutsal.se/",
+      "officialLabel": "Skoftebyn Futsals egen sida"
     },
     {
       "id": "fc-ljiljan-goteborg",
@@ -2973,7 +3166,16 @@
       "source": {
         "label": "Futsalmagasinet",
         "url": "https://www.futsalmagasinet.se/2025/03/01/fc-ljiljan-goteborg-klart-for-hogstaligan/"
-      }
+      },
+      "squad": [
+        {
+          "name": "Fehim Smajlovic",
+          "pos": "Spelande tränare · landslaget"
+        }
+      ],
+      "squadNote": "Kända spelare",
+      "officialUrl": "https://www.svenskalag.se/fcljiljan",
+      "officialLabel": "FC Ljiljans sida"
     },
     {
       "id": "ektorp-fk",
@@ -3005,7 +3207,9 @@
       "source": {
         "label": "SvFF — Ektorp FK och FC Ljiljan uppflyttade",
         "url": "https://www.svenskfotboll.se/nyheter/serier/2025/02/sfl-ektorp-fk-och-fc-ljiljan-uppflyttade/"
-      }
+      },
+      "officialUrl": "https://www.svenskalag.se/ektorpfk",
+      "officialLabel": "Ektorp FK:s sida"
     },
     {
       "id": "fc-real-internacional",
@@ -3040,7 +3244,14 @@
       "source": {
         "label": "Svenska Futsalligan",
         "url": "https://svenskafutsalligan.se/fc-real-internacional-klara-for-sfl/"
-      }
+      },
+      "squad": [
+        {
+          "name": "Adem Öksüz",
+          "pos": "20 mål 2024/25"
+        }
+      ],
+      "squadNote": "Kända spelare — skytteligan 2024/25"
     },
     {
       "id": "kungsbacka-if",
@@ -3318,6 +3529,80 @@
           "result": "Svenska mästare"
         }
       ]
+    },
+    {
+      "id": "rfl",
+      "type": "svensk",
+      "name": "Regionala Futsalligan (RFL)",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · Damernas högsta nivå",
+      "country": "Sverige",
+      "tagline": "Damernas högsta futsalliga i Sverige — två regionala serier med SM-slutspel.",
+      "stats": [
+        {
+          "label": "Antal lag",
+          "value": "13"
+        },
+        {
+          "label": "Serier",
+          "value": "Götaland (6) + Svealand (7)"
+        },
+        {
+          "label": "Mästare 2025",
+          "value": "Borås AIK"
+        }
+      ],
+      "facts": [
+        "Ligaspelet 2025/26 är fördelat på två serier med totalt 13 lag: RFL Götaland med 6 lag och RFL Svealand med 7 lag.",
+        "RFL Götaland: Backatorp IF, Borås AIK, IFK Göteborg, Skoftebyns IF, Södra Härene IF, Uddevalla Futsal Club.",
+        "RFL Svealand: IFK Kumla, Motala Futsalklubb, Svärtinge SK, Södertälje Futsal Club, Vallentuna BK, Viggbyholms IK, Örebro Futsal Club.",
+        "Seriepremiären för säsongen 2025/26 spelades helgen den 30 oktober 2025.",
+        "Senaste svenska mästarinnor: Borås AIK (2025 och 2023), Hammarby IF FF (2024), GAIS Futsal (2022).",
+        "Spelordningarna för säsongen 2026/2027 offentliggjordes den 17 juni 2026."
+      ],
+      "source": {
+        "label": "SvFF — RFL-premiär",
+        "url": "https://www.svenskfotboll.se/nyheter/serier/2025/10/rfl-premiar-i-helgen"
+      },
+      "members": [
+        "boras-aik",
+        "skoftebyns-if",
+        "uddevalla-futsal-club",
+        "orebro-futsal-club"
+      ],
+      "membersNote": "RFL-klubbar som även finns i databasen",
+      "officialUrl": "https://www.svenskfotboll.se/futsal/serier/",
+      "officialLabel": "Öppna SvFF:s seriesida"
+    },
+    {
+      "id": "svensk-futsal-org",
+      "type": "svensk",
+      "name": "Svensk Futsal",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · Intresseorganisation",
+      "country": "Sverige",
+      "tagline": "Klubbarnas egen intresseorganisation — äger de kommersiella rättigheterna till SFL och RFL.",
+      "stats": [
+        {
+          "label": "Grundad",
+          "value": "27 april 2025"
+        },
+        {
+          "label": "Rättigheter t.o.m.",
+          "value": "30 juni 2028"
+        }
+      ],
+      "facts": [
+        "Nationell intresseorganisation som samlar föreningarna i Svenska Futsalligan (herrar) och Regionala Futsalligan (damer). Grundad den 27 april 2025.",
+        "En principöverenskommelse med SvFF ger Svensk Futsal rätten att exploatera de kommersiella rättigheterna kring SFL och RFL fram till och med 30 juni 2028 — till exempel spelpartner och sändande bolag.",
+        "Överenskommelsen reglerar även hur SvFF och Svensk Futsal ska samverka kring domarverksamhet och tävlingsutveckling.",
+        "Bakgrunden är att Svensk Elitfotboll (SEF) släppte sitt ligaansvar för SFL den 1 maj 2025.",
+        "Efter 2024 års omstöpning av futsalverksamheten är det uttalade målet att bygga basen i svensk futsal starkare runt om i landet — vilket gör nystartade föreningar till en del av strategin."
+      ],
+      "source": {
+        "label": "SvFF — principöverenskommelse",
+        "url": "https://svenskafutsalligan.se/principoverenskommelse-mellan-svff-och-svensk-futsal/"
+      }
     }
   ],
   "tables": [
@@ -3751,6 +4036,82 @@
         {
           "namn": "Viktor Sääf",
           "klubb": "BSF ABJ Bochnia (Polen)"
+        }
+      ]
+    },
+    {
+      "id": "rfl-lag",
+      "title": "Regionala Futsalligan dam 2025/2026 — 13 lag",
+      "note": "Damernas högsta nivå, uppdelad i två regionala serier. Premiär 30 oktober 2025.",
+      "source": {
+        "label": "SvFF — RFL-premiär",
+        "url": "https://www.svenskfotboll.se/nyheter/serier/2025/10/rfl-premiar-i-helgen"
+      },
+      "columns": [
+        {
+          "key": "klubb",
+          "label": "Klubb",
+          "type": "text"
+        },
+        {
+          "key": "serie",
+          "label": "Serie",
+          "type": "text",
+          "highlight": true
+        }
+      ],
+      "rows": [
+        {
+          "klubb": "Backatorp IF",
+          "serie": "RFL Götaland"
+        },
+        {
+          "klubb": "Borås AIK",
+          "serie": "RFL Götaland"
+        },
+        {
+          "klubb": "IFK Göteborg",
+          "serie": "RFL Götaland"
+        },
+        {
+          "klubb": "Skoftebyns IF",
+          "serie": "RFL Götaland"
+        },
+        {
+          "klubb": "Södra Härene IF",
+          "serie": "RFL Götaland"
+        },
+        {
+          "klubb": "Uddevalla Futsal Club",
+          "serie": "RFL Götaland"
+        },
+        {
+          "klubb": "IFK Kumla",
+          "serie": "RFL Svealand"
+        },
+        {
+          "klubb": "Motala Futsalklubb",
+          "serie": "RFL Svealand"
+        },
+        {
+          "klubb": "Svärtinge SK",
+          "serie": "RFL Svealand"
+        },
+        {
+          "klubb": "Södertälje Futsal Club",
+          "serie": "RFL Svealand"
+        },
+        {
+          "klubb": "Vallentuna BK",
+          "serie": "RFL Svealand"
+        },
+        {
+          "klubb": "Viggbyholms IK",
+          "serie": "RFL Svealand"
+        },
+        {
+          "klubb": "Örebro Futsal Club",
+          "serie": "RFL Svealand"
         }
       ]
     }

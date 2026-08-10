@@ -457,6 +457,44 @@
       z-index: 2;
     }
     .data-note strong { color: var(--text); }
+    /* ── Lag i serien (nedbrytning) ── */
+    .modal-members { margin-bottom: 1.5rem; }
+    .modal-members h4 {
+      font-family: var(--font-head); font-size: 0.78rem; font-weight: 700;
+      letter-spacing: 0.09em; text-transform: uppercase;
+      color: var(--blue-light); margin-bottom: 0.75rem;
+    }
+    .member-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 0.5rem; }
+    .member-item {
+      display: flex; align-items: center; gap: 0.6rem; text-align: left;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(100,160,255,0.14);
+      border-radius: 12px; padding: 0.65rem 0.85rem;
+      cursor: pointer; font-family: var(--font-body);
+      transition: border-color 0.2s, transform 0.15s, background 0.2s;
+    }
+    .member-item:hover {
+      border-color: rgba(255,107,43,0.45);
+      background: rgba(255,107,43,0.08);
+      transform: translateX(3px);
+    }
+    .mem-flag { font-size: 1.1rem; }
+    .mem-name { font-size: 0.88rem; font-weight: 600; color: var(--text); flex: 1; }
+    .mem-meta { font-size: 0.72rem; color: var(--gold); white-space: nowrap; }
+
+    .official-link {
+      display: inline-block; margin-bottom: 1.25rem;
+      font-size: 0.88rem; font-weight: 600;
+      color: var(--fire); text-decoration: none;
+      border: 1px solid rgba(255,69,0,0.3);
+      border-radius: 999px; padding: 0.5rem 1.1rem;
+      transition: background 0.2s, color 0.2s, border-color 0.2s;
+    }
+    .official-link:hover {
+      background: rgba(255,69,0,0.12); color: var(--gold);
+      border-color: rgba(255,214,10,0.4);
+    }
+
     /* ── Vylägen ── */
     [hidden] { display: none !important; }
     .view-toggle {
@@ -910,6 +948,30 @@
     const stats = (e.stats || []).map(s => `<div class="modal-stat"><div class="v">${s.value}</div><div class="l">${s.label}</div></div>`).join('');
     const facts = (e.facts || []).map(f => `<li>${linkify(f, e.id)}</li>`).join('');
     const history = (e.history || []).map(h => `<div class="hist-row"><span class="hist-year">${h.year}</span><span class="hist-champ">${linkify(h.champ, e.id)}</span><span class="hist-res">${h.result}</span></div>`).join('');
+    /* Lag i serien — klickbar nedbrytning */
+    let membersHTML = '';
+    if (e.members && e.members.length) {
+      const items = e.members.map(mid => {
+        const m = DATA.find(x => x.id === mid);
+        if (!m) return '';
+        const merit = (m.stats || []).filter(s => s.label === 'SM-guld')[0];
+        return `<button class="member-item" data-goto="${m.id}">
+            <span class="mem-flag">${m.flag}</span>
+            <span class="mem-name">${m.name}</span>
+            <span class="mem-meta">${merit ? '🏆 ' + merit.value : (m.sub || '').split('·').pop().trim()}</span>
+          </button>`;
+      }).join('');
+      membersHTML = `<div class="modal-members">
+          <h4>Lag i serien (${e.members.length})${e.membersNote ? ' — ' + e.membersNote : ''}</h4>
+          <div class="member-list">${items}</div>
+        </div>`;
+    }
+
+    /* Officiell länk */
+    const officialHTML = e.officialUrl
+      ? `<a class="official-link" href="${e.officialUrl}" target="_blank" rel="noopener">🔗 ${e.officialLabel || 'Officiell sida'} →</a>`
+      : '';
+
     const related = getRelated(e);
     const relHTML = related.length
       ? `<div class="modal-related"><h4>Utforska vidare</h4><div class="rel-chips">${related.map(r => `<button class="rel-chip" data-goto="${r.id}"><span>${r.flag}</span> ${r.name} <em class="rel-type">${TYPE_LABEL[r.type]}</em></button>`).join('')}</div></div>`
@@ -951,16 +1013,31 @@
       <div class="modal-stats">${stats}</div>
       <ul class="modal-facts">${facts}</ul>
       ${e.history ? `<div class="modal-history"><h4>Historik — alla mästare</h4>${history}</div>` : ''}
+      ${membersHTML}
       ${rosterHTML}
+      ${officialHTML}
       ${relHTML}
       <p class="modal-source">📚 Källa: <a href="${e.source.url}" target="_blank" rel="noopener">${e.source.label}</a></p>`;
     overlay.classList.add('open');
+    try {
+      var u = new URL(window.location);
+      u.searchParams.set('post', e.id);
+      history.replaceState(null, '', u);
+    } catch (err) {}
     document.body.style.overflow = 'hidden';
     document.getElementById('modal-close').addEventListener('click', closeModal);
-    modal.querySelectorAll('.rel-chip, .inline-link, .roster-item[data-goto]').forEach(c => c.addEventListener('click', () => openModal(c.dataset.goto)));
+    modal.querySelectorAll('.rel-chip, .inline-link, .roster-item[data-goto], .member-item[data-goto]').forEach(c => c.addEventListener('click', () => openModal(c.dataset.goto)));
     modal.scrollTop = 0;
   }
-  function closeModal() { overlay.classList.remove('open'); document.body.style.overflow = ''; }
+  function closeModal() {
+    overlay.classList.remove('open');
+    document.body.style.overflow = '';
+    try {
+      var u = new URL(window.location);
+      u.searchParams.delete('post');
+      history.replaceState(null, '', u);
+    } catch (err) {}
+  }
   overlay.addEventListener('click', e => { if (e.target === overlay) closeModal(); });
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
@@ -1077,7 +1154,10 @@
       try { buildLinkIndex(); } catch (e) {}
       render();
       try {
-        if (new URLSearchParams(location.search).get('vy') === 'statistik') setView('statistik');
+        var qs = new URLSearchParams(location.search);
+        if (qs.get('vy') === 'statistik') setView('statistik');
+        var post = qs.get('post');
+        if (post && DATA.some(function (x) { return x.id === post; })) openModal(post);
       } catch (err) {}
     })
     .catch(() => { resultsEl.innerHTML = '<div class="no-results"><span>⚠️</span>Kunde inte ladda databasen just nu. Försök igen senare.</div>'; });
