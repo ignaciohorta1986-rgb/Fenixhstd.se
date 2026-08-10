@@ -2634,11 +2634,13 @@
       ],
       "facts": [
         "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26.",
-        "Från Örebro."
+        "Från Örebro.",
+        "Värvade Coquinho — Lucas Bonifacio dos Santos — en 31-årig offensiv spelare från Rio de Janeiro.",
+        "Senad Berisha gjorde 15 mål i SFL 2024/2025."
       ],
       "source": {
-        "label": "Svenska Futsalligan — inför premiären",
-        "url": "https://svenskafutsalligan.se/infor-premiaromgangen/"
+        "label": "Örebro Futsal Club",
+        "url": "https://www.orebrofutsal.se/"
       }
     },
     {
@@ -2666,7 +2668,9 @@
       "facts": [
         "Svenska mästare 2022 och 2023.",
         "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26.",
-        "Från Örebro."
+        "Från Örebro.",
+        "Henrik Lara Rodriguez återvände till klubben efter mer än två säsonger i FC Kalmar, där han gjorde 72 mål på 59 matcher.",
+        "Sandro Rickelb Souza Nascimento (26 mål), Adrijan Micevski (17) och Leonardo Mieli Zanata (15) fanns alla bland skytteligans 20 främsta 2024/2025."
       ],
       "source": {
         "label": "Svenska Futsalligan — inför premiären",
@@ -2723,7 +2727,7 @@
       "type": "svensk",
       "name": "Söder Futsal",
       "flag": "🇸🇪",
-      "sub": "Svensk futsal · SFL (herr) 2025/26",
+      "sub": "Svensk futsal · SFL (herr) · Stockholm",
       "country": "Sverige Stockholm",
       "tagline": "Stockholmslag i Svenska Futsalligan.",
       "stats": [
@@ -2734,15 +2738,27 @@
         {
           "label": "Säsong",
           "value": "2025/26"
+        },
+        {
+          "label": "Grundad",
+          "value": "2012"
+        },
+        {
+          "label": "Hemmaarena",
+          "value": "Farstahallen"
         }
       ],
       "facts": [
         "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26.",
-        "Representerar Stockholm; återvände till högsta serien 2024/25."
+        "Representerar Stockholm; återvände till högsta serien 2024/25.",
+        "Laget började spela tillsammans 2005 i Bajen Futsal Cup. 2010 bildades en futsalsektion i föreningen En Bro Förmyckers, och 2012 blev Söder Futsalklubb en helt fristående futsalförening.",
+        "Hemmaarena genom åren: Enskedehallen, därefter Vintervikshallen, Skärholmshallen från 2022/23 och nu Farstahallen — bytet gjordes för att SFL ställer högre krav på arenan.",
+        "Tränare i urval: Lars Åkerlund och Joakim Eriksson (2016–2017), Benyam Seyoum (2017–2018), Hadi Nasirian (2018–2019), Emil Nilsson (2019–2020), Mohammed Kadirzada (2022–2025) och Patrick Mallengren (2025/26).",
+        "Elias Ländin Sjöblom och Petar Peric gjorde 23 mål vardera i SFL 2024/2025."
       ],
       "source": {
-        "label": "Svenska Futsalligan — inför premiären",
-        "url": "https://svenskafutsalligan.se/infor-premiaromgangen/"
+        "label": "Söder Futsal — om klubben",
+        "url": "https://www.laget.se/soderfutsalklubb/About"
       }
     },
     {
@@ -2750,7 +2766,7 @@
       "type": "svensk",
       "name": "FC Kalmar",
       "flag": "🇸🇪",
-      "sub": "Svensk futsal · SFL (herr) 2025/26",
+      "sub": "Svensk futsal · SFL (herr) · Kalmar",
       "country": "Sverige Kalmar",
       "tagline": "Kalmarklubb i högsta futsalserien.",
       "stats": [
@@ -2765,16 +2781,24 @@
         {
           "label": "SM-guld",
           "value": "1 (2026)"
+        },
+        {
+          "label": "Hemmaarena",
+          "value": "Pontuz Löfgren Arena"
         }
       ],
       "facts": [
         "Svenska mästare 2026 — klubbens och Smålands första SM-guld i futsal.",
         "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26.",
-        "Från Kalmar."
+        "Från Kalmar.",
+        "Tog SM-guld 2026 i klubbens blott tredje säsong i SFL.",
+        "Uppflyttad till SFL inför säsongen 2023/2024 från Division 1.",
+        "Spelar hemmamatcherna i Pontuz Löfgren Arena.",
+        "Henrik Lara Rodriguez gjorde 72 mål på 59 matcher för klubben innan han återvände till Örebro SK."
       ],
       "source": {
-        "label": "Svenska Futsalligan — inför premiären",
-        "url": "https://svenskafutsalligan.se/infor-premiaromgangen/"
+        "label": "Smålandsfotbollen",
+        "url": "https://www.smalandsfotbollen.se/nyheter/2026/04/sm-guld-till-fc-kalmar-i-futsal/"
       }
     },
     {
@@ -2829,11 +2853,14 @@
       "facts": [
         "Svenska mästare 2025. Klubben hade även skytteligans två främsta 2024/2025 i Flamur Tahiri (34 mål) och Younes Raisi (33).",
         "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26.",
-        "Från Borås."
+        "Från Borås.",
+        "Herrlaget har spelat i SFL sedan starten 2014.",
+        "Hoshi Solaimani, som spelat i klubben sedan SFL-debuten 2014, utsågs till tränare inför 2022/23. Mikael Andersson kom in som ny målvaktstränare samma säsong.",
+        "Hade skytteligans två främsta 2024/2025: Flamur Tahiri (34 mål) och Younes Raisi (33)."
       ],
       "source": {
-        "label": "Svenska Futsalligan — inför premiären",
-        "url": "https://svenskafutsalligan.se/infor-premiaromgangen/"
+        "label": "BAIK Futsal",
+        "url": "https://baikfutsal.se/"
       }
     },
     {
@@ -2841,7 +2868,7 @@
       "type": "svensk",
       "name": "Norrköping FK",
       "flag": "🇸🇪",
-      "sub": "Svensk futsal · SFL (herr) 2025/26",
+      "sub": "Svensk futsal · SFL (herr) · Norrköping",
       "country": "Sverige Norrköping",
       "tagline": "Norrköpingsklubb i högsta futsalserien.",
       "stats": [
@@ -2852,15 +2879,22 @@
         {
           "label": "Säsong",
           "value": "2025/26"
+        },
+        {
+          "label": "Hemmaarena",
+          "value": "Åby Arena"
         }
       ],
       "facts": [
         "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26.",
-        "Från Norrköping."
+        "Från Norrköping.",
+        "Spelar sina hemmamatcher i Åby Arena.",
+        "Säkrade SFL-kontraktet i den allra sista omgången.",
+        "Värvade spelare från Hammarby när klubben lade ner sin futsalverksamhet inför 2025/26."
       ],
       "source": {
-        "label": "Svenska Futsalligan — inför premiären",
-        "url": "https://svenskafutsalligan.se/infor-premiaromgangen/"
+        "label": "Norrköping Futsal Klubb",
+        "url": "https://www.svenskalag.se/norrkopingfutsal"
       }
     },
     {
@@ -2907,7 +2941,7 @@
       "type": "svensk",
       "name": "FC Ljiljan Göteborg",
       "flag": "🇸🇪",
-      "sub": "Svensk futsal · SFL (herr) 2025/26",
+      "sub": "Svensk futsal · SFL (herr) · Mölnlycke",
       "country": "Sverige Göteborg",
       "tagline": "Göteborgsklubb, nykomling i SFL.",
       "stats": [
@@ -2918,15 +2952,27 @@
         {
           "label": "Status",
           "value": "Nykomling"
+        },
+        {
+          "label": "Grundad",
+          "value": "2017"
+        },
+        {
+          "label": "SFL sedan",
+          "value": "2025/26"
         }
       ],
       "facts": [
         "Nykomling i Svenska Futsalligan (SFL) säsongen 2025/26.",
-        "Från Göteborg."
+        "Från Göteborg.",
+        "Grundad 2017 av Haris Avdic och två vänner. Klubben har bosniska rötter och spelade först diasporaturneringar innan den gick in i seriesystemet.",
+        "Håller till i Mölnlycke i Härryda kommun.",
+        "Tog steget upp till SFL våren 2025 genom att vinna Division 1 Västra Götaland och sluta tvåa i uppflyttningsspelet.",
+        "Spelande tränare är Fehim Smajlovic, som även spelar i det svenska landslaget."
       ],
       "source": {
-        "label": "Svenska Futsalligan — inför premiären",
-        "url": "https://svenskafutsalligan.se/infor-premiaromgangen/"
+        "label": "Futsalmagasinet",
+        "url": "https://www.futsalmagasinet.se/2025/03/01/fc-ljiljan-goteborg-klart-for-hogstaligan/"
       }
     },
     {
@@ -2934,7 +2980,7 @@
       "type": "svensk",
       "name": "Ektorp FK",
       "flag": "🇸🇪",
-      "sub": "Svensk futsal · SFL (herr) 2025/26",
+      "sub": "Svensk futsal · SFL (herr) · Norrköping",
       "country": "Sverige",
       "tagline": "Nykomling i SFL, uppflyttad från division 1.",
       "stats": [
@@ -2945,14 +2991,20 @@
         {
           "label": "Status",
           "value": "Nykomling"
+        },
+        {
+          "label": "SFL sedan",
+          "value": "2025/26"
         }
       ],
       "facts": [
-        "Nykomling i Svenska Futsalligan (SFL) säsongen 2025/26 efter att överlägset ha vunnit sin division 1-serie."
+        "Nykomling i Svenska Futsalligan (SFL) säsongen 2025/26 efter att överlägset ha vunnit sin division 1-serie.",
+        "Uppflyttad till SFL inför 2025/26 efter en klar seger i Division 1 Mellersta Götaland.",
+        "Avgjorde uppflyttningen i ett trelagsspel tillsammans med FC Ljiljan Göteborg mot Sevdah IF."
       ],
       "source": {
-        "label": "Svenska Futsalligan — inför premiären",
-        "url": "https://svenskafutsalligan.se/infor-premiaromgangen/"
+        "label": "SvFF — Ektorp FK och FC Ljiljan uppflyttade",
+        "url": "https://www.svenskfotboll.se/nyheter/serier/2025/02/sfl-ektorp-fk-och-fc-ljiljan-uppflyttade/"
       }
     },
     {
@@ -2960,7 +3012,7 @@
       "type": "svensk",
       "name": "FC Real Internacional",
       "flag": "🇸🇪",
-      "sub": "Svensk futsal · SFL (herr) 2025/26",
+      "sub": "Svensk futsal · SFL (herr) · Jönköping",
       "country": "Sverige",
       "tagline": "SFL-klubb i högsta futsalserien.",
       "stats": [
@@ -2971,16 +3023,23 @@
         {
           "label": "Säsong",
           "value": "2025/26"
+        },
+        {
+          "label": "SFL sedan",
+          "value": "2023/24"
         }
       ],
       "facts": [
         "Behöll sin SFL-plats inför 2025/26 sedan Hammarby lagt ner sin futsalverksamhet.",
         "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26.",
-        "Behöll SFL-platsen när Hammarby lade ner sin futsalverksamhet."
+        "Behöll SFL-platsen när Hammarby lade ner sin futsalverksamhet.",
+        "Klubben kommer från Jönköping.",
+        "Kvalificerade sig till SFL inför 2023/2024 efter andraplats i uppflyttningsspelet, sedan man vunnit Division 1 Västra Götaland på bättre målskillnad än Nol IK.",
+        "Adem Öksüz gjorde 20 mål i SFL 2024/2025."
       ],
       "source": {
-        "label": "Svenska Futsalligan — inför premiären",
-        "url": "https://svenskafutsalligan.se/infor-premiaromgangen/"
+        "label": "Svenska Futsalligan",
+        "url": "https://svenskafutsalligan.se/fc-real-internacional-klara-for-sfl/"
       }
     },
     {
@@ -3575,7 +3634,7 @@
         },
         {
           "klubb": "FC Real Internacional",
-          "distrikt": "Stockholm",
+          "distrikt": "Småland (Jönköping)",
           "sm": "—"
         },
         {
@@ -3594,16 +3653,6 @@
           "sm": "1 (2025)"
         },
         {
-          "klubb": "Ektorp FK",
-          "distrikt": "Östergötland",
-          "sm": "—"
-        },
-        {
-          "klubb": "Norrköping Futsal Klubb",
-          "distrikt": "Östergötland",
-          "sm": "—"
-        },
-        {
           "klubb": "Örebro Futsal Club",
           "distrikt": "Örebro",
           "sm": "—"
@@ -3612,6 +3661,16 @@
           "klubb": "Örebro SK Futsalklubb",
           "distrikt": "Örebro",
           "sm": "2 (2022, 2023)"
+        },
+        {
+          "klubb": "Ektorp FK",
+          "distrikt": "Östergötland",
+          "sm": "—"
+        },
+        {
+          "klubb": "Norrköping Futsal Klubb",
+          "distrikt": "Östergötland",
+          "sm": "—"
         }
       ]
     },
