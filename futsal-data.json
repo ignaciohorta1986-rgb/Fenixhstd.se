@@ -1,6 +1,6 @@
 {
-  "updated": "Juli 2026",
-  "note": "Kurerad, källbelagd databas över futsalvärldens största namn. Rankingar och säsongsstatistik ändras löpande.",
+  "updated": "Augusti 2026",
+  "note": "Kurerad, källbelagd databas över futsalvärldens största namn samt svensk futsal. Rankingar och säsongsstatistik ändras löpande. Svensk futsal samlar inte in passnings-, skott- eller tacklingsstatistik — endast mål, matcher och delvis assist finns.",
   "entries": [
     {
       "id": "falcao",
@@ -17,11 +17,26 @@
         "foot": "Vänster"
       },
       "stats": [
-        { "label": "Landskamper", "value": "258" },
-        { "label": "Landslagsmål", "value": "401" },
-        { "label": "VM-guld", "value": "2 (2008, 2012)" },
-        { "label": "Årets spelare i världen", "value": "4 ggr" },
-        { "label": "VM-mål (rekord)", "value": "48" }
+        {
+          "label": "Landskamper",
+          "value": "258"
+        },
+        {
+          "label": "Landslagsmål",
+          "value": "401"
+        },
+        {
+          "label": "VM-guld",
+          "value": "2 (2008, 2012)"
+        },
+        {
+          "label": "Årets spelare i världen",
+          "value": "4 ggr"
+        },
+        {
+          "label": "VM-mål (rekord)",
+          "value": "48"
+        }
       ],
       "facts": [
         "Världens meste målskytt genom tiderna i herrfutsalens landslagsmatcher (401 mål).",
@@ -30,7 +45,10 @@
         "Vann VM:s Golden Ball (bästa spelare) 2004 och 2008.",
         "Avslutade landslagskarriären 2016."
       ],
-      "source": { "label": "Wikipedia — Falcão (futsal)", "url": "https://en.wikipedia.org/wiki/Falc%C3%A3o_(futsal_player)" }
+      "source": {
+        "label": "Wikipedia — Falcão (futsal)",
+        "url": "https://en.wikipedia.org/wiki/Falc%C3%A3o_(futsal_player)"
+      }
     },
     {
       "id": "ricardinho",
@@ -47,10 +65,22 @@
         "club": "Riga Futsal Club"
       },
       "stats": [
-        { "label": "Landskamper", "value": "188" },
-        { "label": "Landslagsmål", "value": "142" },
-        { "label": "Årets spelare i världen", "value": "6 ggr (rekord)" },
-        { "label": "VM-guld", "value": "1 (2021)" }
+        {
+          "label": "Landskamper",
+          "value": "188"
+        },
+        {
+          "label": "Landslagsmål",
+          "value": "142"
+        },
+        {
+          "label": "Årets spelare i världen",
+          "value": "6 ggr (rekord)"
+        },
+        {
+          "label": "VM-guld",
+          "value": "1 (2021)"
+        }
       ],
       "facts": [
         "Utsedd till Årets spelare i världen sex gånger (rekord), varav fem i rad 2014–2018.",
@@ -59,7 +89,10 @@
         "All-time skyttekung i både Futsal EURO och UEFA:s klubbturneringar.",
         "Vann UEFA:s klubbtitel med Benfica (2010) och Inter FS (2017, 2018)."
       ],
-      "source": { "label": "Wikipedia — Ricardinho", "url": "https://en.wikipedia.org/wiki/Ricardinho_(futsal_player,_born_1985)" }
+      "source": {
+        "label": "Wikipedia — Ricardinho",
+        "url": "https://en.wikipedia.org/wiki/Ricardinho_(futsal_player,_born_1985)"
+      }
     },
     {
       "id": "ferrao",
@@ -76,11 +109,26 @@
         "club": "FC Semey"
       },
       "stats": [
-        { "label": "Årets spelare i världen", "value": "3 ggr (2019–2021)" },
-        { "label": "UEFA-titlar", "value": "2 (Barça, 2020 & 2022)" },
-        { "label": "VM-guld", "value": "1 (2024)" },
-        { "label": "Skyttekung VM 2021", "value": "9 mål (Golden Boot)" },
-        { "label": "Klubbmål (Barça)", "value": "224" }
+        {
+          "label": "Årets spelare i världen",
+          "value": "3 ggr (2019–2021)"
+        },
+        {
+          "label": "UEFA-titlar",
+          "value": "2 (Barça, 2020 & 2022)"
+        },
+        {
+          "label": "VM-guld",
+          "value": "1 (2024)"
+        },
+        {
+          "label": "Skyttekung VM 2021",
+          "value": "9 mål (Golden Boot)"
+        },
+        {
+          "label": "Klubbmål (Barça)",
+          "value": "224"
+        }
       ],
       "facts": [
         "Årets spelare i världen tre år i rad, 2019, 2020 och 2021.",
@@ -88,7 +136,10 @@
         "Skyttekung (Golden Boot) i sitt första VM 2021 med 9 mål.",
         "Del av Brasiliens VM-guldlag 2024 i Uzbekistan."
       ],
-      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+      "source": {
+        "label": "Wikipedia — Futsal Awards",
+        "url": "https://en.wikipedia.org/wiki/Futsal_Awards"
+      }
     },
     {
       "id": "manoel-tobias",
@@ -103,11 +154,26 @@
         "birthplace": "Salgueiro, Brasilien"
       },
       "stats": [
-        { "label": "Landskamper", "value": "302" },
-        { "label": "Landslagsmål", "value": "278" },
-        { "label": "VM-guld", "value": "3 (1989, 1992, 1996)" },
-        { "label": "VM-mål", "value": "43" },
-        { "label": "Årets spelare i världen", "value": "3 ggr (2000–2002)" }
+        {
+          "label": "Landskamper",
+          "value": "302"
+        },
+        {
+          "label": "Landslagsmål",
+          "value": "278"
+        },
+        {
+          "label": "VM-guld",
+          "value": "3 (1989, 1992, 1996)"
+        },
+        {
+          "label": "VM-mål",
+          "value": "43"
+        },
+        {
+          "label": "Årets spelare i världen",
+          "value": "3 ggr (2000–2002)"
+        }
       ],
       "facts": [
         "Utsedd till världens bästa spelare tre år i rad, 2000–2002 (FutsalPlanet).",
@@ -116,7 +182,10 @@
         "Vann VM:s Golden Ball (bästa spelare) 1996 och 2000.",
         "Tre VM-guld: 1989, 1992 och 1996."
       ],
-      "source": { "label": "Wikipedia — Manoel Tobias", "url": "https://en.wikipedia.org/wiki/Manoel_Tobias" }
+      "source": {
+        "label": "Wikipedia — Manoel Tobias",
+        "url": "https://en.wikipedia.org/wiki/Manoel_Tobias"
+      }
     },
     {
       "id": "adriano-foglia",
@@ -131,12 +200,18 @@
         "birthplace": "São Paulo, Brasilien"
       },
       "stats": [
-        { "label": "Årets spelare i världen", "value": "2003" }
+        {
+          "label": "Årets spelare i världen",
+          "value": "2003"
+        }
       ],
       "facts": [
         "Utsedd till världens bästa spelare 2003 (FutsalPlanet)."
       ],
-      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+      "source": {
+        "label": "Wikipedia — Futsal Awards",
+        "url": "https://en.wikipedia.org/wiki/Futsal_Awards"
+      }
     },
     {
       "id": "javi-rodriguez",
@@ -151,12 +226,18 @@
         "birthplace": "Santa Coloma de Gramenet, Spanien"
       },
       "stats": [
-        { "label": "Årets spelare i världen", "value": "2005" }
+        {
+          "label": "Årets spelare i världen",
+          "value": "2005"
+        }
       ],
       "facts": [
         "Utsedd till världens bästa spelare 2005 (FutsalPlanet)."
       ],
-      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+      "source": {
+        "label": "Wikipedia — Futsal Awards",
+        "url": "https://en.wikipedia.org/wiki/Futsal_Awards"
+      }
     },
     {
       "id": "shayakhmetov",
@@ -171,12 +252,18 @@
         "birthplace": "Revda, Ryssland"
       },
       "stats": [
-        { "label": "Årets spelare i världen", "value": "2007" }
+        {
+          "label": "Årets spelare i världen",
+          "value": "2007"
+        }
       ],
       "facts": [
         "Utsedd till världens bästa spelare 2007 (FutsalPlanet)."
       ],
-      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+      "source": {
+        "label": "Wikipedia — Futsal Awards",
+        "url": "https://en.wikipedia.org/wiki/Futsal_Awards"
+      }
     },
     {
       "id": "schumacher",
@@ -191,12 +278,18 @@
         "birthplace": "São Paulo, Brasilien"
       },
       "stats": [
-        { "label": "Årets spelare i världen", "value": "2008" }
+        {
+          "label": "Årets spelare i världen",
+          "value": "2008"
+        }
       ],
       "facts": [
         "Utsedd till världens bästa spelare 2008 (FutsalPlanet)."
       ],
-      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+      "source": {
+        "label": "Wikipedia — Futsal Awards",
+        "url": "https://en.wikipedia.org/wiki/Futsal_Awards"
+      }
     },
     {
       "id": "kike",
@@ -211,12 +304,18 @@
         "birthplace": "Valencia, Spanien"
       },
       "stats": [
-        { "label": "Årets spelare i världen", "value": "2009" }
+        {
+          "label": "Årets spelare i världen",
+          "value": "2009"
+        }
       ],
       "facts": [
         "Utsedd till världens bästa spelare 2009 (FutsalPlanet)."
       ],
-      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+      "source": {
+        "label": "Wikipedia — Futsal Awards",
+        "url": "https://en.wikipedia.org/wiki/Futsal_Awards"
+      }
     },
     {
       "id": "pany-varela",
@@ -233,11 +332,26 @@
         "club": "Sporting CP"
       },
       "stats": [
-        { "label": "Landskamper", "value": "124" },
-        { "label": "Landslagsmål", "value": "47" },
-        { "label": "VM-guld", "value": "1 (2021)" },
-        { "label": "Champions League", "value": "3" },
-        { "label": "Årets spelare i världen", "value": "2022" }
+        {
+          "label": "Landskamper",
+          "value": "124"
+        },
+        {
+          "label": "Landslagsmål",
+          "value": "47"
+        },
+        {
+          "label": "VM-guld",
+          "value": "1 (2021)"
+        },
+        {
+          "label": "Champions League",
+          "value": "3"
+        },
+        {
+          "label": "Årets spelare i världen",
+          "value": "2022"
+        }
       ],
       "facts": [
         "Utsedd till världens bästa spelare 2022 (FutsalPlanet).",
@@ -246,7 +360,10 @@
         "Tre Champions League-titlar (två med Sporting, en med Benfica) och EM-guld 2018.",
         "124 landskamper och 47 mål för Portugal."
       ],
-      "source": { "label": "Wikipedia — Pany Varela", "url": "https://en.wikipedia.org/wiki/Pany_Varela" }
+      "source": {
+        "label": "Wikipedia — Pany Varela",
+        "url": "https://en.wikipedia.org/wiki/Pany_Varela"
+      }
     },
     {
       "id": "pito",
@@ -262,12 +379,18 @@
         "club": "FC Barcelona"
       },
       "stats": [
-        { "label": "Årets spelare i världen", "value": "2023" }
+        {
+          "label": "Årets spelare i världen",
+          "value": "2023"
+        }
       ],
       "facts": [
         "Utsedd till världens bästa spelare 2023 (FutsalPlanet)."
       ],
-      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+      "source": {
+        "label": "Wikipedia — Futsal Awards",
+        "url": "https://en.wikipedia.org/wiki/Futsal_Awards"
+      }
     },
     {
       "id": "dyego-zuffo",
@@ -282,12 +405,18 @@
         "club": "FC Barcelona"
       },
       "stats": [
-        { "label": "Årets spelare i världen", "value": "2024" }
+        {
+          "label": "Årets spelare i världen",
+          "value": "2024"
+        }
       ],
       "facts": [
         "Utsedd till världens bästa spelare 2024 (FutsalPlanet)."
       ],
-      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+      "source": {
+        "label": "Wikipedia — Futsal Awards",
+        "url": "https://en.wikipedia.org/wiki/Futsal_Awards"
+      }
     },
     {
       "id": "fabinho",
@@ -298,12 +427,18 @@
       "country": "Brasilien",
       "tagline": "Den mest aktuella världsettan — bästa spelare 2025.",
       "stats": [
-        { "label": "Årets spelare i världen", "value": "2025" }
+        {
+          "label": "Årets spelare i världen",
+          "value": "2025"
+        }
       ],
       "facts": [
         "Utsedd till världens bästa spelare 2025 (FutsalPlanet) — den senaste i raden av storstjärnor."
       ],
-      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+      "source": {
+        "label": "Wikipedia — Futsal Awards",
+        "url": "https://en.wikipedia.org/wiki/Futsal_Awards"
+      }
     },
     {
       "id": "luis-amado",
@@ -318,12 +453,18 @@
         "birthplace": "Arganda del Rey, Spanien"
       },
       "stats": [
-        { "label": "Bästa målvakt i världen", "value": "2003 & 2004" }
+        {
+          "label": "Bästa målvakt i världen",
+          "value": "2003 & 2004"
+        }
       ],
       "facts": [
         "Utsedd till världens bästa målvakt 2003 och 2004 (FutsalPlanet)."
       ],
-      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+      "source": {
+        "label": "Wikipedia — Futsal Awards",
+        "url": "https://en.wikipedia.org/wiki/Futsal_Awards"
+      }
     },
     {
       "id": "tiago",
@@ -338,12 +479,18 @@
         "birthplace": "Brasilien"
       },
       "stats": [
-        { "label": "Bästa målvakt i världen", "value": "2007" }
+        {
+          "label": "Bästa målvakt i världen",
+          "value": "2007"
+        }
       ],
       "facts": [
         "Utsedd till världens bästa målvakt 2007 (FutsalPlanet)."
       ],
-      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+      "source": {
+        "label": "Wikipedia — Futsal Awards",
+        "url": "https://en.wikipedia.org/wiki/Futsal_Awards"
+      }
     },
     {
       "id": "sergey-zuev",
@@ -358,12 +505,18 @@
         "birthplace": "Severouralsk, Ryssland"
       },
       "stats": [
-        { "label": "Bästa målvakt i världen", "value": "2008" }
+        {
+          "label": "Bästa målvakt i världen",
+          "value": "2008"
+        }
       ],
       "facts": [
         "Utsedd till världens bästa målvakt 2008 (FutsalPlanet)."
       ],
-      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+      "source": {
+        "label": "Wikipedia — Futsal Awards",
+        "url": "https://en.wikipedia.org/wiki/Futsal_Awards"
+      }
     },
     {
       "id": "mostafa-nazari",
@@ -378,12 +531,18 @@
         "birthplace": "Iran"
       },
       "stats": [
-        { "label": "Bästa målvakt i världen", "value": "2010" }
+        {
+          "label": "Bästa målvakt i världen",
+          "value": "2010"
+        }
       ],
       "facts": [
         "Utsedd till världens bästa målvakt 2010 (FutsalPlanet)."
       ],
-      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+      "source": {
+        "label": "Wikipedia — Futsal Awards",
+        "url": "https://en.wikipedia.org/wiki/Futsal_Awards"
+      }
     },
     {
       "id": "mammarella",
@@ -398,12 +557,18 @@
         "birthplace": "Chieti, Italien"
       },
       "stats": [
-        { "label": "Bästa målvakt i världen", "value": "2011, 2012 & 2014" }
+        {
+          "label": "Bästa målvakt i världen",
+          "value": "2011, 2012 & 2014"
+        }
       ],
       "facts": [
         "Utsedd till världens bästa målvakt 2011, 2012 och 2014 (FutsalPlanet)."
       ],
-      "source": { "label": "Wikipedia — Futsal Awards", "url": "https://en.wikipedia.org/wiki/Futsal_Awards" }
+      "source": {
+        "label": "Wikipedia — Futsal Awards",
+        "url": "https://en.wikipedia.org/wiki/Futsal_Awards"
+      }
     },
     {
       "id": "leo-higuita",
@@ -420,9 +585,18 @@
         "club": "FC Semey"
       },
       "stats": [
-        { "label": "Landskamper (Kazakstan)", "value": "100" },
-        { "label": "Bästa målvakt i världen", "value": "5 ggr (2015–2020)" },
-        { "label": "EM-brons", "value": "2016" }
+        {
+          "label": "Landskamper (Kazakstan)",
+          "value": "100"
+        },
+        {
+          "label": "Bästa målvakt i världen",
+          "value": "5 ggr (2015–2020)"
+        },
+        {
+          "label": "EM-brons",
+          "value": "2016"
+        }
       ],
       "facts": [
         "Utsedd till världens bästa målvakt fem gånger: 2015, 2016, 2018, 2019 och 2020 (FutsalPlanet).",
@@ -431,7 +605,10 @@
         "Kapten för Kazakstan i VM 2024; nådde VM-semifinal (4:a) 2021.",
         "En 'målvakt som gör mål' — hans offensiva spel gav honom smeknamnet Higuita."
       ],
-      "source": { "label": "Wikipedia — Leo Higuita", "url": "https://en.wikipedia.org/wiki/Leo_Higuita" }
+      "source": {
+        "label": "Wikipedia — Leo Higuita",
+        "url": "https://en.wikipedia.org/wiki/Leo_Higuita"
+      }
     },
     {
       "id": "guitta",
@@ -448,8 +625,14 @@
         "club": "MFK Ukhta"
       },
       "stats": [
-        { "label": "VM-guld", "value": "2 (2012, 2024)" },
-        { "label": "Bästa målvakt i världen", "value": "2021" }
+        {
+          "label": "VM-guld",
+          "value": "2 (2012, 2024)"
+        },
+        {
+          "label": "Bästa målvakt i världen",
+          "value": "2021"
+        }
       ],
       "facts": [
         "Utsedd till världens bästa målvakt 2021 (FutsalPlanet).",
@@ -457,7 +640,10 @@
         "Landslagsdebut i juli 2011 — en nyckelfigur under Brasiliens dominans.",
         "Gjorde avgörande räddningar i VM-semifinalen 2024 mot Ukraina."
       ],
-      "source": { "label": "Wikipedia — Guitta", "url": "https://en.wikipedia.org/wiki/Guitta" }
+      "source": {
+        "label": "Wikipedia — Guitta",
+        "url": "https://en.wikipedia.org/wiki/Guitta"
+      }
     },
     {
       "id": "luan-muller",
@@ -473,14 +659,20 @@
         "club": "Palma Futsal"
       },
       "stats": [
-        { "label": "Bästa målvakt i världen", "value": "2024" }
+        {
+          "label": "Bästa målvakt i världen",
+          "value": "2024"
+        }
       ],
       "facts": [
         "Utsedd till världens bästa målvakt 2024 (FutsalPlanet).",
         "Brasilienfödd men representerar Armeniens landslag.",
         "Spelar för Palma Futsal och utsågs till bästa spelare i Champions League-finalerna 2023."
       ],
-      "source": { "label": "Wikipedia — Luan Muller", "url": "https://en.wikipedia.org/wiki/Luan_Muller" }
+      "source": {
+        "label": "Wikipedia — Luan Muller",
+        "url": "https://en.wikipedia.org/wiki/Luan_Muller"
+      }
     },
     {
       "id": "mathias-fernandez",
@@ -495,14 +687,20 @@
         "club": "Family Cash Alzira"
       },
       "stats": [
-        { "label": "Bästa målvakt i världen", "value": "2025" }
+        {
+          "label": "Bästa målvakt i världen",
+          "value": "2025"
+        }
       ],
       "facts": [
         "Utsedd till världens bästa målvakt 2025 (FutsalPlanet).",
         "Vann sju raka uruguayanska ligatitlar med Peñarol samt Copa Libertadores 2025.",
         "Värvades därefter till Family Cash Alzira i Spanien."
       ],
-      "source": { "label": "ESPN — Mathías Fernández", "url": "https://espndeportes.espn.com/futbol/uruguay/nota/_/id/16221348" }
+      "source": {
+        "label": "ESPN — Mathías Fernández",
+        "url": "https://espndeportes.espn.com/futbol/uruguay/nota/_/id/16221348"
+      }
     },
     {
       "id": "sergio-lozano",
@@ -517,8 +715,14 @@
         "club": "FC Barcelona"
       },
       "stats": [
-        { "label": "EM-guld", "value": "2012" },
-        { "label": "Barça-mål (rekord)", "value": "334" }
+        {
+          "label": "EM-guld",
+          "value": "2012"
+        },
+        {
+          "label": "Barça-mål (rekord)",
+          "value": "334"
+        }
       ],
       "facts": [
         "Europamästare med Spanien 2012.",
@@ -526,7 +730,10 @@
         "Flerfaldig Champions League-mästare med Barcelona.",
         "En förebild efter att ha kämpat sig tillbaka från svåra knäskador."
       ],
-      "source": { "label": "Wikipedia — Sergio Lozano", "url": "https://en.wikipedia.org/wiki/Sergio_Lozano_Mart%C3%ADnez" }
+      "source": {
+        "label": "Wikipedia — Sergio Lozano",
+        "url": "https://en.wikipedia.org/wiki/Sergio_Lozano_Mart%C3%ADnez"
+      }
     },
     {
       "id": "didac-plana",
@@ -542,14 +749,23 @@
         "club": "FC Barcelona"
       },
       "stats": [
-        { "label": "Landslag", "value": "Spanien" },
-        { "label": "Klubb", "value": "FC Barcelona" }
+        {
+          "label": "Landslag",
+          "value": "Spanien"
+        },
+        {
+          "label": "Klubb",
+          "value": "FC Barcelona"
+        }
       ],
       "facts": [
         "Landslagsmålvakt för Spanien.",
         "Förstemålvakt i FC Barcelonas futsallag."
       ],
-      "source": { "label": "Wikipedia — Dídac Plana", "url": "https://en.wikipedia.org/wiki/D%C3%ADdac_Plana" }
+      "source": {
+        "label": "Wikipedia — Dídac Plana",
+        "url": "https://en.wikipedia.org/wiki/D%C3%ADdac_Plana"
+      }
     },
     {
       "id": "zicky-te",
@@ -565,15 +781,24 @@
         "club": "Sporting CP"
       },
       "stats": [
-        { "label": "Position", "value": "Pivot" },
-        { "label": "Klubb", "value": "Sporting CP" }
+        {
+          "label": "Position",
+          "value": "Pivot"
+        },
+        {
+          "label": "Klubb",
+          "value": "Sporting CP"
+        }
       ],
       "facts": [
         "Guineansk-född portugisisk pivot med genombrott som tonåring i Sporting.",
         "Räknas som en av de mest lovande unga spelarna i världsfutsalen.",
         "Spelar för Sporting CP och Portugals landslag."
       ],
-      "source": { "label": "Wikipedia — Zicky Té", "url": "https://en.wikipedia.org/wiki/Zicky_T%C3%A9" }
+      "source": {
+        "label": "Wikipedia — Zicky Té",
+        "url": "https://en.wikipedia.org/wiki/Zicky_T%C3%A9"
+      }
     },
     {
       "id": "leandro-lino",
@@ -589,14 +814,23 @@
         "club": "Magnus Futsal"
       },
       "stats": [
-        { "label": "Landslag", "value": "Brasilien" },
-        { "label": "Klubb", "value": "Magnus Futsal" }
+        {
+          "label": "Landslag",
+          "value": "Brasilien"
+        },
+        {
+          "label": "Klubb",
+          "value": "Magnus Futsal"
+        }
       ],
       "facts": [
         "Ytter i Brasiliens landslag.",
         "Stjärnspelare i Magnus Futsal, en av Brasiliens främsta klubbar."
       ],
-      "source": { "label": "Wikipedia — Leandro Lino", "url": "https://en.wikipedia.org/wiki/Leandro_Lino" }
+      "source": {
+        "label": "Wikipedia — Leandro Lino",
+        "url": "https://en.wikipedia.org/wiki/Leandro_Lino"
+      }
     },
     {
       "id": "rafa-usin",
@@ -612,14 +846,23 @@
         "club": "Levante UD FS"
       },
       "stats": [
-        { "label": "Position", "value": "Ala" },
-        { "label": "Landslag", "value": "Spanien" }
+        {
+          "label": "Position",
+          "value": "Ala"
+        },
+        {
+          "label": "Landslag",
+          "value": "Spanien"
+        }
       ],
       "facts": [
         "Målfarlig ytter i det spanska landslaget.",
         "Har spelat för bl.a. FC Barcelona och Levante UD."
       ],
-      "source": { "label": "Wikipedia — Rafa Usín", "url": "https://en.wikipedia.org/wiki/Rafa_Us%C3%ADn" }
+      "source": {
+        "label": "Wikipedia — Rafa Usín",
+        "url": "https://en.wikipedia.org/wiki/Rafa_Us%C3%ADn"
+      }
     },
     {
       "id": "catela",
@@ -635,14 +878,23 @@
         "club": "FC Barcelona"
       },
       "stats": [
-        { "label": "Landslag", "value": "Spanien" },
-        { "label": "Klubb", "value": "FC Barcelona" }
+        {
+          "label": "Landslag",
+          "value": "Spanien"
+        },
+        {
+          "label": "Klubb",
+          "value": "FC Barcelona"
+        }
       ],
       "facts": [
         "Ytter för Spaniens landslag och FC Barcelona.",
         "En av Spaniens tongivande spelare i den nya generationen."
       ],
-      "source": { "label": "UEFA — Catela", "url": "https://www.uefa.com/futsalworldcup/teams/players/250154838--catela/" }
+      "source": {
+        "label": "UEFA — Catela",
+        "url": "https://www.uefa.com/futsalworldcup/teams/players/250154838--catela/"
+      }
     },
     {
       "id": "brasilien",
@@ -653,9 +905,18 @@
       "country": "Brasilien",
       "tagline": "Världens mest framgångsrika futsalnation — och regerande världsmästare.",
       "stats": [
-        { "label": "VM-guld", "value": "6" },
-        { "label": "FIFA-ranking", "value": "#1" },
-        { "label": "Senaste VM-guld", "value": "2024" }
+        {
+          "label": "VM-guld",
+          "value": "6"
+        },
+        {
+          "label": "FIFA-ranking",
+          "value": "#1"
+        },
+        {
+          "label": "Senaste VM-guld",
+          "value": "2024"
+        }
       ],
       "facts": [
         "Sex VM-guld: 1989, 1992, 1996, 2008, 2012 och 2024 — fler än någon annan nation.",
@@ -665,22 +926,67 @@
       ],
       "squadNote": "VM-trupp 2024",
       "squad": [
-        { "name": "Guitta", "pos": "Målvakt" },
-        { "name": "Diego Roncáglio", "pos": "Målvakt" },
-        { "name": "Willian Dorn", "pos": "Målvakt" },
-        { "name": "Marlon Araújo", "pos": "Fixo" },
-        { "name": "Neguinho", "pos": "Fixo" },
-        { "name": "Marcel Marques", "pos": "Universal" },
-        { "name": "Dyego Zuffo", "pos": "Universal" },
-        { "name": "Marcênio", "pos": "Universal" },
-        { "name": "Leandro Lino", "pos": "Universal" },
-        { "name": "Arthur Guilherme", "pos": "Universal" },
-        { "name": "Felipe Valério", "pos": "Universal" },
-        { "name": "Pito", "pos": "Pivot" },
-        { "name": "Ferrão", "pos": "Pivot" },
-        { "name": "Rafa Santos", "pos": "Pivot" }
+        {
+          "name": "Guitta",
+          "pos": "Målvakt"
+        },
+        {
+          "name": "Diego Roncáglio",
+          "pos": "Målvakt"
+        },
+        {
+          "name": "Willian Dorn",
+          "pos": "Målvakt"
+        },
+        {
+          "name": "Marlon Araújo",
+          "pos": "Fixo"
+        },
+        {
+          "name": "Neguinho",
+          "pos": "Fixo"
+        },
+        {
+          "name": "Marcel Marques",
+          "pos": "Universal"
+        },
+        {
+          "name": "Dyego Zuffo",
+          "pos": "Universal"
+        },
+        {
+          "name": "Marcênio",
+          "pos": "Universal"
+        },
+        {
+          "name": "Leandro Lino",
+          "pos": "Universal"
+        },
+        {
+          "name": "Arthur Guilherme",
+          "pos": "Universal"
+        },
+        {
+          "name": "Felipe Valério",
+          "pos": "Universal"
+        },
+        {
+          "name": "Pito",
+          "pos": "Pivot"
+        },
+        {
+          "name": "Ferrão",
+          "pos": "Pivot"
+        },
+        {
+          "name": "Rafa Santos",
+          "pos": "Pivot"
+        }
       ],
-      "source": { "label": "Wikipedia — FIFA Futsal World Cup", "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup" }
+      "source": {
+        "label": "Wikipedia — FIFA Futsal World Cup",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
+      }
     },
     {
       "id": "portugal",
@@ -691,9 +997,18 @@
       "country": "Portugal",
       "tagline": "Från utmanare till världsmästare — Europas heta futsalnation.",
       "stats": [
-        { "label": "VM-guld", "value": "1 (2021)" },
-        { "label": "EM-guld", "value": "2 (2018, 2022)" },
-        { "label": "FIFA-ranking", "value": "#2" }
+        {
+          "label": "VM-guld",
+          "value": "1 (2021)"
+        },
+        {
+          "label": "EM-guld",
+          "value": "2 (2018, 2022)"
+        },
+        {
+          "label": "FIFA-ranking",
+          "value": "#2"
+        }
       ],
       "facts": [
         "Tog sitt första VM-guld 2021 i Litauen (2–1 mot Argentina).",
@@ -703,22 +1018,67 @@
       ],
       "squadNote": "landskamper sep 2025",
       "squad": [
-        { "name": "Edu Sousa", "pos": "Målvakt" },
-        { "name": "André Correia", "pos": "Målvakt" },
-        { "name": "André Coelho", "pos": "Fixo" },
-        { "name": "Tomás Paçó", "pos": "Fixo" },
-        { "name": "Afonso Jesus", "pos": "Fixo" },
-        { "name": "Bruno Maior", "pos": "Fixo" },
-        { "name": "Silvestre Ferreira", "pos": "Universal" },
-        { "name": "Diogo Santos", "pos": "Universal" },
-        { "name": "Pauleta", "pos": "Universal" },
-        { "name": "Bruno Pinto", "pos": "Universal" },
-        { "name": "Tiago Brito", "pos": "Universal" },
-        { "name": "Edmilson Kutchy", "pos": "Universal" },
-        { "name": "Pedro Santos", "pos": "Pivot" },
-        { "name": "Rúben Góis", "pos": "Pivot" }
+        {
+          "name": "Edu Sousa",
+          "pos": "Målvakt"
+        },
+        {
+          "name": "André Correia",
+          "pos": "Målvakt"
+        },
+        {
+          "name": "André Coelho",
+          "pos": "Fixo"
+        },
+        {
+          "name": "Tomás Paçó",
+          "pos": "Fixo"
+        },
+        {
+          "name": "Afonso Jesus",
+          "pos": "Fixo"
+        },
+        {
+          "name": "Bruno Maior",
+          "pos": "Fixo"
+        },
+        {
+          "name": "Silvestre Ferreira",
+          "pos": "Universal"
+        },
+        {
+          "name": "Diogo Santos",
+          "pos": "Universal"
+        },
+        {
+          "name": "Pauleta",
+          "pos": "Universal"
+        },
+        {
+          "name": "Bruno Pinto",
+          "pos": "Universal"
+        },
+        {
+          "name": "Tiago Brito",
+          "pos": "Universal"
+        },
+        {
+          "name": "Edmilson Kutchy",
+          "pos": "Universal"
+        },
+        {
+          "name": "Pedro Santos",
+          "pos": "Pivot"
+        },
+        {
+          "name": "Rúben Góis",
+          "pos": "Pivot"
+        }
       ],
-      "source": { "label": "UEFA — Futsal EURO", "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/" }
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
     },
     {
       "id": "spanien",
@@ -729,9 +1089,18 @@
       "country": "Spanien",
       "tagline": "Europas kung — åtta EM-titlar, fler än alla andra tillsammans.",
       "stats": [
-        { "label": "EM-guld", "value": "8 (rekord)" },
-        { "label": "VM-guld", "value": "2 (2000, 2004)" },
-        { "label": "FIFA-ranking", "value": "#3" }
+        {
+          "label": "EM-guld",
+          "value": "8 (rekord)"
+        },
+        {
+          "label": "VM-guld",
+          "value": "2 (2000, 2004)"
+        },
+        {
+          "label": "FIFA-ranking",
+          "value": "#3"
+        }
       ],
       "facts": [
         "Åtta EM-guld — ingen annan nation har vunnit fler än två.",
@@ -741,22 +1110,67 @@
       ],
       "squadNote": "VM-kval 2023",
       "squad": [
-        { "name": "Jesús Herrero", "pos": "Målvakt" },
-        { "name": "Dídac Plana", "pos": "Målvakt" },
-        { "name": "Antonio Pérez", "pos": "Fixo" },
-        { "name": "Francisco Tomaz", "pos": "Fixo" },
-        { "name": "Boyis", "pos": "Fixo" },
-        { "name": "Miguel Mellado", "pos": "Fixo" },
-        { "name": "Catela", "pos": "Ala" },
-        { "name": "Raúl Gómez", "pos": "Ala" },
-        { "name": "Pablo Ramírez", "pos": "Ala" },
-        { "name": "Adolfo Fernández", "pos": "Ala" },
-        { "name": "Eric Pérez", "pos": "Ala" },
-        { "name": "Javier Mínguez", "pos": "Ala" },
-        { "name": "Chino", "pos": "Ala" },
-        { "name": "Raúl Campos", "pos": "Ala" }
+        {
+          "name": "Jesús Herrero",
+          "pos": "Målvakt"
+        },
+        {
+          "name": "Dídac Plana",
+          "pos": "Målvakt"
+        },
+        {
+          "name": "Antonio Pérez",
+          "pos": "Fixo"
+        },
+        {
+          "name": "Francisco Tomaz",
+          "pos": "Fixo"
+        },
+        {
+          "name": "Boyis",
+          "pos": "Fixo"
+        },
+        {
+          "name": "Miguel Mellado",
+          "pos": "Fixo"
+        },
+        {
+          "name": "Catela",
+          "pos": "Ala"
+        },
+        {
+          "name": "Raúl Gómez",
+          "pos": "Ala"
+        },
+        {
+          "name": "Pablo Ramírez",
+          "pos": "Ala"
+        },
+        {
+          "name": "Adolfo Fernández",
+          "pos": "Ala"
+        },
+        {
+          "name": "Eric Pérez",
+          "pos": "Ala"
+        },
+        {
+          "name": "Javier Mínguez",
+          "pos": "Ala"
+        },
+        {
+          "name": "Chino",
+          "pos": "Ala"
+        },
+        {
+          "name": "Raúl Campos",
+          "pos": "Ala"
+        }
       ],
-      "source": { "label": "UEFA — Futsal EURO", "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/" }
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
     },
     {
       "id": "argentina",
@@ -767,9 +1181,18 @@
       "country": "Argentina",
       "tagline": "Världsmästare 2016 och ständig medaljkandidat.",
       "stats": [
-        { "label": "VM-guld", "value": "1 (2016)" },
-        { "label": "VM-silver", "value": "2 (2021, 2024)" },
-        { "label": "FIFA-ranking", "value": "#4" }
+        {
+          "label": "VM-guld",
+          "value": "1 (2016)"
+        },
+        {
+          "label": "VM-silver",
+          "value": "2 (2021, 2024)"
+        },
+        {
+          "label": "FIFA-ranking",
+          "value": "#4"
+        }
       ],
       "facts": [
         "VM-guld 2016 i Colombia (5–4 mot Ryssland).",
@@ -778,22 +1201,67 @@
       ],
       "squadNote": "Finalissima 2022",
       "squad": [
-        { "name": "Nicolás Sarmiento", "pos": "Målvakt" },
-        { "name": "Matías Starna", "pos": "Målvakt" },
-        { "name": "Lucas Tripodi", "pos": "Fixo" },
-        { "name": "Maximiliano Rescia", "pos": "Fixo" },
-        { "name": "Sebastián Corso", "pos": "Fixo" },
-        { "name": "Ángel Claudino", "pos": "Universal" },
-        { "name": "Lucas Bolo", "pos": "Universal" },
-        { "name": "Gerardo Menzeguez", "pos": "Universal" },
-        { "name": "Santiago Basile", "pos": "Universal" },
-        { "name": "Constantino Vaporaki", "pos": "Universal" },
-        { "name": "Pablo Taborda", "pos": "Universal" },
-        { "name": "Matías Edelstein", "pos": "Universal" },
-        { "name": "Cristian Borruto", "pos": "Pivot" },
-        { "name": "Alan Brandi", "pos": "Pivot" }
+        {
+          "name": "Nicolás Sarmiento",
+          "pos": "Målvakt"
+        },
+        {
+          "name": "Matías Starna",
+          "pos": "Målvakt"
+        },
+        {
+          "name": "Lucas Tripodi",
+          "pos": "Fixo"
+        },
+        {
+          "name": "Maximiliano Rescia",
+          "pos": "Fixo"
+        },
+        {
+          "name": "Sebastián Corso",
+          "pos": "Fixo"
+        },
+        {
+          "name": "Ángel Claudino",
+          "pos": "Universal"
+        },
+        {
+          "name": "Lucas Bolo",
+          "pos": "Universal"
+        },
+        {
+          "name": "Gerardo Menzeguez",
+          "pos": "Universal"
+        },
+        {
+          "name": "Santiago Basile",
+          "pos": "Universal"
+        },
+        {
+          "name": "Constantino Vaporaki",
+          "pos": "Universal"
+        },
+        {
+          "name": "Pablo Taborda",
+          "pos": "Universal"
+        },
+        {
+          "name": "Matías Edelstein",
+          "pos": "Universal"
+        },
+        {
+          "name": "Cristian Borruto",
+          "pos": "Pivot"
+        },
+        {
+          "name": "Alan Brandi",
+          "pos": "Pivot"
+        }
       ],
-      "source": { "label": "Wikipedia — FIFA Futsal World Cup", "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup" }
+      "source": {
+        "label": "Wikipedia — FIFA Futsal World Cup",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
+      }
     },
     {
       "id": "iran",
@@ -804,15 +1272,24 @@
       "country": "Iran",
       "tagline": "Asiens obestridda mästare — och en global utmanare.",
       "stats": [
-        { "label": "AFC-titlar", "value": "14 (rekord)" },
-        { "label": "FIFA-ranking", "value": "#5" }
+        {
+          "label": "AFC-titlar",
+          "value": "14 (rekord)"
+        },
+        {
+          "label": "FIFA-ranking",
+          "value": "#5"
+        }
       ],
       "facts": [
         "Överlägset bäst i Asien med 14 AFC Futsal Asian Cup-titlar, senast 2026.",
         "Femma i FIFA:s officiella futsalranking (per 8 maj 2026) — bästa nation utanför Europa/Sydamerika.",
         "Chockade Brasilien i åttondelen av VM 2016."
       ],
-      "source": { "label": "Wikipedia — Iran national futsal team", "url": "https://en.wikipedia.org/wiki/Iran_national_futsal_team" }
+      "source": {
+        "label": "Wikipedia — Iran national futsal team",
+        "url": "https://en.wikipedia.org/wiki/Iran_national_futsal_team"
+      }
     },
     {
       "id": "italien",
@@ -823,15 +1300,24 @@
       "country": "Italien",
       "tagline": "Tvåfaldiga Europamästare med VM-final i meritlistan.",
       "stats": [
-        { "label": "EM-guld", "value": "2 (2003, 2014)" },
-        { "label": "VM-silver", "value": "1 (2004)" }
+        {
+          "label": "EM-guld",
+          "value": "2 (2003, 2014)"
+        },
+        {
+          "label": "VM-silver",
+          "value": "1 (2004)"
+        }
       ],
       "facts": [
         "Europamästare 2003 (mot Ukraina) och 2014 (mot Ryssland).",
         "VM-silver 2004 efter final mot Spanien.",
         "En av Europas historiska storheter i futsal."
       ],
-      "source": { "label": "UEFA — Futsal EURO", "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/" }
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
     },
     {
       "id": "ryssland",
@@ -842,15 +1328,24 @@
       "country": "Ryssland",
       "tagline": "VM-finalist och EM-mästare — men just nu avstängt.",
       "stats": [
-        { "label": "EM-guld", "value": "1 (1999)" },
-        { "label": "VM-silver", "value": "1 (2016)" }
+        {
+          "label": "EM-guld",
+          "value": "1 (1999)"
+        },
+        {
+          "label": "VM-silver",
+          "value": "1 (2016)"
+        }
       ],
       "facts": [
         "Europamästare 1999.",
         "VM-silver 2016 efter dramatisk final mot Argentina (4–5).",
         "⚠️ För närvarande avstängt från FIFA:s och UEFA:s tävlingar."
       ],
-      "source": { "label": "UEFA — Futsal EURO", "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/" }
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
     },
     {
       "id": "sverige",
@@ -859,18 +1354,97 @@
       "flag": "🇸🇪",
       "sub": "Landslag · Europa (UEFA)",
       "country": "Sverige",
-      "tagline": "En växande futsalnation — och hemmaplan för Fenix vision.",
+      "tagline": "En växande futsalnation — gruppseger i VM-kvalet 2026 och hemmaplan för Fenix vision.",
       "stats": [
-        { "label": "Världsranking", "value": "~#57" },
-        { "label": "Högsta serie", "value": "Svenska Futsalligan (SFL)" }
+        {
+          "label": "Förbundskapten",
+          "value": "Matija Dulvat"
+        },
+        {
+          "label": "VM-kval 2026",
+          "value": "Gruppseger"
+        },
+        {
+          "label": "Högsta serie",
+          "value": "Svenska Futsalligan (SFL)"
+        },
+        {
+          "label": "Världsranking",
+          "value": "~#57"
+        }
       ],
       "facts": [
-        "Växande futsalnation som deltar i UEFA:s kvalspel mot VM och EM.",
-        "Svenska Futsalligan (SFL) är landets högsta serie.",
-        "⚠️ Placeringen ~57 kommer från den oberoende sajten futsalworldranking.com, inte FIFA:s officiella ranking — exakt FIFA-placering gick inte att verifiera.",
-        "Fenix_hstd vill bidra till svensk futsals framväxt med Halmstad som bas."
+        "Vann sin grupp i VM-kvalets inledande runda i april 2026: 3–2 mot Nordirland, oavgjort mot Schweiz och seger mot England.",
+        "Förbundskapten är Matija Dulvat, kroat som arbetar med futsal hos Dinamo Zagreb. Assisterande förbundskapten är Nima Kadivar, tidigare tränare i Skoftebyn och före detta herrlandslagsspelare. Landslagsansvarig är Nicklas Asp.",
+        "Uddevalla Futsal Club är landslagets plantskola — sex av fjorton spelare i VM-kvaltruppen kom därifrån, fler än från någon annan klubb.",
+        "Nästa steg är main round mot bland andra Armenien och Ungern. Källorna anger perioden olika (okt 2026–mars 2027 respektive dec 2026–mars 2027) — exakt datum bör verifieras.",
+        "Svenska Futsalligan (SFL) är landets högsta serie, med SM-slutspel som avgör svenska mästaren.",
+        "⚠️ Placeringen ~57 kommer från den oberoende sajten futsalworldranking.com, inte FIFA:s officiella ranking.",
+        "Fenix Halmstad Idrottsklubb vill bidra till svensk futsals framväxt med Halmstad som bas."
       ],
-      "source": { "label": "Futsal World Ranking (oberoende)", "url": "https://www.futsalworldranking.com/rank.htm" }
+      "source": {
+        "label": "SvFF — futsal herr",
+        "url": "https://www.svenskfotboll.se/futsal/futsal-herr/"
+      },
+      "squadNote": "VM-kvaltrupp april 2026 — 14 spelare (klubbtillhörighet anges)",
+      "squad": [
+        {
+          "name": "Petrit Zhubi",
+          "pos": "Uddevalla Futsal Club"
+        },
+        {
+          "name": "Fredrik Söderqvist",
+          "pos": "Uddevalla Futsal Club"
+        },
+        {
+          "name": "Ismail Fazlija",
+          "pos": "Uddevalla Futsal Club"
+        },
+        {
+          "name": "Hampus Furublad",
+          "pos": "Uddevalla Futsal Club"
+        },
+        {
+          "name": "Albert Hiseni",
+          "pos": "Uddevalla Futsal Club"
+        },
+        {
+          "name": "Viktor Mossberg",
+          "pos": "Uddevalla Futsal Club"
+        },
+        {
+          "name": "Donat Gashi",
+          "pos": "IFK Uddevalla"
+        },
+        {
+          "name": "Fehim Smajlovic",
+          "pos": "FC Ljiljan"
+        },
+        {
+          "name": "Oscar Edh",
+          "pos": "Skoftebyns IF"
+        },
+        {
+          "name": "Bryan Johansson",
+          "pos": "Skoftebyns IF"
+        },
+        {
+          "name": "Abdoulie Bojang",
+          "pos": "Borås AIK"
+        },
+        {
+          "name": "Camil Altun",
+          "pos": "Borås AIK"
+        },
+        {
+          "name": "Gustav Rydberg",
+          "pos": "FC Kalmar"
+        },
+        {
+          "name": "Viktor Sääf",
+          "pos": "BSF ABJ Bochnia (Polen)"
+        }
+      ]
     },
     {
       "id": "japan",
@@ -881,15 +1455,24 @@
       "country": "Japan",
       "tagline": "Asiens näst starkaste — fyrfaldiga kontinentmästare.",
       "stats": [
-        { "label": "AFC-titlar", "value": "4" },
-        { "label": "Senaste AFC-guld", "value": "2022" }
+        {
+          "label": "AFC-titlar",
+          "value": "4"
+        },
+        {
+          "label": "Senaste AFC-guld",
+          "value": "2022"
+        }
       ],
       "facts": [
         "Fyra AFC Futsal Asian Cup-titlar: 2006, 2012, 2014 och 2022.",
         "Irans främsta utmanare i Asien.",
         "Regelbunden VM-deltagare."
       ],
-      "source": { "label": "Wikipedia — AFC Futsal Asian Cup", "url": "https://en.wikipedia.org/wiki/AFC_Futsal_Asian_Cup" }
+      "source": {
+        "label": "Wikipedia — AFC Futsal Asian Cup",
+        "url": "https://en.wikipedia.org/wiki/AFC_Futsal_Asian_Cup"
+      }
     },
     {
       "id": "uzbekistan",
@@ -900,15 +1483,24 @@
       "country": "Uzbekistan",
       "tagline": "Centralasiens futsalnation — arrangerade VM 2024.",
       "stats": [
-        { "label": "VM-värd", "value": "2024" },
-        { "label": "AFC-finaler", "value": "Flera" }
+        {
+          "label": "VM-värd",
+          "value": "2024"
+        },
+        {
+          "label": "AFC-finaler",
+          "value": "Flera"
+        }
       ],
       "facts": [
         "Arrangerade futsal-VM 2024 — Uzbekistans allra första FIFA-turnering.",
         "Flerfaldig finalist i AFC Futsal Asian Cup (bl.a. 2001, 2006, 2010 och 2016).",
         "En av Asiens främsta futsalnationer."
       ],
-      "source": { "label": "Wikipedia — Uzbekistan national futsal team", "url": "https://en.wikipedia.org/wiki/Uzbekistan_national_futsal_team" }
+      "source": {
+        "label": "Wikipedia — Uzbekistan national futsal team",
+        "url": "https://en.wikipedia.org/wiki/Uzbekistan_national_futsal_team"
+      }
     },
     {
       "id": "kazakstan",
@@ -919,8 +1511,14 @@
       "country": "Kazakstan",
       "tagline": "Överraskningen som tog EM-brons i debuten 2016.",
       "stats": [
-        { "label": "EM-brons", "value": "2016" },
-        { "label": "VM bästa", "value": "4:a (2021)" }
+        {
+          "label": "EM-brons",
+          "value": "2016"
+        },
+        {
+          "label": "VM bästa",
+          "value": "4:a (2021)"
+        }
       ],
       "facts": [
         "Tog EM-brons 2016 i sin allra första EM-slutspel — första debutant någonsin att ta medalj i Futsal EURO.",
@@ -928,7 +1526,10 @@
         "Fjärdeplats i VM 2021.",
         "Klubblaget Kairat Almaty har vunnit Champions League två gånger."
       ],
-      "source": { "label": "Wikipedia — Kazakhstan national futsal team", "url": "https://en.wikipedia.org/wiki/Kazakhstan_national_futsal_team" }
+      "source": {
+        "label": "Wikipedia — Kazakhstan national futsal team",
+        "url": "https://en.wikipedia.org/wiki/Kazakhstan_national_futsal_team"
+      }
     },
     {
       "id": "marocko",
@@ -939,15 +1540,24 @@
       "country": "Marocko",
       "tagline": "Afrikas kung — trefaldiga kontinentmästare.",
       "stats": [
-        { "label": "Afrika-titlar", "value": "3" },
-        { "label": "VM bästa", "value": "Kvartsfinal" }
+        {
+          "label": "Afrika-titlar",
+          "value": "3"
+        },
+        {
+          "label": "VM bästa",
+          "value": "Kvartsfinal"
+        }
       ],
       "facts": [
         "Tre titlar i Futsal Africa Cup of Nations: 2016, 2020 och 2024 — regerande afrikanska mästare.",
         "Nådde VM-kvartsfinal både 2021 och 2024.",
         "VM-deltagare sedan 2012 — Afrikas starkaste futsalnation."
       ],
-      "source": { "label": "Wikipedia — Morocco national futsal team", "url": "https://en.wikipedia.org/wiki/Morocco_national_futsal_team" }
+      "source": {
+        "label": "Wikipedia — Morocco national futsal team",
+        "url": "https://en.wikipedia.org/wiki/Morocco_national_futsal_team"
+      }
     },
     {
       "id": "ukraina",
@@ -958,13 +1568,19 @@
       "country": "Ukraina",
       "tagline": "Tvåfaldig EM-finalist från futsalens tidiga år.",
       "stats": [
-        { "label": "EM-silver", "value": "2 (2001, 2003)" }
+        {
+          "label": "EM-silver",
+          "value": "2 (2001, 2003)"
+        }
       ],
       "facts": [
         "EM-silver 2001 (förlust mot Spanien) och 2003 (förlust mot Italien).",
         "En av Europas etablerade futsalnationer."
       ],
-      "source": { "label": "UEFA — Futsal EURO", "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/" }
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
     },
     {
       "id": "inter-fs",
@@ -975,14 +1591,20 @@
       "country": "Spanien",
       "tagline": "Europas mest meriterade klubb genom tiderna.",
       "stats": [
-        { "label": "UEFA-titlar", "value": "5 (rekord)" }
+        {
+          "label": "UEFA-titlar",
+          "value": "5 (rekord)"
+        }
       ],
       "facts": [
         "Rekordmånga fem UEFA-titlar (2004, 2006, 2009, 2017, 2018).",
         "Ricardinho vann sina Champions League-titlar här 2017 och 2018.",
         "Har historiskt gått under namnet Movistar Inter."
       ],
-      "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+      "source": {
+        "label": "Wikipedia — UEFA Futsal Champions League",
+        "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League"
+      }
     },
     {
       "id": "barcelona",
@@ -993,14 +1615,20 @@
       "country": "Spanien",
       "tagline": "Barça Futsal — storklubben med fyra Europatitlar.",
       "stats": [
-        { "label": "UEFA-titlar", "value": "4" }
+        {
+          "label": "UEFA-titlar",
+          "value": "4"
+        }
       ],
       "facts": [
         "Fyra UEFA-titlar: 2012, 2014, 2020 och 2022.",
         "Ferrão vann Champions League med Barça 2020 och 2022.",
         "En av världens mest kända futsalklubbar."
       ],
-      "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+      "source": {
+        "label": "Wikipedia — UEFA Futsal Champions League",
+        "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League"
+      }
     },
     {
       "id": "sporting",
@@ -1011,14 +1639,20 @@
       "country": "Portugal",
       "tagline": "Regerande Europamästare 2026.",
       "stats": [
-        { "label": "UEFA-titlar", "value": "3" }
+        {
+          "label": "UEFA-titlar",
+          "value": "3"
+        }
       ],
       "facts": [
         "Tre UEFA-titlar: 2019, 2021 och 2026.",
         "Regerande Europamästare efter finalseger över Palma 2026.",
         "Portugals ledande futsalklubb på Europanivå."
       ],
-      "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+      "source": {
+        "label": "Wikipedia — UEFA Futsal Champions League",
+        "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League"
+      }
     },
     {
       "id": "palma",
@@ -1029,14 +1663,20 @@
       "country": "Spanien",
       "tagline": "Tre raka Europatitlar 2023–2025.",
       "stats": [
-        { "label": "UEFA-titlar", "value": "3" }
+        {
+          "label": "UEFA-titlar",
+          "value": "3"
+        }
       ],
       "facts": [
         "Vann UEFA Futsal Champions League tre år i rad: 2023, 2024 och 2025.",
         "Går även under namnet Illes Balears Palma.",
         "Förlorade EM-finalen 2026 mot Sporting."
       ],
-      "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+      "source": {
+        "label": "Wikipedia — UEFA Futsal Champions League",
+        "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League"
+      }
     },
     {
       "id": "kairat",
@@ -1047,13 +1687,19 @@
       "country": "Kazakstan",
       "tagline": "Centralasiens stolthet med två Europatitlar.",
       "stats": [
-        { "label": "UEFA-titlar", "value": "2" }
+        {
+          "label": "UEFA-titlar",
+          "value": "2"
+        }
       ],
       "facts": [
         "Vann UEFA Futsal Champions League 2013 och 2015.",
         "Bevis på att futsaltoppen inte bara finns i Spanien och Portugal."
       ],
-      "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+      "source": {
+        "label": "Wikipedia — UEFA Futsal Champions League",
+        "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League"
+      }
     },
     {
       "id": "benfica",
@@ -1064,13 +1710,19 @@
       "country": "Portugal",
       "tagline": "Portugisisk storklubb och Europamästare 2010.",
       "stats": [
-        { "label": "UEFA-titlar", "value": "1 (2010)" }
+        {
+          "label": "UEFA-titlar",
+          "value": "1 (2010)"
+        }
       ],
       "facts": [
         "Vann UEFA Futsal Cup 2010 — Portugals första Europatitel i futsal.",
         "Ricardinho tog sin första Europatitel här."
       ],
-      "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+      "source": {
+        "label": "Wikipedia — UEFA Futsal Champions League",
+        "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League"
+      }
     },
     {
       "id": "playas",
@@ -1081,13 +1733,19 @@
       "country": "Spanien",
       "tagline": "Pionjären som vann de allra första Europatitlarna.",
       "stats": [
-        { "label": "UEFA-titlar", "value": "2" }
+        {
+          "label": "UEFA-titlar",
+          "value": "2"
+        }
       ],
       "facts": [
         "Vann de två första upplagorna av UEFA Futsal Cup: 2002 och 2003.",
         "En del av futsalens tidiga europeiska historia."
       ],
-      "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+      "source": {
+        "label": "Wikipedia — UEFA Futsal Champions League",
+        "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League"
+      }
     },
     {
       "id": "dinamo",
@@ -1098,13 +1756,19 @@
       "country": "Ryssland",
       "tagline": "Rysk Europamästare från futsalens guldera.",
       "stats": [
-        { "label": "UEFA-titlar", "value": "1 (2007)" }
+        {
+          "label": "UEFA-titlar",
+          "value": "1 (2007)"
+        }
       ],
       "facts": [
         "Vann UEFA Futsal Cup 2007.",
         "En av tre ryska klubbar som tagit Europatiteln."
       ],
-      "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+      "source": {
+        "label": "Wikipedia — UEFA Futsal Champions League",
+        "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League"
+      }
     },
     {
       "id": "viz-sinara",
@@ -1115,12 +1779,18 @@
       "country": "Ryssland",
       "tagline": "Rysk Europamästare 2008.",
       "stats": [
-        { "label": "UEFA-titlar", "value": "1 (2008)" }
+        {
+          "label": "UEFA-titlar",
+          "value": "1 (2008)"
+        }
       ],
       "facts": [
         "Vann UEFA Futsal Cup 2008."
       ],
-      "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+      "source": {
+        "label": "Wikipedia — UEFA Futsal Champions League",
+        "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League"
+      }
     },
     {
       "id": "gazprom-ugra",
@@ -1131,12 +1801,18 @@
       "country": "Ryssland",
       "tagline": "Rysk Europamästare 2016.",
       "stats": [
-        { "label": "UEFA-titlar", "value": "1 (2016)" }
+        {
+          "label": "UEFA-titlar",
+          "value": "1 (2016)"
+        }
       ],
       "facts": [
         "Vann UEFA Futsal Champions League 2016."
       ],
-      "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+      "source": {
+        "label": "Wikipedia — UEFA Futsal Champions League",
+        "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League"
+      }
     },
     {
       "id": "charleroi",
@@ -1147,12 +1823,18 @@
       "country": "Belgien",
       "tagline": "Belgisk Europamästare 2005 — en sällsynt titel utanför storlanden.",
       "stats": [
-        { "label": "UEFA-titlar", "value": "1 (2005)" }
+        {
+          "label": "UEFA-titlar",
+          "value": "1 (2005)"
+        }
       ],
       "facts": [
         "Vann UEFA Futsal Cup 2005 — Belgiens enda Europatitel i futsal."
       ],
-      "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+      "source": {
+        "label": "Wikipedia — UEFA Futsal Champions League",
+        "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League"
+      }
     },
     {
       "id": "montesilvano",
@@ -1163,12 +1845,18 @@
       "country": "Italien",
       "tagline": "Italiensk Europamästare 2011.",
       "stats": [
-        { "label": "UEFA-titlar", "value": "1 (2011)" }
+        {
+          "label": "UEFA-titlar",
+          "value": "1 (2011)"
+        }
       ],
       "facts": [
         "Vann UEFA Futsal Cup 2011."
       ],
-      "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+      "source": {
+        "label": "Wikipedia — UEFA Futsal Champions League",
+        "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League"
+      }
     },
     {
       "id": "vm",
@@ -1179,8 +1867,14 @@
       "country": "Världen internationellt",
       "tagline": "Futsalens VM — arrangeras vart fjärde år sedan 1989.",
       "stats": [
-        { "label": "Flest guld", "value": "Brasilien (6)" },
-        { "label": "Regerande mästare", "value": "Brasilien (2024)" }
+        {
+          "label": "Flest guld",
+          "value": "Brasilien (6)"
+        },
+        {
+          "label": "Regerande mästare",
+          "value": "Brasilien (2024)"
+        }
       ],
       "facts": [
         "Spelas vart fjärde år sedan premiären 1989 i Nederländerna.",
@@ -1188,18 +1882,61 @@
         "Senaste upplagan: Uzbekistan 2024 — Brasilien vann finalen 2–1 mot Argentina."
       ],
       "history": [
-        { "year": "1989", "champ": "🇧🇷 Brasilien", "result": "2–1 mot Nederländerna" },
-        { "year": "1992", "champ": "🇧🇷 Brasilien", "result": "4–1 mot USA" },
-        { "year": "1996", "champ": "🇧🇷 Brasilien", "result": "6–4 mot Spanien" },
-        { "year": "2000", "champ": "🇪🇸 Spanien", "result": "4–3 mot Brasilien" },
-        { "year": "2004", "champ": "🇪🇸 Spanien", "result": "2–1 mot Italien" },
-        { "year": "2008", "champ": "🇧🇷 Brasilien", "result": "2–2, 4–3 på straffar mot Spanien" },
-        { "year": "2012", "champ": "🇧🇷 Brasilien", "result": "3–2 efter förl. mot Spanien" },
-        { "year": "2016", "champ": "🇦🇷 Argentina", "result": "5–4 mot Ryssland" },
-        { "year": "2021", "champ": "🇵🇹 Portugal", "result": "2–1 mot Argentina" },
-        { "year": "2024", "champ": "🇧🇷 Brasilien", "result": "2–1 mot Argentina" }
+        {
+          "year": "1989",
+          "champ": "🇧🇷 Brasilien",
+          "result": "2–1 mot Nederländerna"
+        },
+        {
+          "year": "1992",
+          "champ": "🇧🇷 Brasilien",
+          "result": "4–1 mot USA"
+        },
+        {
+          "year": "1996",
+          "champ": "🇧🇷 Brasilien",
+          "result": "6–4 mot Spanien"
+        },
+        {
+          "year": "2000",
+          "champ": "🇪🇸 Spanien",
+          "result": "4–3 mot Brasilien"
+        },
+        {
+          "year": "2004",
+          "champ": "🇪🇸 Spanien",
+          "result": "2–1 mot Italien"
+        },
+        {
+          "year": "2008",
+          "champ": "🇧🇷 Brasilien",
+          "result": "2–2, 4–3 på straffar mot Spanien"
+        },
+        {
+          "year": "2012",
+          "champ": "🇧🇷 Brasilien",
+          "result": "3–2 efter förl. mot Spanien"
+        },
+        {
+          "year": "2016",
+          "champ": "🇦🇷 Argentina",
+          "result": "5–4 mot Ryssland"
+        },
+        {
+          "year": "2021",
+          "champ": "🇵🇹 Portugal",
+          "result": "2–1 mot Argentina"
+        },
+        {
+          "year": "2024",
+          "champ": "🇧🇷 Brasilien",
+          "result": "2–1 mot Argentina"
+        }
       ],
-      "source": { "label": "Wikipedia — FIFA Futsal World Cup", "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup" }
+      "source": {
+        "label": "Wikipedia — FIFA Futsal World Cup",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
+      }
     },
     {
       "id": "em",
@@ -1210,8 +1947,14 @@
       "country": "Europa internationellt",
       "tagline": "Europas landslagsmästerskap — sedan 1996.",
       "stats": [
-        { "label": "Flest guld", "value": "Spanien (8)" },
-        { "label": "Regerande mästare", "value": "Spanien (2026)" }
+        {
+          "label": "Flest guld",
+          "value": "Spanien (8)"
+        },
+        {
+          "label": "Regerande mästare",
+          "value": "Spanien (2026)"
+        }
       ],
       "facts": [
         "Spelas sedan premiären 1996.",
@@ -1219,21 +1962,76 @@
         "Senaste final: Spanien 5–3 Portugal (2026 i Ljubljana)."
       ],
       "history": [
-        { "year": "1996", "champ": "🇪🇸 Spanien", "result": "5–3 mot Ryssland" },
-        { "year": "1999", "champ": "🇷🇺 Ryssland", "result": "3–3, på straffar mot Spanien" },
-        { "year": "2001", "champ": "🇪🇸 Spanien", "result": "2–1 mot Ukraina" },
-        { "year": "2003", "champ": "🇮🇹 Italien", "result": "1–0 mot Ukraina" },
-        { "year": "2005", "champ": "🇪🇸 Spanien", "result": "2–1 mot Ryssland" },
-        { "year": "2007", "champ": "🇪🇸 Spanien", "result": "3–1 mot Italien" },
-        { "year": "2010", "champ": "🇪🇸 Spanien", "result": "4–2 mot Portugal" },
-        { "year": "2012", "champ": "🇪🇸 Spanien", "result": "3–1 mot Ryssland" },
-        { "year": "2014", "champ": "🇮🇹 Italien", "result": "3–1 mot Ryssland" },
-        { "year": "2016", "champ": "🇪🇸 Spanien", "result": "7–3 mot Ryssland" },
-        { "year": "2018", "champ": "🇵🇹 Portugal", "result": "3–2 mot Spanien" },
-        { "year": "2022", "champ": "🇵🇹 Portugal", "result": "4–2 mot Ryssland" },
-        { "year": "2026", "champ": "🇪🇸 Spanien", "result": "5–3 mot Portugal" }
+        {
+          "year": "1996",
+          "champ": "🇪🇸 Spanien",
+          "result": "5–3 mot Ryssland"
+        },
+        {
+          "year": "1999",
+          "champ": "🇷🇺 Ryssland",
+          "result": "3–3, på straffar mot Spanien"
+        },
+        {
+          "year": "2001",
+          "champ": "🇪🇸 Spanien",
+          "result": "2–1 mot Ukraina"
+        },
+        {
+          "year": "2003",
+          "champ": "🇮🇹 Italien",
+          "result": "1–0 mot Ukraina"
+        },
+        {
+          "year": "2005",
+          "champ": "🇪🇸 Spanien",
+          "result": "2–1 mot Ryssland"
+        },
+        {
+          "year": "2007",
+          "champ": "🇪🇸 Spanien",
+          "result": "3–1 mot Italien"
+        },
+        {
+          "year": "2010",
+          "champ": "🇪🇸 Spanien",
+          "result": "4–2 mot Portugal"
+        },
+        {
+          "year": "2012",
+          "champ": "🇪🇸 Spanien",
+          "result": "3–1 mot Ryssland"
+        },
+        {
+          "year": "2014",
+          "champ": "🇮🇹 Italien",
+          "result": "3–1 mot Ryssland"
+        },
+        {
+          "year": "2016",
+          "champ": "🇪🇸 Spanien",
+          "result": "7–3 mot Ryssland"
+        },
+        {
+          "year": "2018",
+          "champ": "🇵🇹 Portugal",
+          "result": "3–2 mot Spanien"
+        },
+        {
+          "year": "2022",
+          "champ": "🇵🇹 Portugal",
+          "result": "4–2 mot Ryssland"
+        },
+        {
+          "year": "2026",
+          "champ": "🇪🇸 Spanien",
+          "result": "5–3 mot Portugal"
+        }
       ],
-      "source": { "label": "UEFA — Futsal EURO", "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/" }
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
     },
     {
       "id": "ucl",
@@ -1244,8 +2042,14 @@
       "country": "Europa klubblag",
       "tagline": "Europas finaste klubbturnering — sedan 2001.",
       "stats": [
-        { "label": "Flest titlar", "value": "Inter FS (5)" },
-        { "label": "Regerande mästare", "value": "Sporting CP (2026)" }
+        {
+          "label": "Flest titlar",
+          "value": "Inter FS (5)"
+        },
+        {
+          "label": "Regerande mästare",
+          "value": "Sporting CP (2026)"
+        }
       ],
       "facts": [
         "Grundad 2001 som UEFA Futsal Cup, omdöpt till UEFA Futsal Champions League 2018.",
@@ -1253,33 +2057,136 @@
         "Regerande mästare: Sporting CP (2026)."
       ],
       "history": [
-        { "year": "2002", "champ": "🇪🇸 Playas de Castellón", "result": "Spanien" },
-        { "year": "2003", "champ": "🇪🇸 Playas de Castellón", "result": "Spanien" },
-        { "year": "2004", "champ": "🇪🇸 Inter FS", "result": "Spanien" },
-        { "year": "2005", "champ": "🇧🇪 Action 21 Charleroi", "result": "Belgien" },
-        { "year": "2006", "champ": "🇪🇸 Inter FS", "result": "Spanien" },
-        { "year": "2007", "champ": "🇷🇺 Dinamo Moskva", "result": "Ryssland" },
-        { "year": "2008", "champ": "🇷🇺 Viz-Sinara Jekaterinburg", "result": "Ryssland" },
-        { "year": "2009", "champ": "🇪🇸 Inter FS", "result": "Spanien" },
-        { "year": "2010", "champ": "🇵🇹 Benfica", "result": "Portugal" },
-        { "year": "2011", "champ": "🇮🇹 Montesilvano", "result": "Italien" },
-        { "year": "2012", "champ": "🇪🇸 Barcelona", "result": "Spanien" },
-        { "year": "2013", "champ": "🇰🇿 Kairat Almaty", "result": "Kazakstan" },
-        { "year": "2014", "champ": "🇪🇸 Barcelona", "result": "Spanien" },
-        { "year": "2015", "champ": "🇰🇿 Kairat Almaty", "result": "Kazakstan" },
-        { "year": "2016", "champ": "🇷🇺 Gazprom-Ugra Jugorsk", "result": "Ryssland" },
-        { "year": "2017", "champ": "🇪🇸 Inter FS", "result": "Spanien" },
-        { "year": "2018", "champ": "🇪🇸 Inter FS", "result": "Spanien" },
-        { "year": "2019", "champ": "🇵🇹 Sporting CP", "result": "Portugal" },
-        { "year": "2020", "champ": "🇪🇸 Barcelona", "result": "Spanien" },
-        { "year": "2021", "champ": "🇵🇹 Sporting CP", "result": "Portugal" },
-        { "year": "2022", "champ": "🇪🇸 Barcelona", "result": "Spanien" },
-        { "year": "2023", "champ": "🇪🇸 Palma Futsal", "result": "Spanien" },
-        { "year": "2024", "champ": "🇪🇸 Palma Futsal", "result": "Spanien" },
-        { "year": "2025", "champ": "🇪🇸 Palma Futsal", "result": "Spanien" },
-        { "year": "2026", "champ": "🇵🇹 Sporting CP", "result": "Portugal" }
+        {
+          "year": "2002",
+          "champ": "🇪🇸 Playas de Castellón",
+          "result": "Spanien"
+        },
+        {
+          "year": "2003",
+          "champ": "🇪🇸 Playas de Castellón",
+          "result": "Spanien"
+        },
+        {
+          "year": "2004",
+          "champ": "🇪🇸 Inter FS",
+          "result": "Spanien"
+        },
+        {
+          "year": "2005",
+          "champ": "🇧🇪 Action 21 Charleroi",
+          "result": "Belgien"
+        },
+        {
+          "year": "2006",
+          "champ": "🇪🇸 Inter FS",
+          "result": "Spanien"
+        },
+        {
+          "year": "2007",
+          "champ": "🇷🇺 Dinamo Moskva",
+          "result": "Ryssland"
+        },
+        {
+          "year": "2008",
+          "champ": "🇷🇺 Viz-Sinara Jekaterinburg",
+          "result": "Ryssland"
+        },
+        {
+          "year": "2009",
+          "champ": "🇪🇸 Inter FS",
+          "result": "Spanien"
+        },
+        {
+          "year": "2010",
+          "champ": "🇵🇹 Benfica",
+          "result": "Portugal"
+        },
+        {
+          "year": "2011",
+          "champ": "🇮🇹 Montesilvano",
+          "result": "Italien"
+        },
+        {
+          "year": "2012",
+          "champ": "🇪🇸 Barcelona",
+          "result": "Spanien"
+        },
+        {
+          "year": "2013",
+          "champ": "🇰🇿 Kairat Almaty",
+          "result": "Kazakstan"
+        },
+        {
+          "year": "2014",
+          "champ": "🇪🇸 Barcelona",
+          "result": "Spanien"
+        },
+        {
+          "year": "2015",
+          "champ": "🇰🇿 Kairat Almaty",
+          "result": "Kazakstan"
+        },
+        {
+          "year": "2016",
+          "champ": "🇷🇺 Gazprom-Ugra Jugorsk",
+          "result": "Ryssland"
+        },
+        {
+          "year": "2017",
+          "champ": "🇪🇸 Inter FS",
+          "result": "Spanien"
+        },
+        {
+          "year": "2018",
+          "champ": "🇪🇸 Inter FS",
+          "result": "Spanien"
+        },
+        {
+          "year": "2019",
+          "champ": "🇵🇹 Sporting CP",
+          "result": "Portugal"
+        },
+        {
+          "year": "2020",
+          "champ": "🇪🇸 Barcelona",
+          "result": "Spanien"
+        },
+        {
+          "year": "2021",
+          "champ": "🇵🇹 Sporting CP",
+          "result": "Portugal"
+        },
+        {
+          "year": "2022",
+          "champ": "🇪🇸 Barcelona",
+          "result": "Spanien"
+        },
+        {
+          "year": "2023",
+          "champ": "🇪🇸 Palma Futsal",
+          "result": "Spanien"
+        },
+        {
+          "year": "2024",
+          "champ": "🇪🇸 Palma Futsal",
+          "result": "Spanien"
+        },
+        {
+          "year": "2025",
+          "champ": "🇪🇸 Palma Futsal",
+          "result": "Spanien"
+        },
+        {
+          "year": "2026",
+          "champ": "🇵🇹 Sporting CP",
+          "result": "Portugal"
+        }
       ],
-      "source": { "label": "Wikipedia — UEFA Futsal Champions League", "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League" }
+      "source": {
+        "label": "Wikipedia — UEFA Futsal Champions League",
+        "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League"
+      }
     },
     {
       "id": "afc",
@@ -1290,8 +2197,14 @@
       "country": "Asien internationellt",
       "tagline": "Asiens landslagsmästerskap — totalt dominerat av Iran.",
       "stats": [
-        { "label": "Flest guld", "value": "Iran (14)" },
-        { "label": "Regerande mästare", "value": "Iran (2026)" }
+        {
+          "label": "Flest guld",
+          "value": "Iran (14)"
+        },
+        {
+          "label": "Regerande mästare",
+          "value": "Iran (2026)"
+        }
       ],
       "facts": [
         "Iran är rekordmästare med 14 titlar.",
@@ -1299,26 +2212,101 @@
         "Senaste upplagan 2026 vann Iran mot Indonesien på straffar. Turneringen 2020 ställdes in p.g.a. covid-19."
       ],
       "history": [
-        { "year": "1999", "champ": "🇮🇷 Iran", "result": "9–1 mot Sydkorea" },
-        { "year": "2000", "champ": "🇮🇷 Iran", "result": "4–1 mot Kazakstan" },
-        { "year": "2001", "champ": "🇮🇷 Iran", "result": "9–0 mot Uzbekistan" },
-        { "year": "2002", "champ": "🇮🇷 Iran", "result": "6–0 mot Japan" },
-        { "year": "2003", "champ": "🇮🇷 Iran", "result": "6–4 mot Japan" },
-        { "year": "2004", "champ": "🇮🇷 Iran", "result": "5–3 mot Japan" },
-        { "year": "2005", "champ": "🇮🇷 Iran", "result": "2–0 mot Japan" },
-        { "year": "2006", "champ": "🇯🇵 Japan", "result": "5–1 mot Uzbekistan" },
-        { "year": "2007", "champ": "🇮🇷 Iran", "result": "4–1 mot Japan" },
-        { "year": "2008", "champ": "🇮🇷 Iran", "result": "4–0 mot Thailand" },
-        { "year": "2010", "champ": "🇮🇷 Iran", "result": "8–3 mot Uzbekistan" },
-        { "year": "2012", "champ": "🇯🇵 Japan", "result": "6–1 mot Thailand" },
-        { "year": "2014", "champ": "🇯🇵 Japan", "result": "2–2, straffar mot Iran" },
-        { "year": "2016", "champ": "🇮🇷 Iran", "result": "2–1 mot Uzbekistan" },
-        { "year": "2018", "champ": "🇮🇷 Iran", "result": "4–0 mot Japan" },
-        { "year": "2022", "champ": "🇯🇵 Japan", "result": "3–2 mot Iran" },
-        { "year": "2024", "champ": "🇮🇷 Iran", "result": "4–1 mot Thailand" },
-        { "year": "2026", "champ": "🇮🇷 Iran", "result": "5–5, straffar mot Indonesien" }
+        {
+          "year": "1999",
+          "champ": "🇮🇷 Iran",
+          "result": "9–1 mot Sydkorea"
+        },
+        {
+          "year": "2000",
+          "champ": "🇮🇷 Iran",
+          "result": "4–1 mot Kazakstan"
+        },
+        {
+          "year": "2001",
+          "champ": "🇮🇷 Iran",
+          "result": "9–0 mot Uzbekistan"
+        },
+        {
+          "year": "2002",
+          "champ": "🇮🇷 Iran",
+          "result": "6–0 mot Japan"
+        },
+        {
+          "year": "2003",
+          "champ": "🇮🇷 Iran",
+          "result": "6–4 mot Japan"
+        },
+        {
+          "year": "2004",
+          "champ": "🇮🇷 Iran",
+          "result": "5–3 mot Japan"
+        },
+        {
+          "year": "2005",
+          "champ": "🇮🇷 Iran",
+          "result": "2–0 mot Japan"
+        },
+        {
+          "year": "2006",
+          "champ": "🇯🇵 Japan",
+          "result": "5–1 mot Uzbekistan"
+        },
+        {
+          "year": "2007",
+          "champ": "🇮🇷 Iran",
+          "result": "4–1 mot Japan"
+        },
+        {
+          "year": "2008",
+          "champ": "🇮🇷 Iran",
+          "result": "4–0 mot Thailand"
+        },
+        {
+          "year": "2010",
+          "champ": "🇮🇷 Iran",
+          "result": "8–3 mot Uzbekistan"
+        },
+        {
+          "year": "2012",
+          "champ": "🇯🇵 Japan",
+          "result": "6–1 mot Thailand"
+        },
+        {
+          "year": "2014",
+          "champ": "🇯🇵 Japan",
+          "result": "2–2, straffar mot Iran"
+        },
+        {
+          "year": "2016",
+          "champ": "🇮🇷 Iran",
+          "result": "2–1 mot Uzbekistan"
+        },
+        {
+          "year": "2018",
+          "champ": "🇮🇷 Iran",
+          "result": "4–0 mot Japan"
+        },
+        {
+          "year": "2022",
+          "champ": "🇯🇵 Japan",
+          "result": "3–2 mot Iran"
+        },
+        {
+          "year": "2024",
+          "champ": "🇮🇷 Iran",
+          "result": "4–1 mot Thailand"
+        },
+        {
+          "year": "2026",
+          "champ": "🇮🇷 Iran",
+          "result": "5–5, straffar mot Indonesien"
+        }
       ],
-      "source": { "label": "Wikipedia — AFC Futsal Asian Cup", "url": "https://en.wikipedia.org/wiki/AFC_Futsal_Asian_Cup" }
+      "source": {
+        "label": "Wikipedia — AFC Futsal Asian Cup",
+        "url": "https://en.wikipedia.org/wiki/AFC_Futsal_Asian_Cup"
+      }
     },
     {
       "id": "copa-america",
@@ -1329,8 +2317,14 @@
       "country": "Sydamerika internationellt",
       "tagline": "Sydamerikas landslagsmästerskap — Brasiliens jaktmark.",
       "stats": [
-        { "label": "Flest guld", "value": "Brasilien (12)" },
-        { "label": "Regerande mästare", "value": "Brasilien (2026)" }
+        {
+          "label": "Flest guld",
+          "value": "Brasilien (12)"
+        },
+        {
+          "label": "Regerande mästare",
+          "value": "Brasilien (2026)"
+        }
       ],
       "facts": [
         "Sydamerikas mästerskap för landslag, spelat sedan 1992.",
@@ -1338,23 +2332,86 @@
         "Brasilien vann senaste finalen 2026 mot Argentina."
       ],
       "history": [
-        { "year": "1992", "champ": "🇧🇷 Brasilien", "result": "mot Argentina" },
-        { "year": "1995", "champ": "🇧🇷 Brasilien", "result": "mot Argentina" },
-        { "year": "1996", "champ": "🇧🇷 Brasilien", "result": "mot Uruguay" },
-        { "year": "1997", "champ": "🇧🇷 Brasilien", "result": "mot Argentina" },
-        { "year": "1998", "champ": "🇧🇷 Brasilien", "result": "mot Paraguay" },
-        { "year": "1999", "champ": "🇧🇷 Brasilien", "result": "mot Paraguay" },
-        { "year": "2000", "champ": "🇧🇷 Brasilien", "result": "mot Argentina" },
-        { "year": "2003", "champ": "🇦🇷 Argentina", "result": "mot Brasilien" },
-        { "year": "2008", "champ": "🇧🇷 Brasilien", "result": "mot Uruguay" },
-        { "year": "2011", "champ": "🇧🇷 Brasilien", "result": "mot Argentina" },
-        { "year": "2015", "champ": "🇦🇷 Argentina", "result": "mot Paraguay" },
-        { "year": "2017", "champ": "🇧🇷 Brasilien", "result": "mot Argentina" },
-        { "year": "2022", "champ": "🇦🇷 Argentina", "result": "mot Paraguay" },
-        { "year": "2024", "champ": "🇧🇷 Brasilien", "result": "mot Argentina" },
-        { "year": "2026", "champ": "🇧🇷 Brasilien", "result": "mot Argentina" }
+        {
+          "year": "1992",
+          "champ": "🇧🇷 Brasilien",
+          "result": "mot Argentina"
+        },
+        {
+          "year": "1995",
+          "champ": "🇧🇷 Brasilien",
+          "result": "mot Argentina"
+        },
+        {
+          "year": "1996",
+          "champ": "🇧🇷 Brasilien",
+          "result": "mot Uruguay"
+        },
+        {
+          "year": "1997",
+          "champ": "🇧🇷 Brasilien",
+          "result": "mot Argentina"
+        },
+        {
+          "year": "1998",
+          "champ": "🇧🇷 Brasilien",
+          "result": "mot Paraguay"
+        },
+        {
+          "year": "1999",
+          "champ": "🇧🇷 Brasilien",
+          "result": "mot Paraguay"
+        },
+        {
+          "year": "2000",
+          "champ": "🇧🇷 Brasilien",
+          "result": "mot Argentina"
+        },
+        {
+          "year": "2003",
+          "champ": "🇦🇷 Argentina",
+          "result": "mot Brasilien"
+        },
+        {
+          "year": "2008",
+          "champ": "🇧🇷 Brasilien",
+          "result": "mot Uruguay"
+        },
+        {
+          "year": "2011",
+          "champ": "🇧🇷 Brasilien",
+          "result": "mot Argentina"
+        },
+        {
+          "year": "2015",
+          "champ": "🇦🇷 Argentina",
+          "result": "mot Paraguay"
+        },
+        {
+          "year": "2017",
+          "champ": "🇧🇷 Brasilien",
+          "result": "mot Argentina"
+        },
+        {
+          "year": "2022",
+          "champ": "🇦🇷 Argentina",
+          "result": "mot Paraguay"
+        },
+        {
+          "year": "2024",
+          "champ": "🇧🇷 Brasilien",
+          "result": "mot Argentina"
+        },
+        {
+          "year": "2026",
+          "champ": "🇧🇷 Brasilien",
+          "result": "mot Argentina"
+        }
       ],
-      "source": { "label": "Wikipedia — Copa América de Futsal", "url": "https://en.wikipedia.org/wiki/Copa_Am%C3%A9rica_de_Futsal" }
+      "source": {
+        "label": "Wikipedia — Copa América de Futsal",
+        "url": "https://en.wikipedia.org/wiki/Copa_Am%C3%A9rica_de_Futsal"
+      }
     },
     {
       "id": "sfl",
@@ -1363,18 +2420,33 @@
       "flag": "🇸🇪",
       "sub": "Svensk futsal · Högsta nivån",
       "country": "Sverige",
-      "tagline": "Sveriges högsta futsalliga — rikstäckande elit med SM-slutspel.",
+      "tagline": "Sveriges högsta futsalliga — 12 lag, rikstäckande elit med SM-slutspel.",
       "stats": [
-        { "label": "Nivå", "value": "1 (högsta)" },
-        { "label": "Antal lag", "value": "~12" }
+        {
+          "label": "Nivå",
+          "value": "1 (högsta)"
+        },
+        {
+          "label": "Antal lag",
+          "value": "12"
+        },
+        {
+          "label": "Mästare 2026",
+          "value": "FC Kalmar"
+        }
       ],
       "facts": [
-        "Sveriges högsta futsalserie, rikstäckande sedan säsongen 2019/2020 med 12 lag.",
-        "De åtta bästa lagen går vidare till SM-slutspel som avgör svenska mästaren.",
-        "Drivs av Svenska Fotbollförbundet (SvFF).",
-        "Spelas för både herrar och damer."
+        "Sveriges högsta futsalserie, rikstäckande sedan 2019/2020 med 12 lag. Grundserie följd av SM-slutspel.",
+        "FC Kalmar vann SM-guld 2026 efter att ha besegrat Skoftebyns IF i den tredje finalen på straffar den 26 april — Smålands första SM-guld i futsal.",
+        "Seriesammansättningen fastställs av SvFF:s Tävlingsutvecklingskommitté, normalt i juni. Den kan ändras efteråt: inför 2025/26 lade Hammarby ner sin futsalverksamhet, varpå FC Real Internacional behöll sin SFL-plats.",
+        "Skytteligan 2024/2025: Flamur Tahiri (Borås AIK) 34 mål, Younes Raisi (Borås AIK) 33, Henrik Lara Rodriguez (FC Kalmar) 32, Fredrik Söderqvist (Uddevalla FC) 26, Sandro Rickelb Souza Nascimento (Örebro SK) 26.",
+        "Tillgänglig spelarstatistik är mål, matcher och delvis assist. Passningar, skott, tacklingar och speltid samlas inte in i svensk futsal.",
+        "Drivs av Svenska Fotbollförbundet (SvFF). Spelas för både herrar och damer."
       ],
-      "source": { "label": "Wikipedia — Svenska Futsalligan", "url": "https://sv.wikipedia.org/wiki/Svenska_Futsalligan" }
+      "source": {
+        "label": "Svenska Futsalligan",
+        "url": "https://svenskafutsalligan.se/"
+      }
     },
     {
       "id": "division-1-se",
@@ -1385,15 +2457,24 @@
       "country": "Sverige",
       "tagline": "Näst högsta nivån — nationell, tre regionala serier.",
       "stats": [
-        { "label": "Nivå", "value": "2" },
-        { "label": "Serier", "value": "3 (regionala)" }
+        {
+          "label": "Nivå",
+          "value": "2"
+        },
+        {
+          "label": "Serier",
+          "value": "3 (regionala)"
+        }
       ],
       "facts": [
         "Nationell nivå direkt under SFL.",
         "Består av tre serier: Östra Svealand, Mellersta Götaland och Västra Götaland.",
         "Serievinnarna kan kvala upp till SFL."
       ],
-      "source": { "label": "Svensk fotboll — Futsal Division 1", "url": "https://www.svenskfotboll.se/futsal/serier/div.-1/" }
+      "source": {
+        "label": "Svensk fotboll — Futsal Division 1",
+        "url": "https://www.svenskfotboll.se/futsal/serier/div.-1/"
+      }
     },
     {
       "id": "d1-ostra-svealand",
@@ -1404,14 +2485,23 @@
       "country": "Sverige Svealand Stockholm Uppsala",
       "tagline": "En av tre nationella Division 1-serier i futsal.",
       "stats": [
-        { "label": "Nivå", "value": "2 (Division 1)" },
-        { "label": "Region", "value": "Östra Svealand" }
+        {
+          "label": "Nivå",
+          "value": "2 (Division 1)"
+        },
+        {
+          "label": "Region",
+          "value": "Östra Svealand"
+        }
       ],
       "facts": [
         "En av de tre Division 1-serierna i futsal (nivån under SFL).",
         "Serievinnaren kan kvala upp till Svenska Futsalligan."
       ],
-      "source": { "label": "Svensk fotboll — Futsal Division 1", "url": "https://www.svenskfotboll.se/futsal/serier/div.-1/" }
+      "source": {
+        "label": "Svensk fotboll — Futsal Division 1",
+        "url": "https://www.svenskfotboll.se/futsal/serier/div.-1/"
+      }
     },
     {
       "id": "d1-mellersta-gotaland",
@@ -1422,14 +2512,23 @@
       "country": "Sverige Götaland",
       "tagline": "En av tre nationella Division 1-serier i futsal.",
       "stats": [
-        { "label": "Nivå", "value": "2 (Division 1)" },
-        { "label": "Region", "value": "Mellersta Götaland" }
+        {
+          "label": "Nivå",
+          "value": "2 (Division 1)"
+        },
+        {
+          "label": "Region",
+          "value": "Mellersta Götaland"
+        }
       ],
       "facts": [
         "En av de tre Division 1-serierna i futsal (nivån under SFL).",
         "Serievinnaren kan kvala upp till Svenska Futsalligan."
       ],
-      "source": { "label": "Svensk fotboll — Futsal Division 1", "url": "https://www.svenskfotboll.se/futsal/serier/div.-1/" }
+      "source": {
+        "label": "Svensk fotboll — Futsal Division 1",
+        "url": "https://www.svenskfotboll.se/futsal/serier/div.-1/"
+      }
     },
     {
       "id": "d1-vastra-gotaland",
@@ -1440,14 +2539,23 @@
       "country": "Sverige Götaland Göteborg",
       "tagline": "En av tre nationella Division 1-serier i futsal.",
       "stats": [
-        { "label": "Nivå", "value": "2 (Division 1)" },
-        { "label": "Region", "value": "Västra Götaland" }
+        {
+          "label": "Nivå",
+          "value": "2 (Division 1)"
+        },
+        {
+          "label": "Region",
+          "value": "Västra Götaland"
+        }
       ],
       "facts": [
         "En av de tre Division 1-serierna i futsal (nivån under SFL).",
         "Serievinnaren kan kvala upp till Svenska Futsalligan."
       ],
-      "source": { "label": "Svensk fotboll — Futsal Division 1", "url": "https://www.svenskfotboll.se/futsal/serier/div.-1/" }
+      "source": {
+        "label": "Svensk fotboll — Futsal Division 1",
+        "url": "https://www.svenskfotboll.se/futsal/serier/div.-1/"
+      }
     },
     {
       "id": "division-2-se",
@@ -1458,15 +2566,24 @@
       "country": "Sverige",
       "tagline": "Regionala serier som drivs av de ~24 distriktsförbunden.",
       "stats": [
-        { "label": "Nivå", "value": "3 och nedåt" },
-        { "label": "Arrangeras av", "value": "Distriktsförbunden" }
+        {
+          "label": "Nivå",
+          "value": "3 och nedåt"
+        },
+        {
+          "label": "Arrangeras av",
+          "value": "Distriktsförbunden"
+        }
       ],
       "facts": [
         "Division 2 och lägre spelas regionalt, arrangerat av respektive distriktsförbund.",
         "Minst ett lag från division 2 kan kvala upp till division 1 via playoff.",
         "Exempel på distrikt: Hallands FF, Skåne FF, Stockholms FF."
       ],
-      "source": { "label": "Svensk fotboll — Futsal serier", "url": "https://www.svenskfotboll.se/futsal/serier/" }
+      "source": {
+        "label": "Svensk fotboll — Futsal serier",
+        "url": "https://www.svenskfotboll.se/futsal/serier/"
+      }
     },
     {
       "id": "halland-futsal",
@@ -1477,8 +2594,14 @@
       "country": "Sverige Halland Halmstad",
       "tagline": "Fenix eget distriktsförbund — regionala futsalserier i Halland.",
       "stats": [
-        { "label": "Distrikt", "value": "Halland" },
-        { "label": "Ungdomsserier", "value": "U13–U19" }
+        {
+          "label": "Distrikt",
+          "value": "Halland"
+        },
+        {
+          "label": "Ungdomsserier",
+          "value": "U13–U19"
+        }
       ],
       "facts": [
         "Halland fick egna futsalserier från 2024.",
@@ -1486,7 +2609,10 @@
         "Seniorserier arrangeras utifrån antalet anmälda lag.",
         "Fenix_hstd hör hemma i detta distrikt — Halmstad."
       ],
-      "source": { "label": "Hallands FF — Futsal", "url": "https://halland.svenskfotboll.se/tavling/futsal/" }
+      "source": {
+        "label": "Hallands FF — Futsal",
+        "url": "https://halland.svenskfotboll.se/tavling/futsal/"
+      }
     },
     {
       "id": "orebro-futsal-club",
@@ -1497,14 +2623,23 @@
       "country": "Sverige Örebro",
       "tagline": "Örebroklubb i Sveriges högsta futsalliga.",
       "stats": [
-        { "label": "Liga", "value": "SFL (nivå 1)" },
-        { "label": "Säsong", "value": "2025/26" }
+        {
+          "label": "Liga",
+          "value": "SFL (nivå 1)"
+        },
+        {
+          "label": "Säsong",
+          "value": "2025/26"
+        }
       ],
       "facts": [
         "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26.",
         "Från Örebro."
       ],
-      "source": { "label": "Svenska Futsalligan — inför premiären", "url": "https://svenskafutsalligan.se/infor-premiaromgangen/" }
+      "source": {
+        "label": "Svenska Futsalligan — inför premiären",
+        "url": "https://svenskafutsalligan.se/infor-premiaromgangen/"
+      }
     },
     {
       "id": "orebro-sk",
@@ -1515,33 +2650,73 @@
       "country": "Sverige Örebro",
       "tagline": "Örebro SK:s futsalsatsning i högsta serien.",
       "stats": [
-        { "label": "Liga", "value": "SFL (nivå 1)" },
-        { "label": "Säsong", "value": "2025/26" }
+        {
+          "label": "Liga",
+          "value": "SFL (nivå 1)"
+        },
+        {
+          "label": "Säsong",
+          "value": "2025/26"
+        },
+        {
+          "label": "SM-guld",
+          "value": "2 (2022, 2023)"
+        }
       ],
       "facts": [
+        "Svenska mästare 2022 och 2023.",
         "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26.",
         "Från Örebro."
       ],
-      "source": { "label": "Svenska Futsalligan — inför premiären", "url": "https://svenskafutsalligan.se/infor-premiaromgangen/" }
+      "source": {
+        "label": "Svenska Futsalligan — inför premiären",
+        "url": "https://svenskafutsalligan.se/infor-premiaromgangen/"
+      }
     },
     {
       "id": "uddevalla-futsal-club",
       "type": "svensk",
       "name": "Uddevalla Futsal Club",
       "flag": "🇸🇪",
-      "sub": "Svensk futsal · SFL (herr) 2025/26",
+      "sub": "Svensk futsal · SFL (herr) · Uddevalla",
       "country": "Sverige Uddevalla",
       "tagline": "Tidigare svenska mästare i futsal.",
       "stats": [
-        { "label": "Liga", "value": "SFL (nivå 1)" },
-        { "label": "Merit", "value": "Tidigare SM-guld" }
+        {
+          "label": "Liga",
+          "value": "SFL (nivå 1)"
+        },
+        {
+          "label": "Merit",
+          "value": "Tidigare SM-guld"
+        },
+        {
+          "label": "SM-guld",
+          "value": "1 (2024)"
+        },
+        {
+          "label": "Grundad",
+          "value": "2013"
+        },
+        {
+          "label": "Hemmaarena",
+          "value": "Agnebergshallen"
+        }
       ],
       "facts": [
+        "Svenska mästare 2024. Klubben är landslagets plantskola — sex spelare i VM-kvaltruppen 2026 kom härifrån.",
         "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26.",
         "Har vunnit SM-guld i futsal.",
-        "Från Uddevalla."
+        "Från Uddevalla.",
+        "Grundad 2013. Hette IFK Uddevalla Futsal fram till säsongen 2021/22, då namnet ändrades för att tydliggöra att klubben är en fristående futsalklubb.",
+        "Spelar sina hemmamatcher i Agnebergshallen. Silver 2015 och 2016 innan det första guldet kom 2017.",
+        "Innehar svenskt publikrekord i futsal: 1 754 åskådare den 25 februari 2017 i semifinalen mot Örebro SK.",
+        "Landslagsspelare genom åren: Petrit Zhubi, Fredrik Söderqvist, Marcus Gerd, Granit Berisha och Robert Bagger."
       ],
-      "source": { "label": "Svenska Futsalligan — inför premiären", "url": "https://svenskafutsalligan.se/infor-premiaromgangen/" }
+      "source": {
+        "label": "Uddevalla Futsal",
+        "url": "https://uddevallafutsal.se/"
+      }
     },
     {
       "id": "soder-futsal",
@@ -1552,14 +2727,23 @@
       "country": "Sverige Stockholm",
       "tagline": "Stockholmslag i Svenska Futsalligan.",
       "stats": [
-        { "label": "Liga", "value": "SFL (nivå 1)" },
-        { "label": "Säsong", "value": "2025/26" }
+        {
+          "label": "Liga",
+          "value": "SFL (nivå 1)"
+        },
+        {
+          "label": "Säsong",
+          "value": "2025/26"
+        }
       ],
       "facts": [
         "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26.",
         "Representerar Stockholm; återvände till högsta serien 2024/25."
       ],
-      "source": { "label": "Svenska Futsalligan — inför premiären", "url": "https://svenskafutsalligan.se/infor-premiaromgangen/" }
+      "source": {
+        "label": "Svenska Futsalligan — inför premiären",
+        "url": "https://svenskafutsalligan.se/infor-premiaromgangen/"
+      }
     },
     {
       "id": "fc-kalmar",
@@ -1570,14 +2754,28 @@
       "country": "Sverige Kalmar",
       "tagline": "Kalmarklubb i högsta futsalserien.",
       "stats": [
-        { "label": "Liga", "value": "SFL (nivå 1)" },
-        { "label": "Säsong", "value": "2025/26" }
+        {
+          "label": "Liga",
+          "value": "SFL (nivå 1)"
+        },
+        {
+          "label": "Säsong",
+          "value": "2025/26"
+        },
+        {
+          "label": "SM-guld",
+          "value": "1 (2026)"
+        }
       ],
       "facts": [
+        "Svenska mästare 2026 — klubbens och Smålands första SM-guld i futsal.",
         "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26.",
         "Från Kalmar."
       ],
-      "source": { "label": "Svenska Futsalligan — inför premiären", "url": "https://svenskafutsalligan.se/infor-premiaromgangen/" }
+      "source": {
+        "label": "Svenska Futsalligan — inför premiären",
+        "url": "https://svenskafutsalligan.se/infor-premiaromgangen/"
+      }
     },
     {
       "id": "kalmar-united",
@@ -1588,14 +2786,23 @@
       "country": "Sverige Kalmar",
       "tagline": "Andra Kalmarlaget i SFL.",
       "stats": [
-        { "label": "Liga", "value": "SFL (nivå 1)" },
-        { "label": "Säsong", "value": "2025/26" }
+        {
+          "label": "Liga",
+          "value": "SFL (nivå 1)"
+        },
+        {
+          "label": "Säsong",
+          "value": "2025/26"
+        }
       ],
       "facts": [
         "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26.",
         "Från Kalmar."
       ],
-      "source": { "label": "Svenska Futsalligan — inför premiären", "url": "https://svenskafutsalligan.se/infor-premiaromgangen/" }
+      "source": {
+        "label": "Svenska Futsalligan — inför premiären",
+        "url": "https://svenskafutsalligan.se/infor-premiaromgangen/"
+      }
     },
     {
       "id": "boras-aik",
@@ -1606,14 +2813,28 @@
       "country": "Sverige Borås",
       "tagline": "Boråsklubb i Svenska Futsalligan.",
       "stats": [
-        { "label": "Liga", "value": "SFL (nivå 1)" },
-        { "label": "Säsong", "value": "2025/26" }
+        {
+          "label": "Liga",
+          "value": "SFL (nivå 1)"
+        },
+        {
+          "label": "Säsong",
+          "value": "2025/26"
+        },
+        {
+          "label": "SM-guld",
+          "value": "1 (2025)"
+        }
       ],
       "facts": [
+        "Svenska mästare 2025. Klubben hade även skytteligans två främsta 2024/2025 i Flamur Tahiri (34 mål) och Younes Raisi (33).",
         "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26.",
         "Från Borås."
       ],
-      "source": { "label": "Svenska Futsalligan — inför premiären", "url": "https://svenskafutsalligan.se/infor-premiaromgangen/" }
+      "source": {
+        "label": "Svenska Futsalligan — inför premiären",
+        "url": "https://svenskafutsalligan.se/infor-premiaromgangen/"
+      }
     },
     {
       "id": "norrkoping-fk",
@@ -1624,31 +2845,62 @@
       "country": "Sverige Norrköping",
       "tagline": "Norrköpingsklubb i högsta futsalserien.",
       "stats": [
-        { "label": "Liga", "value": "SFL (nivå 1)" },
-        { "label": "Säsong", "value": "2025/26" }
+        {
+          "label": "Liga",
+          "value": "SFL (nivå 1)"
+        },
+        {
+          "label": "Säsong",
+          "value": "2025/26"
+        }
       ],
       "facts": [
         "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26.",
         "Från Norrköping."
       ],
-      "source": { "label": "Svenska Futsalligan — inför premiären", "url": "https://svenskafutsalligan.se/infor-premiaromgangen/" }
+      "source": {
+        "label": "Svenska Futsalligan — inför premiären",
+        "url": "https://svenskafutsalligan.se/infor-premiaromgangen/"
+      }
     },
     {
       "id": "skoftebyns-if",
       "type": "svensk",
       "name": "Skoftebyns IF",
       "flag": "🇸🇪",
-      "sub": "Svensk futsal · SFL (herr) 2025/26",
+      "sub": "Svensk futsal · SFL (herr) · Trollhättan",
       "country": "Sverige",
       "tagline": "SFL-klubb i högsta futsalserien.",
       "stats": [
-        { "label": "Liga", "value": "SFL (nivå 1)" },
-        { "label": "Säsong", "value": "2025/26" }
+        {
+          "label": "Liga",
+          "value": "SFL (nivå 1)"
+        },
+        {
+          "label": "Säsong",
+          "value": "2025/26"
+        },
+        {
+          "label": "Bästa placering",
+          "value": "SM-final 2026"
+        },
+        {
+          "label": "Futsal sedan",
+          "value": "2014"
+        }
       ],
       "facts": [
-        "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26."
+        "SM-finalist 2026 — förlorade den tredje finalen mot FC Kalmar på straffar.",
+        "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26.",
+        "Futsalsektionen bildades 2014 och herrlaget har spelat i SFL sedan dess. Damlaget startade 2023 och spelar i RFL.",
+        "Huvudtränare för herrlaget är Nima Kadivar, tillträdd i januari 2023 — han är även assisterande förbundskapten för herrlandslaget och har själv landskamper och SFL-säsonger som spelare.",
+        "Övriga ledare: Anders Svensson (futsal C-licens), Lavdim Azemi (U19-tränare, har fostrat spelare till A-laget), Daniel Andersson, Christoffer Lundh och Hanna Österberg.",
+        "Hemmahör i Trollhättan, Åkerssjövägen 60."
       ],
-      "source": { "label": "Svenska Futsalligan — inför premiären", "url": "https://svenskafutsalligan.se/infor-premiaromgangen/" }
+      "source": {
+        "label": "Skoftebyn Futsal",
+        "url": "https://www.skoftebynfutsal.se/"
+      }
     },
     {
       "id": "fc-ljiljan-goteborg",
@@ -1659,14 +2911,23 @@
       "country": "Sverige Göteborg",
       "tagline": "Göteborgsklubb, nykomling i SFL.",
       "stats": [
-        { "label": "Liga", "value": "SFL (nivå 1)" },
-        { "label": "Status", "value": "Nykomling" }
+        {
+          "label": "Liga",
+          "value": "SFL (nivå 1)"
+        },
+        {
+          "label": "Status",
+          "value": "Nykomling"
+        }
       ],
       "facts": [
         "Nykomling i Svenska Futsalligan (SFL) säsongen 2025/26.",
         "Från Göteborg."
       ],
-      "source": { "label": "Svenska Futsalligan — inför premiären", "url": "https://svenskafutsalligan.se/infor-premiaromgangen/" }
+      "source": {
+        "label": "Svenska Futsalligan — inför premiären",
+        "url": "https://svenskafutsalligan.se/infor-premiaromgangen/"
+      }
     },
     {
       "id": "ektorp-fk",
@@ -1677,13 +2938,22 @@
       "country": "Sverige",
       "tagline": "Nykomling i SFL, uppflyttad från division 1.",
       "stats": [
-        { "label": "Liga", "value": "SFL (nivå 1)" },
-        { "label": "Status", "value": "Nykomling" }
+        {
+          "label": "Liga",
+          "value": "SFL (nivå 1)"
+        },
+        {
+          "label": "Status",
+          "value": "Nykomling"
+        }
       ],
       "facts": [
         "Nykomling i Svenska Futsalligan (SFL) säsongen 2025/26 efter att överlägset ha vunnit sin division 1-serie."
       ],
-      "source": { "label": "Svenska Futsalligan — inför premiären", "url": "https://svenskafutsalligan.se/infor-premiaromgangen/" }
+      "source": {
+        "label": "Svenska Futsalligan — inför premiären",
+        "url": "https://svenskafutsalligan.se/infor-premiaromgangen/"
+      }
     },
     {
       "id": "fc-real-internacional",
@@ -1694,14 +2964,24 @@
       "country": "Sverige",
       "tagline": "SFL-klubb i högsta futsalserien.",
       "stats": [
-        { "label": "Liga", "value": "SFL (nivå 1)" },
-        { "label": "Säsong", "value": "2025/26" }
+        {
+          "label": "Liga",
+          "value": "SFL (nivå 1)"
+        },
+        {
+          "label": "Säsong",
+          "value": "2025/26"
+        }
       ],
       "facts": [
+        "Behöll sin SFL-plats inför 2025/26 sedan Hammarby lagt ner sin futsalverksamhet.",
         "Spelar i Svenska Futsalligan (SFL) säsongen 2025/26.",
         "Behöll SFL-platsen när Hammarby lade ner sin futsalverksamhet."
       ],
-      "source": { "label": "Svenska Futsalligan — inför premiären", "url": "https://svenskafutsalligan.se/infor-premiaromgangen/" }
+      "source": {
+        "label": "Svenska Futsalligan — inför premiären",
+        "url": "https://svenskafutsalligan.se/infor-premiaromgangen/"
+      }
     },
     {
       "id": "kungsbacka-if",
@@ -1712,15 +2992,24 @@
       "country": "Sverige Halland Kungsbacka",
       "tagline": "Vann Hallands första herrserie i futsal (2024/25).",
       "stats": [
-        { "label": "Serie", "value": "Halland herr" },
-        { "label": "Merit", "value": "Seriemästare 2024/25" }
+        {
+          "label": "Serie",
+          "value": "Halland herr"
+        },
+        {
+          "label": "Merit",
+          "value": "Seriemästare 2024/25"
+        }
       ],
       "facts": [
         "Vann den första upplagan av Hallands herrserie i futsal 2024/25 (nio segrar på tio matcher).",
         "Bred åldersspann i truppen, 16–45 år.",
         "Från Kungsbacka."
       ],
-      "source": { "label": "Hallands FF — KIF vann 2025", "url": "https://halland.svenskfotboll.se/nyheter/2025/02/kif-futsal-vann-2025/" }
+      "source": {
+        "label": "Hallands FF — KIF vann 2025",
+        "url": "https://halland.svenskfotboll.se/nyheter/2025/02/kif-futsal-vann-2025/"
+      }
     },
     {
       "id": "ullareds-ik",
@@ -1731,15 +3020,24 @@
       "country": "Sverige Halland Ullared",
       "tagline": "Ungt Hallandslag i distriktets herrserie.",
       "stats": [
-        { "label": "Serie", "value": "Halland herr" },
-        { "label": "Säsong", "value": "2024/25" }
+        {
+          "label": "Serie",
+          "value": "Halland herr"
+        },
+        {
+          "label": "Säsong",
+          "value": "2024/25"
+        }
       ],
       "facts": [
         "Deltog i Hallands herrserie i futsal 2024/25.",
         "Ungt lag med en kärna född omkring 2003.",
         "Från Ullared."
       ],
-      "source": { "label": "Hallands FF — Futsal", "url": "https://halland.svenskfotboll.se/nyheter/2024/10/futsal-lagen-i-serier-2024/" }
+      "source": {
+        "label": "Hallands FF — Futsal",
+        "url": "https://halland.svenskfotboll.se/nyheter/2024/10/futsal-lagen-i-serier-2024/"
+      }
     },
     {
       "id": "varo-united",
@@ -1750,14 +3048,23 @@
       "country": "Sverige Halland Värö Varberg",
       "tagline": "Samarbetslag i Hallands herrserie.",
       "stats": [
-        { "label": "Serie", "value": "Halland herr" },
-        { "label": "Säsong", "value": "2024/25" }
+        {
+          "label": "Serie",
+          "value": "Halland herr"
+        },
+        {
+          "label": "Säsong",
+          "value": "2024/25"
+        }
       ],
       "facts": [
         "Deltog i Hallands herrserie i futsal 2024/25.",
         "Samarbetslag med spelare från Bua IF, IF Norvalla och Väröbacka GoIF."
       ],
-      "source": { "label": "Hallands FF — Futsal", "url": "https://halland.svenskfotboll.se/nyheter/2024/10/futsal-lagen-i-serier-2024/" }
+      "source": {
+        "label": "Hallands FF — Futsal",
+        "url": "https://halland.svenskfotboll.se/nyheter/2024/10/futsal-lagen-i-serier-2024/"
+      }
     },
     {
       "id": "tronninge-bk",
@@ -1768,13 +3075,22 @@
       "country": "Sverige Halland Trönninge",
       "tagline": "Hallandslag i distriktets herrserie.",
       "stats": [
-        { "label": "Serie", "value": "Halland herr" },
-        { "label": "Säsong", "value": "2024/25" }
+        {
+          "label": "Serie",
+          "value": "Halland herr"
+        },
+        {
+          "label": "Säsong",
+          "value": "2024/25"
+        }
       ],
       "facts": [
         "Deltog i Hallands herrserie i futsal 2024/25 (anmälde två lag)."
       ],
-      "source": { "label": "Hallands FF — Futsal", "url": "https://halland.svenskfotboll.se/nyheter/2024/10/futsal-lagen-i-serier-2024/" }
+      "source": {
+        "label": "Hallands FF — Futsal",
+        "url": "https://halland.svenskfotboll.se/nyheter/2024/10/futsal-lagen-i-serier-2024/"
+      }
     },
     {
       "id": "tvaakers-if",
@@ -1785,14 +3101,57 @@
       "country": "Sverige Halland Tvååker Varberg",
       "tagline": "Hallandslag i distriktets herrserie.",
       "stats": [
-        { "label": "Serie", "value": "Halland herr" },
-        { "label": "Säsong", "value": "2024/25" }
+        {
+          "label": "Serie",
+          "value": "Halland herr"
+        },
+        {
+          "label": "Säsong",
+          "value": "2024/25"
+        }
       ],
       "facts": [
         "Deltog i Hallands herrserie i futsal 2024/25.",
         "Från Tvååker."
       ],
-      "source": { "label": "Hallands FF — Futsal", "url": "https://halland.svenskfotboll.se/nyheter/2024/10/futsal-lagen-i-serier-2024/" }
+      "source": {
+        "label": "Hallands FF — Futsal",
+        "url": "https://halland.svenskfotboll.se/nyheter/2024/10/futsal-lagen-i-serier-2024/"
+      }
+    },
+    {
+      "id": "sm-futsal",
+      "type": "turnering",
+      "name": "Svenska mästerskapet i futsal",
+      "flag": "🇸🇪",
+      "sub": "Turnering · Sverige · sedan 1994",
+      "country": "Sverige",
+      "tagline": "Sveriges nationella futsalmästerskap — avgörs i slutspel efter SFL:s grundserie.",
+      "stats": [
+        {
+          "label": "Mästare 2026",
+          "value": "FC Kalmar"
+        },
+        {
+          "label": "Flest titlar",
+          "value": "Skövde AIK (4 raka 2006–2009)"
+        },
+        {
+          "label": "Spelas sedan",
+          "value": "1994"
+        }
+      ],
+      "facts": [
+        "Herrmästare de senaste åren: FC Kalmar (2026), Borås AIK (2025), Uddevalla FC (2024), Örebro SK (2022, 2023), Hammarby IF (2020, 2021), IFK Uddevalla (2017–2019), IFK Göteborg (2015, 2016).",
+        "Tidigare mästare: Malmö City (2014), Göteborg FC (2013), FC Ibra (2012), Falcao FC Stockholm (2011), Vimmerby IF (2010), Skövde AIK (2006–2009).",
+        "Före 2006 hette tävlingen “SM i 5-manna inomhus” och spelades 1994–2005. Vinnare bland andra Hammarby IF (1994), Malmö FF (1996–1998), Degerfors IF (2003–2004) och Skövde AIK (2005).",
+        "Damsidan: Borås AIK (2025), Hammarby IF FF (2024), Borås AIK (2023), GAIS Futsal (2022).",
+        "IFK Uddevalla och Skövde AIK är de mest framgångsrika klubbarna genom tiderna, med tre respektive fyra raka titlar."
+      ],
+      "source": {
+        "label": "SvFF — futsalhistorik",
+        "url": "https://www.svenskfotboll.se/futsal/serier/historik/"
+      }
     }
   ]
 }
