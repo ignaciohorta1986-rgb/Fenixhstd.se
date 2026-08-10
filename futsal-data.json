@@ -2428,7 +2428,8 @@
         },
         {
           "label": "Antal lag",
-          "value": "12"
+          "value": "12",
+          "goto": "members"
         },
         {
           "label": "Mästare 2026",
@@ -3541,11 +3542,13 @@
       "stats": [
         {
           "label": "Antal lag",
-          "value": "13"
+          "value": "13",
+          "goto": "members"
         },
         {
           "label": "Serier",
-          "value": "Götaland (6) + Svealand (7)"
+          "value": "Götaland (6) + Svealand (7)",
+          "goto": "members"
         },
         {
           "label": "Mästare 2025",
