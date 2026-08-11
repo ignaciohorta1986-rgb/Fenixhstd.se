@@ -626,6 +626,14 @@
     table.stat-table tbody tr:nth-child(1) td.rank { color: var(--gold); }
     table.stat-table tbody tr:nth-child(2) td.rank,
     table.stat-table tbody tr:nth-child(3) td.rank { color: var(--fire); }
+    .cell-link {
+      background: none; border: none; padding: 0; cursor: pointer;
+      font: inherit; color: inherit;
+      border-bottom: 1px dashed rgba(255,107,43,0.5);
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .cell-link:hover { color: var(--gold); border-bottom-color: var(--gold); }
+    table.stat-table td.is-highlight .cell-link { color: var(--gold); font-weight: 700; }
     .stat-source { font-size: 0.8rem; margin-top: 0.65rem; }
     .stat-source a { color: var(--fire); text-decoration: none; }
     .stat-source a:hover { color: var(--gold); }
@@ -1001,7 +1009,7 @@
       }
     }
     const facts = (e.facts || []).map(f => `<li>${linkify(f, e.id)}</li>`).join('');
-    const history = (e.history || []).map(h => `<div class="hist-row"><span class="hist-year">${h.year}</span><span class="hist-champ">${linkify(h.champ, e.id)}</span><span class="hist-res">${h.result}</span></div>`).join('');
+    const historyHTML = (e.history || []).map(h => `<div class="hist-row"><span class="hist-year">${h.year}</span><span class="hist-champ">${linkify(h.champ, e.id)}</span><span class="hist-res">${h.result}</span></div>`).join('');
     /* Lag i serien — klickbar nedbrytning */
     let membersHTML = '';
     if (e.members && e.members.length) {
@@ -1066,7 +1074,7 @@
       ${profileHTML}
       <div class="modal-stats">${stats}</div>
       <ul class="modal-facts">${facts}</ul>
-      ${e.history ? `<div class="modal-history"><h4>Historik — alla mästare</h4>${history}</div>` : ''}
+      ${e.history ? `<div class="modal-history"><h4>Historik — alla mästare</h4>${historyHTML}</div>` : ''}
       ${membersHTML}
       ${rosterHTML}
       ${officialHTML}
@@ -1128,6 +1136,27 @@
       .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   }
 
+  /* Slår upp en post på exakt namn — används för att göra tabellceller klickbara */
+  var NAME_ALIAS = {
+    'Uddevalla FC': 'Uddevalla Futsal Club', 'IFK Uddevalla': 'Uddevalla Futsal Club',
+    'Örebro SK': 'Örebro SK Futsal', 'Örebro SK Futsalklubb': 'Örebro SK Futsal',
+    'Söder Futsalklubb': 'Söder Futsal', 'Kalmar United FK': 'Kalmar United',
+    'Norrköping Futsal Klubb': 'Norrköping FK', 'FC Ljiljan': 'FC Ljiljan Göteborg',
+    'IFK Göteborg': null, 'Hammarby IF FF': null
+  };
+  function entryByName(v) {
+    if (!v) return null;
+    var n = String(v).trim();
+    if (Object.prototype.hasOwnProperty.call(NAME_ALIAS, n)) {
+      if (NAME_ALIAS[n] === null) return null;
+      n = NAME_ALIAS[n];
+    }
+    for (var i = 0; i < DATA.length; i++) {
+      if (DATA[i].name === n) return DATA[i];
+    }
+    return null;
+  }
+
   function tableHTML(t) {
     var st = sortState[t.id] || {};
     var head = t.columns.map(function (c) {
@@ -1154,7 +1183,12 @@
         if (c.key === 'pos' || c.key === 'ar') cls.push('rank');
         else if (c.type === 'num') cls.push('is-num');
         if (c.highlight) cls.push('is-highlight');
-        return '<td class="' + cls.join(' ') + '">' + esc(r[c.key]) + '</td>';
+        var raw = r[c.key];
+        var hit = (c.type === 'text') ? entryByName(raw) : null;
+        var inner = hit
+          ? '<button class="cell-link" data-goto="' + hit.id + '">' + esc(raw) + '</button>'
+          : esc(raw);
+        return '<td class="' + cls.join(' ') + '">' + inner + '</td>';
       }).join('') + '</tr>';
     }).join('');
 
@@ -1177,6 +1211,9 @@
       return;
     }
     el.innerHTML = TABLES.map(tableHTML).join('');
+    el.querySelectorAll('.cell-link[data-goto]').forEach(function (b) {
+      b.addEventListener('click', function () { openModal(b.dataset.goto); });
+    });
     el.querySelectorAll('th[data-key]').forEach(function (th) {
       th.addEventListener('click', function () {
         var id = th.dataset.table, key = th.dataset.key;

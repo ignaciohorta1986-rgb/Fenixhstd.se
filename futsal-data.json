@@ -3833,6 +3833,976 @@
       },
       "officialUrl": "https://svenskafutsalligan.se/",
       "officialLabel": "Svenska Futsalligan"
+    },
+    {
+      "id": "flamur-tahiri",
+      "type": "spelare",
+      "name": "Flamur Tahiri",
+      "flag": "⚽",
+      "sub": "Svensk futsal · Borås AIK",
+      "country": "SFL",
+      "tagline": "Toppskytt i SFL — 34 mål säsongen 2024/2025.",
+      "profile": {
+        "club": "Borås AIK"
+      },
+      "stats": [
+        {
+          "label": "Mål 2024/25",
+          "value": "34"
+        },
+        {
+          "label": "Klubb",
+          "value": "Borås AIK"
+        }
+      ],
+      "facts": [
+        "Gjorde 34 mål i Svenska Futsalligan säsongen 2024/2025.",
+        "Spelar i Borås AIK."
+      ],
+      "source": {
+        "label": "Everysport — skytteligan 2024/25",
+        "url": "https://www.everysport.com/futsal-herr/2024-2025/serie/futsalligan/spelarstatistik/136508"
+      }
+    },
+    {
+      "id": "younes-raisi",
+      "type": "spelare",
+      "name": "Younes Raisi",
+      "flag": "⚽",
+      "sub": "Svensk futsal · Borås AIK",
+      "country": "SFL",
+      "tagline": "Toppskytt i SFL — 33 mål säsongen 2024/2025.",
+      "profile": {
+        "club": "Borås AIK"
+      },
+      "stats": [
+        {
+          "label": "Mål 2024/25",
+          "value": "33"
+        },
+        {
+          "label": "Klubb",
+          "value": "Borås AIK"
+        }
+      ],
+      "facts": [
+        "Gjorde 33 mål i Svenska Futsalligan säsongen 2024/2025.",
+        "Spelar i Borås AIK."
+      ],
+      "source": {
+        "label": "Everysport — skytteligan 2024/25",
+        "url": "https://www.everysport.com/futsal-herr/2024-2025/serie/futsalligan/spelarstatistik/136508"
+      }
+    },
+    {
+      "id": "henrik-lara-rodriguez",
+      "type": "spelare",
+      "name": "Henrik Lara Rodriguez",
+      "flag": "⚽",
+      "sub": "Svensk futsal · FC Kalmar",
+      "country": "SFL",
+      "tagline": "Toppskytt i SFL — 32 mål säsongen 2024/2025.",
+      "profile": {
+        "club": "FC Kalmar"
+      },
+      "stats": [
+        {
+          "label": "Mål 2024/25",
+          "value": "32"
+        },
+        {
+          "label": "Klubb",
+          "value": "FC Kalmar"
+        }
+      ],
+      "facts": [
+        "Gjorde 32 mål i Svenska Futsalligan säsongen 2024/2025.",
+        "Spelar i FC Kalmar."
+      ],
+      "source": {
+        "label": "Everysport — skytteligan 2024/25",
+        "url": "https://www.everysport.com/futsal-herr/2024-2025/serie/futsalligan/spelarstatistik/136508"
+      }
+    },
+    {
+      "id": "fredrik-soderqvist",
+      "type": "spelare",
+      "name": "Fredrik Söderqvist",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · Uddevalla Futsal Club",
+      "country": "Sverige",
+      "tagline": "Landslagsspelare och målskytt i SFL — 26 mål 2024/2025.",
+      "profile": {
+        "club": "Uddevalla Futsal Club"
+      },
+      "stats": [
+        {
+          "label": "Mål 2024/25",
+          "value": "26"
+        },
+        {
+          "label": "Landslaget",
+          "value": "VM-kval 2026"
+        },
+        {
+          "label": "Klubb",
+          "value": "Uddevalla Futsal Club"
+        }
+      ],
+      "facts": [
+        "Gjorde 26 mål i Svenska Futsalligan säsongen 2024/2025.",
+        "Uttagen i Sveriges VM-kvaltrupp i april 2026, där Sverige vann sin grupp.",
+        "Spelar i Uddevalla Futsal Club."
+      ],
+      "source": {
+        "label": "Everysport — skytteligan 2024/25",
+        "url": "https://www.everysport.com/futsal-herr/2024-2025/serie/futsalligan/spelarstatistik/136508"
+      }
+    },
+    {
+      "id": "sandro-rickelb-souza-nascimento",
+      "type": "spelare",
+      "name": "Sandro Rickelb Souza Nascimento",
+      "flag": "⚽",
+      "sub": "Svensk futsal · Örebro SK Futsal",
+      "country": "SFL",
+      "tagline": "Målskytt i Svenska Futsalligan — 26 mål 2024/2025.",
+      "profile": {
+        "club": "Örebro SK Futsal"
+      },
+      "stats": [
+        {
+          "label": "Mål 2024/25",
+          "value": "26"
+        },
+        {
+          "label": "Klubb",
+          "value": "Örebro SK Futsal"
+        }
+      ],
+      "facts": [
+        "Gjorde 26 mål i Svenska Futsalligan säsongen 2024/2025.",
+        "Spelar i Örebro SK Futsal."
+      ],
+      "source": {
+        "label": "Everysport — skytteligan 2024/25",
+        "url": "https://www.everysport.com/futsal-herr/2024-2025/serie/futsalligan/spelarstatistik/136508"
+      }
+    },
+    {
+      "id": "maicon-tauan-dias-alves",
+      "type": "spelare",
+      "name": "Maicon Tauan Dias Alves",
+      "flag": "⚽",
+      "sub": "Svensk futsal · FC Kalmar",
+      "country": "SFL",
+      "tagline": "Målskytt i Svenska Futsalligan — 24 mål 2024/2025.",
+      "profile": {
+        "club": "FC Kalmar"
+      },
+      "stats": [
+        {
+          "label": "Mål 2024/25",
+          "value": "24"
+        },
+        {
+          "label": "Klubb",
+          "value": "FC Kalmar"
+        }
+      ],
+      "facts": [
+        "Gjorde 24 mål i Svenska Futsalligan säsongen 2024/2025.",
+        "Spelar i FC Kalmar."
+      ],
+      "source": {
+        "label": "Everysport — skytteligan 2024/25",
+        "url": "https://www.everysport.com/futsal-herr/2024-2025/serie/futsalligan/spelarstatistik/136508"
+      }
+    },
+    {
+      "id": "alagi-sosseh",
+      "type": "spelare",
+      "name": "Alagi Sosseh",
+      "flag": "⚽",
+      "sub": "Svensk futsal · FC Kalmar",
+      "country": "SFL",
+      "tagline": "Målskytt i Svenska Futsalligan — 23 mål 2024/2025.",
+      "profile": {
+        "club": "FC Kalmar"
+      },
+      "stats": [
+        {
+          "label": "Mål 2024/25",
+          "value": "23"
+        },
+        {
+          "label": "Klubb",
+          "value": "FC Kalmar"
+        }
+      ],
+      "facts": [
+        "Gjorde 23 mål i Svenska Futsalligan säsongen 2024/2025.",
+        "Spelar i FC Kalmar."
+      ],
+      "source": {
+        "label": "Everysport — skytteligan 2024/25",
+        "url": "https://www.everysport.com/futsal-herr/2024-2025/serie/futsalligan/spelarstatistik/136508"
+      }
+    },
+    {
+      "id": "elias-landin-sjoblom",
+      "type": "spelare",
+      "name": "Elias Ländin Sjöblom",
+      "flag": "⚽",
+      "sub": "Svensk futsal · Söder Futsal",
+      "country": "SFL",
+      "tagline": "Målskytt i Svenska Futsalligan — 23 mål 2024/2025.",
+      "profile": {
+        "club": "Söder Futsal"
+      },
+      "stats": [
+        {
+          "label": "Mål 2024/25",
+          "value": "23"
+        },
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        }
+      ],
+      "facts": [
+        "Gjorde 23 mål i Svenska Futsalligan säsongen 2024/2025.",
+        "Spelar i Söder Futsal."
+      ],
+      "source": {
+        "label": "Everysport — skytteligan 2024/25",
+        "url": "https://www.everysport.com/futsal-herr/2024-2025/serie/futsalligan/spelarstatistik/136508"
+      }
+    },
+    {
+      "id": "petar-peric",
+      "type": "spelare",
+      "name": "Petar Peric",
+      "flag": "⚽",
+      "sub": "Svensk futsal · Söder Futsal",
+      "country": "SFL",
+      "tagline": "Målskytt i Svenska Futsalligan — 23 mål 2024/2025.",
+      "profile": {
+        "club": "Söder Futsal"
+      },
+      "stats": [
+        {
+          "label": "Mål 2024/25",
+          "value": "23"
+        },
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        }
+      ],
+      "facts": [
+        "Gjorde 23 mål i Svenska Futsalligan säsongen 2024/2025.",
+        "Spelar i Söder Futsal."
+      ],
+      "source": {
+        "label": "Everysport — skytteligan 2024/25",
+        "url": "https://www.everysport.com/futsal-herr/2024-2025/serie/futsalligan/spelarstatistik/136508"
+      }
+    },
+    {
+      "id": "noraldin-azizi",
+      "type": "spelare",
+      "name": "Noraldin Azizi",
+      "flag": "⚽",
+      "sub": "Svensk futsal · Uddevalla Futsal Club",
+      "country": "SFL",
+      "tagline": "Målskytt i Svenska Futsalligan — 22 mål 2024/2025.",
+      "profile": {
+        "club": "Uddevalla Futsal Club"
+      },
+      "stats": [
+        {
+          "label": "Mål 2024/25",
+          "value": "22"
+        },
+        {
+          "label": "Klubb",
+          "value": "Uddevalla Futsal Club"
+        }
+      ],
+      "facts": [
+        "Gjorde 22 mål i Svenska Futsalligan säsongen 2024/2025.",
+        "Spelar i Uddevalla Futsal Club."
+      ],
+      "source": {
+        "label": "Everysport — skytteligan 2024/25",
+        "url": "https://www.everysport.com/futsal-herr/2024-2025/serie/futsalligan/spelarstatistik/136508"
+      }
+    },
+    {
+      "id": "hampus-furublad",
+      "type": "spelare",
+      "name": "Hampus Furublad",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · Uddevalla Futsal Club",
+      "country": "Sverige",
+      "tagline": "Landslagsspelare och målskytt i SFL — 21 mål 2024/2025.",
+      "profile": {
+        "club": "Uddevalla Futsal Club"
+      },
+      "stats": [
+        {
+          "label": "Mål 2024/25",
+          "value": "21"
+        },
+        {
+          "label": "Landslaget",
+          "value": "VM-kval 2026"
+        },
+        {
+          "label": "Klubb",
+          "value": "Uddevalla Futsal Club"
+        }
+      ],
+      "facts": [
+        "Gjorde 21 mål i Svenska Futsalligan säsongen 2024/2025.",
+        "Uttagen i Sveriges VM-kvaltrupp i april 2026, där Sverige vann sin grupp.",
+        "Spelar i Uddevalla Futsal Club."
+      ],
+      "source": {
+        "label": "Everysport — skytteligan 2024/25",
+        "url": "https://www.everysport.com/futsal-herr/2024-2025/serie/futsalligan/spelarstatistik/136508"
+      }
+    },
+    {
+      "id": "adem-oksuz",
+      "type": "spelare",
+      "name": "Adem Öksüz",
+      "flag": "⚽",
+      "sub": "Svensk futsal · FC Real Internacional",
+      "country": "SFL",
+      "tagline": "Målskytt i Svenska Futsalligan — 20 mål 2024/2025.",
+      "profile": {
+        "club": "FC Real Internacional"
+      },
+      "stats": [
+        {
+          "label": "Mål 2024/25",
+          "value": "20"
+        },
+        {
+          "label": "Klubb",
+          "value": "FC Real Internacional"
+        }
+      ],
+      "facts": [
+        "Gjorde 20 mål i Svenska Futsalligan säsongen 2024/2025.",
+        "Spelar i FC Real Internacional."
+      ],
+      "source": {
+        "label": "Everysport — skytteligan 2024/25",
+        "url": "https://www.everysport.com/futsal-herr/2024-2025/serie/futsalligan/spelarstatistik/136508"
+      }
+    },
+    {
+      "id": "lavdim-azemi",
+      "type": "spelare",
+      "name": "Lavdim Azemi",
+      "flag": "⚽",
+      "sub": "Svensk futsal · Skoftebyns IF",
+      "country": "SFL",
+      "tagline": "Målskytt i Svenska Futsalligan — 20 mål 2024/2025.",
+      "profile": {
+        "club": "Skoftebyns IF"
+      },
+      "stats": [
+        {
+          "label": "Mål 2024/25",
+          "value": "20"
+        },
+        {
+          "label": "Klubb",
+          "value": "Skoftebyns IF"
+        }
+      ],
+      "facts": [
+        "Gjorde 20 mål i Svenska Futsalligan säsongen 2024/2025.",
+        "Spelar i Skoftebyns IF."
+      ],
+      "source": {
+        "label": "Everysport — skytteligan 2024/25",
+        "url": "https://www.everysport.com/futsal-herr/2024-2025/serie/futsalligan/spelarstatistik/136508"
+      }
+    },
+    {
+      "id": "andrej-jekic",
+      "type": "spelare",
+      "name": "Andrej Jekic",
+      "flag": "⚽",
+      "sub": "Svensk futsal · Hammarby IF FF",
+      "country": "SFL",
+      "tagline": "Målskytt i Svenska Futsalligan — 18 mål 2024/2025.",
+      "profile": {
+        "club": "Hammarby IF FF"
+      },
+      "stats": [
+        {
+          "label": "Mål 2024/25",
+          "value": "18"
+        },
+        {
+          "label": "Klubb",
+          "value": "Hammarby IF FF"
+        }
+      ],
+      "facts": [
+        "Gjorde 18 mål i Svenska Futsalligan säsongen 2024/2025.",
+        "Spelar i Hammarby IF FF."
+      ],
+      "source": {
+        "label": "Everysport — skytteligan 2024/25",
+        "url": "https://www.everysport.com/futsal-herr/2024-2025/serie/futsalligan/spelarstatistik/136508"
+      }
+    },
+    {
+      "id": "adrijan-micevski",
+      "type": "spelare",
+      "name": "Adrijan Micevski",
+      "flag": "⚽",
+      "sub": "Svensk futsal · Örebro SK Futsal",
+      "country": "SFL",
+      "tagline": "Målskytt i Svenska Futsalligan — 17 mål 2024/2025.",
+      "profile": {
+        "club": "Örebro SK Futsal"
+      },
+      "stats": [
+        {
+          "label": "Mål 2024/25",
+          "value": "17"
+        },
+        {
+          "label": "Klubb",
+          "value": "Örebro SK Futsal"
+        }
+      ],
+      "facts": [
+        "Gjorde 17 mål i Svenska Futsalligan säsongen 2024/2025.",
+        "Spelar i Örebro SK Futsal."
+      ],
+      "source": {
+        "label": "Everysport — skytteligan 2024/25",
+        "url": "https://www.everysport.com/futsal-herr/2024-2025/serie/futsalligan/spelarstatistik/136508"
+      }
+    },
+    {
+      "id": "ignatius-malki",
+      "type": "spelare",
+      "name": "Ignatius Malki",
+      "flag": "⚽",
+      "sub": "Svensk futsal · Kalmar United",
+      "country": "SFL",
+      "tagline": "Målskytt i Svenska Futsalligan — 17 mål 2024/2025.",
+      "profile": {
+        "club": "Kalmar United"
+      },
+      "stats": [
+        {
+          "label": "Mål 2024/25",
+          "value": "17"
+        },
+        {
+          "label": "Klubb",
+          "value": "Kalmar United"
+        }
+      ],
+      "facts": [
+        "Gjorde 17 mål i Svenska Futsalligan säsongen 2024/2025.",
+        "Spelar i Kalmar United."
+      ],
+      "source": {
+        "label": "Everysport — skytteligan 2024/25",
+        "url": "https://www.everysport.com/futsal-herr/2024-2025/serie/futsalligan/spelarstatistik/136508"
+      }
+    },
+    {
+      "id": "karvan-delashob",
+      "type": "spelare",
+      "name": "Karvan Delashob",
+      "flag": "⚽",
+      "sub": "Svensk futsal · Kalmar United",
+      "country": "SFL",
+      "tagline": "Målskytt i Svenska Futsalligan — 15 mål 2024/2025.",
+      "profile": {
+        "club": "Kalmar United"
+      },
+      "stats": [
+        {
+          "label": "Mål 2024/25",
+          "value": "15"
+        },
+        {
+          "label": "Klubb",
+          "value": "Kalmar United"
+        }
+      ],
+      "facts": [
+        "Gjorde 15 mål i Svenska Futsalligan säsongen 2024/2025.",
+        "Spelar i Kalmar United."
+      ],
+      "source": {
+        "label": "Everysport — skytteligan 2024/25",
+        "url": "https://www.everysport.com/futsal-herr/2024-2025/serie/futsalligan/spelarstatistik/136508"
+      }
+    },
+    {
+      "id": "leonardo-mieli-zanata",
+      "type": "spelare",
+      "name": "Leonardo Mieli Zanata",
+      "flag": "⚽",
+      "sub": "Svensk futsal · Örebro SK Futsal",
+      "country": "SFL",
+      "tagline": "Målskytt i Svenska Futsalligan — 15 mål 2024/2025.",
+      "profile": {
+        "club": "Örebro SK Futsal"
+      },
+      "stats": [
+        {
+          "label": "Mål 2024/25",
+          "value": "15"
+        },
+        {
+          "label": "Klubb",
+          "value": "Örebro SK Futsal"
+        }
+      ],
+      "facts": [
+        "Gjorde 15 mål i Svenska Futsalligan säsongen 2024/2025.",
+        "Spelar i Örebro SK Futsal."
+      ],
+      "source": {
+        "label": "Everysport — skytteligan 2024/25",
+        "url": "https://www.everysport.com/futsal-herr/2024-2025/serie/futsalligan/spelarstatistik/136508"
+      }
+    },
+    {
+      "id": "mattin-atai-najafi",
+      "type": "spelare",
+      "name": "Mattin Atai Najafi",
+      "flag": "⚽",
+      "sub": "Svensk futsal · Borås AIK",
+      "country": "SFL",
+      "tagline": "Målskytt i Svenska Futsalligan — 15 mål 2024/2025.",
+      "profile": {
+        "club": "Borås AIK"
+      },
+      "stats": [
+        {
+          "label": "Mål 2024/25",
+          "value": "15"
+        },
+        {
+          "label": "Klubb",
+          "value": "Borås AIK"
+        }
+      ],
+      "facts": [
+        "Gjorde 15 mål i Svenska Futsalligan säsongen 2024/2025.",
+        "Spelar i Borås AIK."
+      ],
+      "source": {
+        "label": "Everysport — skytteligan 2024/25",
+        "url": "https://www.everysport.com/futsal-herr/2024-2025/serie/futsalligan/spelarstatistik/136508"
+      }
+    },
+    {
+      "id": "senad-berisha",
+      "type": "spelare",
+      "name": "Senad Berisha",
+      "flag": "⚽",
+      "sub": "Svensk futsal · Örebro Futsal Club",
+      "country": "SFL",
+      "tagline": "Målskytt i Svenska Futsalligan — 15 mål 2024/2025.",
+      "profile": {
+        "club": "Örebro Futsal Club"
+      },
+      "stats": [
+        {
+          "label": "Mål 2024/25",
+          "value": "15"
+        },
+        {
+          "label": "Klubb",
+          "value": "Örebro Futsal Club"
+        }
+      ],
+      "facts": [
+        "Gjorde 15 mål i Svenska Futsalligan säsongen 2024/2025.",
+        "Spelar i Örebro Futsal Club."
+      ],
+      "source": {
+        "label": "Everysport — skytteligan 2024/25",
+        "url": "https://www.everysport.com/futsal-herr/2024-2025/serie/futsalligan/spelarstatistik/136508"
+      }
+    },
+    {
+      "id": "petrit-zhubi",
+      "type": "spelare",
+      "name": "Petrit Zhubi",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · Uddevalla Futsal Club",
+      "country": "Sverige",
+      "tagline": "Spelare i Sveriges futsallandslag.",
+      "profile": {
+        "club": "Uddevalla Futsal Club"
+      },
+      "stats": [
+        {
+          "label": "Landslaget",
+          "value": "VM-kval 2026"
+        },
+        {
+          "label": "Klubb",
+          "value": "Uddevalla Futsal Club"
+        }
+      ],
+      "facts": [
+        "Uttagen i Sveriges VM-kvaltrupp i april 2026, där Sverige vann sin grupp.",
+        "Spelar i Uddevalla Futsal Club."
+      ],
+      "source": {
+        "label": "SvFF — VM-kvaltruppen 2026",
+        "url": "https://www.svenskfotboll.se/nyheter/landslag/2026/03/futsal-vm-kvaltrupp/"
+      }
+    },
+    {
+      "id": "ismail-fazlija",
+      "type": "spelare",
+      "name": "Ismail Fazlija",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · Uddevalla Futsal Club",
+      "country": "Sverige",
+      "tagline": "Spelare i Sveriges futsallandslag.",
+      "profile": {
+        "club": "Uddevalla Futsal Club"
+      },
+      "stats": [
+        {
+          "label": "Landslaget",
+          "value": "VM-kval 2026"
+        },
+        {
+          "label": "Klubb",
+          "value": "Uddevalla Futsal Club"
+        }
+      ],
+      "facts": [
+        "Uttagen i Sveriges VM-kvaltrupp i april 2026, där Sverige vann sin grupp.",
+        "Spelar i Uddevalla Futsal Club."
+      ],
+      "source": {
+        "label": "SvFF — VM-kvaltruppen 2026",
+        "url": "https://www.svenskfotboll.se/nyheter/landslag/2026/03/futsal-vm-kvaltrupp/"
+      }
+    },
+    {
+      "id": "albert-hiseni",
+      "type": "spelare",
+      "name": "Albert Hiseni",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · Uddevalla Futsal Club",
+      "country": "Sverige",
+      "tagline": "Spelare i Sveriges futsallandslag.",
+      "profile": {
+        "club": "Uddevalla Futsal Club"
+      },
+      "stats": [
+        {
+          "label": "Landslaget",
+          "value": "VM-kval 2026"
+        },
+        {
+          "label": "Klubb",
+          "value": "Uddevalla Futsal Club"
+        }
+      ],
+      "facts": [
+        "Uttagen i Sveriges VM-kvaltrupp i april 2026, där Sverige vann sin grupp.",
+        "Spelar i Uddevalla Futsal Club."
+      ],
+      "source": {
+        "label": "SvFF — VM-kvaltruppen 2026",
+        "url": "https://www.svenskfotboll.se/nyheter/landslag/2026/03/futsal-vm-kvaltrupp/"
+      }
+    },
+    {
+      "id": "viktor-mossberg",
+      "type": "spelare",
+      "name": "Viktor Mossberg",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · Uddevalla Futsal Club",
+      "country": "Sverige",
+      "tagline": "Spelare i Sveriges futsallandslag.",
+      "profile": {
+        "club": "Uddevalla Futsal Club"
+      },
+      "stats": [
+        {
+          "label": "Landslaget",
+          "value": "VM-kval 2026"
+        },
+        {
+          "label": "Klubb",
+          "value": "Uddevalla Futsal Club"
+        }
+      ],
+      "facts": [
+        "Uttagen i Sveriges VM-kvaltrupp i april 2026, där Sverige vann sin grupp.",
+        "Spelar i Uddevalla Futsal Club."
+      ],
+      "source": {
+        "label": "SvFF — VM-kvaltruppen 2026",
+        "url": "https://www.svenskfotboll.se/nyheter/landslag/2026/03/futsal-vm-kvaltrupp/"
+      }
+    },
+    {
+      "id": "donat-gashi",
+      "type": "spelare",
+      "name": "Donat Gashi",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · Uddevalla Futsal Club",
+      "country": "Sverige",
+      "tagline": "Spelare i Sveriges futsallandslag.",
+      "profile": {
+        "club": "Uddevalla Futsal Club"
+      },
+      "stats": [
+        {
+          "label": "Landslaget",
+          "value": "VM-kval 2026"
+        },
+        {
+          "label": "Klubb",
+          "value": "Uddevalla Futsal Club"
+        }
+      ],
+      "facts": [
+        "Uttagen i Sveriges VM-kvaltrupp i april 2026, där Sverige vann sin grupp.",
+        "Spelar i Uddevalla Futsal Club."
+      ],
+      "source": {
+        "label": "SvFF — VM-kvaltruppen 2026",
+        "url": "https://www.svenskfotboll.se/nyheter/landslag/2026/03/futsal-vm-kvaltrupp/"
+      }
+    },
+    {
+      "id": "fehim-smajlovic",
+      "type": "spelare",
+      "name": "Fehim Smajlovic",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · FC Ljiljan Göteborg",
+      "country": "Sverige",
+      "tagline": "Spelare i Sveriges futsallandslag.",
+      "profile": {
+        "club": "FC Ljiljan Göteborg"
+      },
+      "stats": [
+        {
+          "label": "Landslaget",
+          "value": "VM-kval 2026"
+        },
+        {
+          "label": "Klubb",
+          "value": "FC Ljiljan Göteborg"
+        }
+      ],
+      "facts": [
+        "Uttagen i Sveriges VM-kvaltrupp i april 2026, där Sverige vann sin grupp.",
+        "Spelar i FC Ljiljan Göteborg."
+      ],
+      "source": {
+        "label": "SvFF — VM-kvaltruppen 2026",
+        "url": "https://www.svenskfotboll.se/nyheter/landslag/2026/03/futsal-vm-kvaltrupp/"
+      }
+    },
+    {
+      "id": "oscar-edh",
+      "type": "spelare",
+      "name": "Oscar Edh",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · Skoftebyns IF",
+      "country": "Sverige",
+      "tagline": "Spelare i Sveriges futsallandslag.",
+      "profile": {
+        "club": "Skoftebyns IF"
+      },
+      "stats": [
+        {
+          "label": "Landslaget",
+          "value": "VM-kval 2026"
+        },
+        {
+          "label": "Klubb",
+          "value": "Skoftebyns IF"
+        }
+      ],
+      "facts": [
+        "Uttagen i Sveriges VM-kvaltrupp i april 2026, där Sverige vann sin grupp.",
+        "Spelar i Skoftebyns IF."
+      ],
+      "source": {
+        "label": "SvFF — VM-kvaltruppen 2026",
+        "url": "https://www.svenskfotboll.se/nyheter/landslag/2026/03/futsal-vm-kvaltrupp/"
+      }
+    },
+    {
+      "id": "bryan-johansson",
+      "type": "spelare",
+      "name": "Bryan Johansson",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · Skoftebyns IF",
+      "country": "Sverige",
+      "tagline": "Spelare i Sveriges futsallandslag.",
+      "profile": {
+        "club": "Skoftebyns IF"
+      },
+      "stats": [
+        {
+          "label": "Landslaget",
+          "value": "VM-kval 2026"
+        },
+        {
+          "label": "Klubb",
+          "value": "Skoftebyns IF"
+        }
+      ],
+      "facts": [
+        "Uttagen i Sveriges VM-kvaltrupp i april 2026, där Sverige vann sin grupp.",
+        "Spelar i Skoftebyns IF."
+      ],
+      "source": {
+        "label": "SvFF — VM-kvaltruppen 2026",
+        "url": "https://www.svenskfotboll.se/nyheter/landslag/2026/03/futsal-vm-kvaltrupp/"
+      }
+    },
+    {
+      "id": "abdoulie-bojang",
+      "type": "spelare",
+      "name": "Abdoulie Bojang",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · Borås AIK",
+      "country": "Sverige",
+      "tagline": "Spelare i Sveriges futsallandslag.",
+      "profile": {
+        "club": "Borås AIK"
+      },
+      "stats": [
+        {
+          "label": "Landslaget",
+          "value": "VM-kval 2026"
+        },
+        {
+          "label": "Klubb",
+          "value": "Borås AIK"
+        }
+      ],
+      "facts": [
+        "Uttagen i Sveriges VM-kvaltrupp i april 2026, där Sverige vann sin grupp.",
+        "Spelar i Borås AIK."
+      ],
+      "source": {
+        "label": "SvFF — VM-kvaltruppen 2026",
+        "url": "https://www.svenskfotboll.se/nyheter/landslag/2026/03/futsal-vm-kvaltrupp/"
+      }
+    },
+    {
+      "id": "camil-altun",
+      "type": "spelare",
+      "name": "Camil Altun",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · Borås AIK",
+      "country": "Sverige",
+      "tagline": "Spelare i Sveriges futsallandslag.",
+      "profile": {
+        "club": "Borås AIK"
+      },
+      "stats": [
+        {
+          "label": "Landslaget",
+          "value": "VM-kval 2026"
+        },
+        {
+          "label": "Klubb",
+          "value": "Borås AIK"
+        }
+      ],
+      "facts": [
+        "Uttagen i Sveriges VM-kvaltrupp i april 2026, där Sverige vann sin grupp.",
+        "Spelar i Borås AIK."
+      ],
+      "source": {
+        "label": "SvFF — VM-kvaltruppen 2026",
+        "url": "https://www.svenskfotboll.se/nyheter/landslag/2026/03/futsal-vm-kvaltrupp/"
+      }
+    },
+    {
+      "id": "gustav-rydberg",
+      "type": "spelare",
+      "name": "Gustav Rydberg",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · FC Kalmar",
+      "country": "Sverige",
+      "tagline": "Spelare i Sveriges futsallandslag.",
+      "profile": {
+        "club": "FC Kalmar"
+      },
+      "stats": [
+        {
+          "label": "Landslaget",
+          "value": "VM-kval 2026"
+        },
+        {
+          "label": "Klubb",
+          "value": "FC Kalmar"
+        }
+      ],
+      "facts": [
+        "Uttagen i Sveriges VM-kvaltrupp i april 2026, där Sverige vann sin grupp.",
+        "Spelar i FC Kalmar."
+      ],
+      "source": {
+        "label": "SvFF — VM-kvaltruppen 2026",
+        "url": "https://www.svenskfotboll.se/nyheter/landslag/2026/03/futsal-vm-kvaltrupp/"
+      }
+    },
+    {
+      "id": "viktor-saaf",
+      "type": "spelare",
+      "name": "Viktor Sääf",
+      "flag": "🇸🇪",
+      "sub": "Svensk futsal · BSF ABJ Bochnia (Polen)",
+      "country": "Sverige",
+      "tagline": "Spelare i Sveriges futsallandslag.",
+      "profile": {
+        "club": "BSF ABJ Bochnia (Polen)"
+      },
+      "stats": [
+        {
+          "label": "Landslaget",
+          "value": "VM-kval 2026"
+        },
+        {
+          "label": "Klubb",
+          "value": "BSF ABJ Bochnia (Polen)"
+        }
+      ],
+      "facts": [
+        "Uttagen i Sveriges VM-kvaltrupp i april 2026, där Sverige vann sin grupp.",
+        "Spelar i BSF ABJ Bochnia (Polen)."
+      ],
+      "source": {
+        "label": "SvFF — VM-kvaltruppen 2026",
+        "url": "https://www.svenskfotboll.se/nyheter/landslag/2026/03/futsal-vm-kvaltrupp/"
+      }
     }
   ],
   "tables": [
