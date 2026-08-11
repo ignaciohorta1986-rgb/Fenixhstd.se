@@ -916,6 +916,11 @@
         {
           "label": "Senaste VM-guld",
           "value": "2024"
+        },
+        {
+          "label": "Spelare i truppen",
+          "value": "14",
+          "goto": "squad"
         }
       ],
       "facts": [
@@ -1008,6 +1013,11 @@
         {
           "label": "FIFA-ranking",
           "value": "#2"
+        },
+        {
+          "label": "Spelare i truppen",
+          "value": "14",
+          "goto": "squad"
         }
       ],
       "facts": [
@@ -1100,6 +1110,11 @@
         {
           "label": "FIFA-ranking",
           "value": "#3"
+        },
+        {
+          "label": "Spelare i truppen",
+          "value": "14",
+          "goto": "squad"
         }
       ],
       "facts": [
@@ -1192,6 +1207,11 @@
         {
           "label": "FIFA-ranking",
           "value": "#4"
+        },
+        {
+          "label": "Spelare i truppen",
+          "value": "14",
+          "goto": "squad"
         }
       ],
       "facts": [
@@ -1371,6 +1391,11 @@
         {
           "label": "Världsranking",
           "value": "~#57"
+        },
+        {
+          "label": "Spelare i truppen",
+          "value": "14",
+          "goto": "squad"
         }
       ],
       "facts": [
@@ -1444,7 +1469,9 @@
           "name": "Viktor Sääf",
           "pos": "BSF ABJ Bochnia (Polen)"
         }
-      ]
+      ],
+      "officialUrl": "https://www.svenskfotboll.se/futsal/futsal-herr/",
+      "officialLabel": "SvFF — futsallandslaget"
     },
     {
       "id": "japan",
@@ -1869,7 +1896,8 @@
       "stats": [
         {
           "label": "Flest guld",
-          "value": "Brasilien (6)"
+          "value": "Brasilien (6)",
+          "goto": "members"
         },
         {
           "label": "Regerande mästare",
@@ -1936,7 +1964,16 @@
       "source": {
         "label": "Wikipedia — FIFA Futsal World Cup",
         "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
-      }
+      },
+      "officialUrl": "https://www.fifa.com/en/tournaments/mens/futsalworldcup",
+      "officialLabel": "FIFA Futsal World Cup",
+      "members": [
+        "brasilien",
+        "spanien",
+        "argentina",
+        "portugal"
+      ],
+      "membersNote": "mästare som finns i databasen — klicka för att läsa mer"
     },
     {
       "id": "em",
@@ -1949,7 +1986,8 @@
       "stats": [
         {
           "label": "Flest guld",
-          "value": "Spanien (8)"
+          "value": "Spanien (8)",
+          "goto": "members"
         },
         {
           "label": "Regerande mästare",
@@ -2031,7 +2069,16 @@
       "source": {
         "label": "UEFA — Futsal EURO",
         "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
-      }
+      },
+      "officialUrl": "https://www.uefa.com/uefafutsaleuro/",
+      "officialLabel": "UEFA Futsal EURO",
+      "members": [
+        "spanien",
+        "ryssland",
+        "italien",
+        "portugal"
+      ],
+      "membersNote": "mästare som finns i databasen — klicka för att läsa mer"
     },
     {
       "id": "ucl",
@@ -2044,7 +2091,8 @@
       "stats": [
         {
           "label": "Flest titlar",
-          "value": "Inter FS (5)"
+          "value": "Inter FS (5)",
+          "goto": "members"
         },
         {
           "label": "Regerande mästare",
@@ -2186,7 +2234,24 @@
       "source": {
         "label": "Wikipedia — UEFA Futsal Champions League",
         "url": "https://en.wikipedia.org/wiki/UEFA_Futsal_Champions_League"
-      }
+      },
+      "officialUrl": "https://www.uefa.com/uefafutsalchampionsleague/",
+      "officialLabel": "UEFA Futsal Champions League",
+      "members": [
+        "playas",
+        "inter-fs",
+        "charleroi",
+        "dinamo",
+        "viz-sinara",
+        "benfica",
+        "montesilvano",
+        "barcelona",
+        "kairat",
+        "gazprom-ugra",
+        "sporting",
+        "palma"
+      ],
+      "membersNote": "mästare som finns i databasen — klicka för att läsa mer"
     },
     {
       "id": "afc",
@@ -2199,7 +2264,8 @@
       "stats": [
         {
           "label": "Flest guld",
-          "value": "Iran (14)"
+          "value": "Iran (14)",
+          "goto": "members"
         },
         {
           "label": "Regerande mästare",
@@ -2306,7 +2372,12 @@
       "source": {
         "label": "Wikipedia — AFC Futsal Asian Cup",
         "url": "https://en.wikipedia.org/wiki/AFC_Futsal_Asian_Cup"
-      }
+      },
+      "members": [
+        "iran",
+        "japan"
+      ],
+      "membersNote": "mästare som finns i databasen — klicka för att läsa mer"
     },
     {
       "id": "copa-america",
@@ -2319,7 +2390,8 @@
       "stats": [
         {
           "label": "Flest guld",
-          "value": "Brasilien (12)"
+          "value": "Brasilien (12)",
+          "goto": "members"
         },
         {
           "label": "Regerande mästare",
@@ -2411,7 +2483,12 @@
       "source": {
         "label": "Wikipedia — Copa América de Futsal",
         "url": "https://en.wikipedia.org/wiki/Copa_Am%C3%A9rica_de_Futsal"
-      }
+      },
+      "members": [
+        "brasilien",
+        "argentina"
+      ],
+      "membersNote": "mästare som finns i databasen — klicka för att läsa mer"
     },
     {
       "id": "sfl",
@@ -2492,7 +2569,9 @@
       "source": {
         "label": "Svensk fotboll — Futsal Division 1",
         "url": "https://www.svenskfotboll.se/futsal/serier/div.-1/"
-      }
+      },
+      "officialUrl": "https://www.svenskfotboll.se/futsal/serier/",
+      "officialLabel": "SvFF:s seriesida"
     },
     {
       "id": "d1-ostra-svealand",
@@ -2519,7 +2598,9 @@
       "source": {
         "label": "Svensk fotboll — Futsal Division 1",
         "url": "https://www.svenskfotboll.se/futsal/serier/div.-1/"
-      }
+      },
+      "officialUrl": "https://www.svenskfotboll.se/futsal/serier/",
+      "officialLabel": "SvFF:s seriesida"
     },
     {
       "id": "d1-mellersta-gotaland",
@@ -2546,7 +2627,9 @@
       "source": {
         "label": "Svensk fotboll — Futsal Division 1",
         "url": "https://www.svenskfotboll.se/futsal/serier/div.-1/"
-      }
+      },
+      "officialUrl": "https://www.svenskfotboll.se/futsal/serier/",
+      "officialLabel": "SvFF:s seriesida"
     },
     {
       "id": "d1-vastra-gotaland",
@@ -2573,7 +2656,9 @@
       "source": {
         "label": "Svensk fotboll — Futsal Division 1",
         "url": "https://www.svenskfotboll.se/futsal/serier/div.-1/"
-      }
+      },
+      "officialUrl": "https://www.svenskfotboll.se/futsal/serier/",
+      "officialLabel": "SvFF:s seriesida"
     },
     {
       "id": "division-2-se",
@@ -2601,7 +2686,9 @@
       "source": {
         "label": "Svensk fotboll — Futsal serier",
         "url": "https://www.svenskfotboll.se/futsal/serier/"
-      }
+      },
+      "officialUrl": "https://www.svenskfotboll.se/futsal/serier/",
+      "officialLabel": "SvFF:s seriesida"
     },
     {
       "id": "halland-futsal",
@@ -2652,6 +2739,11 @@
         {
           "label": "Säsong",
           "value": "2025/26"
+        },
+        {
+          "label": "Spelare i truppen",
+          "value": "2",
+          "goto": "squad"
         }
       ],
       "facts": [
@@ -2698,6 +2790,11 @@
         {
           "label": "SM-guld",
           "value": "2 (2022, 2023)"
+        },
+        {
+          "label": "Spelare i truppen",
+          "value": "4",
+          "goto": "squad"
         }
       ],
       "facts": [
@@ -2761,6 +2858,11 @@
         {
           "label": "Hemmaarena",
           "value": "Agnebergshallen"
+        },
+        {
+          "label": "Spelare i truppen",
+          "value": "7",
+          "goto": "squad"
         }
       ],
       "facts": [
@@ -2835,6 +2937,11 @@
         {
           "label": "Hemmaarena",
           "value": "Farstahallen"
+        },
+        {
+          "label": "Spelare i truppen",
+          "value": "6",
+          "goto": "squad"
         }
       ],
       "facts": [
@@ -2903,6 +3010,11 @@
         {
           "label": "Hemmaarena",
           "value": "Pontuz Löfgren Arena"
+        },
+        {
+          "label": "Spelare i truppen",
+          "value": "4",
+          "goto": "squad"
         }
       ],
       "facts": [
@@ -2956,6 +3068,11 @@
         {
           "label": "Säsong",
           "value": "2025/26"
+        },
+        {
+          "label": "Spelare i truppen",
+          "value": "2",
+          "goto": "squad"
         }
       ],
       "facts": [
@@ -2998,6 +3115,11 @@
         {
           "label": "SM-guld",
           "value": "1 (2025)"
+        },
+        {
+          "label": "Spelare i truppen",
+          "value": "5",
+          "goto": "squad"
         }
       ],
       "facts": [
@@ -3098,6 +3220,11 @@
         {
           "label": "Futsal sedan",
           "value": "2014"
+        },
+        {
+          "label": "Spelare i truppen",
+          "value": "3",
+          "goto": "squad"
         }
       ],
       "facts": [
@@ -3154,6 +3281,11 @@
         {
           "label": "SFL sedan",
           "value": "2025/26"
+        },
+        {
+          "label": "Spelare i truppen",
+          "value": "1",
+          "goto": "squad"
         }
       ],
       "facts": [
@@ -3232,6 +3364,11 @@
         {
           "label": "SFL sedan",
           "value": "2023/24"
+        },
+        {
+          "label": "Spelare i truppen",
+          "value": "1",
+          "goto": "squad"
         }
       ],
       "facts": [
@@ -3401,7 +3538,8 @@
       "stats": [
         {
           "label": "Mästare 2026",
-          "value": "FC Kalmar"
+          "value": "FC Kalmar",
+          "goto": "members"
         },
         {
           "label": "Flest titlar",
@@ -3529,7 +3667,16 @@
           "champ": "Skövde AIK",
           "result": "Svenska mästare"
         }
-      ]
+      ],
+      "members": [
+        "fc-kalmar",
+        "boras-aik",
+        "uddevalla-futsal-club",
+        "orebro-sk"
+      ],
+      "membersNote": "mästare som finns i databasen — klicka för att läsa mer",
+      "officialUrl": "https://www.svenskfotboll.se/futsal/serier/historik/",
+      "officialLabel": "SvFF:s futsalhistorik"
     },
     {
       "id": "rfl",
@@ -3605,7 +3752,9 @@
       "source": {
         "label": "SvFF — principöverenskommelse",
         "url": "https://svenskafutsalligan.se/principoverenskommelse-mellan-svff-och-svensk-futsal/"
-      }
+      },
+      "officialUrl": "https://svenskafutsalligan.se/",
+      "officialLabel": "Svenska Futsalligan"
     }
   ],
   "tables": [

@@ -485,10 +485,11 @@
       0%   { box-shadow: 0 0 0 0 rgba(255,107,43,0.55); }
       100% { box-shadow: 0 0 0 14px rgba(255,107,43,0); }
     }
-    .modal-members.flash {
+    .modal-members.flash, .modal-roster.flash, .modal-history.flash {
       border-radius: 14px;
       animation: member-flash 1s ease-out 2;
     }
+    .modal-roster, .modal-history { scroll-margin-top: 1rem; }
 
     /* ── Lag i serien (nedbrytning) ── */
     .modal-members { margin-bottom: 1.5rem; scroll-margin-top: 1rem; }
@@ -978,9 +979,18 @@
   function openModal(id) {
     const e = DATA.find(d => d.id === id);
     if (!e) return;
-    const stats = (e.stats || []).map(s => s.goto === 'members' && e.members && e.members.length
-      ? `<button class="modal-stat is-clickable" data-scroll="members" title="Visa alla ${e.members.length} lagen"><div class="v">${s.value}</div><div class="l">${s.label}</div><div class="stat-cta">Visa lagen ↓</div></button>`
-      : `<div class="modal-stat"><div class="v">${s.value}</div><div class="l">${s.label}</div></div>`).join('');
+    const GOTO_CFG = {
+      members: { sel: '.modal-members', cta: e.type === 'turnering' ? 'Visa mästarna ↓' : 'Visa lagen ↓', has: () => e.members && e.members.length },
+      squad:   { sel: '.modal-roster',  cta: 'Visa truppen ↓', has: () => e.squad && e.squad.length },
+      history: { sel: '.modal-history', cta: 'Visa historiken ↓', has: () => e.history && e.history.length }
+    };
+    const stats = (e.stats || []).map(s => {
+      const cfg = s.goto && GOTO_CFG[s.goto];
+      if (cfg && cfg.has()) {
+        return `<button class="modal-stat is-clickable" data-scroll="${s.goto}"><div class="v">${s.value}</div><div class="l">${s.label}</div><div class="stat-cta">${cfg.cta}</div></button>`;
+      }
+      return `<div class="modal-stat"><div class="v">${s.value}</div><div class="l">${s.label}</div></div>`;
+    }).join('');
     const facts = (e.facts || []).map(f => `<li>${linkify(f, e.id)}</li>`).join('');
     const history = (e.history || []).map(h => `<div class="hist-row"><span class="hist-year">${h.year}</span><span class="hist-champ">${linkify(h.champ, e.id)}</span><span class="hist-res">${h.result}</span></div>`).join('');
     /* Lag i serien — klickbar nedbrytning */
@@ -997,7 +1007,7 @@
           </button>`;
       }).join('');
       membersHTML = `<div class="modal-members">
-          <h4>Lag i serien (${e.members.length})${e.membersNote ? ' — ' + e.membersNote : ''}</h4>
+          <h4>${e.type === 'turnering' ? 'Mästare' : 'Lag i serien'} (${e.members.length})${e.membersNote ? ' — ' + e.membersNote : ''}</h4>
           <div class="member-list">${items}</div>
         </div>`;
     }
@@ -1063,10 +1073,11 @@
     document.getElementById('modal-close').addEventListener('click', closeModal);
     modal.querySelectorAll('.rel-chip, .inline-link, .roster-item[data-goto], .member-item[data-goto]').forEach(c => c.addEventListener('click', () => openModal(c.dataset.goto)));
 
-    /* Klick på statistikrutan hoppar till laglistan */
-    modal.querySelectorAll('.modal-stat[data-scroll="members"]').forEach(function (btn) {
+    /* Klick på en statistikruta hoppar till rätt avsnitt */
+    var SCROLL_SEL = { members: '.modal-members', squad: '.modal-roster', history: '.modal-history' };
+    modal.querySelectorAll('.modal-stat[data-scroll]').forEach(function (btn) {
       btn.addEventListener('click', function () {
-        var target = modal.querySelector('.modal-members');
+        var target = modal.querySelector(SCROLL_SEL[btn.dataset.scroll]);
         if (!target) return;
         target.scrollIntoView({ behavior: 'smooth', block: 'start' });
         target.classList.remove('flash');
