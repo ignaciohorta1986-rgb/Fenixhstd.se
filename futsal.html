@@ -984,13 +984,22 @@
       squad:   { sel: '.modal-roster',  cta: 'Visa truppen ↓', has: () => e.squad && e.squad.length },
       history: { sel: '.modal-history', cta: 'Visa historiken ↓', has: () => e.history && e.history.length }
     };
-    const stats = (e.stats || []).map(s => {
+    let stats = (e.stats || []).map(s => {
       const cfg = s.goto && GOTO_CFG[s.goto];
       if (cfg && cfg.has()) {
         return `<button class="modal-stat is-clickable" data-scroll="${s.goto}"><div class="v">${s.value}</div><div class="l">${s.label}</div><div class="stat-cta">${cfg.cta}</div></button>`;
       }
       return `<div class="modal-stat"><div class="v">${s.value}</div><div class="l">${s.label}</div></div>`;
     }).join('');
+
+    /* Klubbar utan egen trupp: genväg till spelarna som härleds ur databasen */
+    const hasGoto = (e.stats || []).some(s => s.goto);
+    if (!hasGoto && !e.squad) {
+      const autoRoster = (typeof rosterOf === 'function') ? rosterOf(e) : [];
+      if (autoRoster && autoRoster.length) {
+        stats += `<button class="modal-stat is-clickable" data-scroll="squad"><div class="v">${autoRoster.length}</div><div class="l">Spelare i databasen</div><div class="stat-cta">Visa spelarna ↓</div></button>`;
+      }
+    }
     const facts = (e.facts || []).map(f => `<li>${linkify(f, e.id)}</li>`).join('');
     const history = (e.history || []).map(h => `<div class="hist-row"><span class="hist-year">${h.year}</span><span class="hist-champ">${linkify(h.champ, e.id)}</span><span class="hist-res">${h.result}</span></div>`).join('');
     /* Lag i serien — klickbar nedbrytning */
