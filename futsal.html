@@ -970,6 +970,13 @@
       'UEFA Futsal Champions League': 'ucl', 'Copa América': 'copa-america'
     };
     Object.keys(alias).forEach(k => { if (DATA.some(d => d.id === alias[k])) LINK_MAP[k] = alias[k]; });
+    /* Klubbalias — "Uddevalla FC", "Örebro SK" osv ska länka till rätt post */
+    Object.keys(NAME_ALIAS).forEach(k => {
+      const target = NAME_ALIAS[k];
+      if (!target) return;
+      const hit = DATA.filter(d => d.name === target)[0];
+      if (hit && !LINK_MAP[k]) LINK_MAP[k] = hit.id;
+    });
     const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     const terms = Object.keys(LINK_MAP).filter(t => t.length >= 4).sort((a, b) => b.length - a.length);
     try {
@@ -1108,7 +1115,7 @@
           </button>`;
       }).join('');
       membersHTML = `<div class="modal-members">
-          <h4>${e.type === 'turnering' ? 'Mästare' : 'Lag i serien'} (${e.members.length})${e.membersNote ? ' — ' + e.membersNote : ''}</h4>
+          <h4>${e.type === 'turnering' ? 'Mästare' : 'Lag i serien'} (${e.members.length})${e.membersNote ? ' — ' + linkify(e.membersNote, e.id) : ''}</h4>
           <div class="member-list">${items}</div>
         </div>`;
     }
@@ -1127,7 +1134,7 @@
       const p = e.profile;
       const rows = [];
       if (p.born) rows.push(['Född', formatBorn(p.born)]);
-      if (p.birthplace) rows.push(['Födelseort', p.birthplace]);
+      if (p.birthplace) rows.push(['Födelseort', linkify(p.birthplace, e.id)]);
       if (p.nationality) rows.push(['Nationalitet', gotoChip(p.nationality, e.id)]);
       if (p.position) rows.push(['Position', p.position]);
       if (p.number) rows.push(['Tröjnummer', p.number]);
@@ -1139,11 +1146,11 @@
     let rosterHTML = '';
     if (e.squad && e.squad.length) {
       const items = e.squad.map(m => {
-        const db = DATA.find(d => d.type === 'spelare' && d.name === m.name);
-        if (db) return `<button class="roster-item" data-goto="${db.id}"><span>${db.flag}</span><span class="ros-name">${m.name}</span><span class="ros-pos">${m.pos}</span></button>`;
+        const db = entryByName(m.name);
+        if (db && db.id !== e.id) return `<button class="roster-item" data-goto="${db.id}"><span>${db.flag}</span><span class="ros-name">${m.name}</span><span class="ros-pos">${m.pos}</span></button>`;
         return `<span class="roster-item roster-static"><span class="ros-name">${m.name}</span><span class="ros-pos">${m.pos}</span></span>`;
       }).join('');
-      rosterHTML = `<div class="modal-roster"><h4>Trupp (${e.squad.length})${e.squadNote ? ' — ' + e.squadNote : ''}</h4><div class="roster-list">${items}</div></div>`;
+      rosterHTML = `<div class="modal-roster"><h4>Trupp (${e.squad.length})${e.squadNote ? ' — ' + linkify(e.squadNote, e.id) : ''}</h4><div class="roster-list">${items}</div></div>`;
     } else {
       const roster = rosterOf(e);
       if (roster.length) {
@@ -1154,7 +1161,7 @@
     let staffHTML = '';
     if (e.staff && e.staff.length) {
       const items = e.staff.map(m => {
-        const db = DATA.find(x => x.type === 'spelare' && x.name === m.name);
+        const db = entryByName(m.name);
         const inner = `<span class="ros-name">${m.name}</span><span class="ros-pos">${m.role}</span>`;
         return db && db.id !== e.id
           ? `<button class="roster-item" data-goto="${db.id}">${inner}</button>`
@@ -1173,7 +1180,7 @@
           ? `<button class="career-item" data-goto="${db.id}">${inner}</button>`
           : `<span class="career-item career-static">${inner}</span>`;
       }).join('');
-      careerHTML = `<div class="modal-career"><h4>Klubbhistorik (${e.career.length})${e.careerNote ? ' — ' + e.careerNote : ''}</h4><div class="career-list">${items}</div></div>`;
+      careerHTML = `<div class="modal-career"><h4>Klubbhistorik (${e.career.length})${e.careerNote ? ' — ' + linkify(e.careerNote, e.id) : ''}</h4><div class="career-list">${items}</div></div>`;
     }
     modal.innerHTML = `
       <button class="modal-close" id="modal-close" aria-label="Stäng">✕</button>
@@ -1181,7 +1188,7 @@
         <span class="f-flag">${e.flag}</span>
         <div><h2>${e.name}</h2></div>
       </div>
-      <p class="modal-sub"><span class="type-badge type-${e.type}">${TYPE_LABEL[e.type]}</span> ${e.sub}</p>
+      <p class="modal-sub"><span class="type-badge type-${e.type}">${TYPE_LABEL[e.type]}</span> ${linkify(e.sub, e.id)}</p>
       <p class="modal-tagline">${linkify(e.tagline, e.id)}</p>
       ${profileHTML}
       <div class="modal-stats">${stats}</div>
@@ -1374,7 +1381,8 @@
   });
 
   /* ── Ladda data ── */
-  fetch('futsal-data.json')
+  /* Cachebrytare — annars kan webblasaren servera en gammal databas i upp till tio minuter */
+  fetch('futsal-data.json?v=' + Date.now())
     .then(r => r.json())
     .then(d => {
       DATA = d.entries || [];
