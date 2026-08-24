@@ -1072,6 +1072,11 @@
       if (cfg && cfg.has()) {
         return `<button class="modal-stat is-clickable" data-scroll="${s.goto}"><div class="v">${s.value}</div><div class="l">${s.label}</div><div class="stat-cta">${cfg.cta}</div></button>`;
       }
+      /* Rutans värde är namnet på en post — gör hela rutan klickbar */
+      const hit = entryByName(s.value);
+      if (hit && hit.id !== e.id) {
+        return `<button class="modal-stat is-clickable" data-goto="${hit.id}"><div class="v">${s.value}</div><div class="l">${s.label}</div><div class="stat-cta">Öppna →</div></button>`;
+      }
       return `<div class="modal-stat"><div class="v">${s.value}</div><div class="l">${s.label}</div></div>`;
     }).join('');
 
@@ -1198,7 +1203,7 @@
     } catch (err) {}
     document.body.style.overflow = 'hidden';
     document.getElementById('modal-close').addEventListener('click', closeModal);
-    modal.querySelectorAll('.rel-chip, .inline-link, .roster-item[data-goto], .member-item[data-goto], .career-item[data-goto]').forEach(c => c.addEventListener('click', () => openModal(c.dataset.goto)));
+    modal.querySelectorAll('.rel-chip, .inline-link, .roster-item[data-goto], .member-item[data-goto], .career-item[data-goto], .modal-stat[data-goto]').forEach(c => c.addEventListener('click', () => openModal(c.dataset.goto)));
 
     /* Visa fler fakta */
     var moreBtn = document.getElementById('facts-more');
