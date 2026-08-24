@@ -399,6 +399,73 @@
       padding-top: 1rem;
       margin-bottom: 1.3rem;
     }
+    .modal-staff {
+      border-top: 1px solid var(--glass-border);
+      padding-top: 1rem;
+      margin-bottom: 1.3rem;
+    }
+    .modal-staff h4 {
+      font-family: var(--font-head);
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.75rem;
+    }
+    /* ── Klubbhistorik ── */
+    .modal-career {
+      border-top: 1px solid var(--glass-border);
+      padding-top: 1rem;
+      margin-bottom: 1.3rem;
+    }
+    .modal-career h4 {
+      font-family: var(--font-head);
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.75rem;
+    }
+    .career-list { display: flex; flex-direction: column; gap: 0.4rem; }
+    .career-item {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 0.75rem;
+      width: 100%;
+      text-align: left;
+      font-family: var(--font-body);
+      font-size: 0.82rem;
+      color: var(--text);
+      background: rgba(255,255,255,0.05);
+      border: 1px solid var(--glass-border);
+      border-left: 3px solid var(--orange);
+      border-radius: 8px;
+      padding: 0.5rem 0.8rem;
+      cursor: pointer;
+      transition: border-color 0.18s, background 0.18s, transform 0.15s;
+    }
+    .career-item:hover { border-color: var(--gold); background: rgba(255,214,10,0.1); transform: translateX(3px); }
+    .career-static { cursor: default; border-left-color: var(--glass-border); }
+    .career-static:hover { transform: none; background: rgba(255,255,255,0.05); border-color: var(--glass-border); }
+    .car-club { font-weight: 600; }
+    .car-meta { font-size: 0.72rem; color: var(--text-muted); text-align: right; flex-shrink: 0; }
+    /* ── Visa fler fakta ── */
+    .facts-more {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-family: var(--font-body);
+      font-size: 0.75rem;
+      color: var(--gold);
+      background: none;
+      border: none;
+      border-bottom: 1px dashed var(--gold);
+      padding: 0 0 2px 0;
+      margin: -0.5rem 0 1.2rem 0;
+      cursor: pointer;
+    }
+    .facts-more:hover { color: var(--orange); border-bottom-color: var(--orange); }
     .modal-roster h4 {
       font-family: var(--font-head);
       font-size: 0.75rem;
@@ -485,11 +552,11 @@
       0%   { box-shadow: 0 0 0 0 rgba(255,107,43,0.55); }
       100% { box-shadow: 0 0 0 14px rgba(255,107,43,0); }
     }
-    .modal-members.flash, .modal-roster.flash, .modal-history.flash {
+    .modal-members.flash, .modal-roster.flash, .modal-history.flash, .modal-career.flash, .modal-staff.flash {
       border-radius: 14px;
       animation: member-flash 1s ease-out 2;
     }
-    .modal-roster, .modal-history { scroll-margin-top: 1rem; }
+    .modal-roster, .modal-history, .modal-career, .modal-staff { scroll-margin-top: 1rem; }
 
     /* ── Lag i serien (nedbrytning) ── */
     .modal-members { margin-bottom: 1.5rem; scroll-margin-top: 1rem; }
@@ -984,13 +1051,21 @@
   const overlay = document.getElementById('modal-overlay');
   const modal = document.getElementById('modal');
 
+  /* Namn → klickbar länk om posten finns i databasen */
+  function gotoChip(name, selfId) {
+    const db = entryByName(name);
+    if (!db || db.id === selfId) return name;
+    return `<span class="inline-link" data-goto="${db.id}">${name}</span>`;
+  }
   function openModal(id) {
     const e = DATA.find(d => d.id === id);
     if (!e) return;
     const GOTO_CFG = {
       members: { sel: '.modal-members', cta: e.type === 'turnering' ? 'Visa mästarna ↓' : 'Visa lagen ↓', has: () => e.members && e.members.length },
       squad:   { sel: '.modal-roster',  cta: 'Visa truppen ↓', has: () => e.squad && e.squad.length },
-      history: { sel: '.modal-history', cta: 'Visa historiken ↓', has: () => e.history && e.history.length }
+      history: { sel: '.modal-history', cta: 'Visa historiken ↓', has: () => e.history && e.history.length },
+      career:  { sel: '.modal-career',  cta: 'Visa klubbarna ↓', has: () => e.career && e.career.length },
+      staff:   { sel: '.modal-staff',   cta: 'Visa ledarna ↓', has: () => e.staff && e.staff.length }
     };
     let stats = (e.stats || []).map(s => {
       const cfg = s.goto && GOTO_CFG[s.goto];
@@ -1008,7 +1083,11 @@
         stats += `<button class="modal-stat is-clickable" data-scroll="squad"><div class="v">${autoRoster.length}</div><div class="l">Spelare i databasen</div><div class="stat-cta">Visa spelarna ↓</div></button>`;
       }
     }
-    const facts = (e.facts || []).map(f => `<li>${linkify(f, e.id)}</li>`).join('');
+    const FACT_MAX = 4;
+    const factList = e.facts || [];
+    const facts = factList.map((f, i) => `<li${i >= FACT_MAX ? ' class="fact-extra" hidden' : ''}>${linkify(f, e.id)}</li>`).join('');
+    const factsMore = factList.length > FACT_MAX
+      ? `<button class="facts-more" id="facts-more">Visa ${factList.length - FACT_MAX} fakta till ↓</button>` : '';
     const historyHTML = (e.history || []).map(h => `<div class="hist-row"><span class="hist-year">${h.year}</span><span class="hist-champ">${linkify(h.champ, e.id)}</span><span class="hist-res">${h.result}</span></div>`).join('');
     /* Lag i serien — klickbar nedbrytning */
     let membersHTML = '';
@@ -1044,9 +1123,12 @@
       const rows = [];
       if (p.born) rows.push(['Född', formatBorn(p.born)]);
       if (p.birthplace) rows.push(['Födelseort', p.birthplace]);
+      if (p.nationality) rows.push(['Nationalitet', gotoChip(p.nationality, e.id)]);
+      if (p.position) rows.push(['Position', p.position]);
+      if (p.number) rows.push(['Tröjnummer', p.number]);
       if (p.height) rows.push(['Längd', p.height]);
       if (p.foot) rows.push(['Fot', p.foot]);
-      if (p.club) rows.push(['Nuvarande klubb', linkify(p.club, e.id)]);
+      if (p.club) rows.push(['Nuvarande klubb', gotoChip(p.club, e.id)]);
       if (rows.length) profileHTML = `<div class="modal-profile">${rows.map(r => `<div class="prof-row"><span class="prof-k">${r[0]}</span><span class="prof-v">${r[1]}</span></div>`).join('')}</div>`;
     }
     let rosterHTML = '';
@@ -1063,6 +1145,31 @@
         rosterHTML = `<div class="modal-roster"><h4>Spelare i databasen (${roster.length})</h4><div class="roster-list">${roster.map(p => `<button class="roster-item" data-goto="${p.id}"><span>${p.flag}</span><span class="ros-name">${p.name}</span><span class="ros-pos">${positionOf(p)}</span></button>`).join('')}</div></div>`;
       }
     }
+    /* Ledarstab */
+    let staffHTML = '';
+    if (e.staff && e.staff.length) {
+      const items = e.staff.map(m => {
+        const db = DATA.find(x => x.type === 'spelare' && x.name === m.name);
+        const inner = `<span class="ros-name">${m.name}</span><span class="ros-pos">${m.role}</span>`;
+        return db && db.id !== e.id
+          ? `<button class="roster-item" data-goto="${db.id}">${inner}</button>`
+          : `<span class="roster-item roster-static">${inner}</span>`;
+      }).join('');
+      staffHTML = `<div class="modal-staff"><h4>Ledarstab (${e.staff.length})</h4><div class="roster-list">${items}</div></div>`;
+    }
+    /* Klubbhistorik — klickbar vidare till varje klubb */
+    let careerHTML = '';
+    if (e.career && e.career.length) {
+      const items = e.career.map(c => {
+        const db = entryByName(c.club);
+        const meta = [c.years, c.note].filter(Boolean).join(' · ');
+        const inner = `<span class="car-club">${c.club}</span><span class="car-meta">${meta}</span>`;
+        return db && db.id !== e.id
+          ? `<button class="career-item" data-goto="${db.id}">${inner}</button>`
+          : `<span class="career-item career-static">${inner}</span>`;
+      }).join('');
+      careerHTML = `<div class="modal-career"><h4>Klubbhistorik (${e.career.length})${e.careerNote ? ' — ' + e.careerNote : ''}</h4><div class="career-list">${items}</div></div>`;
+    }
     modal.innerHTML = `
       <button class="modal-close" id="modal-close" aria-label="Stäng">✕</button>
       <div class="modal-head">
@@ -1074,9 +1181,12 @@
       ${profileHTML}
       <div class="modal-stats">${stats}</div>
       <ul class="modal-facts">${facts}</ul>
+      ${factsMore}
+      ${careerHTML}
       ${e.history ? `<div class="modal-history"><h4>Historik — alla mästare</h4>${historyHTML}</div>` : ''}
       ${membersHTML}
       ${rosterHTML}
+      ${staffHTML}
       ${officialHTML}
       ${relHTML}
       <p class="modal-source">📚 Källa: <a href="${e.source.url}" target="_blank" rel="noopener">${e.source.label}</a></p>`;
@@ -1088,10 +1198,19 @@
     } catch (err) {}
     document.body.style.overflow = 'hidden';
     document.getElementById('modal-close').addEventListener('click', closeModal);
-    modal.querySelectorAll('.rel-chip, .inline-link, .roster-item[data-goto], .member-item[data-goto]').forEach(c => c.addEventListener('click', () => openModal(c.dataset.goto)));
+    modal.querySelectorAll('.rel-chip, .inline-link, .roster-item[data-goto], .member-item[data-goto], .career-item[data-goto]').forEach(c => c.addEventListener('click', () => openModal(c.dataset.goto)));
+
+    /* Visa fler fakta */
+    var moreBtn = document.getElementById('facts-more');
+    if (moreBtn) {
+      moreBtn.addEventListener('click', function () {
+        modal.querySelectorAll('.fact-extra').forEach(function (li) { li.hidden = false; });
+        moreBtn.remove();
+      });
+    }
 
     /* Klick på en statistikruta hoppar till rätt avsnitt */
-    var SCROLL_SEL = { members: '.modal-members', squad: '.modal-roster', history: '.modal-history' };
+    var SCROLL_SEL = { members: '.modal-members', squad: '.modal-roster', history: '.modal-history', career: '.modal-career', staff: '.modal-staff' };
     modal.querySelectorAll('.modal-stat[data-scroll]').forEach(function (btn) {
       btn.addEventListener('click', function () {
         var target = modal.querySelector(SCROLL_SEL[btn.dataset.scroll]);

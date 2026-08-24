@@ -2818,8 +2818,13 @@
         },
         {
           "label": "Spelare i truppen",
-          "value": "2",
+          "value": "5",
           "goto": "squad"
+        },
+        {
+          "label": "Ledare",
+          "value": "5",
+          "goto": "staff"
         }
       ],
       "facts": [
@@ -2834,17 +2839,51 @@
       },
       "squad": [
         {
-          "name": "Senad Berisha",
-          "pos": "15 mål 2024/25"
+          "name": "Poyan Daryoush Kayed Pour",
+          "pos": "Målvakt · #1"
         },
         {
-          "name": "Coquinho (Lucas Bonifacio dos Santos)",
-          "pos": "Offensiv · 31 år · Rio de Janeiro"
+          "name": "Khaled Samir Baytam",
+          "pos": "Målvakt · #12"
+        },
+        {
+          "name": "Elias Rangsjö",
+          "pos": "Utespelare · #2"
+        },
+        {
+          "name": "Pontus Törnqvist",
+          "pos": "Utespelare · #3"
+        },
+        {
+          "name": "Rekar Khoshawi Essa Essa",
+          "pos": "Utespelare · #11"
         }
       ],
-      "squadNote": "Kända spelare",
+      "squadNote": "Herrtrupp 2025/26 enligt klubbens egen truppsida",
       "officialUrl": "https://www.orebrofutsal.se/",
-      "officialLabel": "Örebro Futsal Clubs egen sida"
+      "officialLabel": "Örebro Futsal Clubs egen sida",
+      "staff": [
+        {
+          "name": "Ronny \"Pilen\" Pettersson",
+          "role": "General Manager"
+        },
+        {
+          "name": "Tony Bergman",
+          "role": "Timekeeper"
+        },
+        {
+          "name": "Kjell Johansson",
+          "role": "Reklamansvarig arena"
+        },
+        {
+          "name": "Håkan Johnsson",
+          "role": "Säkerhetsansvarig"
+        },
+        {
+          "name": "Krister Högberg",
+          "role": "Materialförvaltare"
+        }
+      ]
     },
     {
       "id": "orebro-sk",
@@ -2869,8 +2908,13 @@
         },
         {
           "label": "Spelare i truppen",
-          "value": "4",
+          "value": "13",
           "goto": "squad"
+        },
+        {
+          "label": "Ledare",
+          "value": "5",
+          "goto": "staff"
         }
       ],
       "facts": [
@@ -2886,25 +2930,83 @@
       },
       "squad": [
         {
-          "name": "Sandro Rickelb Souza Nascimento",
-          "pos": "26 mål 2024/25"
+          "name": "Martin Herlin",
+          "pos": "Målvakt · #1"
         },
         {
-          "name": "Adrijan Micevski",
-          "pos": "17 mål 2024/25"
+          "name": "Sava Mustapää",
+          "pos": "Målvakt · #13"
         },
         {
-          "name": "Leonardo Mieli Zanata",
-          "pos": "15 mål 2024/25"
+          "name": "Emil Björklund",
+          "pos": "Målvakt · #30"
+        },
+        {
+          "name": "Amel Rastoder",
+          "pos": "Utespelare · #5"
+        },
+        {
+          "name": "Mohammed Alshehabi",
+          "pos": "Utespelare · #8"
         },
         {
           "name": "Henrik Lara Rodriguez",
-          "pos": "Återvänd — 72 mål på 59 matcher i FC Kalmar"
+          "pos": "Utespelare · #9"
+        },
+        {
+          "name": "Leonardo Mieli Zanata",
+          "pos": "Utespelare · #10"
+        },
+        {
+          "name": "Senad Berisha",
+          "pos": "Utespelare · #12"
+        },
+        {
+          "name": "Matheusinho Santos Alves",
+          "pos": "Utespelare · #17"
+        },
+        {
+          "name": "Zakariya Enow",
+          "pos": "Utespelare · #19"
+        },
+        {
+          "name": "Htet Nya Lin",
+          "pos": "Utespelare · #24"
+        },
+        {
+          "name": "Neo Sallanto",
+          "pos": "Utespelare · #25"
+        },
+        {
+          "name": "Coquinho Dos Santos",
+          "pos": "Utespelare · #94"
         }
       ],
-      "squadNote": "Kända spelare — skytteligan 2024/25",
+      "squadNote": "Trupp 2025/26 enligt klubbens egen truppsida",
       "officialUrl": "https://oskfutsal.se/",
-      "officialLabel": "Örebro SK Futsals egen sida"
+      "officialLabel": "Örebro SK Futsals egen sida",
+      "staff": [
+        {
+          "name": "Victor Huerta",
+          "role": "Sportchef"
+        },
+        {
+          "name": "Francis Maciel Da Costa",
+          "role": "Tränare"
+        },
+        {
+          "name": "Henning Gustafsson",
+          "role": "Lagledare"
+        },
+        {
+          "name": "Mats Lind",
+          "role": "Lagledare"
+        },
+        {
+          "name": "Alija Ljeljak",
+          "role": "Naprapat"
+        }
+      ]
     },
     {
       "id": "uddevalla-futsal-club",
@@ -2937,8 +3039,13 @@
         },
         {
           "label": "Spelare i truppen",
-          "value": "7",
+          "value": "17",
           "goto": "squad"
+        },
+        {
+          "label": "Ledare",
+          "value": "6",
+          "goto": "staff"
         }
       ],
       "facts": [
@@ -2957,37 +3064,103 @@
       },
       "squad": [
         {
+          "name": "Filip Skarin",
+          "pos": "Målvakt · #1"
+        },
+        {
+          "name": "Charbel Noura",
+          "pos": "Målvakt · #97"
+        },
+        {
           "name": "Petrit Zhubi",
-          "pos": "Landslaget 2026"
+          "pos": "Utespelare · #5"
         },
         {
-          "name": "Fredrik Söderqvist",
-          "pos": "26 mål · landslaget"
+          "name": "Mergim Berisha",
+          "pos": "Utespelare · #6"
         },
         {
-          "name": "Ismail Fazlija",
-          "pos": "Landslaget 2026"
-        },
-        {
-          "name": "Hampus Furublad",
-          "pos": "21 mål · landslaget"
+          "name": "Haidar Bejan",
+          "pos": "Utespelare · #7"
         },
         {
           "name": "Albert Hiseni",
-          "pos": "Landslaget 2026"
+          "pos": "Utespelare · #8"
         },
         {
-          "name": "Viktor Mossberg",
-          "pos": "Landslaget 2026"
+          "name": "Fredrik Söderqvist",
+          "pos": "Utespelare · #9"
         },
         {
           "name": "Noraldin Azizi",
-          "pos": "22 mål 2024/25"
+          "pos": "Utespelare · #10"
+        },
+        {
+          "name": "Granit Berisha",
+          "pos": "Utespelare · #11"
+        },
+        {
+          "name": "Ismail Fazlija",
+          "pos": "Utespelare · #19"
+        },
+        {
+          "name": "Bilal Moussa",
+          "pos": "Utespelare · #22"
+        },
+        {
+          "name": "Viktor Mossberg",
+          "pos": "Utespelare · #33"
+        },
+        {
+          "name": "Hampus Furublad",
+          "pos": "Utespelare · #50"
+        },
+        {
+          "name": "Dion Eriksson",
+          "pos": "Utespelare · #77"
+        },
+        {
+          "name": "Govend Haji",
+          "pos": "Utespelare · #88"
+        },
+        {
+          "name": "Donat Gashi",
+          "pos": "Utespelare · #98"
+        },
+        {
+          "name": "Gramos Berisha",
+          "pos": "Utespelare · #99"
         }
       ],
-      "squadNote": "Kända spelare — landslaget 2026 och skytteligan",
+      "squadNote": "Trupp 2025/26 enligt klubbens egen truppsida",
       "officialUrl": "https://uddevallafutsal.se/",
-      "officialLabel": "Uddevalla Futsals egen sida"
+      "officialLabel": "Uddevalla Futsals egen sida",
+      "staff": [
+        {
+          "name": "Vladan Jovanovic",
+          "role": "Ledare"
+        },
+        {
+          "name": "Emilia Widengren",
+          "role": "Ledare"
+        },
+        {
+          "name": "Stefan Örn",
+          "role": "Ledare"
+        },
+        {
+          "name": "Oscar Vega",
+          "role": "Ledare"
+        },
+        {
+          "name": "Petrit Zhubi",
+          "role": "Spelande ledare"
+        },
+        {
+          "name": "Albert Hiseni",
+          "role": "Spelande ledare"
+        }
+      ]
     },
     {
       "id": "soder-futsal",
@@ -3016,8 +3189,13 @@
         },
         {
           "label": "Spelare i truppen",
-          "value": "6",
+          "value": "30",
           "goto": "squad"
+        },
+        {
+          "label": "Ledare",
+          "value": "7",
+          "goto": "staff"
         }
       ],
       "facts": [
@@ -3034,33 +3212,159 @@
       },
       "squad": [
         {
-          "name": "Elias Ländin Sjöblom",
-          "pos": "23 mål 2024/25"
-        },
-        {
-          "name": "Petar Peric",
-          "pos": "23 mål 2024/25"
-        },
-        {
-          "name": "Emad Ade Ali Quasem",
-          "pos": "2 mål på 15 matcher 2025/26"
-        },
-        {
-          "name": "Alexander Browne",
-          "pos": "1 assist på 21 matcher 2025/26"
-        },
-        {
           "name": "Aleksandar Mijajlovic",
-          "pos": "Målvakt — 21 matcher 2025/26"
+          "pos": "Målvakt · #1"
+        },
+        {
+          "name": "Patrick Ortega Kvartofth",
+          "pos": "Målvakt · #1"
         },
         {
           "name": "Victor Jilvan Rassuli",
-          "pos": "Målvakt — 16 matcher 2025/26"
+          "pos": "Målvakt · #30"
+        },
+        {
+          "name": "Johan Danha",
+          "pos": "Målvakt"
+        },
+        {
+          "name": "Erik Linder",
+          "pos": "Målvakt"
+        },
+        {
+          "name": "Gabriel Diaz",
+          "pos": "Utespelare · #2"
+        },
+        {
+          "name": "Said El Horr",
+          "pos": "Utespelare · #3"
+        },
+        {
+          "name": "Jean Asaad Nasr",
+          "pos": "Utespelare · #4"
+        },
+        {
+          "name": "Antonio Coric",
+          "pos": "Utespelare · #5"
+        },
+        {
+          "name": "Milos Stanojevic",
+          "pos": "Utespelare · #6"
+        },
+        {
+          "name": "Ihab Kahssay",
+          "pos": "Utespelare · #7"
+        },
+        {
+          "name": "Nassim Mohammed Ali",
+          "pos": "Utespelare · #8"
+        },
+        {
+          "name": "Andrej Jekic",
+          "pos": "Utespelare · #9"
+        },
+        {
+          "name": "Liridon Makolli",
+          "pos": "Utespelare · #10"
+        },
+        {
+          "name": "Srecko Baic",
+          "pos": "Utespelare · #11"
+        },
+        {
+          "name": "Christiane Barahona",
+          "pos": "Utespelare · #12"
+        },
+        {
+          "name": "Elias Ländin Sjöblom",
+          "pos": "Utespelare · #14"
+        },
+        {
+          "name": "Alexander Browne",
+          "pos": "Utespelare · #15"
+        },
+        {
+          "name": "Muzaffer Arpacik",
+          "pos": "Utespelare · #16"
+        },
+        {
+          "name": "Emad Ade Ali Quasem",
+          "pos": "Utespelare · #17"
+        },
+        {
+          "name": "Amin Mossavi",
+          "pos": "Utespelare · #29"
+        },
+        {
+          "name": "Victor Brozin",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Javier Donado Gómez",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Strahinja Golic",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Hosep Kiork",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Sakaria Mahammed",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Younas Messaoudi",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Kobby Osei-Bonsu",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Tiago Silva Sanchez",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Aleksandar Skovin",
+          "pos": "Utespelare"
         }
       ],
-      "squadNote": "Kända spelare — skytteligan och klubbens egen statistik",
+      "squadNote": "Trupp 2025/26 enligt klubbens egen truppsida",
       "officialUrl": "https://www.soderfutsal.se/",
-      "officialLabel": "Söder Futsals egen sida"
+      "officialLabel": "Söder Futsals egen sida",
+      "staff": [
+        {
+          "name": "Josef Abobaker Alkhalaf",
+          "role": "Ledare"
+        },
+        {
+          "name": "Joakim Eriksson",
+          "role": "Klubbchef"
+        },
+        {
+          "name": "Thomaz Mendes Barata De Almeida",
+          "role": "Målvaktstränare"
+        },
+        {
+          "name": "Peter Lungström",
+          "role": "Lagledare"
+        },
+        {
+          "name": "Peter Cruickshank Lööf",
+          "role": "Naprapat"
+        },
+        {
+          "name": "Albin Hedenstedt",
+          "role": "Naprapat"
+        },
+        {
+          "name": "Ulf Baldhagen",
+          "role": "Ekonomiansvarig"
+        }
+      ]
     },
     {
       "id": "fc-kalmar",
@@ -3089,8 +3393,13 @@
         },
         {
           "label": "Spelare i truppen",
-          "value": "4",
+          "value": "16",
           "goto": "squad"
+        },
+        {
+          "label": "Ledare",
+          "value": "1",
+          "goto": "staff"
         }
       ],
       "facts": [
@@ -3109,25 +3418,79 @@
       },
       "squad": [
         {
-          "name": "Maicon Tauan Dias Alves",
-          "pos": "24 mål 2024/25"
+          "name": "Simon Rohman",
+          "pos": "Målvakt · #12"
         },
         {
-          "name": "Alagi Sosseh",
-          "pos": "23 mål 2024/25"
+          "name": "Maicon Tauan Dias Alves",
+          "pos": "Utespelare · #10"
+        },
+        {
+          "name": "Zana Eliassi",
+          "pos": "Utespelare · #22"
         },
         {
           "name": "Gustav Rydberg",
-          "pos": "Landslaget 2026"
+          "pos": "Utespelare · #70"
         },
         {
-          "name": "Henrik Lara Rodriguez",
-          "pos": "32 mål 2024/25 — nu Örebro SK"
+          "name": "Selim Redzeposki",
+          "pos": "Utespelare · #80"
+        },
+        {
+          "name": "Habib Askar",
+          "pos": "Utespelare · #88"
+        },
+        {
+          "name": "Omar Abo deeb",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Ayham Al Hasson",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Nick Molenko",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Sammy Ndyabahika",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Prince Mporana",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Romário Sipião",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Bruno Vinicius",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Lorenc Selimi",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Douglas Guime",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Giga Chkheidze",
+          "pos": "Utespelare"
         }
       ],
-      "squadNote": "Kända spelare — skytteligan 2024/25 och landslaget",
+      "squadNote": "Trupp 2025/26 enligt klubbens egen sida",
       "officialUrl": "https://www.fckalmar.se/",
-      "officialLabel": "FC Kalmars egen sida"
+      "officialLabel": "FC Kalmars egen sida",
+      "staff": [
+        {
+          "name": "Romário Sipião",
+          "role": "Huvudtränare och spelare"
+        }
+      ]
     },
     {
       "id": "kalmar-united",
@@ -3195,8 +3558,13 @@
         },
         {
           "label": "Spelare i truppen",
-          "value": "5",
+          "value": "15",
           "goto": "squad"
+        },
+        {
+          "label": "Ledare",
+          "value": "4",
+          "goto": "staff"
         }
       ],
       "facts": [
@@ -3214,29 +3582,87 @@
       },
       "squad": [
         {
-          "name": "Flamur Tahiri",
-          "pos": "34 mål 2024/25 — skyttekung"
-        },
-        {
-          "name": "Younes Raisi",
-          "pos": "33 mål 2024/25"
-        },
-        {
           "name": "Mattin Atai Najafi",
-          "pos": "15 mål 2024/25"
+          "pos": "Utespelare · #16"
         },
         {
-          "name": "Abdoulie Bojang",
-          "pos": "Landslaget 2026"
+          "name": "Ahmed Abdu Musa",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Basheer Al-Azzawi",
+          "pos": "Utespelare"
         },
         {
           "name": "Camil Altun",
-          "pos": "Landslaget 2026"
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Edvin Bennehall",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Abdoulie Bojang",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Dino Cavalic",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Ronie Islam",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Andrés Lindberg",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Mahir Mahmuti",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Hassan Najafi",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Luay Nassan",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Enez Poyraz",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Daniel Ramadanovic",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Yamin Souayeh",
+          "pos": "Utespelare"
         }
       ],
-      "squadNote": "Kända spelare — skytteligan 2024/25 och landslaget",
+      "squadNote": "Trupp 2025/26 enligt klubbens egen truppsida",
       "officialUrl": "https://baikfutsal.se/",
-      "officialLabel": "BAIK Futsals egen sida"
+      "officialLabel": "BAIK Futsals egen sida",
+      "staff": [
+        {
+          "name": "Nadir Nishada",
+          "role": "Tränare"
+        },
+        {
+          "name": "Mikael Andersson",
+          "role": "Målvaktstränare"
+        },
+        {
+          "name": "Magnus Johannesson",
+          "role": "Lagledare"
+        },
+        {
+          "name": "Daniel Nadjafi",
+          "role": "Lagledare"
+        }
+      ]
     },
     {
       "id": "norrkoping-fk",
@@ -3258,6 +3684,16 @@
         {
           "label": "Hemmaarena",
           "value": "Åby Arena"
+        },
+        {
+          "label": "Spelare i truppen",
+          "value": "19",
+          "goto": "squad"
+        },
+        {
+          "label": "Ledare",
+          "value": "6",
+          "goto": "staff"
         }
       ],
       "facts": [
@@ -3272,7 +3708,112 @@
         "url": "https://www.svenskalag.se/norrkopingfutsal"
       },
       "officialUrl": "https://www.svenskalag.se/norrkopingfutsal",
-      "officialLabel": "Norrköping Futsal Klubbs sida"
+      "officialLabel": "Norrköping Futsal Klubbs sida",
+      "squad": [
+        {
+          "name": "Inatem Nuwia",
+          "pos": "Målvakt · #1"
+        },
+        {
+          "name": "Patrick Ayala",
+          "pos": "Utespelare · #3"
+        },
+        {
+          "name": "Victor Cardeal",
+          "pos": "Utespelare · #16"
+        },
+        {
+          "name": "Romario Navarro",
+          "pos": "Utespelare · #22"
+        },
+        {
+          "name": "Azad Eliassy",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Andy Montoya",
+          "pos": "Utespelare · #4"
+        },
+        {
+          "name": "Blend Ali Osman",
+          "pos": "Utespelare · #10"
+        },
+        {
+          "name": "Abozar Shirzai",
+          "pos": "Utespelare · #11"
+        },
+        {
+          "name": "Ali Salah Sharif",
+          "pos": "Utespelare · #70"
+        },
+        {
+          "name": "Alexander Zachariadis",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Amir Tajik",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Andres Cespedes",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Jonathan Yackob",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Tony Algeorges",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Petar Peric",
+          "pos": "Utespelare · #17"
+        },
+        {
+          "name": "Mohammed Abdulmajeed",
+          "pos": "Utespelare · #23"
+        },
+        {
+          "name": "David Cabrera",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Rick Passos",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Sahal Hussein",
+          "pos": "Utespelare"
+        }
+      ],
+      "squadNote": "Trupp 2025/26 enligt klubbens egen truppsida",
+      "staff": [
+        {
+          "name": "Anes Cesko",
+          "role": "Tränare"
+        },
+        {
+          "name": "Muffe Bajraktararevic",
+          "role": "Klubbchef"
+        },
+        {
+          "name": "Mohammed Albomnaijl",
+          "role": "Analytiker"
+        },
+        {
+          "name": "Serhat Can",
+          "role": "Fys- och medicinansvarig"
+        },
+        {
+          "name": "Krister Melin",
+          "role": "Kommunikationsansvarig"
+        },
+        {
+          "name": "Richard Andersson",
+          "role": "Materialansvarig"
+        }
+      ]
     },
     {
       "id": "skoftebyns-if",
@@ -3301,8 +3842,13 @@
         },
         {
           "label": "Spelare i truppen",
-          "value": "3",
+          "value": "15",
           "goto": "squad"
+        },
+        {
+          "label": "Ledare",
+          "value": "6",
+          "goto": "staff"
         }
       ],
       "facts": [
@@ -3319,21 +3865,95 @@
       },
       "squad": [
         {
-          "name": "Lavdim Azemi",
-          "pos": "20 mål 2024/25 · U19-tränare"
+          "name": "Viktor Jansson",
+          "pos": "Målvakt · #1"
         },
         {
-          "name": "Oscar Edh",
-          "pos": "Landslaget 2026"
+          "name": "Christian Dahna",
+          "pos": "Målvakt · #12"
+        },
+        {
+          "name": "Tolga Ayranci",
+          "pos": "Målvakt · #69"
+        },
+        {
+          "name": "Nima Kadivar",
+          "pos": "Utespelare · #7"
         },
         {
           "name": "Bryan Johansson",
-          "pos": "Landslaget 2026"
+          "pos": "Utespelare · #9"
+        },
+        {
+          "name": "Lavdim Azemi",
+          "pos": "Utespelare · #10"
+        },
+        {
+          "name": "Krister Andersson",
+          "pos": "Utespelare · #11"
+        },
+        {
+          "name": "Jonas Hansson",
+          "pos": "Utespelare · #16"
+        },
+        {
+          "name": "Isaac Gadaan",
+          "pos": "Utespelare · #19"
+        },
+        {
+          "name": "Oscar Edh",
+          "pos": "Utespelare · #20"
+        },
+        {
+          "name": "Nicklas Asp",
+          "pos": "Utespelare · #21"
+        },
+        {
+          "name": "Hamed Hosseini",
+          "pos": "Utespelare · #61"
+        },
+        {
+          "name": "Andreas Svanström",
+          "pos": "Utespelare · #66"
+        },
+        {
+          "name": "Pascal Olsson",
+          "pos": "Utespelare · #77"
+        },
+        {
+          "name": "Riane Haidar",
+          "pos": "Utespelare · #99"
         }
       ],
-      "squadNote": "Kända spelare — skytteligan 2024/25 och landslaget",
+      "squadNote": "A-lagstrupp 2025/26 enligt klubbens egen truppsida",
       "officialUrl": "https://www.skoftebynfutsal.se/",
-      "officialLabel": "Skoftebyn Futsals egen sida"
+      "officialLabel": "Skoftebyn Futsals egen sida",
+      "staff": [
+        {
+          "name": "Nima Kadivar",
+          "role": "Huvudtränare"
+        },
+        {
+          "name": "Nima Fard",
+          "role": "Assisterande tränare"
+        },
+        {
+          "name": "Anders Svensson",
+          "role": "Lagledare"
+        },
+        {
+          "name": "Christoffer Lundh",
+          "role": "Sportchef"
+        },
+        {
+          "name": "Arnel Barakovic",
+          "role": "Målvaktstränare"
+        },
+        {
+          "name": "Muhamet \"Cheese\" Rama",
+          "role": "Lagledare"
+        }
+      ]
     },
     {
       "id": "fc-ljiljan-goteborg",
@@ -3362,8 +3982,13 @@
         },
         {
           "label": "Spelare i truppen",
-          "value": "1",
+          "value": "14",
           "goto": "squad"
+        },
+        {
+          "label": "Ledare",
+          "value": "2",
+          "goto": "staff"
         }
       ],
       "facts": [
@@ -3380,13 +4005,75 @@
       },
       "squad": [
         {
+          "name": "Sebastian Ladisic",
+          "pos": "Målvakt · #1"
+        },
+        {
+          "name": "Hugo Melander",
+          "pos": "Utespelare · #3"
+        },
+        {
+          "name": "Emilio Rossi",
+          "pos": "Utespelare · #6"
+        },
+        {
+          "name": "Sandi Sakic",
+          "pos": "Utespelare · #7"
+        },
+        {
+          "name": "Kenan Karaduz",
+          "pos": "Utespelare · #9"
+        },
+        {
+          "name": "Ashkan Keshavarzi",
+          "pos": "Utespelare · #11"
+        },
+        {
+          "name": "Adam Passachin",
+          "pos": "Utespelare · #13"
+        },
+        {
+          "name": "Stev Tolakh",
+          "pos": "Utespelare · #77"
+        },
+        {
+          "name": "Dorian Nikola",
+          "pos": "Utespelare"
+        },
+        {
           "name": "Fehim Smajlovic",
-          "pos": "Spelande tränare · landslaget"
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Linus Jonasson",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Meisam Hosseini",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Nataniel De Melo",
+          "pos": "Utespelare"
+        },
+        {
+          "name": "Shawn Brown Ek",
+          "pos": "Utespelare"
         }
       ],
-      "squadNote": "Kända spelare",
+      "squadNote": "Herrtrupp 2025/26 enligt klubbens egen truppsida",
       "officialUrl": "https://www.svenskalag.se/fcljiljan",
-      "officialLabel": "FC Ljiljans sida"
+      "officialLabel": "FC Ljiljans sida",
+      "staff": [
+        {
+          "name": "Ivan De Melo",
+          "role": "Assisterande tränare"
+        },
+        {
+          "name": "Anel Bosnjo",
+          "role": "Målvaktstränare"
+        }
+      ]
     },
     {
       "id": "ektorp-fk",
@@ -3445,7 +4132,7 @@
         },
         {
           "label": "Spelare i truppen",
-          "value": "1",
+          "value": "13",
           "goto": "squad"
         }
       ],
@@ -3463,11 +4150,59 @@
       },
       "squad": [
         {
-          "name": "Adem Öksüz",
-          "pos": "20 mål 2024/25"
+          "name": "Sebastian Hafström",
+          "pos": "Målvakt · #1"
+        },
+        {
+          "name": "Hadi Mahdavi",
+          "pos": "Utespelare · #2"
+        },
+        {
+          "name": "Kirill Laptev",
+          "pos": "Utespelare · #3"
+        },
+        {
+          "name": "Seif Kadhim",
+          "pos": "Utespelare · #4"
+        },
+        {
+          "name": "Rebaz Muhammed",
+          "pos": "Utespelare · #5"
+        },
+        {
+          "name": "Staivar Ishak",
+          "pos": "Utespelare · #6"
+        },
+        {
+          "name": "Filip Brtan",
+          "pos": "Utespelare · #7"
+        },
+        {
+          "name": "Eduardo Luis Portocarrero Linares",
+          "pos": "Utespelare · #9"
+        },
+        {
+          "name": "Sonny Karlsson",
+          "pos": "Utespelare · #10"
+        },
+        {
+          "name": "Christofer Frisenette-Fich",
+          "pos": "Utespelare · #11"
+        },
+        {
+          "name": "Josip Maracic",
+          "pos": "Utespelare · #14"
+        },
+        {
+          "name": "Casper Malmkvist",
+          "pos": "Utespelare · #15"
+        },
+        {
+          "name": "Gentonis Gjikokaj",
+          "pos": "Utespelare · #45"
         }
       ],
-      "squadNote": "Kända spelare — skytteligan 2024/25"
+      "squadNote": "Trupp 2025/26 enligt förbundets lagsida"
     },
     {
       "id": "kungsbacka-if",
@@ -3899,11 +4634,13 @@
       "type": "spelare",
       "name": "Henrik Lara Rodriguez",
       "flag": "⚽",
-      "sub": "Svensk futsal · FC Kalmar",
+      "sub": "Svensk futsal · Örebro SK Futsal · #9",
       "country": "SFL",
       "tagline": "Toppskytt i SFL — 32 mål säsongen 2024/2025.",
       "profile": {
-        "club": "FC Kalmar"
+        "club": "Örebro SK Futsal",
+        "position": "Utespelare",
+        "number": "#9"
       },
       "stats": [
         {
@@ -3913,27 +4650,51 @@
         {
           "label": "Klubb",
           "value": "FC Kalmar"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#9"
         }
       ],
       "facts": [
         "Gjorde 32 mål i Svenska Futsalligan säsongen 2024/2025.",
-        "Spelar i FC Kalmar."
+        "Spelar i FC Kalmar.",
+        "Återvände till Örebro SK efter drygt två säsonger i FC Kalmar."
       ],
       "source": {
-        "label": "Everysport — skytteligan 2024/25",
-        "url": "https://www.everysport.com/futsal-herr/2024-2025/serie/futsalligan/spelarstatistik/136508"
-      }
+        "label": "Örebro SK Futsal — laget.se",
+        "url": "https://www.laget.se/OSKFutsalHerr"
+      },
+      "career": [
+        {
+          "club": "FC Kalmar",
+          "years": "till 2025",
+          "note": "72 mål på 59 matcher"
+        },
+        {
+          "club": "Örebro SK Futsal",
+          "years": "2025–",
+          "note": "återvände efter drygt två säsonger"
+        }
+      ]
     },
     {
       "id": "fredrik-soderqvist",
       "type": "spelare",
       "name": "Fredrik Söderqvist",
       "flag": "🇸🇪",
-      "sub": "Svensk futsal · Uddevalla Futsal Club",
+      "sub": "Svensk futsal · Uddevalla Futsal Club · #9",
       "country": "Sverige",
       "tagline": "Landslagsspelare och målskytt i SFL — 26 mål 2024/2025.",
       "profile": {
-        "club": "Uddevalla Futsal Club"
+        "club": "Uddevalla Futsal Club",
+        "position": "Utespelare",
+        "number": "#9",
+        "nationality": "Sverige"
       },
       "stats": [
         {
@@ -3947,6 +4708,18 @@
         {
           "label": "Klubb",
           "value": "Uddevalla Futsal Club"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#9"
+        },
+        {
+          "label": "Ålder",
+          "value": "33 år"
         }
       ],
       "facts": [
@@ -3998,7 +4771,9 @@
       "country": "SFL",
       "tagline": "Målskytt i Svenska Futsalligan — 24 mål 2024/2025.",
       "profile": {
-        "club": "FC Kalmar"
+        "club": "FC Kalmar",
+        "position": "Utespelare",
+        "number": "#10"
       },
       "stats": [
         {
@@ -4008,6 +4783,14 @@
         {
           "label": "Klubb",
           "value": "FC Kalmar"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#10"
         }
       ],
       "facts": [
@@ -4058,7 +4841,9 @@
       "country": "SFL",
       "tagline": "Målskytt i Svenska Futsalligan — 23 mål 2024/2025.",
       "profile": {
-        "club": "Söder Futsal"
+        "club": "Söder Futsal",
+        "position": "Utespelare",
+        "number": "#14"
       },
       "stats": [
         {
@@ -4068,6 +4853,14 @@
         {
           "label": "Klubb",
           "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#14"
         }
       ],
       "facts": [
@@ -4084,11 +4877,13 @@
       "type": "spelare",
       "name": "Petar Peric",
       "flag": "⚽",
-      "sub": "Svensk futsal · Söder Futsal",
+      "sub": "Svensk futsal · Norrköping FK · #17",
       "country": "SFL",
       "tagline": "Målskytt i Svenska Futsalligan — 23 mål 2024/2025.",
       "profile": {
-        "club": "Söder Futsal"
+        "club": "Norrköping FK",
+        "position": "Utespelare",
+        "number": "#17"
       },
       "stats": [
         {
@@ -4098,6 +4893,14 @@
         {
           "label": "Klubb",
           "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#17"
         }
       ],
       "facts": [
@@ -4105,20 +4908,34 @@
         "Spelar i Söder Futsal."
       ],
       "source": {
-        "label": "Everysport — skytteligan 2024/25",
-        "url": "https://www.everysport.com/futsal-herr/2024-2025/serie/futsalligan/spelarstatistik/136508"
-      }
+        "label": "Norrköping Futsal Klubb — truppen",
+        "url": "https://www.svenskalag.se/norrkopingfutsal-herrar/truppen"
+      },
+      "career": [
+        {
+          "club": "Söder Futsal",
+          "years": "tidigare",
+          "note": "23 mål 2024/25"
+        },
+        {
+          "club": "Norrköping FK",
+          "years": "nu",
+          "note": "#17"
+        }
+      ]
     },
     {
       "id": "noraldin-azizi",
       "type": "spelare",
       "name": "Noraldin Azizi",
       "flag": "⚽",
-      "sub": "Svensk futsal · Uddevalla Futsal Club",
+      "sub": "Svensk futsal · Uddevalla Futsal Club · #10",
       "country": "SFL",
       "tagline": "Målskytt i Svenska Futsalligan — 22 mål 2024/2025.",
       "profile": {
-        "club": "Uddevalla Futsal Club"
+        "club": "Uddevalla Futsal Club",
+        "position": "Utespelare",
+        "number": "#10"
       },
       "stats": [
         {
@@ -4128,6 +4945,18 @@
         {
           "label": "Klubb",
           "value": "Uddevalla Futsal Club"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#10"
+        },
+        {
+          "label": "Ålder",
+          "value": "26 år"
         }
       ],
       "facts": [
@@ -4144,11 +4973,14 @@
       "type": "spelare",
       "name": "Hampus Furublad",
       "flag": "🇸🇪",
-      "sub": "Svensk futsal · Uddevalla Futsal Club",
+      "sub": "Svensk futsal · Uddevalla Futsal Club · #50",
       "country": "Sverige",
       "tagline": "Landslagsspelare och målskytt i SFL — 21 mål 2024/2025.",
       "profile": {
-        "club": "Uddevalla Futsal Club"
+        "club": "Uddevalla Futsal Club",
+        "position": "Utespelare",
+        "number": "#50",
+        "nationality": "Sverige"
       },
       "stats": [
         {
@@ -4162,6 +4994,18 @@
         {
           "label": "Klubb",
           "value": "Uddevalla Futsal Club"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#50"
+        },
+        {
+          "label": "Ålder",
+          "value": "31 år"
         }
       ],
       "facts": [
@@ -4209,11 +5053,13 @@
       "type": "spelare",
       "name": "Lavdim Azemi",
       "flag": "⚽",
-      "sub": "Svensk futsal · Skoftebyns IF",
+      "sub": "Svensk futsal · Skoftebyns IF · #10",
       "country": "SFL",
       "tagline": "Målskytt i Svenska Futsalligan — 20 mål 2024/2025.",
       "profile": {
-        "club": "Skoftebyns IF"
+        "club": "Skoftebyns IF",
+        "position": "Utespelare",
+        "number": "#10"
       },
       "stats": [
         {
@@ -4223,6 +5069,14 @@
         {
           "label": "Klubb",
           "value": "Skoftebyns IF"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#10"
         }
       ],
       "facts": [
@@ -4239,11 +5093,13 @@
       "type": "spelare",
       "name": "Andrej Jekic",
       "flag": "⚽",
-      "sub": "Svensk futsal · Hammarby IF FF",
+      "sub": "Svensk futsal · Söder Futsal · #9",
       "country": "SFL",
       "tagline": "Målskytt i Svenska Futsalligan — 18 mål 2024/2025.",
       "profile": {
-        "club": "Hammarby IF FF"
+        "club": "Söder Futsal",
+        "position": "Utespelare",
+        "number": "#9"
       },
       "stats": [
         {
@@ -4253,6 +5109,14 @@
         {
           "label": "Klubb",
           "value": "Hammarby IF FF"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#9"
         }
       ],
       "facts": [
@@ -4317,12 +5181,24 @@
       ],
       "facts": [
         "Gjorde 17 mål i Svenska Futsalligan säsongen 2024/2025.",
-        "Spelar i Kalmar United."
+        "Spelar i Kalmar United.",
+        "En av de SFL-meriterade spelare Ektorp FK byggde sitt SFL-lag kring."
       ],
       "source": {
-        "label": "Everysport — skytteligan 2024/25",
-        "url": "https://www.everysport.com/futsal-herr/2024-2025/serie/futsalligan/spelarstatistik/136508"
-      }
+        "label": "Futsalmagasinet — FC Ljiljan och Ektorp FK",
+        "url": "https://www.futsalmagasinet.se/2025/03/01/fran-arkivet-fc-ljiljan-goteborg-och-ektorp-fk/"
+      },
+      "career": [
+        {
+          "club": "Kalmar United",
+          "years": "tidigare",
+          "note": "17 mål 2024/25"
+        },
+        {
+          "club": "Ektorp FK",
+          "years": "nu"
+        }
+      ]
     },
     {
       "id": "karvan-delashob",
@@ -4363,7 +5239,9 @@
       "country": "SFL",
       "tagline": "Målskytt i Svenska Futsalligan — 15 mål 2024/2025.",
       "profile": {
-        "club": "Örebro SK Futsal"
+        "club": "Örebro SK Futsal",
+        "position": "Utespelare",
+        "number": "#10"
       },
       "stats": [
         {
@@ -4373,6 +5251,14 @@
         {
           "label": "Klubb",
           "value": "Örebro SK Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#10"
         }
       ],
       "facts": [
@@ -4389,11 +5275,13 @@
       "type": "spelare",
       "name": "Mattin Atai Najafi",
       "flag": "⚽",
-      "sub": "Svensk futsal · Borås AIK",
+      "sub": "Svensk futsal · Borås AIK · #16",
       "country": "SFL",
       "tagline": "Målskytt i Svenska Futsalligan — 15 mål 2024/2025.",
       "profile": {
-        "club": "Borås AIK"
+        "club": "Borås AIK",
+        "position": "Utespelare",
+        "number": "#16"
       },
       "stats": [
         {
@@ -4403,6 +5291,14 @@
         {
           "label": "Klubb",
           "value": "Borås AIK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#16"
         }
       ],
       "facts": [
@@ -4419,11 +5315,13 @@
       "type": "spelare",
       "name": "Senad Berisha",
       "flag": "⚽",
-      "sub": "Svensk futsal · Örebro Futsal Club",
+      "sub": "Svensk futsal · Örebro SK Futsal · #12",
       "country": "SFL",
       "tagline": "Målskytt i Svenska Futsalligan — 15 mål 2024/2025.",
       "profile": {
-        "club": "Örebro Futsal Club"
+        "club": "Örebro SK Futsal",
+        "position": "Utespelare",
+        "number": "#12"
       },
       "stats": [
         {
@@ -4433,27 +5331,58 @@
         {
           "label": "Klubb",
           "value": "Örebro Futsal Club"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#12"
+        },
+        {
+          "label": "SM-matcher (SFL)",
+          "value": "225"
+        },
+        {
+          "label": "SFL-mål",
+          "value": "218"
         }
       ],
       "facts": [
         "Gjorde 15 mål i Svenska Futsalligan säsongen 2024/2025.",
-        "Spelar i Örebro Futsal Club."
+        "Spelar i Örebro Futsal Club.",
+        "En av SFL:s meste målskyttar genom tiderna: 218 mål på 225 SFL-matcher."
       ],
       "source": {
-        "label": "Everysport — skytteligan 2024/25",
-        "url": "https://www.everysport.com/futsal-herr/2024-2025/serie/futsalligan/spelarstatistik/136508"
-      }
+        "label": "Örebro SK Futsal — laget.se",
+        "url": "https://www.laget.se/OSKFutsalHerr"
+      },
+      "career": [
+        {
+          "club": "Örebro Futsal Club",
+          "years": "tidigare"
+        },
+        {
+          "club": "Örebro SK Futsal",
+          "years": "nu",
+          "note": "#12"
+        }
+      ]
     },
     {
       "id": "petrit-zhubi",
       "type": "spelare",
       "name": "Petrit Zhubi",
       "flag": "🇸🇪",
-      "sub": "Svensk futsal · Uddevalla Futsal Club",
+      "sub": "Svensk futsal · Uddevalla Futsal Club · #5",
       "country": "Sverige",
       "tagline": "Spelare i Sveriges futsallandslag.",
       "profile": {
-        "club": "Uddevalla Futsal Club"
+        "club": "Uddevalla Futsal Club",
+        "position": "Utespelare",
+        "number": "#5",
+        "nationality": "Sverige"
       },
       "stats": [
         {
@@ -4463,6 +5392,18 @@
         {
           "label": "Klubb",
           "value": "Uddevalla Futsal Club"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#5"
+        },
+        {
+          "label": "Ålder",
+          "value": "38 år"
         }
       ],
       "facts": [
@@ -4479,11 +5420,14 @@
       "type": "spelare",
       "name": "Ismail Fazlija",
       "flag": "🇸🇪",
-      "sub": "Svensk futsal · Uddevalla Futsal Club",
+      "sub": "Svensk futsal · Uddevalla Futsal Club · #19",
       "country": "Sverige",
       "tagline": "Spelare i Sveriges futsallandslag.",
       "profile": {
-        "club": "Uddevalla Futsal Club"
+        "club": "Uddevalla Futsal Club",
+        "position": "Utespelare",
+        "number": "#19",
+        "nationality": "Sverige"
       },
       "stats": [
         {
@@ -4493,6 +5437,18 @@
         {
           "label": "Klubb",
           "value": "Uddevalla Futsal Club"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#19"
+        },
+        {
+          "label": "Ålder",
+          "value": "28 år"
         }
       ],
       "facts": [
@@ -4509,11 +5465,14 @@
       "type": "spelare",
       "name": "Albert Hiseni",
       "flag": "🇸🇪",
-      "sub": "Svensk futsal · Uddevalla Futsal Club",
+      "sub": "Svensk futsal · Uddevalla Futsal Club · #8",
       "country": "Sverige",
       "tagline": "Spelare i Sveriges futsallandslag.",
       "profile": {
-        "club": "Uddevalla Futsal Club"
+        "club": "Uddevalla Futsal Club",
+        "position": "Utespelare",
+        "number": "#8",
+        "nationality": "Sverige"
       },
       "stats": [
         {
@@ -4523,6 +5482,18 @@
         {
           "label": "Klubb",
           "value": "Uddevalla Futsal Club"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#8"
+        },
+        {
+          "label": "Ålder",
+          "value": "33 år"
         }
       ],
       "facts": [
@@ -4539,11 +5510,14 @@
       "type": "spelare",
       "name": "Viktor Mossberg",
       "flag": "🇸🇪",
-      "sub": "Svensk futsal · Uddevalla Futsal Club",
+      "sub": "Svensk futsal · Uddevalla Futsal Club · #33",
       "country": "Sverige",
       "tagline": "Spelare i Sveriges futsallandslag.",
       "profile": {
-        "club": "Uddevalla Futsal Club"
+        "club": "Uddevalla Futsal Club",
+        "position": "Utespelare",
+        "number": "#33",
+        "nationality": "Sverige"
       },
       "stats": [
         {
@@ -4553,6 +5527,18 @@
         {
           "label": "Klubb",
           "value": "Uddevalla Futsal Club"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#33"
+        },
+        {
+          "label": "Ålder",
+          "value": "24 år"
         }
       ],
       "facts": [
@@ -4569,11 +5555,14 @@
       "type": "spelare",
       "name": "Donat Gashi",
       "flag": "🇸🇪",
-      "sub": "Svensk futsal · Uddevalla Futsal Club",
+      "sub": "Svensk futsal · Uddevalla Futsal Club · #98",
       "country": "Sverige",
       "tagline": "Spelare i Sveriges futsallandslag.",
       "profile": {
-        "club": "Uddevalla Futsal Club"
+        "club": "Uddevalla Futsal Club",
+        "position": "Utespelare",
+        "number": "#98",
+        "nationality": "Sverige"
       },
       "stats": [
         {
@@ -4583,6 +5572,18 @@
         {
           "label": "Klubb",
           "value": "Uddevalla Futsal Club"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#98"
+        },
+        {
+          "label": "Ålder",
+          "value": "28 år"
         }
       ],
       "facts": [
@@ -4603,7 +5604,9 @@
       "country": "Sverige",
       "tagline": "Spelare i Sveriges futsallandslag.",
       "profile": {
-        "club": "FC Ljiljan Göteborg"
+        "club": "FC Ljiljan Göteborg",
+        "position": "Utespelare",
+        "nationality": "Sverige"
       },
       "stats": [
         {
@@ -4613,27 +5616,45 @@
         {
           "label": "Klubb",
           "value": "FC Ljiljan Göteborg"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
         }
       ],
       "facts": [
         "Uttagen i Sveriges VM-kvaltrupp i april 2026, där Sverige vann sin grupp.",
-        "Spelar i FC Ljiljan Göteborg."
+        "Spelar i FC Ljiljan Göteborg.",
+        "Värvades från Borås AIK till FC Ljiljan Göteborg inför klubbens SFL-debut."
       ],
       "source": {
-        "label": "SvFF — VM-kvaltruppen 2026",
-        "url": "https://www.svenskfotboll.se/nyheter/landslag/2026/03/futsal-vm-kvaltrupp/"
-      }
+        "label": "Futsalmagasinet — FC Ljiljan och Ektorp FK",
+        "url": "https://www.futsalmagasinet.se/2025/03/01/fran-arkivet-fc-ljiljan-goteborg-och-ektorp-fk/"
+      },
+      "career": [
+        {
+          "club": "Borås AIK",
+          "years": "tidigare"
+        },
+        {
+          "club": "FC Ljiljan Göteborg",
+          "years": "nu"
+        }
+      ]
     },
     {
       "id": "oscar-edh",
       "type": "spelare",
       "name": "Oscar Edh",
       "flag": "🇸🇪",
-      "sub": "Svensk futsal · Skoftebyns IF",
+      "sub": "Svensk futsal · Skoftebyns IF · #20",
       "country": "Sverige",
       "tagline": "Spelare i Sveriges futsallandslag.",
       "profile": {
-        "club": "Skoftebyns IF"
+        "club": "Skoftebyns IF",
+        "position": "Utespelare",
+        "number": "#20",
+        "nationality": "Sverige"
       },
       "stats": [
         {
@@ -4643,6 +5664,14 @@
         {
           "label": "Klubb",
           "value": "Skoftebyns IF"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#20"
         }
       ],
       "facts": [
@@ -4659,11 +5688,14 @@
       "type": "spelare",
       "name": "Bryan Johansson",
       "flag": "🇸🇪",
-      "sub": "Svensk futsal · Skoftebyns IF",
+      "sub": "Svensk futsal · Skoftebyns IF · #9",
       "country": "Sverige",
       "tagline": "Spelare i Sveriges futsallandslag.",
       "profile": {
-        "club": "Skoftebyns IF"
+        "club": "Skoftebyns IF",
+        "position": "Utespelare",
+        "number": "#9",
+        "nationality": "Sverige"
       },
       "stats": [
         {
@@ -4673,6 +5705,14 @@
         {
           "label": "Klubb",
           "value": "Skoftebyns IF"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#9"
         }
       ],
       "facts": [
@@ -4693,7 +5733,9 @@
       "country": "Sverige",
       "tagline": "Spelare i Sveriges futsallandslag.",
       "profile": {
-        "club": "Borås AIK"
+        "club": "Borås AIK",
+        "position": "Utespelare",
+        "nationality": "Sverige"
       },
       "stats": [
         {
@@ -4703,6 +5745,10 @@
         {
           "label": "Klubb",
           "value": "Borås AIK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
         }
       ],
       "facts": [
@@ -4723,7 +5769,9 @@
       "country": "Sverige",
       "tagline": "Spelare i Sveriges futsallandslag.",
       "profile": {
-        "club": "Borås AIK"
+        "club": "Borås AIK",
+        "position": "Utespelare",
+        "nationality": "Sverige"
       },
       "stats": [
         {
@@ -4733,6 +5781,10 @@
         {
           "label": "Klubb",
           "value": "Borås AIK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
         }
       ],
       "facts": [
@@ -4749,11 +5801,14 @@
       "type": "spelare",
       "name": "Gustav Rydberg",
       "flag": "🇸🇪",
-      "sub": "Svensk futsal · FC Kalmar",
+      "sub": "Svensk futsal · FC Kalmar · #70",
       "country": "Sverige",
       "tagline": "Spelare i Sveriges futsallandslag.",
       "profile": {
-        "club": "FC Kalmar"
+        "club": "FC Kalmar",
+        "position": "Utespelare",
+        "number": "#70",
+        "nationality": "Sverige"
       },
       "stats": [
         {
@@ -4763,6 +5818,14 @@
         {
           "label": "Klubb",
           "value": "FC Kalmar"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#70"
         }
       ],
       "facts": [
@@ -4802,6 +5865,4253 @@
       "source": {
         "label": "SvFF — VM-kvaltruppen 2026",
         "url": "https://www.svenskfotboll.se/nyheter/landslag/2026/03/futsal-vm-kvaltrupp/"
+      }
+    },
+    {
+      "id": "ahmed-abdu-musa",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Ahmed Abdu Musa",
+      "sub": "Svensk futsal · Borås AIK",
+      "country": "SFL",
+      "tagline": "Utespelare i Borås AIK (SFL).",
+      "profile": {
+        "club": "Borås AIK",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Borås AIK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Borås AIK Futsal — laget.se",
+        "url": "https://www.laget.se/BorasAIK-Futsal-FutsalHerrSFL/Troop"
+      }
+    },
+    {
+      "id": "basheer-al-azzawi",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Basheer Al-Azzawi",
+      "sub": "Svensk futsal · Borås AIK",
+      "country": "SFL",
+      "tagline": "Utespelare i Borås AIK (SFL).",
+      "profile": {
+        "club": "Borås AIK",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Borås AIK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Borås AIK Futsal — laget.se",
+        "url": "https://www.laget.se/BorasAIK-Futsal-FutsalHerrSFL/Troop"
+      }
+    },
+    {
+      "id": "edvin-bennehall",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Edvin Bennehall",
+      "sub": "Svensk futsal · Borås AIK",
+      "country": "SFL",
+      "tagline": "Utespelare i Borås AIK (SFL).",
+      "profile": {
+        "club": "Borås AIK",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Borås AIK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Borås AIK Futsal — laget.se",
+        "url": "https://www.laget.se/BorasAIK-Futsal-FutsalHerrSFL/Troop"
+      }
+    },
+    {
+      "id": "dino-cavalic",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Dino Cavalic",
+      "sub": "Svensk futsal · Borås AIK",
+      "country": "SFL",
+      "tagline": "Utespelare i Borås AIK (SFL).",
+      "profile": {
+        "club": "Borås AIK",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Borås AIK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Borås AIK Futsal — laget.se",
+        "url": "https://www.laget.se/BorasAIK-Futsal-FutsalHerrSFL/Troop"
+      }
+    },
+    {
+      "id": "ronie-islam",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Ronie Islam",
+      "sub": "Svensk futsal · Borås AIK",
+      "country": "SFL",
+      "tagline": "Utespelare i Borås AIK (SFL).",
+      "profile": {
+        "club": "Borås AIK",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Borås AIK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Borås AIK Futsal — laget.se",
+        "url": "https://www.laget.se/BorasAIK-Futsal-FutsalHerrSFL/Troop"
+      }
+    },
+    {
+      "id": "andres-lindberg",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Andrés Lindberg",
+      "sub": "Svensk futsal · Borås AIK",
+      "country": "SFL",
+      "tagline": "Utespelare i Borås AIK (SFL).",
+      "profile": {
+        "club": "Borås AIK",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Borås AIK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Borås AIK Futsal — laget.se",
+        "url": "https://www.laget.se/BorasAIK-Futsal-FutsalHerrSFL/Troop"
+      }
+    },
+    {
+      "id": "mahir-mahmuti",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Mahir Mahmuti",
+      "sub": "Svensk futsal · Borås AIK",
+      "country": "SFL",
+      "tagline": "Utespelare i Borås AIK (SFL).",
+      "profile": {
+        "club": "Borås AIK",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Borås AIK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Borås AIK Futsal — laget.se",
+        "url": "https://www.laget.se/BorasAIK-Futsal-FutsalHerrSFL/Troop"
+      }
+    },
+    {
+      "id": "hassan-najafi",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Hassan Najafi",
+      "sub": "Svensk futsal · Borås AIK",
+      "country": "SFL",
+      "tagline": "Utespelare i Borås AIK (SFL).",
+      "profile": {
+        "club": "Borås AIK",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Borås AIK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Borås AIK Futsal — laget.se",
+        "url": "https://www.laget.se/BorasAIK-Futsal-FutsalHerrSFL/Troop"
+      }
+    },
+    {
+      "id": "luay-nassan",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Luay Nassan",
+      "sub": "Svensk futsal · Borås AIK",
+      "country": "SFL",
+      "tagline": "Utespelare i Borås AIK (SFL).",
+      "profile": {
+        "club": "Borås AIK",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Borås AIK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Borås AIK Futsal — laget.se",
+        "url": "https://www.laget.se/BorasAIK-Futsal-FutsalHerrSFL/Troop"
+      }
+    },
+    {
+      "id": "enez-poyraz",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Enez Poyraz",
+      "sub": "Svensk futsal · Borås AIK",
+      "country": "SFL",
+      "tagline": "Utespelare i Borås AIK (SFL).",
+      "profile": {
+        "club": "Borås AIK",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Borås AIK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Borås AIK Futsal — laget.se",
+        "url": "https://www.laget.se/BorasAIK-Futsal-FutsalHerrSFL/Troop"
+      }
+    },
+    {
+      "id": "daniel-ramadanovic",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Daniel Ramadanovic",
+      "sub": "Svensk futsal · Borås AIK",
+      "country": "SFL",
+      "tagline": "Utespelare i Borås AIK (SFL).",
+      "profile": {
+        "club": "Borås AIK",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Borås AIK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Borås AIK Futsal — laget.se",
+        "url": "https://www.laget.se/BorasAIK-Futsal-FutsalHerrSFL/Troop"
+      }
+    },
+    {
+      "id": "yamin-souayeh",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Yamin Souayeh",
+      "sub": "Svensk futsal · Borås AIK",
+      "country": "SFL",
+      "tagline": "Utespelare i Borås AIK (SFL).",
+      "profile": {
+        "club": "Borås AIK",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Borås AIK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Borås AIK Futsal — laget.se",
+        "url": "https://www.laget.se/BorasAIK-Futsal-FutsalHerrSFL/Troop"
+      }
+    },
+    {
+      "id": "filip-skarin",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Filip Skarin",
+      "sub": "Svensk futsal · Uddevalla Futsal Club · #1",
+      "country": "SFL",
+      "tagline": "Målvakt i Uddevalla Futsal Club (SFL).",
+      "profile": {
+        "club": "Uddevalla Futsal Club",
+        "position": "Målvakt",
+        "number": "#1"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Uddevalla Futsal Club"
+        },
+        {
+          "label": "Position",
+          "value": "Målvakt"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#1"
+        },
+        {
+          "label": "Ålder",
+          "value": "28 år"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Uddevalla Futsal — trupp",
+        "url": "https://uddevallafutsal.se/trupp/"
+      }
+    },
+    {
+      "id": "charbel-noura",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Charbel Noura",
+      "sub": "Svensk futsal · Uddevalla Futsal Club · #97",
+      "country": "SFL",
+      "tagline": "Målvakt i Uddevalla Futsal Club (SFL).",
+      "profile": {
+        "club": "Uddevalla Futsal Club",
+        "position": "Målvakt",
+        "number": "#97"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Uddevalla Futsal Club"
+        },
+        {
+          "label": "Position",
+          "value": "Målvakt"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#97"
+        },
+        {
+          "label": "Ålder",
+          "value": "28 år"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Uddevalla Futsal — trupp",
+        "url": "https://uddevallafutsal.se/trupp/"
+      }
+    },
+    {
+      "id": "mergim-berisha",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Mergim Berisha",
+      "sub": "Svensk futsal · Uddevalla Futsal Club · #6",
+      "country": "SFL",
+      "tagline": "Utespelare i Uddevalla Futsal Club (SFL).",
+      "profile": {
+        "club": "Uddevalla Futsal Club",
+        "position": "Utespelare",
+        "number": "#6"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Uddevalla Futsal Club"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#6"
+        },
+        {
+          "label": "Ålder",
+          "value": "33 år"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Uddevalla Futsal — trupp",
+        "url": "https://uddevallafutsal.se/trupp/"
+      }
+    },
+    {
+      "id": "haidar-bejan",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Haidar Bejan",
+      "sub": "Svensk futsal · Uddevalla Futsal Club · #7",
+      "country": "SFL",
+      "tagline": "Utespelare i Uddevalla Futsal Club (SFL).",
+      "profile": {
+        "club": "Uddevalla Futsal Club",
+        "position": "Utespelare",
+        "number": "#7"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Uddevalla Futsal Club"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#7"
+        },
+        {
+          "label": "Ålder",
+          "value": "31 år"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Uddevalla Futsal — trupp",
+        "url": "https://uddevallafutsal.se/trupp/"
+      }
+    },
+    {
+      "id": "granit-berisha",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Granit Berisha",
+      "sub": "Svensk futsal · Uddevalla Futsal Club · #11",
+      "country": "SFL",
+      "tagline": "Utespelare i Uddevalla Futsal Club (SFL).",
+      "profile": {
+        "club": "Uddevalla Futsal Club",
+        "position": "Utespelare",
+        "number": "#11"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Uddevalla Futsal Club"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#11"
+        },
+        {
+          "label": "Ålder",
+          "value": "35 år"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Uddevalla Futsal — trupp",
+        "url": "https://uddevallafutsal.se/trupp/"
+      }
+    },
+    {
+      "id": "bilal-moussa",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Bilal Moussa",
+      "sub": "Svensk futsal · Uddevalla Futsal Club · #22",
+      "country": "SFL",
+      "tagline": "Utespelare i Uddevalla Futsal Club (SFL).",
+      "profile": {
+        "club": "Uddevalla Futsal Club",
+        "position": "Utespelare",
+        "number": "#22"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Uddevalla Futsal Club"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#22"
+        },
+        {
+          "label": "Ålder",
+          "value": "29 år"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Uddevalla Futsal — trupp",
+        "url": "https://uddevallafutsal.se/trupp/"
+      }
+    },
+    {
+      "id": "dion-eriksson",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Dion Eriksson",
+      "sub": "Svensk futsal · Uddevalla Futsal Club · #77",
+      "country": "SFL",
+      "tagline": "Utespelare i Uddevalla Futsal Club (SFL).",
+      "profile": {
+        "club": "Uddevalla Futsal Club",
+        "position": "Utespelare",
+        "number": "#77"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Uddevalla Futsal Club"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#77"
+        },
+        {
+          "label": "Ålder",
+          "value": "26 år"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Uddevalla Futsal — trupp",
+        "url": "https://uddevallafutsal.se/trupp/"
+      }
+    },
+    {
+      "id": "govend-haji",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Govend Haji",
+      "sub": "Svensk futsal · Uddevalla Futsal Club · #88",
+      "country": "SFL",
+      "tagline": "Utespelare i Uddevalla Futsal Club (SFL).",
+      "profile": {
+        "club": "Uddevalla Futsal Club",
+        "position": "Utespelare",
+        "number": "#88"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Uddevalla Futsal Club"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#88"
+        },
+        {
+          "label": "Ålder",
+          "value": "20 år"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Uddevalla Futsal — trupp",
+        "url": "https://uddevallafutsal.se/trupp/"
+      }
+    },
+    {
+      "id": "gramos-berisha",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Gramos Berisha",
+      "sub": "Svensk futsal · Uddevalla Futsal Club · #99",
+      "country": "SFL",
+      "tagline": "Utespelare i Uddevalla Futsal Club (SFL).",
+      "profile": {
+        "club": "Uddevalla Futsal Club",
+        "position": "Utespelare",
+        "number": "#99"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Uddevalla Futsal Club"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#99"
+        },
+        {
+          "label": "Ålder",
+          "value": "30 år"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Uddevalla Futsal — trupp",
+        "url": "https://uddevallafutsal.se/trupp/"
+      }
+    },
+    {
+      "id": "aleksandar-mijajlovic",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Aleksandar Mijajlovic",
+      "sub": "Svensk futsal · Söder Futsal · #1",
+      "country": "SFL",
+      "tagline": "Målvakt i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Målvakt",
+        "number": "#1"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Målvakt"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#1"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "patrick-ortega-kvartofth",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Patrick Ortega Kvartofth",
+      "sub": "Svensk futsal · Söder Futsal · #1",
+      "country": "SFL",
+      "tagline": "Målvakt i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Målvakt",
+        "number": "#1"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Målvakt"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#1"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "victor-jilvan-rassuli",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Victor Jilvan Rassuli",
+      "sub": "Svensk futsal · Söder Futsal · #30",
+      "country": "SFL",
+      "tagline": "Målvakt i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Målvakt",
+        "number": "#30"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Målvakt"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#30"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "johan-danha",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Johan Danha",
+      "sub": "Svensk futsal · Söder Futsal",
+      "country": "SFL",
+      "tagline": "Målvakt i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Målvakt"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Målvakt"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "erik-linder",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Erik Linder",
+      "sub": "Svensk futsal · Söder Futsal",
+      "country": "SFL",
+      "tagline": "Målvakt i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Målvakt"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Målvakt"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "gabriel-diaz",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Gabriel Diaz",
+      "sub": "Svensk futsal · Söder Futsal · #2",
+      "country": "SFL",
+      "tagline": "Utespelare i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Utespelare",
+        "number": "#2"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#2"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "said-el-horr",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Said El Horr",
+      "sub": "Svensk futsal · Söder Futsal · #3",
+      "country": "SFL",
+      "tagline": "Utespelare i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Utespelare",
+        "number": "#3"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#3"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "jean-asaad-nasr",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Jean Asaad Nasr",
+      "sub": "Svensk futsal · Söder Futsal · #4",
+      "country": "SFL",
+      "tagline": "Utespelare i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Utespelare",
+        "number": "#4"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#4"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "antonio-coric",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Antonio Coric",
+      "sub": "Svensk futsal · Söder Futsal · #5",
+      "country": "SFL",
+      "tagline": "Utespelare i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Utespelare",
+        "number": "#5"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#5"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "milos-stanojevic",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Milos Stanojevic",
+      "sub": "Svensk futsal · Söder Futsal · #6",
+      "country": "SFL",
+      "tagline": "Utespelare i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Utespelare",
+        "number": "#6"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#6"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "ihab-kahssay",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Ihab Kahssay",
+      "sub": "Svensk futsal · Söder Futsal · #7",
+      "country": "SFL",
+      "tagline": "Utespelare i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Utespelare",
+        "number": "#7"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#7"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "nassim-mohammed-ali",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Nassim Mohammed Ali",
+      "sub": "Svensk futsal · Söder Futsal · #8",
+      "country": "SFL",
+      "tagline": "Utespelare i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Utespelare",
+        "number": "#8"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#8"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "liridon-makolli",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Liridon Makolli",
+      "sub": "Svensk futsal · Söder Futsal · #10",
+      "country": "SFL",
+      "tagline": "Utespelare i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Utespelare",
+        "number": "#10"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#10"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "srecko-baic",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Srecko Baic",
+      "sub": "Svensk futsal · Söder Futsal · #11",
+      "country": "SFL",
+      "tagline": "Utespelare i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Utespelare",
+        "number": "#11"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#11"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "christiane-barahona",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Christiane Barahona",
+      "sub": "Svensk futsal · Söder Futsal · #12",
+      "country": "SFL",
+      "tagline": "Utespelare i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Utespelare",
+        "number": "#12"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#12"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "alexander-browne",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Alexander Browne",
+      "sub": "Svensk futsal · Söder Futsal · #15",
+      "country": "SFL",
+      "tagline": "Utespelare i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Utespelare",
+        "number": "#15"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#15"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "muzaffer-arpacik",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Muzaffer Arpacik",
+      "sub": "Svensk futsal · Söder Futsal · #16",
+      "country": "SFL",
+      "tagline": "Utespelare i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Utespelare",
+        "number": "#16"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#16"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "emad-ade-ali-quasem",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Emad Ade Ali Quasem",
+      "sub": "Svensk futsal · Söder Futsal · #17",
+      "country": "SFL",
+      "tagline": "Utespelare i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Utespelare",
+        "number": "#17"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#17"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "amin-mossavi",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Amin Mossavi",
+      "sub": "Svensk futsal · Söder Futsal · #29",
+      "country": "SFL",
+      "tagline": "Utespelare i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Utespelare",
+        "number": "#29"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#29"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "victor-brozin",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Victor Brozin",
+      "sub": "Svensk futsal · Söder Futsal",
+      "country": "SFL",
+      "tagline": "Utespelare i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "javier-donado-gomez",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Javier Donado Gómez",
+      "sub": "Svensk futsal · Söder Futsal",
+      "country": "SFL",
+      "tagline": "Utespelare i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "strahinja-golic",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Strahinja Golic",
+      "sub": "Svensk futsal · Söder Futsal",
+      "country": "SFL",
+      "tagline": "Utespelare i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "hosep-kiork",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Hosep Kiork",
+      "sub": "Svensk futsal · Söder Futsal",
+      "country": "SFL",
+      "tagline": "Utespelare i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "sakaria-mahammed",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Sakaria Mahammed",
+      "sub": "Svensk futsal · Söder Futsal",
+      "country": "SFL",
+      "tagline": "Utespelare i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "younas-messaoudi",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Younas Messaoudi",
+      "sub": "Svensk futsal · Söder Futsal",
+      "country": "SFL",
+      "tagline": "Utespelare i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "kobby-osei-bonsu",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Kobby Osei-Bonsu",
+      "sub": "Svensk futsal · Söder Futsal",
+      "country": "SFL",
+      "tagline": "Utespelare i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "tiago-silva-sanchez",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Tiago Silva Sanchez",
+      "sub": "Svensk futsal · Söder Futsal",
+      "country": "SFL",
+      "tagline": "Utespelare i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "aleksandar-skovin",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Aleksandar Skovin",
+      "sub": "Svensk futsal · Söder Futsal",
+      "country": "SFL",
+      "tagline": "Utespelare i Söder Futsal (SFL).",
+      "profile": {
+        "club": "Söder Futsal",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "martin-herlin",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Martin Herlin",
+      "sub": "Svensk futsal · Örebro SK Futsal · #1",
+      "country": "SFL",
+      "tagline": "Målvakt i Örebro SK Futsal (SFL).",
+      "profile": {
+        "club": "Örebro SK Futsal",
+        "position": "Målvakt",
+        "number": "#1"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Örebro SK Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Målvakt"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#1"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Örebro SK Futsal Herr — laget.se",
+        "url": "https://www.laget.se/OSKFutsalHerr/Troop"
+      }
+    },
+    {
+      "id": "sava-mustapaa",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Sava Mustapää",
+      "sub": "Svensk futsal · Örebro SK Futsal · #13",
+      "country": "SFL",
+      "tagline": "Målvakt i Örebro SK Futsal (SFL).",
+      "profile": {
+        "club": "Örebro SK Futsal",
+        "position": "Målvakt",
+        "number": "#13"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Örebro SK Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Målvakt"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#13"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Örebro SK Futsal Herr — laget.se",
+        "url": "https://www.laget.se/OSKFutsalHerr/Troop"
+      }
+    },
+    {
+      "id": "emil-bjorklund",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Emil Björklund",
+      "sub": "Svensk futsal · Örebro SK Futsal · #30",
+      "country": "SFL",
+      "tagline": "Målvakt i Örebro SK Futsal (SFL).",
+      "profile": {
+        "club": "Örebro SK Futsal",
+        "position": "Målvakt",
+        "number": "#30"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Örebro SK Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Målvakt"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#30"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Örebro SK Futsal Herr — laget.se",
+        "url": "https://www.laget.se/OSKFutsalHerr/Troop"
+      }
+    },
+    {
+      "id": "amel-rastoder",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Amel Rastoder",
+      "sub": "Svensk futsal · Örebro SK Futsal · #5",
+      "country": "SFL",
+      "tagline": "Utespelare i Örebro SK Futsal (SFL).",
+      "profile": {
+        "club": "Örebro SK Futsal",
+        "position": "Utespelare",
+        "number": "#5"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Örebro SK Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#5"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Örebro SK Futsal Herr — laget.se",
+        "url": "https://www.laget.se/OSKFutsalHerr/Troop"
+      }
+    },
+    {
+      "id": "mohammed-alshehabi",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Mohammed Alshehabi",
+      "sub": "Svensk futsal · Örebro SK Futsal · #8",
+      "country": "SFL",
+      "tagline": "Utespelare i Örebro SK Futsal (SFL).",
+      "profile": {
+        "club": "Örebro SK Futsal",
+        "position": "Utespelare",
+        "number": "#8"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Örebro SK Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#8"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Örebro SK Futsal Herr — laget.se",
+        "url": "https://www.laget.se/OSKFutsalHerr/Troop"
+      }
+    },
+    {
+      "id": "matheusinho-santos-alves",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Matheusinho Santos Alves",
+      "sub": "Svensk futsal · Örebro SK Futsal · #17",
+      "country": "SFL",
+      "tagline": "Utespelare i Örebro SK Futsal (SFL).",
+      "profile": {
+        "club": "Örebro SK Futsal",
+        "position": "Utespelare",
+        "number": "#17"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Örebro SK Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#17"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Örebro SK Futsal Herr — laget.se",
+        "url": "https://www.laget.se/OSKFutsalHerr/Troop"
+      }
+    },
+    {
+      "id": "zakariya-enow",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Zakariya Enow",
+      "sub": "Svensk futsal · Örebro SK Futsal · #19",
+      "country": "SFL",
+      "tagline": "Utespelare i Örebro SK Futsal (SFL).",
+      "profile": {
+        "club": "Örebro SK Futsal",
+        "position": "Utespelare",
+        "number": "#19"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Örebro SK Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#19"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Örebro SK Futsal Herr — laget.se",
+        "url": "https://www.laget.se/OSKFutsalHerr/Troop"
+      }
+    },
+    {
+      "id": "htet-nya-lin",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Htet Nya Lin",
+      "sub": "Svensk futsal · Örebro SK Futsal · #24",
+      "country": "SFL",
+      "tagline": "Utespelare i Örebro SK Futsal (SFL).",
+      "profile": {
+        "club": "Örebro SK Futsal",
+        "position": "Utespelare",
+        "number": "#24"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Örebro SK Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#24"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Örebro SK Futsal Herr — laget.se",
+        "url": "https://www.laget.se/OSKFutsalHerr/Troop"
+      }
+    },
+    {
+      "id": "neo-sallanto",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Neo Sallanto",
+      "sub": "Svensk futsal · Örebro SK Futsal · #25",
+      "country": "SFL",
+      "tagline": "Utespelare i Örebro SK Futsal (SFL).",
+      "profile": {
+        "club": "Örebro SK Futsal",
+        "position": "Utespelare",
+        "number": "#25"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Örebro SK Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#25"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Örebro SK Futsal Herr — laget.se",
+        "url": "https://www.laget.se/OSKFutsalHerr/Troop"
+      }
+    },
+    {
+      "id": "coquinho-dos-santos",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Coquinho Dos Santos",
+      "sub": "Svensk futsal · Örebro SK Futsal · #94",
+      "country": "SFL",
+      "tagline": "Utespelare i Örebro SK Futsal (SFL).",
+      "profile": {
+        "club": "Örebro SK Futsal",
+        "position": "Utespelare",
+        "number": "#94"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Örebro SK Futsal"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#94"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Örebro SK Futsal Herr — laget.se",
+        "url": "https://www.laget.se/OSKFutsalHerr/Troop"
+      }
+    },
+    {
+      "id": "poyan-daryoush-kayed-pour",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Poyan Daryoush Kayed Pour",
+      "sub": "Svensk futsal · Örebro Futsal Club · #1",
+      "country": "SFL",
+      "tagline": "Målvakt i Örebro Futsal Club (SFL).",
+      "profile": {
+        "club": "Örebro Futsal Club",
+        "position": "Målvakt",
+        "number": "#1"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Örebro Futsal Club"
+        },
+        {
+          "label": "Position",
+          "value": "Målvakt"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#1"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Örebro Futsal Club Herr — laget.se",
+        "url": "https://www.orebrofutsal.se/Troop"
+      }
+    },
+    {
+      "id": "khaled-samir-baytam",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Khaled Samir Baytam",
+      "sub": "Svensk futsal · Örebro Futsal Club · #12",
+      "country": "SFL",
+      "tagline": "Målvakt i Örebro Futsal Club (SFL).",
+      "profile": {
+        "club": "Örebro Futsal Club",
+        "position": "Målvakt",
+        "number": "#12"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Örebro Futsal Club"
+        },
+        {
+          "label": "Position",
+          "value": "Målvakt"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#12"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Örebro Futsal Club Herr — laget.se",
+        "url": "https://www.orebrofutsal.se/Troop"
+      }
+    },
+    {
+      "id": "elias-rangsjo",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Elias Rangsjö",
+      "sub": "Svensk futsal · Örebro Futsal Club · #2",
+      "country": "SFL",
+      "tagline": "Utespelare i Örebro Futsal Club (SFL).",
+      "profile": {
+        "club": "Örebro Futsal Club",
+        "position": "Utespelare",
+        "number": "#2"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Örebro Futsal Club"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#2"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Örebro Futsal Club Herr — laget.se",
+        "url": "https://www.orebrofutsal.se/Troop"
+      }
+    },
+    {
+      "id": "pontus-tornqvist",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Pontus Törnqvist",
+      "sub": "Svensk futsal · Örebro Futsal Club · #3",
+      "country": "SFL",
+      "tagline": "Utespelare i Örebro Futsal Club (SFL).",
+      "profile": {
+        "club": "Örebro Futsal Club",
+        "position": "Utespelare",
+        "number": "#3"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Örebro Futsal Club"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#3"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Örebro Futsal Club Herr — laget.se",
+        "url": "https://www.orebrofutsal.se/Troop"
+      }
+    },
+    {
+      "id": "rekar-khoshawi-essa-essa",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Rekar Khoshawi Essa Essa",
+      "sub": "Svensk futsal · Örebro Futsal Club · #11",
+      "country": "SFL",
+      "tagline": "Utespelare i Örebro Futsal Club (SFL).",
+      "profile": {
+        "club": "Örebro Futsal Club",
+        "position": "Utespelare",
+        "number": "#11"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Örebro Futsal Club"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#11"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Örebro Futsal Club Herr — laget.se",
+        "url": "https://www.orebrofutsal.se/Troop"
+      }
+    },
+    {
+      "id": "viktor-jansson",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Viktor Jansson",
+      "sub": "Svensk futsal · Skoftebyns IF · #1",
+      "country": "SFL",
+      "tagline": "Målvakt i Skoftebyns IF (SFL).",
+      "profile": {
+        "club": "Skoftebyns IF",
+        "position": "Målvakt",
+        "number": "#1"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Skoftebyns IF"
+        },
+        {
+          "label": "Position",
+          "value": "Målvakt"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#1"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Skoftebyn Futsal — A-lag herr",
+        "url": "https://www.skoftebynfutsal.se/a-lag-herr"
+      }
+    },
+    {
+      "id": "christian-dahna",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Christian Dahna",
+      "sub": "Svensk futsal · Skoftebyns IF · #12",
+      "country": "SFL",
+      "tagline": "Målvakt i Skoftebyns IF (SFL).",
+      "profile": {
+        "club": "Skoftebyns IF",
+        "position": "Målvakt",
+        "number": "#12"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Skoftebyns IF"
+        },
+        {
+          "label": "Position",
+          "value": "Målvakt"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#12"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Skoftebyn Futsal — A-lag herr",
+        "url": "https://www.skoftebynfutsal.se/a-lag-herr"
+      }
+    },
+    {
+      "id": "tolga-ayranci",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Tolga Ayranci",
+      "sub": "Svensk futsal · Skoftebyns IF · #69",
+      "country": "SFL",
+      "tagline": "Målvakt i Skoftebyns IF (SFL).",
+      "profile": {
+        "club": "Skoftebyns IF",
+        "position": "Målvakt",
+        "number": "#69"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Skoftebyns IF"
+        },
+        {
+          "label": "Position",
+          "value": "Målvakt"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#69"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Skoftebyn Futsal — A-lag herr",
+        "url": "https://www.skoftebynfutsal.se/a-lag-herr"
+      }
+    },
+    {
+      "id": "nima-kadivar",
+      "type": "spelare",
+      "flag": "🇸🇪",
+      "name": "Nima Kadivar",
+      "sub": "Svensk futsal · Skoftebyns IF · #7",
+      "country": "SFL",
+      "tagline": "Spelande huvudtränare i Skoftebyn — och assisterande förbundskapten.",
+      "profile": {
+        "club": "Skoftebyns IF",
+        "position": "Utespelare",
+        "number": "#7",
+        "nationality": "Sverige"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Skoftebyns IF"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#7"
+        }
+      ],
+      "facts": [
+        "Huvudtränare i Skoftebyns IF sedan januari 2023 — och spelare i truppen.",
+        "Assisterande förbundskapten i Sveriges futsallandslag."
+      ],
+      "source": {
+        "label": "Skoftebyn Futsal — A-lag herr",
+        "url": "https://www.skoftebynfutsal.se/a-lag-herr"
+      }
+    },
+    {
+      "id": "krister-andersson",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Krister Andersson",
+      "sub": "Svensk futsal · Skoftebyns IF · #11",
+      "country": "SFL",
+      "tagline": "Utespelare i Skoftebyns IF (SFL).",
+      "profile": {
+        "club": "Skoftebyns IF",
+        "position": "Utespelare",
+        "number": "#11"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Skoftebyns IF"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#11"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Skoftebyn Futsal — A-lag herr",
+        "url": "https://www.skoftebynfutsal.se/a-lag-herr"
+      }
+    },
+    {
+      "id": "jonas-hansson",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Jonas Hansson",
+      "sub": "Svensk futsal · Skoftebyns IF · #16",
+      "country": "SFL",
+      "tagline": "Utespelare i Skoftebyns IF (SFL).",
+      "profile": {
+        "club": "Skoftebyns IF",
+        "position": "Utespelare",
+        "number": "#16"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Skoftebyns IF"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#16"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Skoftebyn Futsal — A-lag herr",
+        "url": "https://www.skoftebynfutsal.se/a-lag-herr"
+      }
+    },
+    {
+      "id": "isaac-gadaan",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Isaac Gadaan",
+      "sub": "Svensk futsal · Skoftebyns IF · #19",
+      "country": "SFL",
+      "tagline": "Utespelare i Skoftebyns IF (SFL).",
+      "profile": {
+        "club": "Skoftebyns IF",
+        "position": "Utespelare",
+        "number": "#19"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Skoftebyns IF"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#19"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Skoftebyn Futsal — A-lag herr",
+        "url": "https://www.skoftebynfutsal.se/a-lag-herr"
+      }
+    },
+    {
+      "id": "nicklas-asp",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Nicklas Asp",
+      "sub": "Svensk futsal · Skoftebyns IF · #21",
+      "country": "SFL",
+      "tagline": "Utespelare i Skoftebyns IF (SFL).",
+      "profile": {
+        "club": "Skoftebyns IF",
+        "position": "Utespelare",
+        "number": "#21"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Skoftebyns IF"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#21"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Skoftebyn Futsal — A-lag herr",
+        "url": "https://www.skoftebynfutsal.se/a-lag-herr"
+      }
+    },
+    {
+      "id": "hamed-hosseini",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Hamed Hosseini",
+      "sub": "Svensk futsal · Skoftebyns IF · #61",
+      "country": "SFL",
+      "tagline": "Utespelare i Skoftebyns IF (SFL).",
+      "profile": {
+        "club": "Skoftebyns IF",
+        "position": "Utespelare",
+        "number": "#61"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Skoftebyns IF"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#61"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Skoftebyn Futsal — A-lag herr",
+        "url": "https://www.skoftebynfutsal.se/a-lag-herr"
+      }
+    },
+    {
+      "id": "andreas-svanstrom",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Andreas Svanström",
+      "sub": "Svensk futsal · Skoftebyns IF · #66",
+      "country": "SFL",
+      "tagline": "Utespelare i Skoftebyns IF (SFL).",
+      "profile": {
+        "club": "Skoftebyns IF",
+        "position": "Utespelare",
+        "number": "#66"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Skoftebyns IF"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#66"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Skoftebyn Futsal — A-lag herr",
+        "url": "https://www.skoftebynfutsal.se/a-lag-herr"
+      }
+    },
+    {
+      "id": "pascal-olsson",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Pascal Olsson",
+      "sub": "Svensk futsal · Skoftebyns IF · #77",
+      "country": "SFL",
+      "tagline": "Utespelare i Skoftebyns IF (SFL).",
+      "profile": {
+        "club": "Skoftebyns IF",
+        "position": "Utespelare",
+        "number": "#77"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Skoftebyns IF"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#77"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Skoftebyn Futsal — A-lag herr",
+        "url": "https://www.skoftebynfutsal.se/a-lag-herr"
+      }
+    },
+    {
+      "id": "riane-haidar",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Riane Haidar",
+      "sub": "Svensk futsal · Skoftebyns IF · #99",
+      "country": "SFL",
+      "tagline": "Utespelare i Skoftebyns IF (SFL).",
+      "profile": {
+        "club": "Skoftebyns IF",
+        "position": "Utespelare",
+        "number": "#99"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Skoftebyns IF"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#99"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Skoftebyn Futsal — A-lag herr",
+        "url": "https://www.skoftebynfutsal.se/a-lag-herr"
+      }
+    },
+    {
+      "id": "simon-rohman",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Simon Rohman",
+      "sub": "Svensk futsal · FC Kalmar · #12",
+      "country": "SFL",
+      "tagline": "Målvakt i FC Kalmar (SFL).",
+      "profile": {
+        "club": "FC Kalmar",
+        "position": "Målvakt",
+        "number": "#12"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Kalmar"
+        },
+        {
+          "label": "Position",
+          "value": "Målvakt"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#12"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "FC Kalmar — herrlaget",
+        "url": "https://www.fckalmar.se/fc-kalmar-herr/"
+      }
+    },
+    {
+      "id": "zana-eliassi",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Zana Eliassi",
+      "sub": "Svensk futsal · FC Kalmar · #22",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Kalmar (SFL).",
+      "profile": {
+        "club": "FC Kalmar",
+        "position": "Utespelare",
+        "number": "#22"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Kalmar"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#22"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "FC Kalmar — herrlaget",
+        "url": "https://www.fckalmar.se/fc-kalmar-herr/"
+      }
+    },
+    {
+      "id": "selim-redzeposki",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Selim Redzeposki",
+      "sub": "Svensk futsal · FC Kalmar · #80",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Kalmar (SFL).",
+      "profile": {
+        "club": "FC Kalmar",
+        "position": "Utespelare",
+        "number": "#80"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Kalmar"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#80"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "FC Kalmar — herrlaget",
+        "url": "https://www.fckalmar.se/fc-kalmar-herr/"
+      }
+    },
+    {
+      "id": "habib-askar",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Habib Askar",
+      "sub": "Svensk futsal · FC Kalmar · #88",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Kalmar (SFL).",
+      "profile": {
+        "club": "FC Kalmar",
+        "position": "Utespelare",
+        "number": "#88"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Kalmar"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#88"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "FC Kalmar — herrlaget",
+        "url": "https://www.fckalmar.se/fc-kalmar-herr/"
+      }
+    },
+    {
+      "id": "omar-abo-deeb",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Omar Abo deeb",
+      "sub": "Svensk futsal · FC Kalmar",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Kalmar (SFL).",
+      "profile": {
+        "club": "FC Kalmar",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Kalmar"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "FC Kalmar — herrlaget",
+        "url": "https://www.fckalmar.se/fc-kalmar-herr/"
+      }
+    },
+    {
+      "id": "ayham-al-hasson",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Ayham Al Hasson",
+      "sub": "Svensk futsal · FC Kalmar",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Kalmar (SFL).",
+      "profile": {
+        "club": "FC Kalmar",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Kalmar"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "FC Kalmar — herrlaget",
+        "url": "https://www.fckalmar.se/fc-kalmar-herr/"
+      }
+    },
+    {
+      "id": "nick-molenko",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Nick Molenko",
+      "sub": "Svensk futsal · FC Kalmar",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Kalmar (SFL).",
+      "profile": {
+        "club": "FC Kalmar",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Kalmar"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "FC Kalmar — herrlaget",
+        "url": "https://www.fckalmar.se/fc-kalmar-herr/"
+      }
+    },
+    {
+      "id": "sammy-ndyabahika",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Sammy Ndyabahika",
+      "sub": "Svensk futsal · FC Kalmar",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Kalmar (SFL).",
+      "profile": {
+        "club": "FC Kalmar",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Kalmar"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "FC Kalmar — herrlaget",
+        "url": "https://www.fckalmar.se/fc-kalmar-herr/"
+      }
+    },
+    {
+      "id": "prince-mporana",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Prince Mporana",
+      "sub": "Svensk futsal · FC Kalmar",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Kalmar (SFL).",
+      "profile": {
+        "club": "FC Kalmar",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Kalmar"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "FC Kalmar — herrlaget",
+        "url": "https://www.fckalmar.se/fc-kalmar-herr/"
+      }
+    },
+    {
+      "id": "romario-sipiao",
+      "type": "spelare",
+      "flag": "🇧🇷",
+      "name": "Romário Sipião",
+      "sub": "Svensk futsal · FC Kalmar",
+      "country": "SFL",
+      "tagline": "Brasilianare, ex-Kalmar FF — nu spelande huvudtränare i FC Kalmar.",
+      "profile": {
+        "club": "FC Kalmar",
+        "position": "Utespelare",
+        "born": "1985-08-10",
+        "birthplace": "Imperatriz, Brasilien",
+        "nationality": "Brasilien"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Kalmar"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [
+        "Brasiliansk spelande huvudtränare i FC Kalmar sedan 2025.",
+        "Lämnade elitfotbollen i Kalmar FF som 40-åring för futsalen.",
+        "Spelade futsal i Brasilien i många år innan flytten till Sverige."
+      ],
+      "source": {
+        "label": "Romário Pereira Sipião — Wikipedia",
+        "url": "https://sv.wikipedia.org/wiki/Rom%C3%A1rio_Pereira_Sipi%C3%A3o"
+      },
+      "career": [
+        {
+          "club": "Kalmar FF",
+          "years": "fotboll",
+          "note": "Allsvenskan"
+        },
+        {
+          "club": "FC Kalmar",
+          "years": "2025–",
+          "note": "spelande huvudtränare"
+        }
+      ],
+      "careerNote": "fotboll och futsal"
+    },
+    {
+      "id": "bruno-vinicius",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Bruno Vinicius",
+      "sub": "Svensk futsal · FC Kalmar",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Kalmar (SFL).",
+      "profile": {
+        "club": "FC Kalmar",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Kalmar"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "FC Kalmar — herrlaget",
+        "url": "https://www.fckalmar.se/fc-kalmar-herr/"
+      }
+    },
+    {
+      "id": "lorenc-selimi",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Lorenc Selimi",
+      "sub": "Svensk futsal · FC Kalmar",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Kalmar (SFL).",
+      "profile": {
+        "club": "FC Kalmar",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Kalmar"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "FC Kalmar — herrlaget",
+        "url": "https://www.fckalmar.se/fc-kalmar-herr/"
+      }
+    },
+    {
+      "id": "douglas-guime",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Douglas Guime",
+      "sub": "Svensk futsal · FC Kalmar",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Kalmar (SFL).",
+      "profile": {
+        "club": "FC Kalmar",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Kalmar"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "FC Kalmar — herrlaget",
+        "url": "https://www.fckalmar.se/fc-kalmar-herr/"
+      }
+    },
+    {
+      "id": "giga-chkheidze",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Giga Chkheidze",
+      "sub": "Svensk futsal · FC Kalmar",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Kalmar (SFL).",
+      "profile": {
+        "club": "FC Kalmar",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Kalmar"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "FC Kalmar — herrlaget",
+        "url": "https://www.fckalmar.se/fc-kalmar-herr/"
+      }
+    },
+    {
+      "id": "inatem-nuwia",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Inatem Nuwia",
+      "sub": "Svensk futsal · Norrköping FK · #1",
+      "country": "SFL",
+      "tagline": "Målvakt i Norrköping FK (SFL).",
+      "profile": {
+        "club": "Norrköping FK",
+        "position": "Målvakt",
+        "number": "#1"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Norrköping FK"
+        },
+        {
+          "label": "Position",
+          "value": "Målvakt"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#1"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Norrköping Futsal Klubb — truppen",
+        "url": "https://www.svenskalag.se/norrkopingfutsal-herrar/truppen"
+      }
+    },
+    {
+      "id": "patrick-ayala",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Patrick Ayala",
+      "sub": "Svensk futsal · Norrköping FK · #3",
+      "country": "SFL",
+      "tagline": "Utespelare i Norrköping FK (SFL).",
+      "profile": {
+        "club": "Norrköping FK",
+        "position": "Utespelare",
+        "number": "#3"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Norrköping FK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#3"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Norrköping Futsal Klubb — truppen",
+        "url": "https://www.svenskalag.se/norrkopingfutsal-herrar/truppen"
+      }
+    },
+    {
+      "id": "victor-cardeal",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Victor Cardeal",
+      "sub": "Svensk futsal · Norrköping FK · #16",
+      "country": "SFL",
+      "tagline": "Utespelare i Norrköping FK (SFL).",
+      "profile": {
+        "club": "Norrköping FK",
+        "position": "Utespelare",
+        "number": "#16"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Norrköping FK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#16"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Norrköping Futsal Klubb — truppen",
+        "url": "https://www.svenskalag.se/norrkopingfutsal-herrar/truppen"
+      }
+    },
+    {
+      "id": "romario-navarro",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Romario Navarro",
+      "sub": "Svensk futsal · Norrköping FK · #22",
+      "country": "SFL",
+      "tagline": "Utespelare i Norrköping FK (SFL).",
+      "profile": {
+        "club": "Norrköping FK",
+        "position": "Utespelare",
+        "number": "#22"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Norrköping FK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#22"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Norrköping Futsal Klubb — truppen",
+        "url": "https://www.svenskalag.se/norrkopingfutsal-herrar/truppen"
+      }
+    },
+    {
+      "id": "azad-eliassy",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Azad Eliassy",
+      "sub": "Svensk futsal · Norrköping FK",
+      "country": "SFL",
+      "tagline": "Utespelare i Norrköping FK (SFL).",
+      "profile": {
+        "club": "Norrköping FK",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Norrköping FK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Norrköping Futsal Klubb — truppen",
+        "url": "https://www.svenskalag.se/norrkopingfutsal-herrar/truppen"
+      }
+    },
+    {
+      "id": "andy-montoya",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Andy Montoya",
+      "sub": "Svensk futsal · Norrköping FK · #4",
+      "country": "SFL",
+      "tagline": "Utespelare i Norrköping FK (SFL).",
+      "profile": {
+        "club": "Norrköping FK",
+        "position": "Utespelare",
+        "number": "#4"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Norrköping FK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#4"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Norrköping Futsal Klubb — truppen",
+        "url": "https://www.svenskalag.se/norrkopingfutsal-herrar/truppen"
+      }
+    },
+    {
+      "id": "blend-ali-osman",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Blend Ali Osman",
+      "sub": "Svensk futsal · Norrköping FK · #10",
+      "country": "SFL",
+      "tagline": "Utespelare i Norrköping FK (SFL).",
+      "profile": {
+        "club": "Norrköping FK",
+        "position": "Utespelare",
+        "number": "#10"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Norrköping FK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#10"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Norrköping Futsal Klubb — truppen",
+        "url": "https://www.svenskalag.se/norrkopingfutsal-herrar/truppen"
+      }
+    },
+    {
+      "id": "abozar-shirzai",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Abozar Shirzai",
+      "sub": "Svensk futsal · Norrköping FK · #11",
+      "country": "SFL",
+      "tagline": "Utespelare i Norrköping FK (SFL).",
+      "profile": {
+        "club": "Norrköping FK",
+        "position": "Utespelare",
+        "number": "#11"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Norrköping FK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#11"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Norrköping Futsal Klubb — truppen",
+        "url": "https://www.svenskalag.se/norrkopingfutsal-herrar/truppen"
+      }
+    },
+    {
+      "id": "ali-salah-sharif",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Ali Salah Sharif",
+      "sub": "Svensk futsal · Norrköping FK · #70",
+      "country": "SFL",
+      "tagline": "Utespelare i Norrköping FK (SFL).",
+      "profile": {
+        "club": "Norrköping FK",
+        "position": "Utespelare",
+        "number": "#70"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Norrköping FK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#70"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Norrköping Futsal Klubb — truppen",
+        "url": "https://www.svenskalag.se/norrkopingfutsal-herrar/truppen"
+      }
+    },
+    {
+      "id": "alexander-zachariadis",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Alexander Zachariadis",
+      "sub": "Svensk futsal · Norrköping FK",
+      "country": "SFL",
+      "tagline": "Utespelare i Norrköping FK (SFL).",
+      "profile": {
+        "club": "Norrköping FK",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Norrköping FK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Norrköping Futsal Klubb — truppen",
+        "url": "https://www.svenskalag.se/norrkopingfutsal-herrar/truppen"
+      }
+    },
+    {
+      "id": "amir-tajik",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Amir Tajik",
+      "sub": "Svensk futsal · Norrköping FK",
+      "country": "SFL",
+      "tagline": "Utespelare i Norrköping FK (SFL).",
+      "profile": {
+        "club": "Norrköping FK",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Norrköping FK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Norrköping Futsal Klubb — truppen",
+        "url": "https://www.svenskalag.se/norrkopingfutsal-herrar/truppen"
+      }
+    },
+    {
+      "id": "andres-cespedes",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Andres Cespedes",
+      "sub": "Svensk futsal · Norrköping FK",
+      "country": "SFL",
+      "tagline": "Utespelare i Norrköping FK (SFL).",
+      "profile": {
+        "club": "Norrköping FK",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Norrköping FK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Norrköping Futsal Klubb — truppen",
+        "url": "https://www.svenskalag.se/norrkopingfutsal-herrar/truppen"
+      }
+    },
+    {
+      "id": "jonathan-yackob",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Jonathan Yackob",
+      "sub": "Svensk futsal · Norrköping FK",
+      "country": "SFL",
+      "tagline": "Utespelare i Norrköping FK (SFL).",
+      "profile": {
+        "club": "Norrköping FK",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Norrköping FK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Norrköping Futsal Klubb — truppen",
+        "url": "https://www.svenskalag.se/norrkopingfutsal-herrar/truppen"
+      }
+    },
+    {
+      "id": "tony-algeorges",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Tony Algeorges",
+      "sub": "Svensk futsal · Norrköping FK",
+      "country": "SFL",
+      "tagline": "Utespelare i Norrköping FK (SFL).",
+      "profile": {
+        "club": "Norrköping FK",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Norrköping FK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Norrköping Futsal Klubb — truppen",
+        "url": "https://www.svenskalag.se/norrkopingfutsal-herrar/truppen"
+      }
+    },
+    {
+      "id": "mohammed-abdulmajeed",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Mohammed Abdulmajeed",
+      "sub": "Svensk futsal · Norrköping FK · #23",
+      "country": "SFL",
+      "tagline": "Utespelare i Norrköping FK (SFL).",
+      "profile": {
+        "club": "Norrköping FK",
+        "position": "Utespelare",
+        "number": "#23"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Norrköping FK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#23"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Norrköping Futsal Klubb — truppen",
+        "url": "https://www.svenskalag.se/norrkopingfutsal-herrar/truppen"
+      }
+    },
+    {
+      "id": "david-cabrera",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "David Cabrera",
+      "sub": "Svensk futsal · Norrköping FK",
+      "country": "SFL",
+      "tagline": "Utespelare i Norrköping FK (SFL).",
+      "profile": {
+        "club": "Norrköping FK",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Norrköping FK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Norrköping Futsal Klubb — truppen",
+        "url": "https://www.svenskalag.se/norrkopingfutsal-herrar/truppen"
+      }
+    },
+    {
+      "id": "rick-passos",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Rick Passos",
+      "sub": "Svensk futsal · Norrköping FK",
+      "country": "SFL",
+      "tagline": "Utespelare i Norrköping FK (SFL).",
+      "profile": {
+        "club": "Norrköping FK",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Norrköping FK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Norrköping Futsal Klubb — truppen",
+        "url": "https://www.svenskalag.se/norrkopingfutsal-herrar/truppen"
+      }
+    },
+    {
+      "id": "sahal-hussein",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Sahal Hussein",
+      "sub": "Svensk futsal · Norrköping FK",
+      "country": "SFL",
+      "tagline": "Utespelare i Norrköping FK (SFL).",
+      "profile": {
+        "club": "Norrköping FK",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "Norrköping FK"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Norrköping Futsal Klubb — truppen",
+        "url": "https://www.svenskalag.se/norrkopingfutsal-herrar/truppen"
+      }
+    },
+    {
+      "id": "sebastian-ladisic",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Sebastian Ladisic",
+      "sub": "Svensk futsal · FC Ljiljan Göteborg · #1",
+      "country": "SFL",
+      "tagline": "Målvakt i FC Ljiljan Göteborg (SFL).",
+      "profile": {
+        "club": "FC Ljiljan Göteborg",
+        "position": "Målvakt",
+        "number": "#1"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Ljiljan Göteborg"
+        },
+        {
+          "label": "Position",
+          "value": "Målvakt"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#1"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Futsal Club Ljiljan — truppen",
+        "url": "https://www.svenskalag.se/fcljiljan-herr/truppen"
+      }
+    },
+    {
+      "id": "hugo-melander",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Hugo Melander",
+      "sub": "Svensk futsal · FC Ljiljan Göteborg · #3",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Ljiljan Göteborg (SFL).",
+      "profile": {
+        "club": "FC Ljiljan Göteborg",
+        "position": "Utespelare",
+        "number": "#3"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Ljiljan Göteborg"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#3"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Futsal Club Ljiljan — truppen",
+        "url": "https://www.svenskalag.se/fcljiljan-herr/truppen"
+      }
+    },
+    {
+      "id": "emilio-rossi",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Emilio Rossi",
+      "sub": "Svensk futsal · FC Ljiljan Göteborg · #6",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Ljiljan Göteborg (SFL).",
+      "profile": {
+        "club": "FC Ljiljan Göteborg",
+        "position": "Utespelare",
+        "number": "#6"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Ljiljan Göteborg"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#6"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Futsal Club Ljiljan — truppen",
+        "url": "https://www.svenskalag.se/fcljiljan-herr/truppen"
+      }
+    },
+    {
+      "id": "sandi-sakic",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Sandi Sakic",
+      "sub": "Svensk futsal · FC Ljiljan Göteborg · #7",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Ljiljan Göteborg (SFL).",
+      "profile": {
+        "club": "FC Ljiljan Göteborg",
+        "position": "Utespelare",
+        "number": "#7"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Ljiljan Göteborg"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#7"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Futsal Club Ljiljan — truppen",
+        "url": "https://www.svenskalag.se/fcljiljan-herr/truppen"
+      }
+    },
+    {
+      "id": "kenan-karaduz",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Kenan Karaduz",
+      "sub": "Svensk futsal · FC Ljiljan Göteborg · #9",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Ljiljan Göteborg (SFL).",
+      "profile": {
+        "club": "FC Ljiljan Göteborg",
+        "position": "Utespelare",
+        "number": "#9"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Ljiljan Göteborg"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#9"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Futsal Club Ljiljan — truppen",
+        "url": "https://www.svenskalag.se/fcljiljan-herr/truppen"
+      }
+    },
+    {
+      "id": "ashkan-keshavarzi",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Ashkan Keshavarzi",
+      "sub": "Svensk futsal · FC Ljiljan Göteborg · #11",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Ljiljan Göteborg (SFL).",
+      "profile": {
+        "club": "FC Ljiljan Göteborg",
+        "position": "Utespelare",
+        "number": "#11"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Ljiljan Göteborg"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#11"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Futsal Club Ljiljan — truppen",
+        "url": "https://www.svenskalag.se/fcljiljan-herr/truppen"
+      }
+    },
+    {
+      "id": "adam-passachin",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Adam Passachin",
+      "sub": "Svensk futsal · FC Ljiljan Göteborg · #13",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Ljiljan Göteborg (SFL).",
+      "profile": {
+        "club": "FC Ljiljan Göteborg",
+        "position": "Utespelare",
+        "number": "#13"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Ljiljan Göteborg"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#13"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Futsal Club Ljiljan — truppen",
+        "url": "https://www.svenskalag.se/fcljiljan-herr/truppen"
+      }
+    },
+    {
+      "id": "stev-tolakh",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Stev Tolakh",
+      "sub": "Svensk futsal · FC Ljiljan Göteborg · #77",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Ljiljan Göteborg (SFL).",
+      "profile": {
+        "club": "FC Ljiljan Göteborg",
+        "position": "Utespelare",
+        "number": "#77"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Ljiljan Göteborg"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#77"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Futsal Club Ljiljan — truppen",
+        "url": "https://www.svenskalag.se/fcljiljan-herr/truppen"
+      }
+    },
+    {
+      "id": "dorian-nikola",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Dorian Nikola",
+      "sub": "Svensk futsal · FC Ljiljan Göteborg",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Ljiljan Göteborg (SFL).",
+      "profile": {
+        "club": "FC Ljiljan Göteborg",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Ljiljan Göteborg"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Futsal Club Ljiljan — truppen",
+        "url": "https://www.svenskalag.se/fcljiljan-herr/truppen"
+      }
+    },
+    {
+      "id": "linus-jonasson",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Linus Jonasson",
+      "sub": "Svensk futsal · FC Ljiljan Göteborg",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Ljiljan Göteborg (SFL).",
+      "profile": {
+        "club": "FC Ljiljan Göteborg",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Ljiljan Göteborg"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Futsal Club Ljiljan — truppen",
+        "url": "https://www.svenskalag.se/fcljiljan-herr/truppen"
+      }
+    },
+    {
+      "id": "meisam-hosseini",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Meisam Hosseini",
+      "sub": "Svensk futsal · FC Ljiljan Göteborg",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Ljiljan Göteborg (SFL).",
+      "profile": {
+        "club": "FC Ljiljan Göteborg",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Ljiljan Göteborg"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Futsal Club Ljiljan — truppen",
+        "url": "https://www.svenskalag.se/fcljiljan-herr/truppen"
+      }
+    },
+    {
+      "id": "nataniel-de-melo",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Nataniel De Melo",
+      "sub": "Svensk futsal · FC Ljiljan Göteborg",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Ljiljan Göteborg (SFL).",
+      "profile": {
+        "club": "FC Ljiljan Göteborg",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Ljiljan Göteborg"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Futsal Club Ljiljan — truppen",
+        "url": "https://www.svenskalag.se/fcljiljan-herr/truppen"
+      }
+    },
+    {
+      "id": "shawn-brown-ek",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Shawn Brown Ek",
+      "sub": "Svensk futsal · FC Ljiljan Göteborg",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Ljiljan Göteborg (SFL).",
+      "profile": {
+        "club": "FC Ljiljan Göteborg",
+        "position": "Utespelare"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Ljiljan Göteborg"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "Futsal Club Ljiljan — truppen",
+        "url": "https://www.svenskalag.se/fcljiljan-herr/truppen"
+      }
+    },
+    {
+      "id": "sebastian-hafstrom",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Sebastian Hafström",
+      "sub": "Svensk futsal · FC Real Internacional · #1",
+      "country": "SFL",
+      "tagline": "Målvakt i FC Real Internacional (SFL).",
+      "profile": {
+        "club": "FC Real Internacional",
+        "position": "Målvakt",
+        "number": "#1"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Real Internacional"
+        },
+        {
+          "label": "Position",
+          "value": "Målvakt"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#1"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "FC Real Internacional — lagsida, Svensk fotboll",
+        "url": "https://www.svenskfotboll.se/lagsida/fc-real-internacional/220261/"
+      }
+    },
+    {
+      "id": "hadi-mahdavi",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Hadi Mahdavi",
+      "sub": "Svensk futsal · FC Real Internacional · #2",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Real Internacional (SFL).",
+      "profile": {
+        "club": "FC Real Internacional",
+        "position": "Utespelare",
+        "number": "#2"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Real Internacional"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#2"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "FC Real Internacional — lagsida, Svensk fotboll",
+        "url": "https://www.svenskfotboll.se/lagsida/fc-real-internacional/220261/"
+      }
+    },
+    {
+      "id": "kirill-laptev",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Kirill Laptev",
+      "sub": "Svensk futsal · FC Real Internacional · #3",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Real Internacional (SFL).",
+      "profile": {
+        "club": "FC Real Internacional",
+        "position": "Utespelare",
+        "number": "#3"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Real Internacional"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#3"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "FC Real Internacional — lagsida, Svensk fotboll",
+        "url": "https://www.svenskfotboll.se/lagsida/fc-real-internacional/220261/"
+      }
+    },
+    {
+      "id": "seif-kadhim",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Seif Kadhim",
+      "sub": "Svensk futsal · FC Real Internacional · #4",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Real Internacional (SFL).",
+      "profile": {
+        "club": "FC Real Internacional",
+        "position": "Utespelare",
+        "number": "#4"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Real Internacional"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#4"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "FC Real Internacional — lagsida, Svensk fotboll",
+        "url": "https://www.svenskfotboll.se/lagsida/fc-real-internacional/220261/"
+      }
+    },
+    {
+      "id": "rebaz-muhammed",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Rebaz Muhammed",
+      "sub": "Svensk futsal · FC Real Internacional · #5",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Real Internacional (SFL).",
+      "profile": {
+        "club": "FC Real Internacional",
+        "position": "Utespelare",
+        "number": "#5"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Real Internacional"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#5"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "FC Real Internacional — lagsida, Svensk fotboll",
+        "url": "https://www.svenskfotboll.se/lagsida/fc-real-internacional/220261/"
+      }
+    },
+    {
+      "id": "staivar-ishak",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Staivar Ishak",
+      "sub": "Svensk futsal · FC Real Internacional · #6",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Real Internacional (SFL).",
+      "profile": {
+        "club": "FC Real Internacional",
+        "position": "Utespelare",
+        "number": "#6"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Real Internacional"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#6"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "FC Real Internacional — lagsida, Svensk fotboll",
+        "url": "https://www.svenskfotboll.se/lagsida/fc-real-internacional/220261/"
+      }
+    },
+    {
+      "id": "filip-brtan",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Filip Brtan",
+      "sub": "Svensk futsal · FC Real Internacional · #7",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Real Internacional (SFL).",
+      "profile": {
+        "club": "FC Real Internacional",
+        "position": "Utespelare",
+        "number": "#7"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Real Internacional"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#7"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "FC Real Internacional — lagsida, Svensk fotboll",
+        "url": "https://www.svenskfotboll.se/lagsida/fc-real-internacional/220261/"
+      }
+    },
+    {
+      "id": "eduardo-luis-portocarrero-linares",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Eduardo Luis Portocarrero Linares",
+      "sub": "Svensk futsal · FC Real Internacional · #9",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Real Internacional (SFL).",
+      "profile": {
+        "club": "FC Real Internacional",
+        "position": "Utespelare",
+        "number": "#9"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Real Internacional"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#9"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "FC Real Internacional — lagsida, Svensk fotboll",
+        "url": "https://www.svenskfotboll.se/lagsida/fc-real-internacional/220261/"
+      }
+    },
+    {
+      "id": "sonny-karlsson",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Sonny Karlsson",
+      "sub": "Svensk futsal · FC Real Internacional · #10",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Real Internacional (SFL).",
+      "profile": {
+        "club": "FC Real Internacional",
+        "position": "Utespelare",
+        "number": "#10"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Real Internacional"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#10"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "FC Real Internacional — lagsida, Svensk fotboll",
+        "url": "https://www.svenskfotboll.se/lagsida/fc-real-internacional/220261/"
+      }
+    },
+    {
+      "id": "christofer-frisenette-fich",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Christofer Frisenette-Fich",
+      "sub": "Svensk futsal · FC Real Internacional · #11",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Real Internacional (SFL).",
+      "profile": {
+        "club": "FC Real Internacional",
+        "position": "Utespelare",
+        "number": "#11"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Real Internacional"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#11"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "FC Real Internacional — lagsida, Svensk fotboll",
+        "url": "https://www.svenskfotboll.se/lagsida/fc-real-internacional/220261/"
+      }
+    },
+    {
+      "id": "josip-maracic",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Josip Maracic",
+      "sub": "Svensk futsal · FC Real Internacional · #14",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Real Internacional (SFL).",
+      "profile": {
+        "club": "FC Real Internacional",
+        "position": "Utespelare",
+        "number": "#14"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Real Internacional"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#14"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "FC Real Internacional — lagsida, Svensk fotboll",
+        "url": "https://www.svenskfotboll.se/lagsida/fc-real-internacional/220261/"
+      }
+    },
+    {
+      "id": "casper-malmkvist",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Casper Malmkvist",
+      "sub": "Svensk futsal · FC Real Internacional · #15",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Real Internacional (SFL).",
+      "profile": {
+        "club": "FC Real Internacional",
+        "position": "Utespelare",
+        "number": "#15"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Real Internacional"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#15"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "FC Real Internacional — lagsida, Svensk fotboll",
+        "url": "https://www.svenskfotboll.se/lagsida/fc-real-internacional/220261/"
+      }
+    },
+    {
+      "id": "gentonis-gjikokaj",
+      "type": "spelare",
+      "flag": "⚽",
+      "name": "Gentonis Gjikokaj",
+      "sub": "Svensk futsal · FC Real Internacional · #45",
+      "country": "SFL",
+      "tagline": "Utespelare i FC Real Internacional (SFL).",
+      "profile": {
+        "club": "FC Real Internacional",
+        "position": "Utespelare",
+        "number": "#45"
+      },
+      "stats": [
+        {
+          "label": "Klubb",
+          "value": "FC Real Internacional"
+        },
+        {
+          "label": "Position",
+          "value": "Utespelare"
+        },
+        {
+          "label": "Tröjnummer",
+          "value": "#45"
+        }
+      ],
+      "facts": [],
+      "source": {
+        "label": "FC Real Internacional — lagsida, Svensk fotboll",
+        "url": "https://www.svenskfotboll.se/lagsida/fc-real-internacional/220261/"
       }
     }
   ],
