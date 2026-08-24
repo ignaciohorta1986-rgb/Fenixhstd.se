@@ -192,6 +192,7 @@
       margin-bottom: 0.9rem;
     }
     .type-spelare   { color: var(--gold);       background: rgba(255,214,10,0.12);  border: 1px solid rgba(255,214,10,0.25); }
+    .type-ledare    { color: #7fd4a0;           background: rgba(127,212,160,0.12); border: 1px solid rgba(127,212,160,0.25); }
     .type-klubb     { color: #d060ff;           background: rgba(200,80,255,0.12);  border: 1px solid rgba(200,80,255,0.25); }
     .type-landslag  { color: var(--blue-light); background: rgba(68,170,255,0.12);  border: 1px solid rgba(68,170,255,0.25); }
     .type-turnering { color: #30d0b0;           background: rgba(48,208,176,0.12);  border: 1px solid rgba(48,208,176,0.25); }
@@ -763,6 +764,7 @@
     <div class="filters" id="filters">
       <button class="filter-btn active" data-type="alla">Alla</button>
       <button class="filter-btn" data-type="spelare">⭐ Spelare</button>
+      <button class="filter-btn" data-type="ledare">🎓 Ledare</button>
       <button class="filter-btn" data-type="klubb">🏆 Klubblag</button>
       <button class="filter-btn" data-type="landslag">🌍 Landslag</button>
       <button class="filter-btn" data-type="turnering">🏅 Turneringar</button>
@@ -877,7 +879,7 @@
   (function animate() { ctx.clearRect(0, 0, W, H); particles.forEach(p => { p.update(); p.draw(); }); requestAnimationFrame(animate); })();
 
   /* ── Sökmotor ── */
-  const TYPE_LABEL = { spelare: 'Spelare', klubb: 'Klubblag', landslag: 'Landslag', turnering: 'Turnering', svensk: 'Svensk futsal' };
+  const TYPE_LABEL = { spelare: 'Spelare', ledare: 'Ledare', klubb: 'Klubblag', landslag: 'Landslag', turnering: 'Turnering', svensk: 'Svensk futsal' };
 
   /* ── Relationer mellan poster (för korslänkning) ── */
   const NATION_CONF = {
@@ -925,7 +927,7 @@
       }
     }
     rel.delete(e.id);
-    const order = { landslag: 0, klubb: 1, spelare: 2, turnering: 3, svensk: 4 };
+    const order = { landslag: 0, klubb: 1, spelare: 2, ledare: 3, turnering: 4, svensk: 5 };
     return [...rel].map(id => DATA.find(d => d.id === id)).filter(Boolean)
       .sort((a, b) => (order[a.type] - order[b.type]))
       .slice(0, 18);
@@ -1136,6 +1138,7 @@
       if (p.born) rows.push(['Född', formatBorn(p.born)]);
       if (p.birthplace) rows.push(['Födelseort', linkify(p.birthplace, e.id)]);
       if (p.nationality) rows.push(['Nationalitet', gotoChip(p.nationality, e.id)]);
+      if (p.role) rows.push(['Roll', p.role]);
       if (p.position) rows.push(['Position', p.position]);
       if (p.number) rows.push(['Tröjnummer', p.number]);
       if (p.height) rows.push(['Längd', p.height]);
@@ -1273,7 +1276,7 @@
     'Örebro SK': 'Örebro SK Futsal', 'Örebro SK Futsalklubb': 'Örebro SK Futsal',
     'Söder Futsalklubb': 'Söder Futsal', 'Kalmar United FK': 'Kalmar United',
     'Norrköping Futsal Klubb': 'Norrköping FK', 'FC Ljiljan': 'FC Ljiljan Göteborg',
-    'IFK Göteborg': null, 'Hammarby IF FF': null
+    'Hammarby IF FF': 'Hammarby IF', 'Småland (Jönköping)': 'Småland'
   };
   function entryByName(v) {
     if (!v) return null;

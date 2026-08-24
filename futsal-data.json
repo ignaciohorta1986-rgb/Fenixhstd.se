@@ -3046,6 +3046,10 @@
           "label": "Ledare",
           "value": "6",
           "goto": "staff"
+        },
+        {
+          "label": "Guldår",
+          "value": "2017, 2018, 2019, 2024"
         }
       ],
       "facts": [
@@ -3056,7 +3060,8 @@
         "Grundad 2013. Hette IFK Uddevalla Futsal fram till säsongen 2021/22, då namnet ändrades för att tydliggöra att klubben är en fristående futsalklubb.",
         "Spelar sina hemmamatcher i Agnebergshallen. Silver 2015 och 2016 innan det första guldet kom 2017.",
         "Innehar svenskt publikrekord i futsal: 1 754 åskådare den 25 februari 2017 i semifinalen mot Örebro SK.",
-        "Landslagsspelare genom åren: Petrit Zhubi, Fredrik Söderqvist, Marcus Gerd, Granit Berisha och Robert Bagger."
+        "Landslagsspelare genom åren: Petrit Zhubi, Fredrik Söderqvist, Marcus Gerd, Granit Berisha och Robert Bagger.",
+        "Svensk mästare i futsal 2017, 2018, 2019, 2024 — under namnen IFK Uddevalla och Uddevalla FC."
       ],
       "source": {
         "label": "Uddevalla Futsal",
@@ -10112,6 +10117,3417 @@
       "source": {
         "label": "FC Real Internacional — lagsida, Svensk fotboll",
         "url": "https://www.svenskfotboll.se/lagsida/fc-real-internacional/220261/"
+      }
+    },
+    {
+      "id": "ledare-nadir-nishada",
+      "type": "ledare",
+      "flag": "🎓",
+      "name": "Nadir Nishada",
+      "sub": "Ledare · Tränare · Borås AIK",
+      "country": "SFL",
+      "tagline": "Tränare i Borås AIK.",
+      "profile": {
+        "club": "Borås AIK",
+        "role": "Tränare"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Tränare"
+        },
+        {
+          "label": "Klubb",
+          "value": "Borås AIK"
+        }
+      ],
+      "facts": [
+        "Tränare i Borås AIK enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Borås AIK Futsal — laget.se",
+        "url": "https://www.laget.se/BorasAIK-Futsal-FutsalHerrSFL/Troop"
+      }
+    },
+    {
+      "id": "ledare-mikael-andersson",
+      "type": "ledare",
+      "flag": "🧤",
+      "name": "Mikael Andersson",
+      "sub": "Ledare · Målvaktstränare · Borås AIK",
+      "country": "SFL",
+      "tagline": "Målvaktstränare i Borås AIK.",
+      "profile": {
+        "club": "Borås AIK",
+        "role": "Målvaktstränare"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Målvaktstränare"
+        },
+        {
+          "label": "Klubb",
+          "value": "Borås AIK"
+        }
+      ],
+      "facts": [
+        "Målvaktstränare i Borås AIK enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Borås AIK Futsal — laget.se",
+        "url": "https://www.laget.se/BorasAIK-Futsal-FutsalHerrSFL/Troop"
+      }
+    },
+    {
+      "id": "ledare-magnus-johannesson",
+      "type": "ledare",
+      "flag": "📋",
+      "name": "Magnus Johannesson",
+      "sub": "Ledare · Lagledare · Borås AIK",
+      "country": "SFL",
+      "tagline": "Lagledare i Borås AIK.",
+      "profile": {
+        "club": "Borås AIK",
+        "role": "Lagledare"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Lagledare"
+        },
+        {
+          "label": "Klubb",
+          "value": "Borås AIK"
+        }
+      ],
+      "facts": [
+        "Lagledare i Borås AIK enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Borås AIK Futsal — laget.se",
+        "url": "https://www.laget.se/BorasAIK-Futsal-FutsalHerrSFL/Troop"
+      }
+    },
+    {
+      "id": "ledare-daniel-nadjafi",
+      "type": "ledare",
+      "flag": "📋",
+      "name": "Daniel Nadjafi",
+      "sub": "Ledare · Lagledare · Borås AIK",
+      "country": "SFL",
+      "tagline": "Lagledare i Borås AIK.",
+      "profile": {
+        "club": "Borås AIK",
+        "role": "Lagledare"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Lagledare"
+        },
+        {
+          "label": "Klubb",
+          "value": "Borås AIK"
+        }
+      ],
+      "facts": [
+        "Lagledare i Borås AIK enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Borås AIK Futsal — laget.se",
+        "url": "https://www.laget.se/BorasAIK-Futsal-FutsalHerrSFL/Troop"
+      }
+    },
+    {
+      "id": "ledare-vladan-jovanovic",
+      "type": "ledare",
+      "flag": "📋",
+      "name": "Vladan Jovanovic",
+      "sub": "Ledare · Ledare · Uddevalla Futsal Club",
+      "country": "SFL",
+      "tagline": "Ledare i Uddevalla Futsal Club.",
+      "profile": {
+        "club": "Uddevalla Futsal Club",
+        "role": "Ledare"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Ledare"
+        },
+        {
+          "label": "Klubb",
+          "value": "Uddevalla Futsal Club"
+        }
+      ],
+      "facts": [
+        "Ledare i Uddevalla Futsal Club enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Uddevalla Futsal — trupp",
+        "url": "https://uddevallafutsal.se/trupp/"
+      }
+    },
+    {
+      "id": "ledare-emilia-widengren",
+      "type": "ledare",
+      "flag": "📋",
+      "name": "Emilia Widengren",
+      "sub": "Ledare · Ledare · Uddevalla Futsal Club",
+      "country": "SFL",
+      "tagline": "Ledare i Uddevalla Futsal Club.",
+      "profile": {
+        "club": "Uddevalla Futsal Club",
+        "role": "Ledare"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Ledare"
+        },
+        {
+          "label": "Klubb",
+          "value": "Uddevalla Futsal Club"
+        }
+      ],
+      "facts": [
+        "Ledare i Uddevalla Futsal Club enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Uddevalla Futsal — trupp",
+        "url": "https://uddevallafutsal.se/trupp/"
+      }
+    },
+    {
+      "id": "ledare-stefan-orn",
+      "type": "ledare",
+      "flag": "📋",
+      "name": "Stefan Örn",
+      "sub": "Ledare · Ledare · Uddevalla Futsal Club",
+      "country": "SFL",
+      "tagline": "Ledare i Uddevalla Futsal Club.",
+      "profile": {
+        "club": "Uddevalla Futsal Club",
+        "role": "Ledare"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Ledare"
+        },
+        {
+          "label": "Klubb",
+          "value": "Uddevalla Futsal Club"
+        }
+      ],
+      "facts": [
+        "Ledare i Uddevalla Futsal Club enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Uddevalla Futsal — trupp",
+        "url": "https://uddevallafutsal.se/trupp/"
+      }
+    },
+    {
+      "id": "ledare-oscar-vega",
+      "type": "ledare",
+      "flag": "📋",
+      "name": "Oscar Vega",
+      "sub": "Ledare · Ledare · Uddevalla Futsal Club",
+      "country": "SFL",
+      "tagline": "Ledare i Uddevalla Futsal Club.",
+      "profile": {
+        "club": "Uddevalla Futsal Club",
+        "role": "Ledare"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Ledare"
+        },
+        {
+          "label": "Klubb",
+          "value": "Uddevalla Futsal Club"
+        }
+      ],
+      "facts": [
+        "Ledare i Uddevalla Futsal Club enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Uddevalla Futsal — trupp",
+        "url": "https://uddevallafutsal.se/trupp/"
+      }
+    },
+    {
+      "id": "ledare-josef-abobaker-alkhalaf",
+      "type": "ledare",
+      "flag": "📋",
+      "name": "Josef Abobaker Alkhalaf",
+      "sub": "Ledare · Ledare · Söder Futsal",
+      "country": "SFL",
+      "tagline": "Ledare i Söder Futsal.",
+      "profile": {
+        "club": "Söder Futsal",
+        "role": "Ledare"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Ledare"
+        },
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        }
+      ],
+      "facts": [
+        "Ledare i Söder Futsal enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "ledare-joakim-eriksson",
+      "type": "ledare",
+      "flag": "💼",
+      "name": "Joakim Eriksson",
+      "sub": "Ledare · Klubbchef · Söder Futsal",
+      "country": "SFL",
+      "tagline": "Klubbchef i Söder Futsal.",
+      "profile": {
+        "club": "Söder Futsal",
+        "role": "Klubbchef"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Klubbchef"
+        },
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        }
+      ],
+      "facts": [
+        "Klubbchef i Söder Futsal enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "ledare-thomaz-mendes-barata-de-almeida",
+      "type": "ledare",
+      "flag": "🧤",
+      "name": "Thomaz Mendes Barata De Almeida",
+      "sub": "Ledare · Målvaktstränare · Söder Futsal",
+      "country": "SFL",
+      "tagline": "Målvaktstränare i Söder Futsal.",
+      "profile": {
+        "club": "Söder Futsal",
+        "role": "Målvaktstränare"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Målvaktstränare"
+        },
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        }
+      ],
+      "facts": [
+        "Målvaktstränare i Söder Futsal enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "ledare-peter-lungstrom",
+      "type": "ledare",
+      "flag": "📋",
+      "name": "Peter Lungström",
+      "sub": "Ledare · Lagledare · Söder Futsal",
+      "country": "SFL",
+      "tagline": "Lagledare i Söder Futsal.",
+      "profile": {
+        "club": "Söder Futsal",
+        "role": "Lagledare"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Lagledare"
+        },
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        }
+      ],
+      "facts": [
+        "Lagledare i Söder Futsal enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "ledare-peter-cruickshank-loof",
+      "type": "ledare",
+      "flag": "🩺",
+      "name": "Peter Cruickshank Lööf",
+      "sub": "Ledare · Naprapat · Söder Futsal",
+      "country": "SFL",
+      "tagline": "Naprapat i Söder Futsal.",
+      "profile": {
+        "club": "Söder Futsal",
+        "role": "Naprapat"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Naprapat"
+        },
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        }
+      ],
+      "facts": [
+        "Naprapat i Söder Futsal enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "ledare-albin-hedenstedt",
+      "type": "ledare",
+      "flag": "🩺",
+      "name": "Albin Hedenstedt",
+      "sub": "Ledare · Naprapat · Söder Futsal",
+      "country": "SFL",
+      "tagline": "Naprapat i Söder Futsal.",
+      "profile": {
+        "club": "Söder Futsal",
+        "role": "Naprapat"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Naprapat"
+        },
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        }
+      ],
+      "facts": [
+        "Naprapat i Söder Futsal enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "ledare-ulf-baldhagen",
+      "type": "ledare",
+      "flag": "💼",
+      "name": "Ulf Baldhagen",
+      "sub": "Ledare · Ekonomiansvarig · Söder Futsal",
+      "country": "SFL",
+      "tagline": "Ekonomiansvarig i Söder Futsal.",
+      "profile": {
+        "club": "Söder Futsal",
+        "role": "Ekonomiansvarig"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Ekonomiansvarig"
+        },
+        {
+          "label": "Klubb",
+          "value": "Söder Futsal"
+        }
+      ],
+      "facts": [
+        "Ekonomiansvarig i Söder Futsal enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/Troop"
+      }
+    },
+    {
+      "id": "ledare-victor-huerta",
+      "type": "ledare",
+      "flag": "💼",
+      "name": "Victor Huerta",
+      "sub": "Ledare · Sportchef · Örebro SK Futsal",
+      "country": "SFL",
+      "tagline": "Sportchef i Örebro SK Futsal.",
+      "profile": {
+        "club": "Örebro SK Futsal",
+        "role": "Sportchef"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Sportchef"
+        },
+        {
+          "label": "Klubb",
+          "value": "Örebro SK Futsal"
+        }
+      ],
+      "facts": [
+        "Sportchef i Örebro SK Futsal enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Örebro SK Futsal Herr — laget.se",
+        "url": "https://www.laget.se/OSKFutsalHerr/Troop"
+      }
+    },
+    {
+      "id": "ledare-francis-maciel-da-costa",
+      "type": "ledare",
+      "flag": "🎓",
+      "name": "Francis Maciel Da Costa",
+      "sub": "Ledare · Tränare · Örebro SK Futsal",
+      "country": "SFL",
+      "tagline": "Tränare i Örebro SK Futsal.",
+      "profile": {
+        "club": "Örebro SK Futsal",
+        "role": "Tränare"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Tränare"
+        },
+        {
+          "label": "Klubb",
+          "value": "Örebro SK Futsal"
+        }
+      ],
+      "facts": [
+        "Tränare i Örebro SK Futsal enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Örebro SK Futsal Herr — laget.se",
+        "url": "https://www.laget.se/OSKFutsalHerr/Troop"
+      }
+    },
+    {
+      "id": "ledare-henning-gustafsson",
+      "type": "ledare",
+      "flag": "📋",
+      "name": "Henning Gustafsson",
+      "sub": "Ledare · Lagledare · Örebro SK Futsal",
+      "country": "SFL",
+      "tagline": "Lagledare i Örebro SK Futsal.",
+      "profile": {
+        "club": "Örebro SK Futsal",
+        "role": "Lagledare"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Lagledare"
+        },
+        {
+          "label": "Klubb",
+          "value": "Örebro SK Futsal"
+        }
+      ],
+      "facts": [
+        "Lagledare i Örebro SK Futsal enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Örebro SK Futsal Herr — laget.se",
+        "url": "https://www.laget.se/OSKFutsalHerr/Troop"
+      }
+    },
+    {
+      "id": "ledare-mats-lind",
+      "type": "ledare",
+      "flag": "📋",
+      "name": "Mats Lind",
+      "sub": "Ledare · Lagledare · Örebro SK Futsal",
+      "country": "SFL",
+      "tagline": "Lagledare i Örebro SK Futsal.",
+      "profile": {
+        "club": "Örebro SK Futsal",
+        "role": "Lagledare"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Lagledare"
+        },
+        {
+          "label": "Klubb",
+          "value": "Örebro SK Futsal"
+        }
+      ],
+      "facts": [
+        "Lagledare i Örebro SK Futsal enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Örebro SK Futsal Herr — laget.se",
+        "url": "https://www.laget.se/OSKFutsalHerr/Troop"
+      }
+    },
+    {
+      "id": "ledare-alija-ljeljak",
+      "type": "ledare",
+      "flag": "🩺",
+      "name": "Alija Ljeljak",
+      "sub": "Ledare · Naprapat · Örebro SK Futsal",
+      "country": "SFL",
+      "tagline": "Naprapat i Örebro SK Futsal.",
+      "profile": {
+        "club": "Örebro SK Futsal",
+        "role": "Naprapat"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Naprapat"
+        },
+        {
+          "label": "Klubb",
+          "value": "Örebro SK Futsal"
+        }
+      ],
+      "facts": [
+        "Naprapat i Örebro SK Futsal enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Örebro SK Futsal Herr — laget.se",
+        "url": "https://www.laget.se/OSKFutsalHerr/Troop"
+      }
+    },
+    {
+      "id": "ledare-ronny-pilen-pettersson",
+      "type": "ledare",
+      "flag": "💼",
+      "name": "Ronny \"Pilen\" Pettersson",
+      "sub": "Ledare · General Manager · Örebro Futsal Club",
+      "country": "SFL",
+      "tagline": "General Manager i Örebro Futsal Club.",
+      "profile": {
+        "club": "Örebro Futsal Club",
+        "role": "General Manager"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "General Manager"
+        },
+        {
+          "label": "Klubb",
+          "value": "Örebro Futsal Club"
+        }
+      ],
+      "facts": [
+        "General Manager i Örebro Futsal Club enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Örebro Futsal Club Herr — laget.se",
+        "url": "https://www.orebrofutsal.se/Troop"
+      }
+    },
+    {
+      "id": "ledare-tony-bergman",
+      "type": "ledare",
+      "flag": "📋",
+      "name": "Tony Bergman",
+      "sub": "Ledare · Timekeeper · Örebro Futsal Club",
+      "country": "SFL",
+      "tagline": "Timekeeper i Örebro Futsal Club.",
+      "profile": {
+        "club": "Örebro Futsal Club",
+        "role": "Timekeeper"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Timekeeper"
+        },
+        {
+          "label": "Klubb",
+          "value": "Örebro Futsal Club"
+        }
+      ],
+      "facts": [
+        "Timekeeper i Örebro Futsal Club enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Örebro Futsal Club Herr — laget.se",
+        "url": "https://www.orebrofutsal.se/Troop"
+      }
+    },
+    {
+      "id": "ledare-kjell-johansson",
+      "type": "ledare",
+      "flag": "📋",
+      "name": "Kjell Johansson",
+      "sub": "Ledare · Reklamansvarig arena · Örebro Futsal Club",
+      "country": "SFL",
+      "tagline": "Reklamansvarig arena i Örebro Futsal Club.",
+      "profile": {
+        "club": "Örebro Futsal Club",
+        "role": "Reklamansvarig arena"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Reklamansvarig arena"
+        },
+        {
+          "label": "Klubb",
+          "value": "Örebro Futsal Club"
+        }
+      ],
+      "facts": [
+        "Reklamansvarig arena i Örebro Futsal Club enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Örebro Futsal Club Herr — laget.se",
+        "url": "https://www.orebrofutsal.se/Troop"
+      }
+    },
+    {
+      "id": "ledare-hakan-johnsson",
+      "type": "ledare",
+      "flag": "📋",
+      "name": "Håkan Johnsson",
+      "sub": "Ledare · Säkerhetsansvarig · Örebro Futsal Club",
+      "country": "SFL",
+      "tagline": "Säkerhetsansvarig i Örebro Futsal Club.",
+      "profile": {
+        "club": "Örebro Futsal Club",
+        "role": "Säkerhetsansvarig"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Säkerhetsansvarig"
+        },
+        {
+          "label": "Klubb",
+          "value": "Örebro Futsal Club"
+        }
+      ],
+      "facts": [
+        "Säkerhetsansvarig i Örebro Futsal Club enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Örebro Futsal Club Herr — laget.se",
+        "url": "https://www.orebrofutsal.se/Troop"
+      }
+    },
+    {
+      "id": "ledare-krister-hogberg",
+      "type": "ledare",
+      "flag": "🎒",
+      "name": "Krister Högberg",
+      "sub": "Ledare · Materialförvaltare · Örebro Futsal Club",
+      "country": "SFL",
+      "tagline": "Materialförvaltare i Örebro Futsal Club.",
+      "profile": {
+        "club": "Örebro Futsal Club",
+        "role": "Materialförvaltare"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Materialförvaltare"
+        },
+        {
+          "label": "Klubb",
+          "value": "Örebro Futsal Club"
+        }
+      ],
+      "facts": [
+        "Materialförvaltare i Örebro Futsal Club enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Örebro Futsal Club Herr — laget.se",
+        "url": "https://www.orebrofutsal.se/Troop"
+      }
+    },
+    {
+      "id": "ledare-nima-fard",
+      "type": "ledare",
+      "flag": "🎓",
+      "name": "Nima Fard",
+      "sub": "Ledare · Assisterande tränare · Skoftebyns IF",
+      "country": "SFL",
+      "tagline": "Assisterande tränare i Skoftebyns IF.",
+      "profile": {
+        "club": "Skoftebyns IF",
+        "role": "Assisterande tränare"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Assisterande tränare"
+        },
+        {
+          "label": "Klubb",
+          "value": "Skoftebyns IF"
+        }
+      ],
+      "facts": [
+        "Assisterande tränare i Skoftebyns IF enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Skoftebyn Futsal — A-lag herr",
+        "url": "https://www.skoftebynfutsal.se/a-lag-herr"
+      }
+    },
+    {
+      "id": "ledare-anders-svensson",
+      "type": "ledare",
+      "flag": "📋",
+      "name": "Anders Svensson",
+      "sub": "Ledare · Lagledare · Skoftebyns IF",
+      "country": "SFL",
+      "tagline": "Lagledare i Skoftebyns IF.",
+      "profile": {
+        "club": "Skoftebyns IF",
+        "role": "Lagledare"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Lagledare"
+        },
+        {
+          "label": "Klubb",
+          "value": "Skoftebyns IF"
+        }
+      ],
+      "facts": [
+        "Lagledare i Skoftebyns IF enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Skoftebyn Futsal — A-lag herr",
+        "url": "https://www.skoftebynfutsal.se/a-lag-herr"
+      }
+    },
+    {
+      "id": "ledare-christoffer-lundh",
+      "type": "ledare",
+      "flag": "💼",
+      "name": "Christoffer Lundh",
+      "sub": "Ledare · Sportchef · Skoftebyns IF",
+      "country": "SFL",
+      "tagline": "Sportchef i Skoftebyns IF.",
+      "profile": {
+        "club": "Skoftebyns IF",
+        "role": "Sportchef"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Sportchef"
+        },
+        {
+          "label": "Klubb",
+          "value": "Skoftebyns IF"
+        }
+      ],
+      "facts": [
+        "Sportchef i Skoftebyns IF enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Skoftebyn Futsal — A-lag herr",
+        "url": "https://www.skoftebynfutsal.se/a-lag-herr"
+      }
+    },
+    {
+      "id": "ledare-arnel-barakovic",
+      "type": "ledare",
+      "flag": "🧤",
+      "name": "Arnel Barakovic",
+      "sub": "Ledare · Målvaktstränare · Skoftebyns IF",
+      "country": "SFL",
+      "tagline": "Målvaktstränare i Skoftebyns IF.",
+      "profile": {
+        "club": "Skoftebyns IF",
+        "role": "Målvaktstränare"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Målvaktstränare"
+        },
+        {
+          "label": "Klubb",
+          "value": "Skoftebyns IF"
+        }
+      ],
+      "facts": [
+        "Målvaktstränare i Skoftebyns IF enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Skoftebyn Futsal — A-lag herr",
+        "url": "https://www.skoftebynfutsal.se/a-lag-herr"
+      }
+    },
+    {
+      "id": "ledare-muhamet-cheese-rama",
+      "type": "ledare",
+      "flag": "📋",
+      "name": "Muhamet \"Cheese\" Rama",
+      "sub": "Ledare · Lagledare · Skoftebyns IF",
+      "country": "SFL",
+      "tagline": "Lagledare i Skoftebyns IF.",
+      "profile": {
+        "club": "Skoftebyns IF",
+        "role": "Lagledare"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Lagledare"
+        },
+        {
+          "label": "Klubb",
+          "value": "Skoftebyns IF"
+        }
+      ],
+      "facts": [
+        "Lagledare i Skoftebyns IF enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Skoftebyn Futsal — A-lag herr",
+        "url": "https://www.skoftebynfutsal.se/a-lag-herr"
+      }
+    },
+    {
+      "id": "ledare-anes-cesko",
+      "type": "ledare",
+      "flag": "🎓",
+      "name": "Anes Cesko",
+      "sub": "Ledare · Tränare · Norrköping FK",
+      "country": "SFL",
+      "tagline": "Tränare i Norrköping FK.",
+      "profile": {
+        "club": "Norrköping FK",
+        "role": "Tränare"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Tränare"
+        },
+        {
+          "label": "Klubb",
+          "value": "Norrköping FK"
+        }
+      ],
+      "facts": [
+        "Tränare i Norrköping FK enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Norrköping Futsal Klubb — truppen",
+        "url": "https://www.svenskalag.se/norrkopingfutsal-herrar/truppen"
+      }
+    },
+    {
+      "id": "ledare-muffe-bajraktararevic",
+      "type": "ledare",
+      "flag": "💼",
+      "name": "Muffe Bajraktararevic",
+      "sub": "Ledare · Klubbchef · Norrköping FK",
+      "country": "SFL",
+      "tagline": "Klubbchef i Norrköping FK.",
+      "profile": {
+        "club": "Norrköping FK",
+        "role": "Klubbchef"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Klubbchef"
+        },
+        {
+          "label": "Klubb",
+          "value": "Norrköping FK"
+        }
+      ],
+      "facts": [
+        "Klubbchef i Norrköping FK enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Norrköping Futsal Klubb — truppen",
+        "url": "https://www.svenskalag.se/norrkopingfutsal-herrar/truppen"
+      }
+    },
+    {
+      "id": "ledare-mohammed-albomnaijl",
+      "type": "ledare",
+      "flag": "📊",
+      "name": "Mohammed Albomnaijl",
+      "sub": "Ledare · Analytiker · Norrköping FK",
+      "country": "SFL",
+      "tagline": "Analytiker i Norrköping FK.",
+      "profile": {
+        "club": "Norrköping FK",
+        "role": "Analytiker"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Analytiker"
+        },
+        {
+          "label": "Klubb",
+          "value": "Norrköping FK"
+        }
+      ],
+      "facts": [
+        "Analytiker i Norrköping FK enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Norrköping Futsal Klubb — truppen",
+        "url": "https://www.svenskalag.se/norrkopingfutsal-herrar/truppen"
+      }
+    },
+    {
+      "id": "ledare-serhat-can",
+      "type": "ledare",
+      "flag": "📋",
+      "name": "Serhat Can",
+      "sub": "Ledare · Fys- och medicinansvarig · Norrköping FK",
+      "country": "SFL",
+      "tagline": "Fys- och medicinansvarig i Norrköping FK.",
+      "profile": {
+        "club": "Norrköping FK",
+        "role": "Fys- och medicinansvarig"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Fys- och medicinansvarig"
+        },
+        {
+          "label": "Klubb",
+          "value": "Norrköping FK"
+        }
+      ],
+      "facts": [
+        "Fys- och medicinansvarig i Norrköping FK enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Norrköping Futsal Klubb — truppen",
+        "url": "https://www.svenskalag.se/norrkopingfutsal-herrar/truppen"
+      }
+    },
+    {
+      "id": "ledare-krister-melin",
+      "type": "ledare",
+      "flag": "📣",
+      "name": "Krister Melin",
+      "sub": "Ledare · Kommunikationsansvarig · Norrköping FK",
+      "country": "SFL",
+      "tagline": "Kommunikationsansvarig i Norrköping FK.",
+      "profile": {
+        "club": "Norrköping FK",
+        "role": "Kommunikationsansvarig"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Kommunikationsansvarig"
+        },
+        {
+          "label": "Klubb",
+          "value": "Norrköping FK"
+        }
+      ],
+      "facts": [
+        "Kommunikationsansvarig i Norrköping FK enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Norrköping Futsal Klubb — truppen",
+        "url": "https://www.svenskalag.se/norrkopingfutsal-herrar/truppen"
+      }
+    },
+    {
+      "id": "ledare-richard-andersson",
+      "type": "ledare",
+      "flag": "🎒",
+      "name": "Richard Andersson",
+      "sub": "Ledare · Materialansvarig · Norrköping FK",
+      "country": "SFL",
+      "tagline": "Materialansvarig i Norrköping FK.",
+      "profile": {
+        "club": "Norrköping FK",
+        "role": "Materialansvarig"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Materialansvarig"
+        },
+        {
+          "label": "Klubb",
+          "value": "Norrköping FK"
+        }
+      ],
+      "facts": [
+        "Materialansvarig i Norrköping FK enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Norrköping Futsal Klubb — truppen",
+        "url": "https://www.svenskalag.se/norrkopingfutsal-herrar/truppen"
+      }
+    },
+    {
+      "id": "ledare-ivan-de-melo",
+      "type": "ledare",
+      "flag": "🎓",
+      "name": "Ivan De Melo",
+      "sub": "Ledare · Assisterande tränare · FC Ljiljan Göteborg",
+      "country": "SFL",
+      "tagline": "Assisterande tränare i FC Ljiljan Göteborg.",
+      "profile": {
+        "club": "FC Ljiljan Göteborg",
+        "role": "Assisterande tränare"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Assisterande tränare"
+        },
+        {
+          "label": "Klubb",
+          "value": "FC Ljiljan Göteborg"
+        }
+      ],
+      "facts": [
+        "Assisterande tränare i FC Ljiljan Göteborg enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Futsal Club Ljiljan — truppen",
+        "url": "https://www.svenskalag.se/fcljiljan-herr/truppen"
+      }
+    },
+    {
+      "id": "ledare-anel-bosnjo",
+      "type": "ledare",
+      "flag": "🧤",
+      "name": "Anel Bosnjo",
+      "sub": "Ledare · Målvaktstränare · FC Ljiljan Göteborg",
+      "country": "SFL",
+      "tagline": "Målvaktstränare i FC Ljiljan Göteborg.",
+      "profile": {
+        "club": "FC Ljiljan Göteborg",
+        "role": "Målvaktstränare"
+      },
+      "stats": [
+        {
+          "label": "Roll",
+          "value": "Målvaktstränare"
+        },
+        {
+          "label": "Klubb",
+          "value": "FC Ljiljan Göteborg"
+        }
+      ],
+      "facts": [
+        "Målvaktstränare i FC Ljiljan Göteborg enligt klubbens egen truppsida."
+      ],
+      "source": {
+        "label": "Futsal Club Ljiljan — truppen",
+        "url": "https://www.svenskalag.se/fcljiljan-herr/truppen"
+      }
+    },
+    {
+      "id": "hammarby-if",
+      "type": "svensk",
+      "flag": "🇸🇪",
+      "name": "Hammarby IF",
+      "sub": "Svensk futsal · Historisk SM-mästare",
+      "country": "Sverige",
+      "tagline": "Svensk mästare i futsal 2021, 2020.",
+      "stats": [
+        {
+          "label": "SM-guld",
+          "value": "2"
+        },
+        {
+          "label": "Guldår",
+          "value": "2021, 2020"
+        }
+      ],
+      "facts": [
+        "Svensk mästare i futsal 2021, 2020.",
+        "Lade ner sin futsalverksamhet inför säsongen 2025/26, varpå FC Real Internacional behöll sin SFL-plats.",
+        "Spelar inte i Svenska Futsalligan säsongen 2025/26."
+      ],
+      "source": {
+        "label": "SvFF — futsalhistorik",
+        "url": "https://www.svenskfotboll.se/futsal/serier/historik/"
+      }
+    },
+    {
+      "id": "ifk-goteborg",
+      "type": "svensk",
+      "flag": "🇸🇪",
+      "name": "IFK Göteborg",
+      "sub": "Svensk futsal · Historisk SM-mästare",
+      "country": "Sverige",
+      "tagline": "Svensk mästare i futsal 2016, 2015.",
+      "stats": [
+        {
+          "label": "SM-guld",
+          "value": "2"
+        },
+        {
+          "label": "Guldår",
+          "value": "2016, 2015"
+        }
+      ],
+      "facts": [
+        "Svensk mästare i futsal 2016, 2015.",
+        "Har damlag i Regionala Futsalligan (RFL Götaland) säsongen 2025/26.",
+        "Spelar inte i Svenska Futsalligan säsongen 2025/26."
+      ],
+      "source": {
+        "label": "SvFF — futsalhistorik",
+        "url": "https://www.svenskfotboll.se/futsal/serier/historik/"
+      }
+    },
+    {
+      "id": "malmo-city",
+      "type": "svensk",
+      "flag": "🇸🇪",
+      "name": "Malmö City",
+      "sub": "Svensk futsal · Historisk SM-mästare",
+      "country": "Sverige",
+      "tagline": "Svensk mästare i futsal 2014.",
+      "stats": [
+        {
+          "label": "SM-guld",
+          "value": "1"
+        },
+        {
+          "label": "Guldår",
+          "value": "2014"
+        }
+      ],
+      "facts": [
+        "Svensk mästare i futsal 2014.",
+        "Spelar inte i Svenska Futsalligan säsongen 2025/26."
+      ],
+      "source": {
+        "label": "SvFF — futsalhistorik",
+        "url": "https://www.svenskfotboll.se/futsal/serier/historik/"
+      }
+    },
+    {
+      "id": "goteborg-fc",
+      "type": "svensk",
+      "flag": "🇸🇪",
+      "name": "Göteborg FC",
+      "sub": "Svensk futsal · Historisk SM-mästare",
+      "country": "Sverige",
+      "tagline": "Svensk mästare i futsal 2013.",
+      "stats": [
+        {
+          "label": "SM-guld",
+          "value": "1"
+        },
+        {
+          "label": "Guldår",
+          "value": "2013"
+        }
+      ],
+      "facts": [
+        "Svensk mästare i futsal 2013.",
+        "Spelar inte i Svenska Futsalligan säsongen 2025/26."
+      ],
+      "source": {
+        "label": "SvFF — futsalhistorik",
+        "url": "https://www.svenskfotboll.se/futsal/serier/historik/"
+      }
+    },
+    {
+      "id": "fc-ibra",
+      "type": "svensk",
+      "flag": "🇸🇪",
+      "name": "FC Ibra",
+      "sub": "Svensk futsal · Historisk SM-mästare",
+      "country": "Sverige",
+      "tagline": "Svensk mästare i futsal 2012.",
+      "stats": [
+        {
+          "label": "SM-guld",
+          "value": "1"
+        },
+        {
+          "label": "Guldår",
+          "value": "2012"
+        }
+      ],
+      "facts": [
+        "Svensk mästare i futsal 2012.",
+        "Spelar inte i Svenska Futsalligan säsongen 2025/26."
+      ],
+      "source": {
+        "label": "SvFF — futsalhistorik",
+        "url": "https://www.svenskfotboll.se/futsal/serier/historik/"
+      }
+    },
+    {
+      "id": "falcao-fc-stockholm",
+      "type": "svensk",
+      "flag": "🇸🇪",
+      "name": "Falcao FC Stockholm",
+      "sub": "Svensk futsal · Historisk SM-mästare",
+      "country": "Sverige",
+      "tagline": "Svensk mästare i futsal 2011.",
+      "stats": [
+        {
+          "label": "SM-guld",
+          "value": "1"
+        },
+        {
+          "label": "Guldår",
+          "value": "2011"
+        }
+      ],
+      "facts": [
+        "Svensk mästare i futsal 2011.",
+        "Spelar inte i Svenska Futsalligan säsongen 2025/26."
+      ],
+      "source": {
+        "label": "SvFF — futsalhistorik",
+        "url": "https://www.svenskfotboll.se/futsal/serier/historik/"
+      }
+    },
+    {
+      "id": "vimmerby-if",
+      "type": "svensk",
+      "flag": "🇸🇪",
+      "name": "Vimmerby IF",
+      "sub": "Svensk futsal · Historisk SM-mästare",
+      "country": "Sverige",
+      "tagline": "Svensk mästare i futsal 2010.",
+      "stats": [
+        {
+          "label": "SM-guld",
+          "value": "1"
+        },
+        {
+          "label": "Guldår",
+          "value": "2010"
+        }
+      ],
+      "facts": [
+        "Svensk mästare i futsal 2010.",
+        "Spelar inte i Svenska Futsalligan säsongen 2025/26."
+      ],
+      "source": {
+        "label": "SvFF — futsalhistorik",
+        "url": "https://www.svenskfotboll.se/futsal/serier/historik/"
+      }
+    },
+    {
+      "id": "skovde-aik",
+      "type": "svensk",
+      "flag": "🇸🇪",
+      "name": "Skövde AIK",
+      "sub": "Svensk futsal · Historisk SM-mästare",
+      "country": "Sverige",
+      "tagline": "Svensk mästare i futsal 2009, 2008, 2007, 2006.",
+      "stats": [
+        {
+          "label": "SM-guld",
+          "value": "4"
+        },
+        {
+          "label": "Guldår",
+          "value": "2009, 2008, 2007, 2006"
+        }
+      ],
+      "facts": [
+        "Svensk mästare i futsal 2009, 2008, 2007, 2006.",
+        "Spelar inte i Svenska Futsalligan säsongen 2025/26."
+      ],
+      "source": {
+        "label": "SvFF — futsalhistorik",
+        "url": "https://www.svenskfotboll.se/futsal/serier/historik/"
+      }
+    },
+    {
+      "id": "backatorp-if",
+      "type": "svensk",
+      "flag": "🇸🇪",
+      "name": "Backatorp IF",
+      "sub": "Svensk futsal · RFL dam · RFL Götaland",
+      "country": "Sverige",
+      "tagline": "Damlag i RFL Götaland säsongen 2025/26.",
+      "stats": [
+        {
+          "label": "Serie",
+          "value": "RFL Götaland"
+        },
+        {
+          "label": "Nivå",
+          "value": "RFL (dam)"
+        }
+      ],
+      "facts": [
+        "Spelar i RFL Götaland säsongen 2025/26."
+      ],
+      "source": {
+        "label": "SvFF — RFL-premiär",
+        "url": "https://www.svenskfotboll.se/nyheter/serier/2025/10/rfl-premiar-i-helgen"
+      }
+    },
+    {
+      "id": "sodra-harene-if",
+      "type": "svensk",
+      "flag": "🇸🇪",
+      "name": "Södra Härene IF",
+      "sub": "Svensk futsal · RFL dam · RFL Götaland",
+      "country": "Sverige",
+      "tagline": "Damlag i RFL Götaland säsongen 2025/26.",
+      "stats": [
+        {
+          "label": "Serie",
+          "value": "RFL Götaland"
+        },
+        {
+          "label": "Nivå",
+          "value": "RFL (dam)"
+        }
+      ],
+      "facts": [
+        "Spelar i RFL Götaland säsongen 2025/26."
+      ],
+      "source": {
+        "label": "SvFF — RFL-premiär",
+        "url": "https://www.svenskfotboll.se/nyheter/serier/2025/10/rfl-premiar-i-helgen"
+      }
+    },
+    {
+      "id": "ifk-kumla",
+      "type": "svensk",
+      "flag": "🇸🇪",
+      "name": "IFK Kumla",
+      "sub": "Svensk futsal · RFL dam · RFL Svealand",
+      "country": "Sverige",
+      "tagline": "Damlag i RFL Svealand säsongen 2025/26.",
+      "stats": [
+        {
+          "label": "Serie",
+          "value": "RFL Svealand"
+        },
+        {
+          "label": "Nivå",
+          "value": "RFL (dam)"
+        }
+      ],
+      "facts": [
+        "Spelar i RFL Svealand säsongen 2025/26."
+      ],
+      "source": {
+        "label": "SvFF — RFL-premiär",
+        "url": "https://www.svenskfotboll.se/nyheter/serier/2025/10/rfl-premiar-i-helgen"
+      }
+    },
+    {
+      "id": "motala-futsalklubb",
+      "type": "svensk",
+      "flag": "🇸🇪",
+      "name": "Motala Futsalklubb",
+      "sub": "Svensk futsal · RFL dam · RFL Svealand",
+      "country": "Sverige",
+      "tagline": "Damlag i RFL Svealand säsongen 2025/26.",
+      "stats": [
+        {
+          "label": "Serie",
+          "value": "RFL Svealand"
+        },
+        {
+          "label": "Nivå",
+          "value": "RFL (dam)"
+        }
+      ],
+      "facts": [
+        "Spelar i RFL Svealand säsongen 2025/26."
+      ],
+      "source": {
+        "label": "SvFF — RFL-premiär",
+        "url": "https://www.svenskfotboll.se/nyheter/serier/2025/10/rfl-premiar-i-helgen"
+      }
+    },
+    {
+      "id": "svartinge-sk",
+      "type": "svensk",
+      "flag": "🇸🇪",
+      "name": "Svärtinge SK",
+      "sub": "Svensk futsal · RFL dam · RFL Svealand",
+      "country": "Sverige",
+      "tagline": "Damlag i RFL Svealand säsongen 2025/26.",
+      "stats": [
+        {
+          "label": "Serie",
+          "value": "RFL Svealand"
+        },
+        {
+          "label": "Nivå",
+          "value": "RFL (dam)"
+        }
+      ],
+      "facts": [
+        "Spelar i RFL Svealand säsongen 2025/26."
+      ],
+      "source": {
+        "label": "SvFF — RFL-premiär",
+        "url": "https://www.svenskfotboll.se/nyheter/serier/2025/10/rfl-premiar-i-helgen"
+      }
+    },
+    {
+      "id": "sodertalje-futsal-club",
+      "type": "svensk",
+      "flag": "🇸🇪",
+      "name": "Södertälje Futsal Club",
+      "sub": "Svensk futsal · RFL dam · RFL Svealand",
+      "country": "Sverige",
+      "tagline": "Damlag i RFL Svealand säsongen 2025/26.",
+      "stats": [
+        {
+          "label": "Serie",
+          "value": "RFL Svealand"
+        },
+        {
+          "label": "Nivå",
+          "value": "RFL (dam)"
+        }
+      ],
+      "facts": [
+        "Spelar i RFL Svealand säsongen 2025/26."
+      ],
+      "source": {
+        "label": "SvFF — RFL-premiär",
+        "url": "https://www.svenskfotboll.se/nyheter/serier/2025/10/rfl-premiar-i-helgen"
+      }
+    },
+    {
+      "id": "vallentuna-bk",
+      "type": "svensk",
+      "flag": "🇸🇪",
+      "name": "Vallentuna BK",
+      "sub": "Svensk futsal · RFL dam · RFL Svealand",
+      "country": "Sverige",
+      "tagline": "Damlag i RFL Svealand säsongen 2025/26.",
+      "stats": [
+        {
+          "label": "Serie",
+          "value": "RFL Svealand"
+        },
+        {
+          "label": "Nivå",
+          "value": "RFL (dam)"
+        }
+      ],
+      "facts": [
+        "Spelar i RFL Svealand säsongen 2025/26."
+      ],
+      "source": {
+        "label": "SvFF — RFL-premiär",
+        "url": "https://www.svenskfotboll.se/nyheter/serier/2025/10/rfl-premiar-i-helgen"
+      }
+    },
+    {
+      "id": "viggbyholms-ik",
+      "type": "svensk",
+      "flag": "🇸🇪",
+      "name": "Viggbyholms IK",
+      "sub": "Svensk futsal · RFL dam · RFL Svealand",
+      "country": "Sverige",
+      "tagline": "Damlag i RFL Svealand säsongen 2025/26.",
+      "stats": [
+        {
+          "label": "Serie",
+          "value": "RFL Svealand"
+        },
+        {
+          "label": "Nivå",
+          "value": "RFL (dam)"
+        }
+      ],
+      "facts": [
+        "Spelar i RFL Svealand säsongen 2025/26."
+      ],
+      "source": {
+        "label": "SvFF — RFL-premiär",
+        "url": "https://www.svenskfotboll.se/nyheter/serier/2025/10/rfl-premiar-i-helgen"
+      }
+    },
+    {
+      "id": "rfl-gotaland",
+      "type": "svensk",
+      "flag": "🇸🇪",
+      "name": "RFL Götaland",
+      "sub": "Svensk futsal · Damserie i RFL",
+      "country": "Sverige",
+      "tagline": "RFL Götaland — 6 lag säsongen 2025/26.",
+      "stats": [
+        {
+          "label": "Antal lag",
+          "value": "6"
+        },
+        {
+          "label": "Nivå",
+          "value": "RFL (dam)"
+        }
+      ],
+      "facts": [
+        "Lag säsongen 2025/26: Backatorp IF, Borås AIK, IFK Göteborg, Skoftebyns IF, Södra Härene IF, Uddevalla Futsal Club."
+      ],
+      "source": {
+        "label": "SvFF — RFL-premiär",
+        "url": "https://www.svenskfotboll.se/nyheter/serier/2025/10/rfl-premiar-i-helgen"
+      }
+    },
+    {
+      "id": "rfl-svealand",
+      "type": "svensk",
+      "flag": "🇸🇪",
+      "name": "RFL Svealand",
+      "sub": "Svensk futsal · Damserie i RFL",
+      "country": "Sverige",
+      "tagline": "RFL Svealand — 7 lag säsongen 2025/26.",
+      "stats": [
+        {
+          "label": "Antal lag",
+          "value": "7"
+        },
+        {
+          "label": "Nivå",
+          "value": "RFL (dam)"
+        }
+      ],
+      "facts": [
+        "Lag säsongen 2025/26: IFK Kumla, Motala Futsalklubb, Svärtinge SK, Södertälje Futsal Club, Vallentuna BK, Viggbyholms IK, Örebro Futsal Club."
+      ],
+      "source": {
+        "label": "SvFF — RFL-premiär",
+        "url": "https://www.svenskfotboll.se/nyheter/serier/2025/10/rfl-premiar-i-helgen"
+      }
+    },
+    {
+      "id": "distrikt-bohuslan-dal",
+      "type": "svensk",
+      "flag": "🇸🇪",
+      "name": "Bohuslän-Dal",
+      "sub": "Svensk futsal · Distriktsförbund (SDF)",
+      "country": "Sverige",
+      "tagline": "Fotbollsdistrikt med 1 lag i Svenska Futsalligan.",
+      "stats": [
+        {
+          "label": "Lag i SFL",
+          "value": "1"
+        }
+      ],
+      "facts": [
+        "SFL-lag från distriktet 2025/26: Uddevalla Futsal Club.",
+        "Distriktsförbund under Svenska Fotbollförbundet — futsalserierna under SFL administreras på distriktsnivå."
+      ],
+      "source": {
+        "label": "Svenska Futsalligan",
+        "url": "https://svenskafutsalligan.se/"
+      }
+    },
+    {
+      "id": "distrikt-goteborg",
+      "type": "svensk",
+      "flag": "🇸🇪",
+      "name": "Göteborg",
+      "sub": "Svensk futsal · Distriktsförbund (SDF)",
+      "country": "Sverige",
+      "tagline": "Fotbollsdistrikt med 1 lag i Svenska Futsalligan.",
+      "stats": [
+        {
+          "label": "Lag i SFL",
+          "value": "1"
+        }
+      ],
+      "facts": [
+        "SFL-lag från distriktet 2025/26: FC Ljiljan Göteborg.",
+        "Distriktsförbund under Svenska Fotbollförbundet — futsalserierna under SFL administreras på distriktsnivå."
+      ],
+      "source": {
+        "label": "Svenska Futsalligan",
+        "url": "https://svenskafutsalligan.se/"
+      }
+    },
+    {
+      "id": "distrikt-smaland",
+      "type": "svensk",
+      "flag": "🇸🇪",
+      "name": "Småland",
+      "sub": "Svensk futsal · Distriktsförbund (SDF)",
+      "country": "Sverige",
+      "tagline": "Fotbollsdistrikt med 3 lag i Svenska Futsalligan.",
+      "stats": [
+        {
+          "label": "Lag i SFL",
+          "value": "3"
+        }
+      ],
+      "facts": [
+        "SFL-lag från distriktet 2025/26: FC Kalmar, Kalmar United FK, FC Real Internacional.",
+        "Distriktsförbund under Svenska Fotbollförbundet — futsalserierna under SFL administreras på distriktsnivå."
+      ],
+      "source": {
+        "label": "Svenska Futsalligan",
+        "url": "https://svenskafutsalligan.se/"
+      }
+    },
+    {
+      "id": "distrikt-stockholm",
+      "type": "svensk",
+      "flag": "🇸🇪",
+      "name": "Stockholm",
+      "sub": "Svensk futsal · Distriktsförbund (SDF)",
+      "country": "Sverige",
+      "tagline": "Fotbollsdistrikt med 1 lag i Svenska Futsalligan.",
+      "stats": [
+        {
+          "label": "Lag i SFL",
+          "value": "1"
+        }
+      ],
+      "facts": [
+        "SFL-lag från distriktet 2025/26: Söder Futsalklubb.",
+        "Distriktsförbund under Svenska Fotbollförbundet — futsalserierna under SFL administreras på distriktsnivå."
+      ],
+      "source": {
+        "label": "Svenska Futsalligan",
+        "url": "https://svenskafutsalligan.se/"
+      }
+    },
+    {
+      "id": "distrikt-vastergotland",
+      "type": "svensk",
+      "flag": "🇸🇪",
+      "name": "Västergötland",
+      "sub": "Svensk futsal · Distriktsförbund (SDF)",
+      "country": "Sverige",
+      "tagline": "Fotbollsdistrikt med 2 lag i Svenska Futsalligan.",
+      "stats": [
+        {
+          "label": "Lag i SFL",
+          "value": "2"
+        }
+      ],
+      "facts": [
+        "SFL-lag från distriktet 2025/26: Skoftebyns IF, Borås AIK.",
+        "Distriktsförbund under Svenska Fotbollförbundet — futsalserierna under SFL administreras på distriktsnivå."
+      ],
+      "source": {
+        "label": "Svenska Futsalligan",
+        "url": "https://svenskafutsalligan.se/"
+      }
+    },
+    {
+      "id": "distrikt-orebro",
+      "type": "svensk",
+      "flag": "🇸🇪",
+      "name": "Örebro",
+      "sub": "Svensk futsal · Distriktsförbund (SDF)",
+      "country": "Sverige",
+      "tagline": "Fotbollsdistrikt med 2 lag i Svenska Futsalligan.",
+      "stats": [
+        {
+          "label": "Lag i SFL",
+          "value": "2"
+        }
+      ],
+      "facts": [
+        "SFL-lag från distriktet 2025/26: Örebro Futsal Club, Örebro SK Futsalklubb.",
+        "Distriktsförbund under Svenska Fotbollförbundet — futsalserierna under SFL administreras på distriktsnivå."
+      ],
+      "source": {
+        "label": "Svenska Futsalligan",
+        "url": "https://svenskafutsalligan.se/"
+      }
+    },
+    {
+      "id": "distrikt-ostergotland",
+      "type": "svensk",
+      "flag": "🇸🇪",
+      "name": "Östergötland",
+      "sub": "Svensk futsal · Distriktsförbund (SDF)",
+      "country": "Sverige",
+      "tagline": "Fotbollsdistrikt med 2 lag i Svenska Futsalligan.",
+      "stats": [
+        {
+          "label": "Lag i SFL",
+          "value": "2"
+        }
+      ],
+      "facts": [
+        "SFL-lag från distriktet 2025/26: Ektorp FK, Norrköping Futsal Klubb.",
+        "Distriktsförbund under Svenska Fotbollförbundet — futsalserierna under SFL administreras på distriktsnivå."
+      ],
+      "source": {
+        "label": "Svenska Futsalligan",
+        "url": "https://svenskafutsalligan.se/"
+      }
+    },
+    {
+      "id": "diego-roncaglio",
+      "type": "spelare",
+      "flag": "🇧🇷",
+      "name": "Diego Roncáglio",
+      "sub": "Landslagsspelare · Brasilien · Målvakt",
+      "country": "Brasilien",
+      "tagline": "Målvakt i Brasiliens futsallandslag.",
+      "profile": {
+        "nationality": "Brasilien",
+        "position": "Målvakt"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Brasilien"
+        },
+        {
+          "label": "Position",
+          "value": "Målvakt"
+        }
+      ],
+      "facts": [
+        "Uttagen i Brasiliens landslagstrupp — VM-trupp 2024."
+      ],
+      "source": {
+        "label": "Wikipedia — FIFA Futsal World Cup",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
+      }
+    },
+    {
+      "id": "willian-dorn",
+      "type": "spelare",
+      "flag": "🇧🇷",
+      "name": "Willian Dorn",
+      "sub": "Landslagsspelare · Brasilien · Målvakt",
+      "country": "Brasilien",
+      "tagline": "Målvakt i Brasiliens futsallandslag.",
+      "profile": {
+        "nationality": "Brasilien",
+        "position": "Målvakt"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Brasilien"
+        },
+        {
+          "label": "Position",
+          "value": "Målvakt"
+        }
+      ],
+      "facts": [
+        "Uttagen i Brasiliens landslagstrupp — VM-trupp 2024."
+      ],
+      "source": {
+        "label": "Wikipedia — FIFA Futsal World Cup",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
+      }
+    },
+    {
+      "id": "marlon-araujo",
+      "type": "spelare",
+      "flag": "🇧🇷",
+      "name": "Marlon Araújo",
+      "sub": "Landslagsspelare · Brasilien · Fixo",
+      "country": "Brasilien",
+      "tagline": "Fixo i Brasiliens futsallandslag.",
+      "profile": {
+        "nationality": "Brasilien",
+        "position": "Fixo"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Brasilien"
+        },
+        {
+          "label": "Position",
+          "value": "Fixo"
+        }
+      ],
+      "facts": [
+        "Uttagen i Brasiliens landslagstrupp — VM-trupp 2024."
+      ],
+      "source": {
+        "label": "Wikipedia — FIFA Futsal World Cup",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
+      }
+    },
+    {
+      "id": "neguinho",
+      "type": "spelare",
+      "flag": "🇧🇷",
+      "name": "Neguinho",
+      "sub": "Landslagsspelare · Brasilien · Fixo",
+      "country": "Brasilien",
+      "tagline": "Fixo i Brasiliens futsallandslag.",
+      "profile": {
+        "nationality": "Brasilien",
+        "position": "Fixo"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Brasilien"
+        },
+        {
+          "label": "Position",
+          "value": "Fixo"
+        }
+      ],
+      "facts": [
+        "Uttagen i Brasiliens landslagstrupp — VM-trupp 2024."
+      ],
+      "source": {
+        "label": "Wikipedia — FIFA Futsal World Cup",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
+      }
+    },
+    {
+      "id": "marcel-marques",
+      "type": "spelare",
+      "flag": "🇧🇷",
+      "name": "Marcel Marques",
+      "sub": "Landslagsspelare · Brasilien · Universal",
+      "country": "Brasilien",
+      "tagline": "Universal i Brasiliens futsallandslag.",
+      "profile": {
+        "nationality": "Brasilien",
+        "position": "Universal"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Brasilien"
+        },
+        {
+          "label": "Position",
+          "value": "Universal"
+        }
+      ],
+      "facts": [
+        "Uttagen i Brasiliens landslagstrupp — VM-trupp 2024."
+      ],
+      "source": {
+        "label": "Wikipedia — FIFA Futsal World Cup",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
+      }
+    },
+    {
+      "id": "marcenio",
+      "type": "spelare",
+      "flag": "🇧🇷",
+      "name": "Marcênio",
+      "sub": "Landslagsspelare · Brasilien · Universal",
+      "country": "Brasilien",
+      "tagline": "Universal i Brasiliens futsallandslag.",
+      "profile": {
+        "nationality": "Brasilien",
+        "position": "Universal"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Brasilien"
+        },
+        {
+          "label": "Position",
+          "value": "Universal"
+        }
+      ],
+      "facts": [
+        "Uttagen i Brasiliens landslagstrupp — VM-trupp 2024."
+      ],
+      "source": {
+        "label": "Wikipedia — FIFA Futsal World Cup",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
+      }
+    },
+    {
+      "id": "arthur-guilherme",
+      "type": "spelare",
+      "flag": "🇧🇷",
+      "name": "Arthur Guilherme",
+      "sub": "Landslagsspelare · Brasilien · Universal",
+      "country": "Brasilien",
+      "tagline": "Universal i Brasiliens futsallandslag.",
+      "profile": {
+        "nationality": "Brasilien",
+        "position": "Universal"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Brasilien"
+        },
+        {
+          "label": "Position",
+          "value": "Universal"
+        }
+      ],
+      "facts": [
+        "Uttagen i Brasiliens landslagstrupp — VM-trupp 2024."
+      ],
+      "source": {
+        "label": "Wikipedia — FIFA Futsal World Cup",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
+      }
+    },
+    {
+      "id": "felipe-valerio",
+      "type": "spelare",
+      "flag": "🇧🇷",
+      "name": "Felipe Valério",
+      "sub": "Landslagsspelare · Brasilien · Universal",
+      "country": "Brasilien",
+      "tagline": "Universal i Brasiliens futsallandslag.",
+      "profile": {
+        "nationality": "Brasilien",
+        "position": "Universal"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Brasilien"
+        },
+        {
+          "label": "Position",
+          "value": "Universal"
+        }
+      ],
+      "facts": [
+        "Uttagen i Brasiliens landslagstrupp — VM-trupp 2024."
+      ],
+      "source": {
+        "label": "Wikipedia — FIFA Futsal World Cup",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
+      }
+    },
+    {
+      "id": "rafa-santos",
+      "type": "spelare",
+      "flag": "🇧🇷",
+      "name": "Rafa Santos",
+      "sub": "Landslagsspelare · Brasilien · Pivot",
+      "country": "Brasilien",
+      "tagline": "Pivot i Brasiliens futsallandslag.",
+      "profile": {
+        "nationality": "Brasilien",
+        "position": "Pivot"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Brasilien"
+        },
+        {
+          "label": "Position",
+          "value": "Pivot"
+        }
+      ],
+      "facts": [
+        "Uttagen i Brasiliens landslagstrupp — VM-trupp 2024."
+      ],
+      "source": {
+        "label": "Wikipedia — FIFA Futsal World Cup",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
+      }
+    },
+    {
+      "id": "edu-sousa",
+      "type": "spelare",
+      "flag": "🇵🇹",
+      "name": "Edu Sousa",
+      "sub": "Landslagsspelare · Portugal · Målvakt",
+      "country": "Portugal",
+      "tagline": "Målvakt i Portugals futsallandslag.",
+      "profile": {
+        "nationality": "Portugal",
+        "position": "Målvakt"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Portugal"
+        },
+        {
+          "label": "Position",
+          "value": "Målvakt"
+        }
+      ],
+      "facts": [
+        "Uttagen i Portugals landslagstrupp — landskamper sep 2025."
+      ],
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
+    },
+    {
+      "id": "andre-correia",
+      "type": "spelare",
+      "flag": "🇵🇹",
+      "name": "André Correia",
+      "sub": "Landslagsspelare · Portugal · Målvakt",
+      "country": "Portugal",
+      "tagline": "Målvakt i Portugals futsallandslag.",
+      "profile": {
+        "nationality": "Portugal",
+        "position": "Målvakt"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Portugal"
+        },
+        {
+          "label": "Position",
+          "value": "Målvakt"
+        }
+      ],
+      "facts": [
+        "Uttagen i Portugals landslagstrupp — landskamper sep 2025."
+      ],
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
+    },
+    {
+      "id": "andre-coelho",
+      "type": "spelare",
+      "flag": "🇵🇹",
+      "name": "André Coelho",
+      "sub": "Landslagsspelare · Portugal · Fixo",
+      "country": "Portugal",
+      "tagline": "Fixo i Portugals futsallandslag.",
+      "profile": {
+        "nationality": "Portugal",
+        "position": "Fixo"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Portugal"
+        },
+        {
+          "label": "Position",
+          "value": "Fixo"
+        }
+      ],
+      "facts": [
+        "Uttagen i Portugals landslagstrupp — landskamper sep 2025."
+      ],
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
+    },
+    {
+      "id": "tomas-paco",
+      "type": "spelare",
+      "flag": "🇵🇹",
+      "name": "Tomás Paçó",
+      "sub": "Landslagsspelare · Portugal · Fixo",
+      "country": "Portugal",
+      "tagline": "Fixo i Portugals futsallandslag.",
+      "profile": {
+        "nationality": "Portugal",
+        "position": "Fixo"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Portugal"
+        },
+        {
+          "label": "Position",
+          "value": "Fixo"
+        }
+      ],
+      "facts": [
+        "Uttagen i Portugals landslagstrupp — landskamper sep 2025."
+      ],
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
+    },
+    {
+      "id": "afonso-jesus",
+      "type": "spelare",
+      "flag": "🇵🇹",
+      "name": "Afonso Jesus",
+      "sub": "Landslagsspelare · Portugal · Fixo",
+      "country": "Portugal",
+      "tagline": "Fixo i Portugals futsallandslag.",
+      "profile": {
+        "nationality": "Portugal",
+        "position": "Fixo"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Portugal"
+        },
+        {
+          "label": "Position",
+          "value": "Fixo"
+        }
+      ],
+      "facts": [
+        "Uttagen i Portugals landslagstrupp — landskamper sep 2025."
+      ],
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
+    },
+    {
+      "id": "bruno-maior",
+      "type": "spelare",
+      "flag": "🇵🇹",
+      "name": "Bruno Maior",
+      "sub": "Landslagsspelare · Portugal · Fixo",
+      "country": "Portugal",
+      "tagline": "Fixo i Portugals futsallandslag.",
+      "profile": {
+        "nationality": "Portugal",
+        "position": "Fixo"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Portugal"
+        },
+        {
+          "label": "Position",
+          "value": "Fixo"
+        }
+      ],
+      "facts": [
+        "Uttagen i Portugals landslagstrupp — landskamper sep 2025."
+      ],
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
+    },
+    {
+      "id": "silvestre-ferreira",
+      "type": "spelare",
+      "flag": "🇵🇹",
+      "name": "Silvestre Ferreira",
+      "sub": "Landslagsspelare · Portugal · Universal",
+      "country": "Portugal",
+      "tagline": "Universal i Portugals futsallandslag.",
+      "profile": {
+        "nationality": "Portugal",
+        "position": "Universal"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Portugal"
+        },
+        {
+          "label": "Position",
+          "value": "Universal"
+        }
+      ],
+      "facts": [
+        "Uttagen i Portugals landslagstrupp — landskamper sep 2025."
+      ],
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
+    },
+    {
+      "id": "diogo-santos",
+      "type": "spelare",
+      "flag": "🇵🇹",
+      "name": "Diogo Santos",
+      "sub": "Landslagsspelare · Portugal · Universal",
+      "country": "Portugal",
+      "tagline": "Universal i Portugals futsallandslag.",
+      "profile": {
+        "nationality": "Portugal",
+        "position": "Universal"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Portugal"
+        },
+        {
+          "label": "Position",
+          "value": "Universal"
+        }
+      ],
+      "facts": [
+        "Uttagen i Portugals landslagstrupp — landskamper sep 2025."
+      ],
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
+    },
+    {
+      "id": "pauleta",
+      "type": "spelare",
+      "flag": "🇵🇹",
+      "name": "Pauleta",
+      "sub": "Landslagsspelare · Portugal · Universal",
+      "country": "Portugal",
+      "tagline": "Universal i Portugals futsallandslag.",
+      "profile": {
+        "nationality": "Portugal",
+        "position": "Universal"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Portugal"
+        },
+        {
+          "label": "Position",
+          "value": "Universal"
+        }
+      ],
+      "facts": [
+        "Uttagen i Portugals landslagstrupp — landskamper sep 2025."
+      ],
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
+    },
+    {
+      "id": "bruno-pinto",
+      "type": "spelare",
+      "flag": "🇵🇹",
+      "name": "Bruno Pinto",
+      "sub": "Landslagsspelare · Portugal · Universal",
+      "country": "Portugal",
+      "tagline": "Universal i Portugals futsallandslag.",
+      "profile": {
+        "nationality": "Portugal",
+        "position": "Universal"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Portugal"
+        },
+        {
+          "label": "Position",
+          "value": "Universal"
+        }
+      ],
+      "facts": [
+        "Uttagen i Portugals landslagstrupp — landskamper sep 2025."
+      ],
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
+    },
+    {
+      "id": "tiago-brito",
+      "type": "spelare",
+      "flag": "🇵🇹",
+      "name": "Tiago Brito",
+      "sub": "Landslagsspelare · Portugal · Universal",
+      "country": "Portugal",
+      "tagline": "Universal i Portugals futsallandslag.",
+      "profile": {
+        "nationality": "Portugal",
+        "position": "Universal"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Portugal"
+        },
+        {
+          "label": "Position",
+          "value": "Universal"
+        }
+      ],
+      "facts": [
+        "Uttagen i Portugals landslagstrupp — landskamper sep 2025."
+      ],
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
+    },
+    {
+      "id": "edmilson-kutchy",
+      "type": "spelare",
+      "flag": "🇵🇹",
+      "name": "Edmilson Kutchy",
+      "sub": "Landslagsspelare · Portugal · Universal",
+      "country": "Portugal",
+      "tagline": "Universal i Portugals futsallandslag.",
+      "profile": {
+        "nationality": "Portugal",
+        "position": "Universal"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Portugal"
+        },
+        {
+          "label": "Position",
+          "value": "Universal"
+        }
+      ],
+      "facts": [
+        "Uttagen i Portugals landslagstrupp — landskamper sep 2025."
+      ],
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
+    },
+    {
+      "id": "pedro-santos",
+      "type": "spelare",
+      "flag": "🇵🇹",
+      "name": "Pedro Santos",
+      "sub": "Landslagsspelare · Portugal · Pivot",
+      "country": "Portugal",
+      "tagline": "Pivot i Portugals futsallandslag.",
+      "profile": {
+        "nationality": "Portugal",
+        "position": "Pivot"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Portugal"
+        },
+        {
+          "label": "Position",
+          "value": "Pivot"
+        }
+      ],
+      "facts": [
+        "Uttagen i Portugals landslagstrupp — landskamper sep 2025."
+      ],
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
+    },
+    {
+      "id": "ruben-gois",
+      "type": "spelare",
+      "flag": "🇵🇹",
+      "name": "Rúben Góis",
+      "sub": "Landslagsspelare · Portugal · Pivot",
+      "country": "Portugal",
+      "tagline": "Pivot i Portugals futsallandslag.",
+      "profile": {
+        "nationality": "Portugal",
+        "position": "Pivot"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Portugal"
+        },
+        {
+          "label": "Position",
+          "value": "Pivot"
+        }
+      ],
+      "facts": [
+        "Uttagen i Portugals landslagstrupp — landskamper sep 2025."
+      ],
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
+    },
+    {
+      "id": "jesus-herrero",
+      "type": "spelare",
+      "flag": "🇪🇸",
+      "name": "Jesús Herrero",
+      "sub": "Landslagsspelare · Spanien · Målvakt",
+      "country": "Spanien",
+      "tagline": "Målvakt i Spaniens futsallandslag.",
+      "profile": {
+        "nationality": "Spanien",
+        "position": "Målvakt"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Spanien"
+        },
+        {
+          "label": "Position",
+          "value": "Målvakt"
+        }
+      ],
+      "facts": [
+        "Uttagen i Spaniens landslagstrupp — VM-kval 2023."
+      ],
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
+    },
+    {
+      "id": "antonio-perez",
+      "type": "spelare",
+      "flag": "🇪🇸",
+      "name": "Antonio Pérez",
+      "sub": "Landslagsspelare · Spanien · Fixo",
+      "country": "Spanien",
+      "tagline": "Fixo i Spaniens futsallandslag.",
+      "profile": {
+        "nationality": "Spanien",
+        "position": "Fixo"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Spanien"
+        },
+        {
+          "label": "Position",
+          "value": "Fixo"
+        }
+      ],
+      "facts": [
+        "Uttagen i Spaniens landslagstrupp — VM-kval 2023."
+      ],
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
+    },
+    {
+      "id": "francisco-tomaz",
+      "type": "spelare",
+      "flag": "🇪🇸",
+      "name": "Francisco Tomaz",
+      "sub": "Landslagsspelare · Spanien · Fixo",
+      "country": "Spanien",
+      "tagline": "Fixo i Spaniens futsallandslag.",
+      "profile": {
+        "nationality": "Spanien",
+        "position": "Fixo"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Spanien"
+        },
+        {
+          "label": "Position",
+          "value": "Fixo"
+        }
+      ],
+      "facts": [
+        "Uttagen i Spaniens landslagstrupp — VM-kval 2023."
+      ],
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
+    },
+    {
+      "id": "boyis",
+      "type": "spelare",
+      "flag": "🇪🇸",
+      "name": "Boyis",
+      "sub": "Landslagsspelare · Spanien · Fixo",
+      "country": "Spanien",
+      "tagline": "Fixo i Spaniens futsallandslag.",
+      "profile": {
+        "nationality": "Spanien",
+        "position": "Fixo"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Spanien"
+        },
+        {
+          "label": "Position",
+          "value": "Fixo"
+        }
+      ],
+      "facts": [
+        "Uttagen i Spaniens landslagstrupp — VM-kval 2023."
+      ],
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
+    },
+    {
+      "id": "miguel-mellado",
+      "type": "spelare",
+      "flag": "🇪🇸",
+      "name": "Miguel Mellado",
+      "sub": "Landslagsspelare · Spanien · Fixo",
+      "country": "Spanien",
+      "tagline": "Fixo i Spaniens futsallandslag.",
+      "profile": {
+        "nationality": "Spanien",
+        "position": "Fixo"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Spanien"
+        },
+        {
+          "label": "Position",
+          "value": "Fixo"
+        }
+      ],
+      "facts": [
+        "Uttagen i Spaniens landslagstrupp — VM-kval 2023."
+      ],
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
+    },
+    {
+      "id": "raul-gomez",
+      "type": "spelare",
+      "flag": "🇪🇸",
+      "name": "Raúl Gómez",
+      "sub": "Landslagsspelare · Spanien · Ala",
+      "country": "Spanien",
+      "tagline": "Ala i Spaniens futsallandslag.",
+      "profile": {
+        "nationality": "Spanien",
+        "position": "Ala"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Spanien"
+        },
+        {
+          "label": "Position",
+          "value": "Ala"
+        }
+      ],
+      "facts": [
+        "Uttagen i Spaniens landslagstrupp — VM-kval 2023."
+      ],
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
+    },
+    {
+      "id": "pablo-ramirez",
+      "type": "spelare",
+      "flag": "🇪🇸",
+      "name": "Pablo Ramírez",
+      "sub": "Landslagsspelare · Spanien · Ala",
+      "country": "Spanien",
+      "tagline": "Ala i Spaniens futsallandslag.",
+      "profile": {
+        "nationality": "Spanien",
+        "position": "Ala"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Spanien"
+        },
+        {
+          "label": "Position",
+          "value": "Ala"
+        }
+      ],
+      "facts": [
+        "Uttagen i Spaniens landslagstrupp — VM-kval 2023."
+      ],
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
+    },
+    {
+      "id": "adolfo-fernandez",
+      "type": "spelare",
+      "flag": "🇪🇸",
+      "name": "Adolfo Fernández",
+      "sub": "Landslagsspelare · Spanien · Ala",
+      "country": "Spanien",
+      "tagline": "Ala i Spaniens futsallandslag.",
+      "profile": {
+        "nationality": "Spanien",
+        "position": "Ala"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Spanien"
+        },
+        {
+          "label": "Position",
+          "value": "Ala"
+        }
+      ],
+      "facts": [
+        "Uttagen i Spaniens landslagstrupp — VM-kval 2023."
+      ],
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
+    },
+    {
+      "id": "eric-perez",
+      "type": "spelare",
+      "flag": "🇪🇸",
+      "name": "Eric Pérez",
+      "sub": "Landslagsspelare · Spanien · Ala",
+      "country": "Spanien",
+      "tagline": "Ala i Spaniens futsallandslag.",
+      "profile": {
+        "nationality": "Spanien",
+        "position": "Ala"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Spanien"
+        },
+        {
+          "label": "Position",
+          "value": "Ala"
+        }
+      ],
+      "facts": [
+        "Uttagen i Spaniens landslagstrupp — VM-kval 2023."
+      ],
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
+    },
+    {
+      "id": "javier-minguez",
+      "type": "spelare",
+      "flag": "🇪🇸",
+      "name": "Javier Mínguez",
+      "sub": "Landslagsspelare · Spanien · Ala",
+      "country": "Spanien",
+      "tagline": "Ala i Spaniens futsallandslag.",
+      "profile": {
+        "nationality": "Spanien",
+        "position": "Ala"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Spanien"
+        },
+        {
+          "label": "Position",
+          "value": "Ala"
+        }
+      ],
+      "facts": [
+        "Uttagen i Spaniens landslagstrupp — VM-kval 2023."
+      ],
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
+    },
+    {
+      "id": "chino",
+      "type": "spelare",
+      "flag": "🇪🇸",
+      "name": "Chino",
+      "sub": "Landslagsspelare · Spanien · Ala",
+      "country": "Spanien",
+      "tagline": "Ala i Spaniens futsallandslag.",
+      "profile": {
+        "nationality": "Spanien",
+        "position": "Ala"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Spanien"
+        },
+        {
+          "label": "Position",
+          "value": "Ala"
+        }
+      ],
+      "facts": [
+        "Uttagen i Spaniens landslagstrupp — VM-kval 2023."
+      ],
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
+    },
+    {
+      "id": "raul-campos",
+      "type": "spelare",
+      "flag": "🇪🇸",
+      "name": "Raúl Campos",
+      "sub": "Landslagsspelare · Spanien · Ala",
+      "country": "Spanien",
+      "tagline": "Ala i Spaniens futsallandslag.",
+      "profile": {
+        "nationality": "Spanien",
+        "position": "Ala"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Spanien"
+        },
+        {
+          "label": "Position",
+          "value": "Ala"
+        }
+      ],
+      "facts": [
+        "Uttagen i Spaniens landslagstrupp — VM-kval 2023."
+      ],
+      "source": {
+        "label": "UEFA — Futsal EURO",
+        "url": "https://www.uefa.com/futsaleuro/news/029e-1f0306490e6a-f0ee1a82c598-1000--who-has-won-the-futsal-euro-champions-teams-players-scor/"
+      }
+    },
+    {
+      "id": "nicolas-sarmiento",
+      "type": "spelare",
+      "flag": "🇦🇷",
+      "name": "Nicolás Sarmiento",
+      "sub": "Landslagsspelare · Argentina · Målvakt",
+      "country": "Argentina",
+      "tagline": "Målvakt i Argentinas futsallandslag.",
+      "profile": {
+        "nationality": "Argentina",
+        "position": "Målvakt"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Argentina"
+        },
+        {
+          "label": "Position",
+          "value": "Målvakt"
+        }
+      ],
+      "facts": [
+        "Uttagen i Argentinas landslagstrupp — Finalissima 2022."
+      ],
+      "source": {
+        "label": "Wikipedia — FIFA Futsal World Cup",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
+      }
+    },
+    {
+      "id": "matias-starna",
+      "type": "spelare",
+      "flag": "🇦🇷",
+      "name": "Matías Starna",
+      "sub": "Landslagsspelare · Argentina · Målvakt",
+      "country": "Argentina",
+      "tagline": "Målvakt i Argentinas futsallandslag.",
+      "profile": {
+        "nationality": "Argentina",
+        "position": "Målvakt"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Argentina"
+        },
+        {
+          "label": "Position",
+          "value": "Målvakt"
+        }
+      ],
+      "facts": [
+        "Uttagen i Argentinas landslagstrupp — Finalissima 2022."
+      ],
+      "source": {
+        "label": "Wikipedia — FIFA Futsal World Cup",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
+      }
+    },
+    {
+      "id": "lucas-tripodi",
+      "type": "spelare",
+      "flag": "🇦🇷",
+      "name": "Lucas Tripodi",
+      "sub": "Landslagsspelare · Argentina · Fixo",
+      "country": "Argentina",
+      "tagline": "Fixo i Argentinas futsallandslag.",
+      "profile": {
+        "nationality": "Argentina",
+        "position": "Fixo"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Argentina"
+        },
+        {
+          "label": "Position",
+          "value": "Fixo"
+        }
+      ],
+      "facts": [
+        "Uttagen i Argentinas landslagstrupp — Finalissima 2022."
+      ],
+      "source": {
+        "label": "Wikipedia — FIFA Futsal World Cup",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
+      }
+    },
+    {
+      "id": "maximiliano-rescia",
+      "type": "spelare",
+      "flag": "🇦🇷",
+      "name": "Maximiliano Rescia",
+      "sub": "Landslagsspelare · Argentina · Fixo",
+      "country": "Argentina",
+      "tagline": "Fixo i Argentinas futsallandslag.",
+      "profile": {
+        "nationality": "Argentina",
+        "position": "Fixo"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Argentina"
+        },
+        {
+          "label": "Position",
+          "value": "Fixo"
+        }
+      ],
+      "facts": [
+        "Uttagen i Argentinas landslagstrupp — Finalissima 2022."
+      ],
+      "source": {
+        "label": "Wikipedia — FIFA Futsal World Cup",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
+      }
+    },
+    {
+      "id": "sebastian-corso",
+      "type": "spelare",
+      "flag": "🇦🇷",
+      "name": "Sebastián Corso",
+      "sub": "Landslagsspelare · Argentina · Fixo",
+      "country": "Argentina",
+      "tagline": "Fixo i Argentinas futsallandslag.",
+      "profile": {
+        "nationality": "Argentina",
+        "position": "Fixo"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Argentina"
+        },
+        {
+          "label": "Position",
+          "value": "Fixo"
+        }
+      ],
+      "facts": [
+        "Uttagen i Argentinas landslagstrupp — Finalissima 2022."
+      ],
+      "source": {
+        "label": "Wikipedia — FIFA Futsal World Cup",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
+      }
+    },
+    {
+      "id": "angel-claudino",
+      "type": "spelare",
+      "flag": "🇦🇷",
+      "name": "Ángel Claudino",
+      "sub": "Landslagsspelare · Argentina · Universal",
+      "country": "Argentina",
+      "tagline": "Universal i Argentinas futsallandslag.",
+      "profile": {
+        "nationality": "Argentina",
+        "position": "Universal"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Argentina"
+        },
+        {
+          "label": "Position",
+          "value": "Universal"
+        }
+      ],
+      "facts": [
+        "Uttagen i Argentinas landslagstrupp — Finalissima 2022."
+      ],
+      "source": {
+        "label": "Wikipedia — FIFA Futsal World Cup",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
+      }
+    },
+    {
+      "id": "lucas-bolo",
+      "type": "spelare",
+      "flag": "🇦🇷",
+      "name": "Lucas Bolo",
+      "sub": "Landslagsspelare · Argentina · Universal",
+      "country": "Argentina",
+      "tagline": "Universal i Argentinas futsallandslag.",
+      "profile": {
+        "nationality": "Argentina",
+        "position": "Universal"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Argentina"
+        },
+        {
+          "label": "Position",
+          "value": "Universal"
+        }
+      ],
+      "facts": [
+        "Uttagen i Argentinas landslagstrupp — Finalissima 2022."
+      ],
+      "source": {
+        "label": "Wikipedia — FIFA Futsal World Cup",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
+      }
+    },
+    {
+      "id": "gerardo-menzeguez",
+      "type": "spelare",
+      "flag": "🇦🇷",
+      "name": "Gerardo Menzeguez",
+      "sub": "Landslagsspelare · Argentina · Universal",
+      "country": "Argentina",
+      "tagline": "Universal i Argentinas futsallandslag.",
+      "profile": {
+        "nationality": "Argentina",
+        "position": "Universal"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Argentina"
+        },
+        {
+          "label": "Position",
+          "value": "Universal"
+        }
+      ],
+      "facts": [
+        "Uttagen i Argentinas landslagstrupp — Finalissima 2022."
+      ],
+      "source": {
+        "label": "Wikipedia — FIFA Futsal World Cup",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
+      }
+    },
+    {
+      "id": "santiago-basile",
+      "type": "spelare",
+      "flag": "🇦🇷",
+      "name": "Santiago Basile",
+      "sub": "Landslagsspelare · Argentina · Universal",
+      "country": "Argentina",
+      "tagline": "Universal i Argentinas futsallandslag.",
+      "profile": {
+        "nationality": "Argentina",
+        "position": "Universal"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Argentina"
+        },
+        {
+          "label": "Position",
+          "value": "Universal"
+        }
+      ],
+      "facts": [
+        "Uttagen i Argentinas landslagstrupp — Finalissima 2022."
+      ],
+      "source": {
+        "label": "Wikipedia — FIFA Futsal World Cup",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
+      }
+    },
+    {
+      "id": "constantino-vaporaki",
+      "type": "spelare",
+      "flag": "🇦🇷",
+      "name": "Constantino Vaporaki",
+      "sub": "Landslagsspelare · Argentina · Universal",
+      "country": "Argentina",
+      "tagline": "Universal i Argentinas futsallandslag.",
+      "profile": {
+        "nationality": "Argentina",
+        "position": "Universal"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Argentina"
+        },
+        {
+          "label": "Position",
+          "value": "Universal"
+        }
+      ],
+      "facts": [
+        "Uttagen i Argentinas landslagstrupp — Finalissima 2022."
+      ],
+      "source": {
+        "label": "Wikipedia — FIFA Futsal World Cup",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
+      }
+    },
+    {
+      "id": "pablo-taborda",
+      "type": "spelare",
+      "flag": "🇦🇷",
+      "name": "Pablo Taborda",
+      "sub": "Landslagsspelare · Argentina · Universal",
+      "country": "Argentina",
+      "tagline": "Universal i Argentinas futsallandslag.",
+      "profile": {
+        "nationality": "Argentina",
+        "position": "Universal"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Argentina"
+        },
+        {
+          "label": "Position",
+          "value": "Universal"
+        }
+      ],
+      "facts": [
+        "Uttagen i Argentinas landslagstrupp — Finalissima 2022."
+      ],
+      "source": {
+        "label": "Wikipedia — FIFA Futsal World Cup",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
+      }
+    },
+    {
+      "id": "matias-edelstein",
+      "type": "spelare",
+      "flag": "🇦🇷",
+      "name": "Matías Edelstein",
+      "sub": "Landslagsspelare · Argentina · Universal",
+      "country": "Argentina",
+      "tagline": "Universal i Argentinas futsallandslag.",
+      "profile": {
+        "nationality": "Argentina",
+        "position": "Universal"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Argentina"
+        },
+        {
+          "label": "Position",
+          "value": "Universal"
+        }
+      ],
+      "facts": [
+        "Uttagen i Argentinas landslagstrupp — Finalissima 2022."
+      ],
+      "source": {
+        "label": "Wikipedia — FIFA Futsal World Cup",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
+      }
+    },
+    {
+      "id": "cristian-borruto",
+      "type": "spelare",
+      "flag": "🇦🇷",
+      "name": "Cristian Borruto",
+      "sub": "Landslagsspelare · Argentina · Pivot",
+      "country": "Argentina",
+      "tagline": "Pivot i Argentinas futsallandslag.",
+      "profile": {
+        "nationality": "Argentina",
+        "position": "Pivot"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Argentina"
+        },
+        {
+          "label": "Position",
+          "value": "Pivot"
+        }
+      ],
+      "facts": [
+        "Uttagen i Argentinas landslagstrupp — Finalissima 2022."
+      ],
+      "source": {
+        "label": "Wikipedia — FIFA Futsal World Cup",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
+      }
+    },
+    {
+      "id": "alan-brandi",
+      "type": "spelare",
+      "flag": "🇦🇷",
+      "name": "Alan Brandi",
+      "sub": "Landslagsspelare · Argentina · Pivot",
+      "country": "Argentina",
+      "tagline": "Pivot i Argentinas futsallandslag.",
+      "profile": {
+        "nationality": "Argentina",
+        "position": "Pivot"
+      },
+      "stats": [
+        {
+          "label": "Landslag",
+          "value": "Argentina"
+        },
+        {
+          "label": "Position",
+          "value": "Pivot"
+        }
+      ],
+      "facts": [
+        "Uttagen i Argentinas landslagstrupp — Finalissima 2022."
+      ],
+      "source": {
+        "label": "Wikipedia — FIFA Futsal World Cup",
+        "url": "https://en.wikipedia.org/wiki/FIFA_Futsal_World_Cup"
+      }
+    },
+    {
+      "id": "kalmar-ff",
+      "type": "svensk",
+      "flag": "🇸🇪",
+      "name": "Kalmar FF",
+      "sub": "Fotboll · Kalmar",
+      "country": "Sverige",
+      "tagline": "Allsvensk fotbollsklubb — vägen in i futsalen för Romário Sipião.",
+      "stats": [
+        {
+          "label": "Idrott",
+          "value": "Fotboll"
+        },
+        {
+          "label": "Ort",
+          "value": "Kalmar"
+        }
+      ],
+      "facts": [
+        "Romário Sipião lämnade Kalmar FF som 40-åring för att bli spelande huvudtränare i FC Kalmar.",
+        "Ingen futsalverksamhet i klubben — tas med här för att kedjan från spelarnas bakgrund ska hålla ihop."
+      ],
+      "officialUrl": "https://kalmarff.se/",
+      "officialLabel": "Kalmar FF:s egen sida",
+      "source": {
+        "label": "Kalmar FF",
+        "url": "https://kalmarff.se/"
+      }
+    },
+    {
+      "id": "bsf-abj-bochnia",
+      "type": "klubb",
+      "flag": "🇵🇱",
+      "name": "BSF ABJ Bochnia (Polen)",
+      "sub": "Klubblag · Polen",
+      "country": "Polen",
+      "tagline": "Polsk futsalklubb — svensk landslagsman i truppen.",
+      "stats": [
+        {
+          "label": "Land",
+          "value": "Polen"
+        },
+        {
+          "label": "Svensk i truppen",
+          "value": "Viktor Sääf"
+        }
+      ],
+      "facts": [
+        "Viktor Sääf spelade här när han togs ut i Sveriges VM-kvaltrupp i april 2026.",
+        "Enda klubben utanför Sverige i den svenska VM-kvaltruppen."
+      ],
+      "source": {
+        "label": "SvFF — VM-kvaltruppen",
+        "url": "https://www.svenskfotboll.se/nyheter/landslag/2026/03/futsal-vm-kvaltrupp/"
+      }
+    },
+    {
+      "id": "pontuz-lofgren-arena",
+      "type": "svensk",
+      "flag": "🏟️",
+      "name": "Pontuz Löfgren Arena",
+      "sub": "Svensk futsal · Arena · Kalmar",
+      "country": "Sverige",
+      "tagline": "Hemmaarena för FC Kalmar.",
+      "stats": [
+        {
+          "label": "Hemmalag",
+          "value": "FC Kalmar"
+        },
+        {
+          "label": "Ort",
+          "value": "Kalmar"
+        }
+      ],
+      "facts": [
+        "FC Kalmars hemmaarena i Svenska Futsalligan.",
+        "Här spelade klubben hem SM-guldet 2026."
+      ],
+      "source": {
+        "label": "FC Kalmar — herrlaget",
+        "url": "https://www.fckalmar.se/fc-kalmar-herr/"
+      }
+    },
+    {
+      "id": "agnebergshallen",
+      "type": "svensk",
+      "flag": "🏟️",
+      "name": "Agnebergshallen",
+      "sub": "Svensk futsal · Arena · Uddevalla",
+      "country": "Sverige",
+      "tagline": "Hemmaarena för Uddevalla Futsal Club.",
+      "stats": [
+        {
+          "label": "Hemmalag",
+          "value": "Uddevalla Futsal Club"
+        },
+        {
+          "label": "Ort",
+          "value": "Uddevalla"
+        }
+      ],
+      "facts": [
+        "Uddevalla Futsal Clubs hemmahall.",
+        "Svenskt publikrekord i futsal: 1 754 åskådare mot Örebro SK den 25 februari 2017."
+      ],
+      "source": {
+        "label": "Uddevalla Futsal",
+        "url": "https://uddevallafutsal.se/"
+      }
+    },
+    {
+      "id": "farstahallen",
+      "type": "svensk",
+      "flag": "🏟️",
+      "name": "Farstahallen",
+      "sub": "Svensk futsal · Arena · Stockholm",
+      "country": "Sverige",
+      "tagline": "Hemmaarena för Söder Futsal.",
+      "stats": [
+        {
+          "label": "Hemmalag",
+          "value": "Söder Futsal"
+        },
+        {
+          "label": "Ort",
+          "value": "Stockholm"
+        }
+      ],
+      "facts": [
+        "Söder Futsals hemmaborg på Söderort i Stockholm."
+      ],
+      "source": {
+        "label": "Söder Futsal Herrar — laget.se",
+        "url": "https://www.soderfutsal.se/"
+      }
+    },
+    {
+      "id": "aby-arena",
+      "type": "svensk",
+      "flag": "🏟️",
+      "name": "Åby Arena",
+      "sub": "Svensk futsal · Arena · Norrköping",
+      "country": "Sverige",
+      "tagline": "Hemmaarena för Norrköping FK.",
+      "stats": [
+        {
+          "label": "Hemmalag",
+          "value": "Norrköping FK"
+        },
+        {
+          "label": "Ort",
+          "value": "Norrköping"
+        }
+      ],
+      "facts": [
+        "Norrköping FK:s hemmaarena i Svenska Futsalligan."
+      ],
+      "source": {
+        "label": "Norrköping Futsal Klubb",
+        "url": "https://www.svenskalag.se/norrkopingfutsal-herrar"
       }
     }
   ],
