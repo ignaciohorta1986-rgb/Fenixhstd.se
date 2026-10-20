@@ -1,0 +1,79 @@
+# Publicerar nyheter från söndagsrutinen (Claude) på fenixhstd.se.
+# Rutinen pushar news.json till grenen claude/fenix-nyheter. Det här flödet
+# kontrollerar att bara news.json ändrats och att filen är giltig, lägger den
+# på main och startar bygget av hemsidan. Allt annat stoppas.
+name: Automatiska nyheter
+
+on:
+  push:
+    branches:
+      - 'claude/fenix-nyheter'
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: auto-nyheter
+  cancel-in-progress: false
+
+jobs:
+  publicera:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hämta main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Kontrollera att bara news.json har ändrats
+        run: |
+          git fetch origin "${GITHUB_REF_NAME}"
+          CHANGED=$(git diff --name-only origin/main...FETCH_HEAD)
+          echo "Ändrade filer: ${CHANGED:-inga}"
+          if [ -z "$CHANGED" ]; then
+            echo "Inget att publicera."
+            exit 0
+          fi
+          if [ "$CHANGED" != "news.json" ]; then
+            echo "::error::Grenen ändrar mer än news.json och publiceras inte automatiskt."
+            exit 1
+          fi
+          git checkout FETCH_HEAD -- news.json
+
+      - name: Validera news.json
+        run: |
+          python3 - <<'EOF'
+          import json, re
+          with open("news.json", encoding="utf-8") as f:
+              news = json.load(f).get("news")
+          assert isinstance(news, list) and 1 <= len(news) <= 10, "news ska vara en lista med 1–10 nyheter"
+          for n in news:
+              missing = {"date", "title", "text", "tag"} - set(n)
+              assert not missing, f"saknar fält {missing}: {n.get('title')}"
+              assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", n["date"]), f"fel datum: {n['date']}"
+              assert 0 < len(n["title"]) <= 80, f"titeln är tom eller för lång: {n['title']}"
+              farligt = re.search(r"<\s*(script|iframe|object|embed|form)|\son\w+\s*=|javascript:", n["text"], re.I)
+              assert not farligt, f"otillåten HTML i: {n['title']}"
+          print(f"news.json OK: {len(news)} nyheter")
+          EOF
+
+      - name: Publicera till main
+        run: |
+          if git diff --cached --quiet -- news.json; then
+            echo "news.json är redan identisk med main."
+            exit 0
+          fi
+          git config user.name "Fenix nyhetsrobot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Nyheter: automatisk publicering från söndagsrutinen" -- news.json
+          git push origin HEAD:main
+
+      - name: Starta bygget av hemsidan
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${GITHUB_REPOSITORY}/pages/builds" || echo "Bygget startar av pushen ändå."
+
+      - name: Städa bort grenen
+        run: git push origin --delete "${GITHUB_REF_NAME}"
