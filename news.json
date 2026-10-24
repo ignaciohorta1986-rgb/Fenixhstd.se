@@ -1,6 +1,12 @@
 {
   "news": [
     {
+      "date": "2026-10-24",
+      "title": "Det rör på sig bakom kulisserna 🔥",
+      "text": "Det har varit en intensiv höst för Fenix Halmstad Idrottsklubb.<br><br>Vi har suttit ner med flera aktörer i Halmstad som delar vår vilja att ge barn och unga en trygg plats för e-sport, och samtalen har varit väldigt positiva. Mer än så kan vi inte säga just nu, men du får veta först när något är klart. Ett konkret steg är redan taget: föreningen är nu registrerad i Halmstads kommuns nya system för föreningar, bidrag och bokning.<br><br>Har du anmält ditt intresse? Då är du med från start.",
+      "tag": "Föreningen"
+    },
+    {
       "date": "2026-08-24",
       "title": "Fenix reser sig ur askan 🔥",
       "text": "Glöm bilden av vad en idrottsförening ska vara.<br><br>Sedan juni är Fenix Halmstad Idrottsklubb officiellt godkänd — eget RF-nummer, 67682, en fullvärdig del av svensk idrott. Och sedan dess har vi byggt. Stadgar. Verksamhetsplan. Budget. Ekonomin på plats. Allt det där ingen ser, men som avgör om en klubb håller eller faller.<br><br>Grunden sitter. Nu börjar det roliga.<br><br>Vi kör e-sport <strong>och</strong> futsal. Samma förening. Tangentbordet och futsalgolvet, sida vid sida. Varför? För att skärmen aldrig var fienden — ensamheten var det. Vi möter er där ni redan finns, och tar med er ut. Det finns knappt en enda klubb i Sverige som gör bådadera.<br><br>Och Halmstad behöver det. Kommunens egen LUPP-undersökning 2024: <strong>55 procent</strong> av ungdomarna här avstår från fritidsaktiviteter för att familjens pengar inte räcker till. Mer än varannan. Det är den muren vi river.<br><br>Har du skickat in en intresseanmälan? Då står du först i kön. Du får veta först — före alla andra. Håll ut, för de närmaste månaderna blir det fart på riktigt.<br><br>Fenix reser sig ur askan. Häng med från dag ett. 🔥",
@@ -23,12 +29,6 @@
       "title": "Fenix_hstd är officiellt igång!",
       "text": "Vi är en ny ideell förening i Halmstad med fokus på e-sport, futsal, musik och gemenskap. Välkommen att följa vår resa — det bästa är framför oss.",
       "tag": "Föreningen"
-    },
-    {
-      "date": "2026-05-10",
-      "title": "Vår hemsida är live!",
-      "text": "fenixhstd.se är nu online! Här hittar du allt om föreningen, våra aktiviteter och hur du går med. Välkommen!",
-      "tag": "Webb"
     }
   ]
 }
