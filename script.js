@@ -1,31 +1,28 @@
 /* =============================================
-   FENIX_HSTD — Script
+   FENIX_HSTD — Script (design nov 2026)
    ============================================= */
 
-// ── Navbar scroll ──
-const navbar = document.getElementById('navbar');
-window.addEventListener('scroll', () => {
-  navbar.classList.toggle('scrolled', window.scrollY > 40);
-}, { passive: true });
+const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-// ── Burger meny ──
+// ── Navbar vid scroll ──
+const navbar = document.getElementById('navbar');
+const onScroll = () => navbar.classList.toggle('scrolled', window.scrollY > 30);
+window.addEventListener('scroll', onScroll, { passive: true });
+onScroll();
+
+// ── Mobilmeny ──
 const burger = document.getElementById('burger');
 const navLinks = document.getElementById('nav-links');
 
-burger.addEventListener('click', () => {
-  navLinks.classList.toggle('open');
-  const isOpen = navLinks.classList.contains('open');
-  burger.querySelectorAll('span')[0].style.transform = isOpen ? 'rotate(45deg) translate(5px, 5px)' : '';
-  burger.querySelectorAll('span')[1].style.opacity = isOpen ? '0' : '';
-  burger.querySelectorAll('span')[2].style.transform = isOpen ? 'rotate(-45deg) translate(5px, -5px)' : '';
-});
-
-navLinks.querySelectorAll('a').forEach(a => {
-  a.addEventListener('click', () => {
-    navLinks.classList.remove('open');
-    burger.querySelectorAll('span').forEach(s => { s.style.transform = ''; s.style.opacity = ''; });
-  });
-});
+function setMenu(open) {
+  navLinks.classList.toggle('open', open);
+  burger.setAttribute('aria-expanded', String(open));
+  burger.setAttribute('aria-label', open ? 'Stäng menyn' : 'Öppna menyn');
+  document.body.style.overflow = open ? 'hidden' : '';
+}
+burger.addEventListener('click', () => setMenu(!navLinks.classList.contains('open')));
+navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+document.addEventListener('keydown', e => { if (e.key === 'Escape') setMenu(false); });
 
 // ── Scroll reveal ──
 const revealObserver = new IntersectionObserver(entries => {
@@ -35,127 +32,105 @@ const revealObserver = new IntersectionObserver(entries => {
       revealObserver.unobserve(entry.target);
     }
   });
-}, { threshold: 0.12, rootMargin: '0px 0px -60px 0px' });
+}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+const observeReveal = root => root.querySelectorAll('.reveal:not(.visible)').forEach(el => revealObserver.observe(el));
+observeReveal(document);
 
-document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
-
-// ── Canvas partiklar (glödande ember-effekt) ──
+// ── Glöd-partiklar (färre, pausas när fliken inte syns) ──
 const canvas = document.getElementById('canvas');
-const ctx = canvas.getContext('2d');
+if (canvas && !reduceMotion) {
+  const ctx = canvas.getContext('2d');
+  let W, H;
+  const resize = () => { W = canvas.width = window.innerWidth; H = canvas.height = window.innerHeight; };
+  resize();
+  window.addEventListener('resize', resize, { passive: true });
 
-let W = window.innerWidth;
-let H = window.innerHeight;
-canvas.width = W;
-canvas.height = H;
+  const COLORS = ['255,69,0', '255,214,10', '255,107,53', '68,170,255'];
+  const count = window.innerWidth < 700 ? 28 : 60;
+  const particles = Array.from({ length: count }, () => spawn(true));
 
-window.addEventListener('resize', () => {
-  W = canvas.width = window.innerWidth;
-  H = canvas.height = window.innerHeight;
-}, { passive: true });
-
-const COLORS = [
-  'rgba(255, 69, 0, VAL)',
-  'rgba(255, 214, 10, VAL)',
-  'rgba(0, 85, 255, VAL)',
-  'rgba(68, 170, 255, VAL)',
-  'rgba(255, 69, 0, VAL)',
-  'rgba(0, 85, 255, VAL)',
-  'rgba(255, 140, 0, VAL)',
-  'rgba(80, 160, 255, VAL)',
-];
-
-class Particle {
-  constructor() {
-    this.reset(true);
+  function spawn(initial) {
+    return {
+      x: Math.random() * W,
+      y: initial ? Math.random() * H : H + 10,
+      r: Math.random() * 2.4 + 0.6,
+      vy: Math.random() * 0.6 + 0.2,
+      vx: (Math.random() - 0.5) * 0.3,
+      life: 0,
+      max: Math.random() * 240 + 140,
+      c: COLORS[Math.floor(Math.random() * COLORS.length)],
+    };
   }
 
-  reset(initial = false) {
-    this.x = Math.random() * W;
-    this.y = initial ? Math.random() * H : H + 10;
-    this.size = Math.random() * 3.2 + 0.6;
-    this.speedY = Math.random() * 0.7 + 0.25;
-    this.speedX = (Math.random() - 0.5) * 0.4;
-    this.life = 0;
-    this.maxLife = Math.random() * 220 + 120;
-    this.color = COLORS[Math.floor(Math.random() * COLORS.length)];
-    this.twinkle = Math.random() * Math.PI * 2;
-    this.hasGlow = Math.random() > 0.55;
-  }
+  let running = true;
+  document.addEventListener('visibilitychange', () => {
+    running = !document.hidden;
+    if (running) requestAnimationFrame(tick);
+  });
 
-  update() {
-    this.x += this.speedX + Math.sin(this.life * 0.018) * 0.35;
-    this.y -= this.speedY;
-    this.life++;
-    this.twinkle += 0.045;
-    if (this.y < -10 || this.life > this.maxLife) this.reset();
-  }
-
-  draw() {
-    const progress = this.life / this.maxLife;
-    const alpha = Math.sin(progress * Math.PI) * 0.8 * (0.65 + 0.35 * Math.sin(this.twinkle));
-    const col = this.color.replace('VAL', alpha.toFixed(3));
-    if (this.hasGlow) {
-      ctx.shadowBlur = 8;
-      ctx.shadowColor = col;
+  function tick() {
+    if (!running) return;
+    ctx.clearRect(0, 0, W, H);
+    for (let i = 0; i < particles.length; i++) {
+      const p = particles[i];
+      p.x += p.vx + Math.sin(p.life * 0.02) * 0.3;
+      p.y -= p.vy;
+      p.life++;
+      if (p.y < -10 || p.life > p.max) { particles[i] = spawn(false); continue; }
+      const a = Math.sin((p.life / p.max) * Math.PI) * 0.75;
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(${p.c},${a.toFixed(3)})`;
+      ctx.fill();
     }
-    ctx.beginPath();
-    ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-    ctx.fillStyle = col;
-    ctx.fill();
-    ctx.shadowBlur = 0;
+    requestAnimationFrame(tick);
   }
+  requestAnimationFrame(tick);
 }
 
-const PARTICLE_COUNT = 130;
-const particles = Array.from({ length: PARTICLE_COUNT }, () => new Particle());
+// ── Senaste nytt — från news.json ──
+const MONTHS = ['jan', 'feb', 'mar', 'apr', 'maj', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'];
+const fmtDate = iso => {
+  const [y, m, d] = iso.split('-').map(Number);
+  return `${d} ${MONTHS[m - 1]} ${y}`;
+};
+const esc = s => String(s).replace(/[&<>"]/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]));
 
-function animate() {
-  ctx.clearRect(0, 0, W, H);
-  particles.forEach(p => { p.update(); p.draw(); });
-  requestAnimationFrame(animate);
-}
-animate();
-
-// ── Senaste nytt — ladda från news.json ──
-fetch('news.json')
+fetch('news.json', { cache: 'no-cache' })
   .then(r => r.json())
   .then(data => {
     const grid = document.getElementById('news-grid');
     const items = (data.news || [])
-      .sort((a, b) => new Date(b.date) - new Date(a.date))
+      .slice()
+      .sort((a, b) => b.date.localeCompare(a.date))
       .slice(0, 3);
-    if (items.length === 0) {
+    if (!items.length) {
       grid.innerHTML = '<p class="news-empty">Inga nyheter just nu — följ oss på sociala medier!</p>';
       return;
     }
-    grid.innerHTML = items.map(n => `
-      <div class="news-card reveal visible">
-        ${n.tag ? `<span class="news-tag">${n.tag}</span>` : ''}
-        <span class="news-date">${n.date}</span>
-        <h3>${n.title}</h3>
+    // Texten i news.json får innehålla <br> och <strong>, som skrivs av föreningen själv.
+    grid.innerHTML = items.map((n, i) => `
+      <article class="panel news-card reveal${i === 0 ? ' featured' : ''}" style="--delay:${i * 0.08}s">
+        <div class="news-meta">
+          ${n.tag ? `<span class="news-tag">${esc(n.tag)}</span>` : ''}
+          <time class="news-date" datetime="${esc(n.date)}">${fmtDate(n.date)}</time>
+        </div>
+        <h3>${esc(n.title)}</h3>
         <p>${n.text}</p>
-      </div>`).join('');
+      </article>`).join('');
+    observeReveal(grid);
   })
   .catch(() => {
-    document.getElementById('news-grid').innerHTML =
-      '<p class="news-empty">Nyheter laddas snart.</p>';
+    document.getElementById('news-grid').innerHTML = '<p class="news-empty">Nyheter laddas snart.</p>';
   });
 
-// ── Smooth active nav link highlighting ──
-const sections = document.querySelectorAll('section[id]');
-const navAnchors = document.querySelectorAll('.nav-links a[href^="#"]');
-
+// ── Markera aktiv sektion i menyn ──
+const navAnchors = document.querySelectorAll('.nav-links a[href^="#"]:not(.btn)');
 const sectionObserver = new IntersectionObserver(entries => {
   entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      const id = entry.target.id;
-      navAnchors.forEach(a => {
-        a.style.color = a.getAttribute('href') === `#${id}`
-          ? 'var(--fire)'
-          : '';
-      });
-    }
+    if (!entry.isIntersecting) return;
+    const id = entry.target.id;
+    navAnchors.forEach(a => a.classList.toggle('active', a.getAttribute('href') === `#${id}`));
   });
-}, { threshold: 0.4 });
-
-sections.forEach(s => sectionObserver.observe(s));
+}, { threshold: 0.35 });
+document.querySelectorAll('main section[id]').forEach(s => sectionObserver.observe(s));

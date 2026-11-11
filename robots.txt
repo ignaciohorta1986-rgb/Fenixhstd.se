@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fenixhstd.se/sitemap.xml
