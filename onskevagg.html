@@ -122,16 +122,8 @@
     </div>
   </footer>
 
+  <script src="onskevagg.js"></script>
   <script>
-  // ── Inställningar (fylls i när Google-formuläret finns) ──
-  const CONFIG = {
-    // Formulärets "formResponse"-adress och fältets entry-id
-    formAction: '',
-    entryId: '',
-    // Publicerad CSV för fliken med GODKÄNDA önskningar (bara den fliken publiceras)
-    approvedCsv: '',
-  };
-
   const form = document.getElementById('wish-form');
   const wish = document.getElementById('wish');
   const count = document.getElementById('count');
@@ -141,104 +133,38 @@
   const feedCount = document.getElementById('feed-count');
 
   wish.addEventListener('input', () => { count.textContent = wish.value.length; });
-
   const setStatus = (msg, err = false) => { statusEl.textContent = msg; statusEl.classList.toggle('err', err); };
 
   form.addEventListener('submit', async e => {
     e.preventDefault();
     const text = wish.value.trim();
     if (text.length < 2) { setStatus('Skriv din önskan först.', true); wish.focus(); return; }
-    if (!CONFIG.formAction || !CONFIG.entryId) { setStatus('Önskeväggen öppnar snart.', true); return; }
     send.disabled = true;
     try {
-      const body = new URLSearchParams({ [CONFIG.entryId]: text });
-      await fetch(CONFIG.formAction, { method: 'POST', mode: 'no-cors', body });
+      await owSend(text);
       wish.value = ''; count.textContent = '0';
       setStatus('Tack! Din önskan syns på väggen när Fenix har läst den.');
-    } catch {
-      setStatus('Det gick inte att skicka. Försök igen om en stund.', true);
+    } catch (err) {
+      setStatus(err.message === 'inte kopplad' ? 'Önskeväggen öppnar snart.' : 'Det gick inte att skicka. Försök igen om en stund.', true);
     } finally {
       send.disabled = false;
     }
   });
 
-  // ── Väggen ──
-  function parseCsv(text) {
-    const rows = []; let row = [], cell = '', q = false;
-    for (let i = 0; i < text.length; i++) {
-      const c = text[i];
-      if (q) {
-        if (c === '"' && text[i + 1] === '"') { cell += '"'; i++; }
-        else if (c === '"') q = false;
-        else cell += c;
-      } else if (c === '"') q = true;
-      else if (c === ',') { row.push(cell); cell = ''; }
-      else if (c === '\n') { row.push(cell); rows.push(row); row = []; cell = ''; }
-      else if (c !== '\r') cell += c;
-    }
-    if (cell || row.length) { row.push(cell); rows.push(row); }
-    return rows;
-  }
-
-  function parseDate(s) {
-    const m = s && s.match(/(\d{1,4})[-/.](\d{1,2})[-/.](\d{2,4})\D+(\d{1,2}):(\d{2})(?::(\d{2}))?/);
-    if (!m) return null;
-    let [, a, b, c, h, mi, se] = m;
-    const [y, mo, d] = a.length === 4 ? [a, b, c] : [c, b, a];
-    return new Date(+y, +mo - 1, +d, +h, +mi, +(se || 0));
-  }
-
-  function ago(d) {
-    if (!d) return '';
-    const s = Math.max(0, (Date.now() - d.getTime()) / 1000);
-    if (s < 60) return 'nyss';
-    if (s < 3600) return `${Math.floor(s / 60)} min sedan`;
-    if (s < 86400) return `${Math.floor(s / 3600)} tim sedan`;
-    const days = Math.floor(s / 86400);
-    return days === 1 ? 'i går' : `${days} dagar sedan`;
-  }
-
-  const COLORS = ['linear-gradient(135deg,#ff4500,#ffd60a)', 'linear-gradient(135deg,#0055ff,#44aaff)',
-                  'linear-gradient(135deg,#ff6b35,#ff4500)', 'linear-gradient(135deg,#44aaff,#ffd60a)'];
-
   function render(items) {
     feed.innerHTML = '';
-    if (!items.length) {
+    if (!items || !items.length) {
       feed.innerHTML = '<li class="empty">Inga önskningar än. Bli den första!</li>';
       feedCount.textContent = '';
       return;
     }
     feedCount.textContent = `${items.length} st`;
-    items.forEach((it, i) => {
-      const li = document.createElement('li');
-      li.className = 'comment';
-      const av = document.createElement('div');
-      av.className = 'av'; av.textContent = '?'; av.setAttribute('aria-hidden', 'true');
-      av.style.setProperty('--av', COLORS[i % COLORS.length]);
-      const body = document.createElement('div');
-      const meta = document.createElement('div'); meta.className = 'meta';
-      const who = document.createElement('span'); who.className = 'who'; who.textContent = 'Anonym';
-      const t = document.createElement('time'); t.textContent = ago(it.date);
-      if (it.date) t.dateTime = it.date.toISOString();
-      meta.append(who, t);
-      const p = document.createElement('p'); p.textContent = it.text;
-      body.append(meta, p);
-      li.append(av, body);
-      feed.append(li);
-    });
+    items.forEach((it, i) => feed.append(owComment(it, i)));
   }
 
   async function loadWall() {
-    if (!CONFIG.approvedCsv) { render([]); return; }
-    try {
-      const r = await fetch(CONFIG.approvedCsv + (CONFIG.approvedCsv.includes('?') ? '&' : '?') + 't=' + Date.now());
-      const rows = parseCsv(await r.text()).filter(r => r.length >= 2 && r[1] && r[1].trim());
-      const data = rows.slice(1).map(r => ({ date: parseDate(r[0]), text: r[1].trim() }))
-        .sort((a, b) => (b.date || 0) - (a.date || 0));
-      render(data);
-    } catch {
-      feed.innerHTML = '<li class="empty">Väggen kunde inte laddas just nu.</li>';
-    }
+    try { render(await owLoadApproved()); }
+    catch { feed.innerHTML = '<li class="empty">Väggen kunde inte laddas just nu.</li>'; }
   }
   loadWall();
   setInterval(loadWall, 60000);
