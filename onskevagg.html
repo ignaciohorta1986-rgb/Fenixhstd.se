@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Önskeväggen — Fenix HSTD</title>
+  <meta name="description" content="Vad vill du att Fenix Halmstad Idrottsklubb ska göra? Skriv din önskan anonymt på Önskeväggen." />
+  <link rel="canonical" href="https://fenixhstd.se/onskevagg.html" />
+  <link rel="icon" type="image/png" sizes="64x64" href="images/site/favicon-64.png" />
+  <link rel="apple-touch-icon" href="images/site/apple-touch-icon.png" />
+  <meta name="theme-color" content="#0c1022" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://fenixhstd.se/onskevagg.html" />
+  <meta property="og:title" content="Önskeväggen — vad vill du att Fenix ska göra?" />
+  <meta property="og:description" content="Skriv din önskan anonymt. Fenix Halmstad Idrottsklubb läser allt." />
+  <meta property="og:image" content="https://fenixhstd.se/images/site/og-delningsbild.jpg" />
+  <meta name="robots" content="index, follow" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .wall-page { padding: calc(var(--nav-h) + 48px) 0 96px; position: relative; z-index: 2; }
+    .wall-wrap { max-width: 720px; margin: 0 auto; }
+    .wall-head h1 { font-size: clamp(2.2rem, 7vw, 3.6rem); font-weight: 900; text-transform: uppercase; margin-bottom: 14px; }
+    .wall-head h1 .f { background: var(--grad-fire); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .wall-head p { font-size: 1.05rem; margin-bottom: 28px; }
+
+    .composer { padding: 22px; margin-bottom: 14px; }
+    .composer label { display: block; font-family: var(--font-head); font-size: .75rem; letter-spacing: .2em; text-transform: uppercase; color: var(--blue-light); margin-bottom: 12px; }
+    .composer textarea {
+      width: 100%; min-height: 110px; resize: vertical;
+      background: rgba(12, 16, 34, .8); color: var(--text);
+      border: 1px solid var(--line-strong); border-radius: 10px;
+      padding: 14px 16px; font: inherit; font-size: 1rem; line-height: 1.5;
+    }
+    .composer textarea:focus { outline: 2px solid var(--gold); outline-offset: 2px; border-color: transparent; }
+    .composer-foot { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-top: 14px; flex-wrap: wrap; }
+    .composer-foot small { color: var(--text-muted); font-size: .85rem; }
+    .composer .btn[disabled] { opacity: .5; cursor: not-allowed; transform: none; }
+    .status { min-height: 1.5em; margin: 6px 2px 30px; font-weight: 600; color: var(--gold); }
+    .status.err { color: #ff8a65; }
+
+    .feed-head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 14px; }
+    .feed-head h2 { font-size: 1.1rem; text-transform: uppercase; letter-spacing: .06em; }
+    .feed-head span { color: var(--text-muted); font-size: .9rem; }
+    .feed { list-style: none; display: grid; gap: 12px; }
+    .comment {
+      display: grid; grid-template-columns: 44px 1fr; gap: 14px; padding: 16px 18px;
+      background: linear-gradient(180deg, rgba(21, 29, 50, .85), rgba(16, 22, 40, .85));
+      border: 1px solid var(--line); border-radius: 14px;
+    }
+    .comment .av {
+      width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center;
+      background: var(--av, var(--grad-fire)); font-family: var(--font-head); font-weight: 900; color: #160700; font-size: 1rem;
+    }
+    .comment .meta { display: flex; gap: 10px; align-items: baseline; margin-bottom: 4px; }
+    .comment .who { font-weight: 700; color: var(--text); font-size: .95rem; }
+    .comment time { color: var(--text-muted); font-size: .82rem; }
+    .comment p { color: var(--text); white-space: pre-wrap; overflow-wrap: anywhere; }
+    .empty { color: var(--text-muted); padding: 22px; text-align: center; border: 1px dashed var(--line-strong); border-radius: 14px; }
+    .rules { margin-top: 36px; font-size: .9rem; color: var(--text-muted); }
+    .rules a { font-weight: 600; }
+    .back { display: inline-block; margin-bottom: 26px; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Hoppa till innehållet</a>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <header id="navbar" class="scrolled">
+    <div class="nav-inner">
+      <a href="index.html" class="logo" aria-label="Fenix HSTD, till startsidan">
+        <img src="images/site/fenix-logo-96.png" width="40" height="40" alt="" class="logo-img" />
+        <span class="logo-fenix">FENIX</span><span class="logo-tag">HSTD</span>
+      </a>
+      <a href="index.html#ga-med" class="btn btn-fire btn-sm">Gå med</a>
+    </div>
+  </header>
+
+  <main id="main" class="wall-page">
+    <div class="container wall-wrap">
+      <a href="index.html" class="back">← fenixhstd.se</a>
+      <div class="wall-head">
+        <span class="hud-label">// Önskeväggen</span>
+        <h1>Vad vill du att <span class="f">Fenix</span> ska göra?</h1>
+        <p>Skriv din önskan. Du är anonym: inget namn, ingen inloggning. Allt läses av Fenix innan det syns på väggen.</p>
+      </div>
+
+      <form class="panel composer" id="wish-form" novalidate>
+        <label for="wish">Din önskan</label>
+        <textarea id="wish" name="wish" maxlength="280" required
+          placeholder="Till exempel ett spel, en turnering, musik eller något helt nytt"></textarea>
+        <div class="composer-foot">
+          <small><span id="count">0</span>/280 · Skriv inga namn eller telefonnummer</small>
+          <button type="submit" class="btn btn-fire btn-sm" id="send">Skicka</button>
+        </div>
+      </form>
+      <p class="status" id="status" role="status" aria-live="polite"></p>
+
+      <section aria-labelledby="feed-title">
+        <div class="feed-head">
+          <h2 id="feed-title">Önskningar</h2>
+          <span id="feed-count"></span>
+        </div>
+        <ul class="feed" id="feed">
+          <li class="empty">Väggen laddas …</li>
+        </ul>
+      </section>
+
+      <p class="rules">Väggen visar bara önskningar som Fenix har läst. Man kan inte svara på varandras önskningar.
+        Frågor? Mejla <a href="mailto:fenixhstd@gmail.com">fenixhstd@gmail.com</a>.</p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>© 2026 Fenix HSTD — Fenix Halmstad Idrottsklubb — Halmstad</p>
+        <p class="footer-motto">Rise from the ashes. 🔥</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+  // ── Inställningar (fylls i när Google-formuläret finns) ──
+  const CONFIG = {
+    // Formulärets "formResponse"-adress och fältets entry-id
+    formAction: '',
+    entryId: '',
+    // Publicerad CSV för fliken med GODKÄNDA önskningar (bara den fliken publiceras)
+    approvedCsv: '',
+  };
+
+  const form = document.getElementById('wish-form');
+  const wish = document.getElementById('wish');
+  const count = document.getElementById('count');
+  const statusEl = document.getElementById('status');
+  const send = document.getElementById('send');
+  const feed = document.getElementById('feed');
+  const feedCount = document.getElementById('feed-count');
+
+  wish.addEventListener('input', () => { count.textContent = wish.value.length; });
+
+  const setStatus = (msg, err = false) => { statusEl.textContent = msg; statusEl.classList.toggle('err', err); };
+
+  form.addEventListener('submit', async e => {
+    e.preventDefault();
+    const text = wish.value.trim();
+    if (text.length < 2) { setStatus('Skriv din önskan först.', true); wish.focus(); return; }
+    if (!CONFIG.formAction || !CONFIG.entryId) { setStatus('Önskeväggen öppnar snart.', true); return; }
+    send.disabled = true;
+    try {
+      const body = new URLSearchParams({ [CONFIG.entryId]: text });
+      await fetch(CONFIG.formAction, { method: 'POST', mode: 'no-cors', body });
+      wish.value = ''; count.textContent = '0';
+      setStatus('Tack! Din önskan syns på väggen när Fenix har läst den.');
+    } catch {
+      setStatus('Det gick inte att skicka. Försök igen om en stund.', true);
+    } finally {
+      send.disabled = false;
+    }
+  });
+
+  // ── Väggen ──
+  function parseCsv(text) {
+    const rows = []; let row = [], cell = '', q = false;
+    for (let i = 0; i < text.length; i++) {
+      const c = text[i];
+      if (q) {
+        if (c === '"' && text[i + 1] === '"') { cell += '"'; i++; }
+        else if (c === '"') q = false;
+        else cell += c;
+      } else if (c === '"') q = true;
+      else if (c === ',') { row.push(cell); cell = ''; }
+      else if (c === '\n') { row.push(cell); rows.push(row); row = []; cell = ''; }
+      else if (c !== '\r') cell += c;
+    }
+    if (cell || row.length) { row.push(cell); rows.push(row); }
+    return rows;
+  }
+
+  function parseDate(s) {
+    const m = s && s.match(/(\d{1,4})[-/.](\d{1,2})[-/.](\d{2,4})\D+(\d{1,2}):(\d{2})(?::(\d{2}))?/);
+    if (!m) return null;
+    let [, a, b, c, h, mi, se] = m;
+    const [y, mo, d] = a.length === 4 ? [a, b, c] : [c, b, a];
+    return new Date(+y, +mo - 1, +d, +h, +mi, +(se || 0));
+  }
+
+  function ago(d) {
+    if (!d) return '';
+    const s = Math.max(0, (Date.now() - d.getTime()) / 1000);
+    if (s < 60) return 'nyss';
+    if (s < 3600) return `${Math.floor(s / 60)} min sedan`;
+    if (s < 86400) return `${Math.floor(s / 3600)} tim sedan`;
+    const days = Math.floor(s / 86400);
+    return days === 1 ? 'i går' : `${days} dagar sedan`;
+  }
+
+  const COLORS = ['linear-gradient(135deg,#ff4500,#ffd60a)', 'linear-gradient(135deg,#0055ff,#44aaff)',
+                  'linear-gradient(135deg,#ff6b35,#ff4500)', 'linear-gradient(135deg,#44aaff,#ffd60a)'];
+
+  function render(items) {
+    feed.innerHTML = '';
+    if (!items.length) {
+      feed.innerHTML = '<li class="empty">Inga önskningar än. Bli den första!</li>';
+      feedCount.textContent = '';
+      return;
+    }
+    feedCount.textContent = `${items.length} st`;
+    items.forEach((it, i) => {
+      const li = document.createElement('li');
+      li.className = 'comment';
+      const av = document.createElement('div');
+      av.className = 'av'; av.textContent = '?'; av.setAttribute('aria-hidden', 'true');
+      av.style.setProperty('--av', COLORS[i % COLORS.length]);
+      const body = document.createElement('div');
+      const meta = document.createElement('div'); meta.className = 'meta';
+      const who = document.createElement('span'); who.className = 'who'; who.textContent = 'Anonym';
+      const t = document.createElement('time'); t.textContent = ago(it.date);
+      if (it.date) t.dateTime = it.date.toISOString();
+      meta.append(who, t);
+      const p = document.createElement('p'); p.textContent = it.text;
+      body.append(meta, p);
+      li.append(av, body);
+      feed.append(li);
+    });
+  }
+
+  async function loadWall() {
+    if (!CONFIG.approvedCsv) { render([]); return; }
+    try {
+      const r = await fetch(CONFIG.approvedCsv + (CONFIG.approvedCsv.includes('?') ? '&' : '?') + 't=' + Date.now());
+      const rows = parseCsv(await r.text()).filter(r => r.length >= 2 && r[1] && r[1].trim());
+      const data = rows.slice(1).map(r => ({ date: parseDate(r[0]), text: r[1].trim() }))
+        .sort((a, b) => (b.date || 0) - (a.date || 0));
+      render(data);
+    } catch {
+      feed.innerHTML = '<li class="empty">Väggen kunde inte laddas just nu.</li>';
+    }
+  }
+  loadWall();
+  setInterval(loadWall, 60000);
+  </script>
+</body>
+</html>
