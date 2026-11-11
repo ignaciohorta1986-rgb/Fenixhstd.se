@@ -161,7 +161,7 @@ p { color: var(--text-muted); }
 .logo { display: flex; align-items: center; gap: 10px; font-family: var(--font-head); font-size: 1.15rem; }
 .logo-img { width: 40px; height: 40px; filter: drop-shadow(0 0 10px rgba(255, 107, 53, .45)); }
 .logo-fenix { font-weight: 900; background: var(--grad-fire); -webkit-background-clip: text; background-clip: text; color: transparent; }
-.logo-tag { color: var(--text-muted); font-weight: 500; }
+.logo-tag { color: var(--text-muted); font-weight: 500; margin-left: .3em; }
 
 .nav-links { display: flex; align-items: center; gap: 30px; list-style: none; }
 .nav-links a:not(.btn) {
@@ -229,6 +229,7 @@ p { color: var(--text-muted); }
   filter: drop-shadow(0 0 28px rgba(255, 69, 0, .35));
 }
 .hero-title-tag { color: var(--text); opacity: .92; }
+.hero-title .glitch { margin-right: .28em; }
 .glitch::before, .glitch::after {
   content: attr(data-text); position: absolute; left: 0; top: 0;
   background: inherit; -webkit-background-clip: text; background-clip: text; color: transparent;
