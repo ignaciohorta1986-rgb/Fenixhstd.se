@@ -284,14 +284,15 @@ p { color: var(--text-muted); }
 
 /* ── Stats ── */
 .stats { position: relative; z-index: 2; padding: 72px 0 0; }
-.stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.stats-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; }
 .stat {
   padding: 26px 24px; background: var(--panel); border: 1px solid var(--line);
   clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 0 100%);
   position: relative;
 }
 .stat::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--grad-fire); }
-.stat-num { display: block; font-family: var(--font-head); font-weight: 900; font-size: clamp(1.3rem, 2.4vw, 1.9rem); color: var(--text); }
+.stat-num { display: block; font-family: var(--font-head); font-weight: 900; font-size: clamp(1.2rem, 2vw, 1.75rem); color: var(--text); white-space: nowrap; }
+#antal-medlemmar { background: var(--grad-fire); -webkit-background-clip: text; background-clip: text; color: transparent; font-size: clamp(1.6rem, 2.8vw, 2.4rem); line-height: 1.1; }
 .stat-label { display: block; margin-top: 6px; font-size: 0.72rem; letter-spacing: .2em; text-transform: uppercase; color: var(--text-muted); font-weight: 600; }
 
 /* ── Paneler ── */
@@ -459,6 +460,7 @@ p { color: var(--text-muted); }
   .nav-links.open { transform: none; visibility: visible; }
   .nav-links a:not(.btn) { font-size: 1.2rem; }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .stats-grid .stat:first-child { grid-column: span 2; }
   .news-grid { grid-template-columns: 1fr; }
   .news-card.featured { grid-column: auto; }
   .roster { grid-template-columns: 1fr; }
