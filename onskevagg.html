@@ -17,110 +17,132 @@
   <meta name="robots" content="index, follow" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <style>
-    .wall-page { padding: calc(var(--nav-h) + 48px) 0 96px; position: relative; z-index: 2; }
-    .wall-wrap { max-width: 720px; margin: 0 auto; }
-    .wall-head h1 { font-size: clamp(2.2rem, 7vw, 3.6rem); font-weight: 900; text-transform: uppercase; margin-bottom: 14px; }
-    .wall-head h1 .f { background: var(--grad-fire); -webkit-background-clip: text; background-clip: text; color: transparent; }
-    .wall-head p { font-size: 1.05rem; margin-bottom: 28px; }
+    :root { --navy: #0c1022; --ink: #0c1022; --muted: #3a4566; --line: #d7dcea; --fire: #ff4500; --gold: #ffd60a; --blue: #0055ff;
+      --grad: linear-gradient(90deg, #ff4500 0%, #ff6b35 45%, #ffd60a 100%); --grad-text: linear-gradient(90deg, #ff4500, #ff6b35 45%, #e0a800); }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Inter', system-ui, sans-serif; color: var(--ink); background: #fff; -webkit-font-smoothing: antialiased; }
+    a { color: var(--blue); }
+    :focus-visible { outline: 3px solid var(--fire); outline-offset: 3px; }
+    .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; }
 
-    .composer { padding: 22px; margin-bottom: 14px; }
-    .composer label { display: block; font-family: var(--font-head); font-size: .75rem; letter-spacing: .2em; text-transform: uppercase; color: var(--blue-light); margin-bottom: 12px; }
-    .composer textarea {
-      width: 100%; min-height: 110px; resize: vertical;
-      background: rgba(12, 16, 34, .8); color: var(--text);
-      border: 1px solid var(--line-strong); border-radius: 10px;
-      padding: 14px 16px; font: inherit; font-size: 1rem; line-height: 1.5;
-    }
-    .composer textarea:focus { outline: 2px solid var(--gold); outline-offset: 2px; border-color: transparent; }
-    .composer-foot { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin-top: 14px; flex-wrap: wrap; }
-    .composer-foot small { color: var(--text-muted); font-size: .85rem; }
-    .composer .btn[disabled] { opacity: .5; cursor: not-allowed; transform: none; }
-    .status { min-height: 1.5em; margin: 6px 2px 30px; font-weight: 600; color: var(--gold); }
-    .status.err { color: #ff8a65; }
+    .top { background: var(--navy); }
+    .top-in { max-width: 1100px; margin: 0 auto; padding: 14px 20px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 1.5rem; color: #fff; }
+    .brand img { width: 44px; height: 44px; }
+    .brand b { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .top nav a { color: #fff; font-weight: 600; text-decoration: none; font-size: .95rem; }
+    .top nav a:hover { color: var(--gold); }
+    .bar { height: 6px; background: var(--grad); }
 
-    .feed-head { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 14px; }
-    .feed-head h2 { font-size: 1.1rem; text-transform: uppercase; letter-spacing: .06em; }
-    .feed-head span { color: var(--text-muted); font-size: .9rem; }
+    main { max-width: 1100px; margin: 0 auto; padding: 44px 20px 72px; }
+    .label { font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: .9rem; letter-spacing: .3em; text-transform: uppercase; color: var(--blue); }
+    h1 { font-family: 'Orbitron', sans-serif; font-weight: 900; text-transform: uppercase; font-size: clamp(2.3rem, 7vw, 5rem); line-height: 1.02; margin: 14px 0 28px; }
+    h1 .f { background: var(--grad-text); -webkit-background-clip: text; background-clip: text; color: transparent; }
+
+    .grid { display: grid; grid-template-columns: 1fr 340px; gap: 40px; align-items: start; }
+    .steps { list-style: none; display: grid; gap: 14px; margin-bottom: 28px; }
+    .steps li { display: flex; align-items: center; gap: 16px; font-weight: 700; font-size: clamp(1.15rem, 2.4vw, 1.6rem); }
+    .steps span { flex: none; display: grid; place-items: center; width: 46px; height: 46px; border-radius: 50%; background: var(--navy); color: var(--gold); font-family: 'Orbitron', sans-serif; font-weight: 900; }
+
+    form { border: 3px solid var(--navy); border-radius: 14px; padding: 18px; background: #fff; }
+    label { display: block; font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: .8rem; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+    textarea { width: 100%; min-height: 120px; resize: vertical; font: inherit; font-size: 1.1rem; line-height: 1.5; color: var(--ink);
+      border: 2px solid var(--line); border-radius: 10px; padding: 14px; background: #f7f8fc; }
+    textarea:focus { outline: none; border-color: var(--fire); background: #fff; }
+    .foot { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-top: 12px; }
+    .foot small { color: var(--muted); }
+    button { font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 1rem; letter-spacing: .1em; text-transform: uppercase; color: #160700;
+      background: var(--grad); border: 0; border-radius: 10px; padding: 14px 28px; cursor: pointer; }
+    button[disabled] { opacity: .5; cursor: not-allowed; }
+    .status { min-height: 1.5em; margin-top: 12px; font-weight: 700; color: #0a7a3d; }
+    .status.err { color: #c62828; }
+
+    .qr { border: 3px solid var(--navy); border-radius: 14px; padding: 18px; text-align: center; }
+    .qr img { width: 100%; max-width: 280px; height: auto; image-rendering: pixelated; display: block; margin: 0 auto 10px; }
+    .qr strong { display: block; font-family: 'Orbitron', sans-serif; font-weight: 900; text-transform: uppercase; font-size: 1rem; }
+    .qr small { color: var(--muted); }
+
+    .wall { margin-top: 52px; }
+    .wall-head { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 3px solid var(--navy); padding-bottom: 10px; margin-bottom: 16px; }
+    .wall-head h2 { font-family: 'Orbitron', sans-serif; font-weight: 900; text-transform: uppercase; font-size: 1.3rem; }
+    .wall-head span { font-family: 'Orbitron', sans-serif; font-weight: 900; color: var(--fire); }
     .feed { list-style: none; display: grid; gap: 12px; }
-    .comment {
-      display: grid; grid-template-columns: 44px 1fr; gap: 14px; padding: 16px 18px;
-      background: linear-gradient(180deg, rgba(21, 29, 50, .85), rgba(16, 22, 40, .85));
-      border: 1px solid var(--line); border-radius: 14px;
+    .comment { display: grid; grid-template-columns: 44px 1fr; gap: 14px; padding: 14px 16px; border: 2px solid var(--line); border-radius: 12px; background: #fff; }
+    .comment .av { width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; background: var(--av, var(--grad)); color: #160700; font-family: 'Orbitron', sans-serif; font-weight: 900; }
+    .comment .meta { display: flex; gap: 10px; align-items: baseline; margin-bottom: 2px; }
+    .comment .who { font-weight: 700; }
+    .comment time { color: var(--muted); font-size: .85rem; }
+    .comment p { font-size: 1.05rem; overflow-wrap: anywhere; white-space: pre-wrap; }
+    .empty { color: var(--muted); padding: 22px; text-align: center; border: 2px dashed var(--line); border-radius: 12px; }
+
+    .join { margin-top: 48px; display: flex; align-items: center; gap: 18px; padding: 18px; border: 3px solid var(--navy); border-radius: 14px; }
+    .join img { width: 96px; height: 96px; flex: none; }
+    .join div { font-weight: 700; font-size: 1.1rem; }
+    .join small { display: block; font-weight: 500; color: var(--muted); margin-top: 4px; }
+    .rules { margin-top: 28px; color: var(--muted); font-size: .92rem; }
+
+    @media (max-width: 820px) {
+      .grid { grid-template-columns: 1fr; }
+      .qr { display: none; }   /* i mobilen är man redan på sidan */
+      .join img { display: none; }
     }
-    .comment .av {
-      width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center;
-      background: var(--av, var(--grad-fire)); font-family: var(--font-head); font-weight: 900; color: #160700; font-size: 1rem;
-    }
-    .comment .meta { display: flex; gap: 10px; align-items: baseline; margin-bottom: 4px; }
-    .comment .who { font-weight: 700; color: var(--text); font-size: .95rem; }
-    .comment time { color: var(--text-muted); font-size: .82rem; }
-    .comment p { color: var(--text); white-space: pre-wrap; overflow-wrap: anywhere; }
-    .empty { color: var(--text-muted); padding: 22px; text-align: center; border: 1px dashed var(--line-strong); border-radius: 14px; }
-    .rules { margin-top: 36px; font-size: .9rem; color: var(--text-muted); }
-    .rules a { font-weight: 600; }
-    .back { display: inline-block; margin-bottom: 26px; font-weight: 600; }
   </style>
 </head>
 <body>
-  <a class="skip-link" href="#main">Hoppa till innehållet</a>
-  <div class="grid-overlay" aria-hidden="true"></div>
-
-  <header id="navbar" class="scrolled">
-    <div class="nav-inner">
-      <a href="index.html" class="logo" aria-label="Fenix HSTD, till startsidan">
-        <img src="images/site/fenix-logo-96.png" width="40" height="40" alt="" class="logo-img" />
-        <span class="logo-fenix">FENIX</span><span class="logo-tag">HSTD</span>
-      </a>
-      <a href="index.html#ga-med" class="btn btn-fire btn-sm">Gå med</a>
+  <header class="top">
+    <div class="top-in">
+      <a href="index.html" class="brand" aria-label="Fenix HSTD, till startsidan"><img src="images/site/fenix-logo-96.png" alt=""><span><b>FENIX</b> HSTD</span></a>
+      <nav><a href="index.html">← fenixhstd.se</a></nav>
     </div>
   </header>
+  <div class="bar" aria-hidden="true"></div>
 
-  <main id="main" class="wall-page">
-    <div class="container wall-wrap">
-      <a href="index.html" class="back">← fenixhstd.se</a>
-      <div class="wall-head">
-        <span class="hud-label">// Önskeväggen</span>
-        <h1>Vad vill du att <span class="f">Fenix</span> ska göra?</h1>
-        <p>Skriv din önskan. Du är anonym: inget namn, ingen inloggning. Allt läses av Fenix innan det syns på väggen.</p>
-      </div>
+  <main id="main">
+    <div class="label">// Önskeväggen</div>
+    <h1>Vad vill du<br>att <span class="f">Fenix</span><br>ska göra?</h1>
 
-      <form class="panel composer" id="wish-form" novalidate>
-        <label for="wish">Din önskan</label>
-        <textarea id="wish" name="wish" maxlength="280" required
-          placeholder="Till exempel ett spel, en turnering, musik eller något helt nytt"></textarea>
-        <div class="composer-foot">
-          <small><span id="count">0</span>/280 · Skriv inga namn eller telefonnummer</small>
-          <button type="submit" class="btn btn-fire btn-sm" id="send">Skicka</button>
-        </div>
-      </form>
-      <p class="status" id="status" role="status" aria-live="polite"></p>
-
-      <section aria-labelledby="feed-title">
-        <div class="feed-head">
-          <h2 id="feed-title">Önskningar</h2>
-          <span id="feed-count"></span>
-        </div>
-        <ul class="feed" id="feed">
-          <li class="empty">Väggen laddas …</li>
-        </ul>
+    <div class="grid">
+      <section>
+        <ol class="steps">
+          <li><span>1</span>Skriv din önskan</li>
+          <li><span>2</span>Tryck på Skicka</li>
+          <li><span>3</span>Helt anonymt, inga namn</li>
+        </ol>
+        <form id="wish-form" novalidate>
+          <label for="wish">Din önskan</label>
+          <textarea id="wish" name="wish" maxlength="280" required placeholder="Spel, turneringar, musik, något helt nytt?"></textarea>
+          <div class="foot">
+            <small><span id="count">0</span>/280 · Skriv inga namn eller telefonnummer</small>
+            <button type="submit" id="send">Skicka</button>
+          </div>
+          <p class="status" id="status" role="status" aria-live="polite"></p>
+        </form>
       </section>
 
-      <p class="rules">Väggen visar bara önskningar som Fenix har läst. Man kan inte svara på varandras önskningar.
-        Frågor? Mejla <a href="mailto:fenixhstd@gmail.com">fenixhstd@gmail.com</a>.</p>
+      <aside class="qr">
+        <img src="images/site/qr-onskevagg.png" width="280" height="280" alt="QR-kod till fenixhstd.se/onskevagg.html">
+        <strong>Skanna med mobilen</strong>
+        <small>fenixhstd.se/onskevagg.html</small>
+      </aside>
     </div>
-  </main>
 
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-bottom">
-        <p>© 2026 Fenix HSTD — Fenix Halmstad Idrottsklubb — Halmstad</p>
-        <p class="footer-motto">Rise from the ashes. 🔥</p>
+    <section class="wall" aria-labelledby="feed-title">
+      <div class="wall-head"><h2 id="feed-title">Önskningar</h2><span id="feed-count"></span></div>
+      <ul class="feed" id="feed"><li class="empty">Väggen laddas …</li></ul>
+    </section>
+
+    <div class="join">
+      <img src="images/site/qr-anmalan.png" width="96" height="96" alt="QR-kod till anmälan">
+      <div>Vill du vara med från start?
+        <small>Anmäl intresse, det är gratis: <a href="https://docs.google.com/forms/d/e/1FAIpQLSdjhJAkLt0iFeia3oJbiAf-sZGKxwlrSWJQc11hEMbTPMQu2Q/viewform" target="_blank" rel="noopener">anmälningsformuläret</a></small>
       </div>
     </div>
-  </footer>
+
+    <p class="rules">Alla önskningar läses av Fenix innan de syns på väggen. Man kan inte svara på varandras önskningar.
+      Frågor? Mejla <a href="mailto:fenixhstd@gmail.com">fenixhstd@gmail.com</a>. Fenix Halmstad Idrottsklubb · Halmstad</p>
+  </main>
 
   <script src="onskevagg.js"></script>
   <script>
@@ -145,7 +167,7 @@
       wish.value = ''; count.textContent = '0';
       setStatus('Tack! Din önskan syns på väggen när Fenix har läst den.');
     } catch (err) {
-      setStatus(err.message === 'inte kopplad' ? 'Önskeväggen öppnar snart.' : 'Det gick inte att skicka. Försök igen om en stund.', true);
+      setStatus('Det gick inte att skicka. Försök igen om en stund.', true);
     } finally {
       send.disabled = false;
     }
@@ -153,15 +175,10 @@
 
   function render(items) {
     feed.innerHTML = '';
-    if (!items || !items.length) {
-      feed.innerHTML = '<li class="empty">Inga önskningar än. Bli den första!</li>';
-      feedCount.textContent = '';
-      return;
-    }
+    if (!items || !items.length) { feed.innerHTML = '<li class="empty">Inga önskningar än. Bli den första!</li>'; feedCount.textContent = ''; return; }
     feedCount.textContent = `${items.length} st`;
     items.forEach((it, i) => feed.append(owComment(it, i)));
   }
-
   async function loadWall() {
     try { render(await owLoadApproved()); }
     catch { feed.innerHTML = '<li class="empty">Väggen kunde inte laddas just nu.</li>'; }
