@@ -38,7 +38,7 @@
 
     main { max-width: 1100px; margin: 0 auto; padding: 44px 20px 72px; }
     .label { font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: .9rem; letter-spacing: .3em; text-transform: uppercase; color: var(--blue); }
-    h1 { font-family: 'Orbitron', sans-serif; font-weight: 900; text-transform: uppercase; font-size: clamp(2.3rem, 7vw, 5rem); line-height: 1.02; margin: 14px 0 28px; }
+    h1 { font-family: 'Orbitron', sans-serif; font-weight: 900; text-transform: uppercase; font-size: clamp(2.3rem, 6vw, 4.6rem); line-height: 1.02; margin: 0 0 24px; }
     h1 .f { background: var(--grad-text); -webkit-background-clip: text; background-clip: text; color: transparent; }
 
     .grid { display: grid; grid-template-columns: 1fr 340px; gap: 40px; align-items: start; }
@@ -110,21 +110,9 @@
   <div class="bar" aria-hidden="true"></div>
 
   <main id="main">
-    <div class="label">// Önskeväggen</div>
-    <h1>Vad vill du<br>att <span class="f">Fenix</span><br>ska göra?</h1>
-
     <div class="grid">
       <section>
-        <ol class="steps steps-board">
-          <li><span>1</span>Skanna koden med mobilen</li>
-          <li><span>2</span>Skriv din önskan</li>
-          <li><span>3</span>Helt anonymt, inga namn</li>
-        </ol>
-        <ol class="steps steps-phone">
-          <li><span>1</span>Skriv din önskan</li>
-          <li><span>2</span>Tryck på Skicka</li>
-          <li><span>3</span>Helt anonymt, inga namn</li>
-        </ol>
+        <h1>Vad vill du<br>att <span class="f">Fenix</span><br>ska göra?</h1>
         <form id="wish-form" class="phone-only" novalidate>
           <label for="wish">Din önskan</label>
           <textarea id="wish" name="wish" maxlength="280" required placeholder="Spel, turneringar, musik, något helt nytt?"></textarea>
@@ -139,7 +127,6 @@
       <aside class="qr">
         <img src="images/site/qr-onskevagg.png" width="280" height="280" alt="QR-kod till fenixhstd.se/onskevagg.html">
         <strong>Skanna med mobilen</strong>
-        <small>fenixhstd.se/onskevagg.html</small>
       </aside>
     </div>
 
@@ -147,16 +134,6 @@
       <div class="wall-head"><h2 id="feed-title">Önskningar</h2><span id="feed-count"></span></div>
       <ul class="feed" id="feed"><li class="empty">Väggen laddas …</li></ul>
     </section>
-
-    <div class="join">
-      <img src="images/site/qr-anmalan.png" width="96" height="96" alt="QR-kod till anmälan">
-      <div>Vill du vara med från start?
-        <small>Anmäl intresse, det är gratis: <a href="https://docs.google.com/forms/d/e/1FAIpQLSdjhJAkLt0iFeia3oJbiAf-sZGKxwlrSWJQc11hEMbTPMQu2Q/viewform" target="_blank" rel="noopener">anmälningsformuläret</a></small>
-      </div>
-    </div>
-
-    <p class="rules">Alla önskningar läses av Fenix innan de syns på väggen. Man kan inte svara på varandras önskningar.
-      Frågor? Mejla <a href="mailto:fenixhstd@gmail.com">fenixhstd@gmail.com</a>. Fenix Halmstad Idrottsklubb · Halmstad</p>
   </main>
 
   <script src="onskevagg.js"></script>
