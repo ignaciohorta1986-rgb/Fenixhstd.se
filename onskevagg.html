@@ -83,9 +83,19 @@
     .join small { display: block; font-weight: 500; color: var(--muted); margin-top: 4px; }
     .rules { margin-top: 28px; color: var(--muted); font-size: .92rem; }
 
+
+    /* Datorn = tavlan (bara önskningarna). Mobilen = här skriver man efter att ha skannat. */
+    .steps-phone, .phone-only { display: none; }
+    .grid { grid-template-columns: 1fr 380px; align-items: center; }
+    .steps-board li { font-size: clamp(1.3rem, 2.6vw, 2rem); }
+    .steps-board span { width: 56px; height: 56px; font-size: 1.3rem; }
+    .qr img { max-width: 320px; }
     @media (max-width: 820px) {
       .grid { grid-template-columns: 1fr; }
       .qr { display: none; }   /* i mobilen är man redan på sidan */
+      .steps-board { display: none; }
+      .steps-phone { display: grid; }
+      .phone-only { display: block; }
       .join img { display: none; }
     }
   </style>
@@ -105,12 +115,17 @@
 
     <div class="grid">
       <section>
-        <ol class="steps">
+        <ol class="steps steps-board">
+          <li><span>1</span>Skanna koden med mobilen</li>
+          <li><span>2</span>Skriv din önskan</li>
+          <li><span>3</span>Helt anonymt, inga namn</li>
+        </ol>
+        <ol class="steps steps-phone">
           <li><span>1</span>Skriv din önskan</li>
           <li><span>2</span>Tryck på Skicka</li>
           <li><span>3</span>Helt anonymt, inga namn</li>
         </ol>
-        <form id="wish-form" novalidate>
+        <form id="wish-form" class="phone-only" novalidate>
           <label for="wish">Din önskan</label>
           <textarea id="wish" name="wish" maxlength="280" required placeholder="Spel, turneringar, musik, något helt nytt?"></textarea>
           <div class="foot">
