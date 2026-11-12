@@ -395,7 +395,7 @@ p { color: var(--text-muted); }
 
 /* ── Sponsor ── */
 .sponsor { display: grid; grid-template-columns: 220px 1fr; gap: 36px; align-items: center; }
-.sponsor-logo img { width: 100%; height: auto; border-radius: 12px; background: #fff; padding: 12px; }
+.sponsor-logo img { width: 100%; height: auto; border-radius: 28px; box-shadow: 0 0 40px rgba(255, 214, 10, .15); }
 .sponsor-body h3 { font-size: 1.4rem; }
 .sponsor-body p { margin-bottom: 14px; }
 .sponsor-body a { font-weight: 600; }

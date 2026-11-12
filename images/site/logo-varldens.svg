@@ -1,0 +1,42 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <radialGradient id="hbg" cx="30%" cy="30%" r="70%">
+          <stop offset="0%" style="stop-color:#1a2540"/>
+          <stop offset="100%" style="stop-color:#0a0f1e"/>
+        </radialGradient>
+        <radialGradient id="hgf" cx="40%" cy="35%" r="60%">
+          <stop offset="0%" style="stop-color:#1e2d5e"/>
+          <stop offset="100%" style="stop-color:#0d1528"/>
+        </radialGradient>
+        <linearGradient id="hgr" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color:#f4d98a"/>
+          <stop offset="50%" style="stop-color:#c9a84c"/>
+          <stop offset="100%" style="stop-color:#a67c32"/>
+        </linearGradient>
+        <linearGradient id="hwg" x1="0%" y1="0%" x2="100%" y2="80%">
+          <stop offset="0%" style="stop-color:#f4d98a"/>
+          <stop offset="60%" style="stop-color:#d4a843"/>
+          <stop offset="100%" style="stop-color:#a67c32"/>
+        </linearGradient>
+        <clipPath id="hc"><circle cx="200" cy="185" r="130"/></clipPath>
+      </defs>
+      <rect width="400" height="400" fill="url(#hbg)" rx="80"/>
+      <circle cx="0" cy="0" r="80" fill="none" stroke="#c9a84c" stroke-width="0.5" opacity="0.15"/>
+      <circle cx="400" cy="400" r="80" fill="none" stroke="#c9a84c" stroke-width="0.5" opacity="0.15"/>
+      <circle cx="200" cy="185" r="142" fill="none" stroke="#c9a84c" stroke-width="1" opacity="0.15"/>
+      <circle cx="200" cy="185" r="130" fill="url(#hgf)"/>
+      <circle cx="200" cy="185" r="130" fill="none" stroke="url(#hgr)" stroke-width="3"/>
+      <ellipse cx="200" cy="185" rx="130" ry="50" fill="none" stroke="#c9a84c" stroke-width="1" opacity="0.3" clip-path="url(#hc)"/>
+      <ellipse cx="200" cy="185" rx="130" ry="90" fill="none" stroke="#c9a84c" stroke-width="0.8" opacity="0.2" clip-path="url(#hc)"/>
+      <ellipse cx="200" cy="185" rx="60" ry="130" fill="none" stroke="#c9a84c" stroke-width="1" opacity="0.25" clip-path="url(#hc)"/>
+      <ellipse cx="200" cy="185" rx="110" ry="130" fill="none" stroke="#c9a84c" stroke-width="0.8" opacity="0.18" clip-path="url(#hc)"/>
+      <line x1="70" y1="185" x2="330" y2="185" stroke="#c9a84c" stroke-width="1" opacity="0.28" clip-path="url(#hc)"/>
+      <line x1="200" y1="55" x2="200" y2="315" stroke="#c9a84c" stroke-width="0.8" opacity="0.2" clip-path="url(#hc)"/>
+      <path d="M 80 175 Q 115 120 155 155 Q 185 183 220 140 Q 250 105 285 125 Q 305 138 320 130" fill="none" stroke="url(#hwg)" stroke-width="7" stroke-linecap="round" clip-path="url(#hc)"/>
+      <path d="M 72 205 Q 108 152 148 186 Q 180 214 216 172 Q 248 136 285 156 Q 308 170 324 162" fill="none" stroke="url(#hwg)" stroke-width="5" stroke-linecap="round" opacity="0.7" clip-path="url(#hc)"/>
+      <path d="M 76 234 Q 112 186 150 214 Q 182 238 220 200 Q 252 166 288 186 Q 310 198 326 192" fill="none" stroke="url(#hwg)" stroke-width="3" stroke-linecap="round" opacity="0.4" clip-path="url(#hc)"/>
+      <text x="200" y="348" font-family="Georgia,'Times New Roman',serif" font-size="38" font-weight="700" fill="#c9a84c" text-anchor="middle" letter-spacing="3">VÄRLDENS</text>
+      <line x1="60" y1="357" x2="340" y2="357" stroke="#c9a84c" stroke-width="0.8" opacity="0.35"/>
+      <text x="200" y="378" font-family="Georgia,'Times New Roman',serif" font-size="18" font-weight="400" fill="#f0d080" text-anchor="middle" letter-spacing="6">MAT &amp; MUSIK</text>
+      <text x="200" y="395" font-family="sans-serif" font-size="11" fill="#475569" text-anchor="middle" letter-spacing="2">HALMSTAD</text>
+    </svg>
