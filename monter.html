@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fenix HSTD — montern</title>
+  <meta name="robots" content="noindex" />
+  <link rel="icon" type="image/png" sizes="64x64" href="images/site/favicon-64.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Inter:wght@500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root { --fire:#ff4500; --gold:#ffd60a; --blue:#44aaff; --text:#eef2ff; --muted:#a9b6d6; --line:rgba(100,160,255,.25);
+      --grad:linear-gradient(90deg,#ff4500 0%,#ff6b35 45%,#ffd60a 100%); --head:'Orbitron',system-ui,sans-serif; --u: min(1vw, .5625vh); }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; overflow: hidden; background: #0c1022; color: var(--text); font-family: 'Inter', system-ui, sans-serif; cursor: none; }
+    body::before { content: ''; position: fixed; inset: 0; background:
+      radial-gradient(70vw 50vh at 10% 5%, rgba(0,85,255,.30), transparent 60%),
+      radial-gradient(70vw 50vh at 95% 30%, rgba(255,69,0,.26), transparent 60%),
+      radial-gradient(80vw 50vh at 50% 105%, rgba(255,107,53,.30), transparent 60%),
+      linear-gradient(180deg,#0a0e1f,#0c1022 45%,#101628); }
+    .grid { position: fixed; inset: 0; background-image: linear-gradient(rgba(68,170,255,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(68,170,255,.06) 1px,transparent 1px);
+      background-size: 60px 60px; -webkit-mask-image: radial-gradient(ellipse at 50% 45%,#000 30%,transparent 85%); animation: drift 30s linear infinite; }
+    @keyframes drift { to { background-position: 60px 60px, 60px 60px; } }
+    canvas { position: fixed; inset: 0; pointer-events: none; }
+    .corner { position: fixed; width: 9vmin; height: 9vmin; border: .7vmin solid var(--blue); opacity: .7; z-index: 3; }
+    .c1 { top: 3vmin; left: 3vmin; border-right: 0; border-bottom: 0; } .c2 { top: 3vmin; right: 3vmin; border-left: 0; border-bottom: 0; }
+    .c3 { bottom: 3vmin; left: 3vmin; border-right: 0; border-top: 0; } .c4 { bottom: 3vmin; right: 3vmin; border-left: 0; border-top: 0; }
+
+    .brand { position: fixed; top: 6vmin; left: 0; right: 0; z-index: 4; display: flex; justify-content: center; align-items: center; gap: 2vmin;
+      font-family: var(--head); font-weight: 900; font-size: 5vmin; }
+    .brand img { width: 9vmin; height: 9vmin; filter: drop-shadow(0 0 2vmin rgba(255,107,53,.6)); }
+    .fire { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .brand .h { color: #dbe4ff; margin-left: .3em; font-weight: 700; }
+
+    .slide { position: fixed; inset: 0; z-index: 2; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;
+      padding: 20vmin 8vmin 16vmin; opacity: 0; transform: scale(1.06); transition: opacity .9s ease, transform 1.2s ease; pointer-events: none; }
+    .slide.on { opacity: 1; transform: none; }
+    .label { font-family: var(--head); font-weight: 700; letter-spacing: .3em; text-transform: uppercase; color: var(--blue); font-size: 3vmin; margin-bottom: 3vmin; }
+    h1, h2 { font-family: var(--head); font-weight: 900; text-transform: uppercase; line-height: 1.02; }
+    h1 { font-size: 11vmin; }
+    h2 { font-size: 8.5vmin; }
+    .big { font-size: 13vmin; }
+    .sub { font-size: 4.2vmin; font-weight: 600; color: var(--text); margin-top: 4vmin; max-width: 80vmin; line-height: 1.35; }
+    .w { color: #fff; }
+
+    .glitch { position: relative; display: inline-block; }
+    .slide.on .glitch::before, .slide.on .glitch::after { content: attr(data-t); position: absolute; inset: 0; background: inherit; -webkit-background-clip: text; background-clip: text; color: transparent; opacity: 0; }
+    .slide.on .glitch::before { animation: g1 3s steps(1) infinite; } .slide.on .glitch::after { animation: g2 3s steps(1) infinite; }
+    @keyframes g1 { 0%,88%,100% { opacity: 0 } 90% { opacity: .8; transform: translate(-1vmin,.3vmin); clip-path: inset(10% 0 55% 0) } 93% { opacity: .8; transform: translate(.8vmin,-.3vmin); clip-path: inset(60% 0 8% 0) } }
+    @keyframes g2 { 0%,90%,100% { opacity: 0 } 92% { opacity: .7; transform: translate(1vmin,0); clip-path: inset(35% 0 35% 0); filter: hue-rotate(160deg) } }
+
+    .emblem { width: 50vmin; height: 50vmin; border-radius: 50%; filter: drop-shadow(0 0 6vmin rgba(255,69,0,.45)) drop-shadow(0 0 9vmin rgba(0,85,255,.35)); animation: float 6s ease-in-out infinite; margin-bottom: 4vmin; }
+    @keyframes float { 50% { transform: translateY(-2vmin); } }
+
+    .qr { background: #fff; padding: 2.4vmin; border-radius: 2.4vmin; box-shadow: 0 0 8vmin rgba(255,107,53,.45); margin: 5vmin 0 4vmin; }
+    .qr img { width: 42vmin; height: 42vmin; display: block; image-rendering: pixelated; }
+    .steps { display: flex; gap: 4vmin; font-weight: 700; font-size: 3.8vmin; flex-wrap: wrap; justify-content: center; }
+    .steps span { display: inline-grid; place-items: center; width: 6vmin; height: 6vmin; border-radius: 50%; background: var(--grad); color: #160700;
+      font-family: var(--head); font-weight: 900; font-size: 3vmin; margin-right: 1.2vmin; vertical-align: middle; }
+
+    .wishes { list-style: none; display: grid; gap: 2.4vmin; width: min(86vmin, 92vw); margin-top: 5vmin; text-align: left; }
+    .wishes li { padding: 3vmin 3.6vmin; border: .3vmin solid var(--line); border-radius: 2vmin; background: rgba(12,16,34,.75);
+      font-size: 4.2vmin; font-weight: 700; line-height: 1.3; overflow-wrap: anywhere; }
+    .wishes li small { display: block; font-size: 2.4vmin; font-weight: 600; color: var(--muted); margin-bottom: .8vmin; }
+
+    .facts { display: grid; gap: 3vmin; margin-top: 5vmin; width: min(80vmin, 90vw); }
+    .fact { padding: 3vmin 4vmin; border-left: 1.2vmin solid var(--fire); background: rgba(21,29,50,.85); text-align: left; }
+    .fact b { display: block; font-family: var(--head); font-weight: 900; font-size: 7vmin; }
+    .fact span { font-family: var(--head); font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); font-size: 2.4vmin; }
+
+    .tracks { display: grid; grid-template-columns: 1fr 1fr; gap: 2.6vmin; width: min(88vmin, 92vw); margin-top: 5vmin; }
+    .track { padding: 3.6vmin 2.4vmin; border: .3vmin solid var(--line); background: rgba(21,29,50,.85); clip-path: polygon(0 0,calc(100% - 3vmin) 0,100% 3vmin,100% 100%,0 100%); }
+    .track i { display: block; font-style: normal; font-size: 7vmin; margin-bottom: 1.4vmin; }
+    .track b { font-family: var(--head); font-weight: 900; font-size: 3vmin; text-transform: uppercase; }
+
+    .progress { position: fixed; left: 8vmin; right: 8vmin; bottom: 6vmin; z-index: 4; display: flex; gap: 1.2vmin; }
+    .progress div { flex: 1; height: .8vmin; background: rgba(169,182,214,.25); border-radius: 1vmin; overflow: hidden; }
+    .progress div i { display: block; height: 100%; width: 0; background: var(--grad); }
+    .progress div.done i { width: 100%; }
+    .progress div.run i { animation: fill var(--dur) linear forwards; }
+    @keyframes fill { to { width: 100%; } }
+    .foot { position: fixed; left: 0; right: 0; bottom: 9.5vmin; z-index: 4; text-align: center; font-family: var(--head); font-weight: 700; letter-spacing: .14em; font-size: 2.4vmin; color: var(--muted); }
+
+    @media (orientation: landscape) {
+      h1 { font-size: 9vmin; } .big { font-size: 11vmin; } h2 { font-size: 7vmin; }
+      .tracks { grid-template-columns: repeat(4, 1fr); width: 92vw; }
+      .qr img { width: 34vmin; height: 34vmin; }
+      .emblem { width: 40vmin; height: 40vmin; }
+    }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+  </style>
+</head>
+<body>
+  <div class="grid" aria-hidden="true"></div>
+  <canvas id="c" aria-hidden="true"></canvas>
+  <span class="corner c1"></span><span class="corner c2"></span><span class="corner c3"></span><span class="corner c4"></span>
+  <div class="brand"><img src="images/site/fenix-logo-96.png" alt=""><span class="fire">FENIX</span><span class="h">HSTD</span></div>
+
+  <!-- 1. Hook -->
+  <section class="slide" data-dur="8">
+    <div class="label">// Halmstad · E-sport</div>
+    <h1><span class="w">Spelar du</span><br><span class="fire glitch" data-t="själv varje">själv varje</span><br><span class="fire">kväll?</span></h1>
+    <p class="sub">Här finns fler som spelar som du.</p>
+  </section>
+
+  <!-- 2. Fenix -->
+  <section class="slide" data-dur="7">
+    <img class="emblem" src="images/site/fenix-logo-400.png" alt="">
+    <h1 class="big"><span class="fire glitch" data-t="FENIX">FENIX</span> <span class="w">HSTD</span></h1>
+    <p class="sub">E-sport och gemenskap för barn och unga i Halmstad.</p>
+  </section>
+
+  <!-- 3. Önskeväggen -->
+  <section class="slide" data-dur="10">
+    <div class="label">// Önskeväggen</div>
+    <h2><span class="w">Vad vill du att</span> <span class="fire">Fenix</span> <span class="w">ska göra?</span></h2>
+    <div class="qr"><img src="images/site/qr-onskevagg.png" alt=""></div>
+    <div class="steps"><div><span>1</span>Skanna</div><div><span>2</span>Skriv</div><div><span>3</span>Helt anonymt</div></div>
+  </section>
+
+  <!-- 4. Live-önskningar (hoppas över om väggen är tom) -->
+  <section class="slide" data-dur="9" id="live">
+    <div class="label">// Önskeväggen live</div>
+    <h2><span class="w">Det här</span> <span class="fire">önskar</span> <span class="w">Halmstad</span></h2>
+    <ul class="wishes" id="wishes"></ul>
+  </section>
+
+  <!-- 5. Fakta -->
+  <section class="slide" data-dur="7">
+    <div class="label">// Fenix i siffror</div>
+    <h2 class="w">En riktig förening</h2>
+    <div class="facts">
+      <div class="fact"><b class="fire">17</b><span>Medlemmar</span></div>
+      <div class="fact"><b>SESF · RF</b><span>Medlem i e-sportförbundet och idrottsrörelsen</span></div>
+      <div class="fact"><b>2025</b><span>Grundad i Halmstad</span></div>
+    </div>
+  </section>
+
+  <!-- 6. Det här bygger vi -->
+  <section class="slide" data-dur="8">
+    <div class="label">// Visionen</div>
+    <h2><span class="w">Det här</span> <span class="fire">bygger vi</span></h2>
+    <div class="tracks">
+      <div class="track"><i>🎮</i><b>E-sport</b></div>
+      <div class="track"><i>🎵</i><b>Musik</b></div>
+      <div class="track"><i>📹</i><b>Media</b></div>
+      <div class="track"><i>🏆</i><b>Fenix Arena</b></div>
+    </div>
+  </section>
+
+  <!-- 7. Gå med -->
+  <section class="slide" data-dur="10">
+    <div class="label">// Bli en del</div>
+    <h2><span class="w">Vill du vara med</span><br><span class="fire">från start?</span></h2>
+    <div class="qr"><img src="images/site/qr-anmalan.png" alt=""></div>
+    <div class="steps"><div>Anmäl intresse – det är gratis</div></div>
+  </section>
+
+  <div class="foot">fenixhstd.se · Fenix Halmstad Idrottsklubb</div>
+  <div class="progress" id="progress"></div>
+
+  <script src="onskevagg.js"></script>
+  <script>
+  const slides = [...document.querySelectorAll('.slide')];
+  const live = document.getElementById('live');
+  const list = document.getElementById('wishes');
+  const prog = document.getElementById('progress');
+  let hasWishes = false;
+
+  async function loadWishes() {
+    try {
+      const items = await owLoadApproved();
+      list.innerHTML = '';
+      (items || []).slice(0, 3).forEach(it => {
+        const li = document.createElement('li');
+        const s = document.createElement('small'); s.textContent = 'Anonym · ' + owAgo(it.date);
+        li.append(s, document.createTextNode(it.text));
+        list.append(li);
+      });
+      hasWishes = !!(items && items.length);
+    } catch { /* behåll det som finns */ }
+  }
+
+  slides.forEach(() => { const d = document.createElement('div'); d.innerHTML = '<i></i>'; prog.append(d); });
+  let i = -1;
+  function next() {
+    do { i = (i + 1) % slides.length; } while (slides[i] === live && !hasWishes);
+    slides.forEach((s, k) => s.classList.toggle('on', k === i));
+    const dur = (+slides[i].dataset.dur || 8);
+    [...prog.children].forEach((p, k) => {
+      p.className = k < i ? 'done' : '';
+      p.style.setProperty('--dur', dur + 's');
+      const bar = p.firstChild; bar.style.animation = 'none'; void bar.offsetWidth; bar.style.animation = '';
+      if (k === i) p.className = 'run';
+    });
+    setTimeout(next, dur * 1000);
+  }
+  loadWishes().finally(next);
+  setInterval(loadWishes, 30000);
+
+  // Glödpartiklar
+  const c = document.getElementById('c'), x = c.getContext('2d');
+  if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    let W, H; const fit = () => { W = c.width = innerWidth; H = c.height = innerHeight; }; fit(); addEventListener('resize', fit);
+    const C = ['255,69,0', '255,214,10', '255,107,53', '68,170,255'];
+    const mk = f => ({ x: Math.random() * W, y: f ? Math.random() * H : H + 10, r: Math.random() * 2.6 + .6, v: Math.random() * .7 + .25, l: 0, m: Math.random() * 260 + 160, c: C[Math.random() * 4 | 0] });
+    const P = Array.from({ length: 70 }, () => mk(true));
+    (function t() {
+      x.clearRect(0, 0, W, H);
+      P.forEach((p, k) => { p.y -= p.v; p.x += Math.sin(p.l * .02) * .3; p.l++; if (p.y < -10 || p.l > p.m) { P[k] = mk(false); return; }
+        x.beginPath(); x.arc(p.x, p.y, p.r, 0, 7); x.fillStyle = `rgba(${p.c},${(Math.sin(p.l / p.m * Math.PI) * .8).toFixed(2)})`; x.fill(); });
+      requestAnimationFrame(t);
+    })();
+  }
+  </script>
+</body>
+</html>
