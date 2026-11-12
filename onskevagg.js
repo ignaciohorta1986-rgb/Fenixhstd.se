@@ -5,8 +5,8 @@
 // ── Inställningar (fylls i när Google-formuläret finns) ──
 const ONSKEVAGG = {
   // Formulärets "formResponse"-adress och fältets entry-id
-  formAction: '',
-  entryId: '',
+  formAction: 'https://docs.google.com/forms/d/e/1FAIpQLSdY7Zjn9XuaDKUfCCCsUhS37y-wSac9gIuGPJm79l_w71T6VA/formResponse',
+  entryId: 'entry.438122373',
   // Publicerad CSV för fliken med GODKÄNDA önskningar (bara den fliken publiceras)
   approvedCsv: '',
 };
@@ -29,7 +29,7 @@ function owParseCsv(text) {
 }
 
 function owParseDate(s) {
-  const m = s && s.match(/(\d{1,4})[-/.](\d{1,2})[-/.](\d{2,4})\D+(\d{1,2}):(\d{2})(?::(\d{2}))?/);
+  const m = s && s.match(/(\d{1,4})[-/.](\d{1,2})[-/.](\d{2,4})\D+(\d{1,2})[:.](\d{2})(?:[:.](\d{2}))?/);
   if (!m) return null;
   const [, a, b, c, h, mi, se] = m;
   const [y, mo, d] = a.length === 4 ? [a, b, c] : [c, b, a];
