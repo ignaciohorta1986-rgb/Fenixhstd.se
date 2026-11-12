@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Önskeväggen — storskärm</title>
+  <meta name="robots" content="noindex" />
+  <link rel="icon" type="image/png" sizes="64x64" href="images/site/favicon-64.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root { --fire:#ff4500; --gold:#ffd60a; --ember:#ff6b35; --blue-light:#44aaff; --bg:#0c1022; --bg2:#101628;
+      --line:rgba(100,160,255,.16); --line-strong:rgba(100,160,255,.32); --text:#eef2ff; --text-muted:#a9b6d6;
+      --grad-fire:linear-gradient(90deg,#ff4500 0%,#ff6b35 45%,#ffd60a 100%);
+      --font-head:'Orbitron',system-ui,sans-serif; --font-body:'Inter',system-ui,sans-serif; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { color: var(--text); font-family: var(--font-body); -webkit-font-smoothing: antialiased;
+      background:
+        radial-gradient(60vw 50vh at 10% 10%, rgba(0,85,255,.24), transparent 60%),
+        radial-gradient(50vw 45vh at 92% 18%, rgba(255,69,0,.22), transparent 60%),
+        radial-gradient(60vw 50vh at 70% 100%, rgba(255,107,53,.18), transparent 60%),
+        linear-gradient(180deg,#0a0e1f 0%,#0c1022 45%,#101628 100%); }
+    .grid-overlay { position: fixed; inset: 0; pointer-events: none;
+      background-image: linear-gradient(rgba(68,170,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(68,170,255,.05) 1px,transparent 1px);
+      background-size: 56px 56px; -webkit-mask-image: radial-gradient(ellipse at 50% 40%,#000 30%,transparent 85%); }
+    h1, h2 { font-family: var(--font-head); }
+    .hud-label { display: block; font-family: var(--font-head); font-weight: 700; letter-spacing: .28em; text-transform: uppercase; color: var(--blue-light); }
+    .logo-fenix { background: var(--grad-fire); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(255,69,0,.7); } 70% { box-shadow: 0 0 0 12px rgba(255,69,0,0); } 100% { box-shadow: 0 0 0 0 rgba(255,69,0,0); } }
+    html, body { height: 100%; overflow: hidden; }
+    body { font-size: clamp(14px, 1.1vw, 22px); }
+    .screen { position: relative; z-index: 2; height: 100vh; display: grid; grid-template-rows: auto 1fr auto; padding: 3vh 4vw; gap: 2.5vh; }
+    .top { display: flex; align-items: center; justify-content: space-between; }
+    .brand { display: flex; align-items: center; gap: 1vw; font-family: var(--font-head); font-weight: 900; font-size: 2.4vw; }
+    .brand img { width: 4.2vw; height: 4.2vw; filter: drop-shadow(0 0 16px rgba(255, 107, 53, .5)); }
+    .brand .hstd { color: #dbe4ff; font-weight: 700; margin-left: .3em; }
+    .live { display: flex; align-items: center; gap: .8vw; font-family: var(--font-head); font-weight: 700; font-size: 1.1vw; letter-spacing: .2em; text-transform: uppercase; color: var(--text); padding: .8vh 1.4vw; border: 2px solid rgba(255, 107, 53, .5); border-radius: 999px; background: rgba(255, 69, 0, .1); }
+    .live .dot { width: .8vw; height: .8vw; border-radius: 50%; background: var(--fire); animation: pulse 1.8s infinite; }
+
+    .main { display: grid; grid-template-columns: 1.05fr 1fr; gap: 4vw; min-height: 0; }
+    .ask { display: flex; flex-direction: column; justify-content: center; min-height: 0; }
+    .ask .hud-label { font-size: 1vw; margin-bottom: 1.5vh; }
+    .ask h1 { font-size: 3.9vw; font-weight: 900; text-transform: uppercase; line-height: 1.04; margin-bottom: 3vh; }
+    .ask h1 .f { background: var(--grad-fire); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .scan { display: flex; align-items: center; gap: 2.4vw; }
+    .qr { background: #fff; padding: 1.2vw; border-radius: 1vw; box-shadow: 0 0 60px rgba(255, 107, 53, .35); }
+    .qr img { width: min(15vw, 30vh); height: min(15vw, 30vh); display: block; image-rendering: pixelated; }
+    .steps { list-style: none; display: grid; gap: 2vh; }
+    .steps li { display: flex; align-items: center; gap: 1vw; font-weight: 700; font-size: 1.9vw; color: var(--text); }
+    .steps span { flex: none; display: grid; place-items: center; width: 3vw; height: 3vw; border-radius: 50%; background: var(--grad-fire); color: #160700; font-family: var(--font-head); font-weight: 900; font-size: 1.4vw; }
+    .url { margin-top: 3vh; font-family: var(--font-head); font-size: 1.2vw; letter-spacing: .08em; color: var(--blue-light); }
+
+    .wall { display: flex; flex-direction: column; min-height: 0; padding: 2.4vh 1.6vw; background: linear-gradient(180deg, rgba(21, 29, 50, .85), rgba(16, 22, 40, .85)); border: 1px solid var(--line-strong); clip-path: polygon(0 0, calc(100% - 28px) 0, 100% 28px, 100% 100%, 28px 100%, 0 calc(100% - 28px)); }
+    .wall-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 2vh; }
+    .wall-head h2 { font-size: 1.5vw; text-transform: uppercase; letter-spacing: .06em; }
+    .wall-head span { color: var(--gold); font-family: var(--font-head); font-weight: 900; font-size: 1.5vw; }
+    .feed { list-style: none; display: grid; gap: 1.4vh; overflow: hidden; align-content: start; min-height: 0; flex: 1;
+      -webkit-mask-image: linear-gradient(to bottom, #000 82%, transparent 100%); mask-image: linear-gradient(to bottom, #000 82%, transparent 100%); }
+    .comment { display: grid; grid-template-columns: 3vw 1fr; gap: 1vw; padding: 1.4vh 1.1vw; background: rgba(12, 16, 34, .7); border: 1px solid var(--line); border-radius: 12px; animation: in .6s ease both; }
+    .comment .av { width: 3vw; height: 3vw; border-radius: 50%; display: grid; place-items: center; background: var(--av, var(--grad-fire)); font-family: var(--font-head); font-weight: 900; color: #160700; font-size: 1.2vw; }
+    .comment .meta { display: flex; gap: .7vw; align-items: baseline; margin-bottom: .3vh; }
+    .comment .who { font-weight: 700; color: var(--text); font-size: 1vw; }
+    .comment time { color: var(--text-muted); font-size: .9vw; }
+    .comment p { color: var(--text); font-size: 1.35vw; font-weight: 600; line-height: 1.35; overflow-wrap: anywhere; }
+    .empty { color: var(--text-muted); font-size: 1.5vw; text-align: center; padding: 6vh 2vw; border: 2px dashed var(--line-strong); border-radius: 14px; }
+    @keyframes in { from { opacity: 0; transform: translateY(-12px); } to { opacity: 1; transform: none; } }
+
+    .bottom { display: flex; align-items: center; justify-content: space-between; gap: 2vw; }
+    .jn { display: flex; align-items: center; gap: 1.2vw; }
+    .jn img { width: 5.5vw; height: 5.5vw; background: #fff; padding: .4vw; border-radius: .5vw; }
+    .jn div { font-weight: 700; font-size: 1.2vw; color: var(--text); }
+    .jn small { display: block; font-weight: 500; color: var(--text-muted); font-size: .95vw; }
+    .note { color: var(--text-muted); font-size: .95vw; text-align: right; }
+
+    /* ── Stående skärm (montern): väggen får mest plats ── */
+    @media (orientation: portrait) {
+      .screen { padding: 3vh 6vw 2.6vh; gap: 2vh; }
+      .brand { font-size: 4.3vw; gap: 2vw; }
+      .brand img { width: 7.5vw; height: 7.5vw; }
+      .live { font-size: 2.2vw; padding: .9vh 2.6vw; gap: 1.6vw; letter-spacing: .14em; white-space: nowrap; }
+      .live .dot { width: 1.8vw; height: 1.8vw; }
+      .main { grid-template-columns: 1fr; grid-template-rows: auto 1fr; gap: 2.2vh; }
+      .ask { justify-content: flex-start; }
+      .ask .hud-label { font-size: 2.4vw; margin-bottom: 1vh; }
+      .ask h1 { font-size: 7.4vw; margin-bottom: 2vh; }
+      .scan { gap: 5vw; align-items: center; }
+      .qr { padding: 2vw; border-radius: 2vw; }
+      .qr img { width: 33vw; height: 33vw; }
+      .steps { gap: 1.8vh; }
+      .steps li { font-size: 4.4vw; gap: 2.6vw; white-space: nowrap; }
+      .steps span { width: 7vw; height: 7vw; font-size: 3.4vw; }
+      .url { font-size: 2.9vw; margin-top: 1.6vh; }
+      .wall { padding: 2vh 4vw; }
+      .wall-head { margin-bottom: 1.6vh; }
+      .wall-head h2 { font-size: 3.4vw; }
+      .wall-head span { font-size: 3.4vw; }
+      .feed { gap: 1.2vh; }
+      .comment { grid-template-columns: 7.5vw 1fr; gap: 3vw; padding: 1.4vh 3vw; }
+      .comment .av { width: 7.5vw; height: 7.5vw; font-size: 3.2vw; }
+      .comment .who { font-size: 2.6vw; }
+      .comment time { font-size: 2.3vw; }
+      .comment p { font-size: 3.6vw; }
+      .empty { font-size: 3.6vw; }
+      .bottom { gap: 3vw; }
+      .jn { gap: 2.6vw; }
+      .jn img { width: 12vw; height: 12vw; padding: .8vw; border-radius: 1.2vw; }
+      .jn div { font-size: 3vw; }
+      .jn small { font-size: 2.4vw; }
+      .note { font-size: 2.1vw; }
+    }
+    @media (prefers-reduced-motion: reduce) { .comment, .live .dot { animation: none; } }
+  </style>
+</head>
+<body>
+  <div class="grid-overlay" aria-hidden="true"></div>
+  <div class="screen">
+    <div class="top">
+      <div class="brand"><img src="images/site/fenix-logo-96.png" alt=""><span class="logo-fenix">FENIX</span><span class="hstd">HSTD</span></div>
+      <div class="live"><span class="dot" aria-hidden="true"></span>Önskeväggen live</div>
+    </div>
+
+    <div class="main">
+      <section class="ask">
+        <span class="hud-label">// Önskeväggen</span>
+        <h1>Vad vill du att <span class="f">Fenix</span> ska göra?</h1>
+        <div class="scan">
+          <div class="qr"><img src="images/site/qr-onskevagg.png" alt="QR-kod till fenixhstd.se/onskevagg.html"></div>
+          <ol class="steps">
+            <li><span>1</span>Skanna koden</li>
+            <li><span>2</span>Skriv din önskan</li>
+            <li><span>3</span>Helt anonymt</li>
+          </ol>
+        </div>
+        <div class="url">fenixhstd.se/onskevagg.html</div>
+      </section>
+
+      <section class="wall" aria-labelledby="wall-title">
+        <div class="wall-head"><h2 id="wall-title">Senaste önskningarna</h2><span id="total"></span></div>
+        <ul class="feed" id="feed"><li class="empty">Bli den första att önska något!</li></ul>
+      </section>
+    </div>
+
+    <div class="bottom">
+      <div class="jn"><img src="images/site/qr-anmalan.png" alt="QR-kod till anmälan"><div>Vill du vara med från start?<small>Skanna och anmäl intresse, det är gratis.</small></div></div>
+      <div class="note">Alla önskningar läses av Fenix innan de visas.<br>Fenix Halmstad Idrottsklubb · fenixhstd.se</div>
+    </div>
+  </div>
+
+  <script src="onskevagg.js"></script>
+  <script>
+  const feed = document.getElementById('feed');
+  const total = document.getElementById('total');
+  let shown = '';
+  async function refresh() {
+    try {
+      const items = await owLoadApproved();
+      if (!items || !items.length) return;
+      const key = items.map(i => i.text).join('|');
+      total.textContent = `${items.length} st`;
+      if (key === shown) { // bara uppdatera tiderna
+        feed.querySelectorAll('time').forEach((t, i) => { if (items[i]) t.textContent = owAgo(items[i].date); });
+        return;
+      }
+      shown = key;
+      feed.innerHTML = '';
+      items.slice(0, 8).forEach((it, i) => feed.append(owComment(it, i)));
+    } catch { /* behåll det som syns om nätet hackar */ }
+  }
+  refresh();
+  setInterval(refresh, 20000);
+  </script>
+</body>
+</html>
