@@ -2,13 +2,13 @@
    Önskeväggen — gemensamt för onskevagg.html (mobil) och onskevagg-skarm.html (storskärm)
    ============================================= */
 
-// ── Inställningar (fylls i när Google-formuläret finns) ──
+// ── Inställningar: formuläret och kalkylarket ”Fenix – Önskeväggen 2026 (önskningar)” ──
 const ONSKEVAGG = {
   // Formulärets "formResponse"-adress och fältets entry-id
   formAction: 'https://docs.google.com/forms/d/e/1FAIpQLSdY7Zjn9XuaDKUfCCCsUhS37y-wSac9gIuGPJm79l_w71T6VA/formResponse',
   entryId: 'entry.438122373',
   // Publicerad CSV för fliken med GODKÄNDA önskningar (bara den fliken publiceras)
-  approvedCsv: '',
+  approvedCsv: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSzz0110JLt5x47zKm65Egi7XGgoMAUIGPrYbnBh5_pHFVHWEpA1MFldUBvSeOZA72kAsgJG96zflVa/pub?gid=101&single=true&output=csv',
 };
 
 function owParseCsv(text) {
